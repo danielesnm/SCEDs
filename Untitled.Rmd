@@ -29,6 +29,7 @@ library(tidyverse)
 library(xaringanExtra)
 library(nhsrtheme)
 library(NHSRdatasets)
+library(fontawesome)
 # set default options
 opts_chunk$set(echo=FALSE,
                collapse = TRUE,
@@ -42,6 +43,7 @@ xaringanExtra::use_panelset()
 xaringanExtra::use_clipboard()
 xaringanExtra::use_webcam()
 xaringanExtra::use_broadcast()
+xaringanExtra::use_tachyons()
 # uncomment the following lines if you want to use the NHS-R theme colours by default
 # scale_fill_continuous <- partial(scale_fill_nhs, discrete = FALSE)
 # scale_fill_discrete <- partial(scale_fill_nhs, discrete = TRUE)
@@ -58,8 +60,7 @@ class: title-slide, left, bottom
 ### `r rmarkdown::metadata$date`
 
 ---
-name: live-coding
-background-color: "#cbf7ed"
+
 class: inverse, middle, center
 
 # An inverse slide
@@ -67,7 +68,100 @@ class: inverse, middle, center
 Often used for transitions
 
 ---
+# `r fa("user", fill = "salmon")` Conceptos básicos
 
+.panelset[
+.panel[.panel-name[`r fa("question", fill = "salmon")` ¿Qué es un SCED?]
+- Son estudios que **se centran en un solo individuo** `r fa("user", fill = "salmon")` , en lugar de comparar dos o más grupos de participantes.  
+<br>
+- Comparan el comportamiento de un participante **antes, durante y después** de la implementación de una intervención.
+
+.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/21/74/25/217425b7086d6695a7f589db9bbf3891.jpg" width="500px"/>
+
+]
+]
+
+
+.panel[.panel-name[Elementos escenciales]
+.pull-left[<br> 
+1. El individuo es estudiado de forma intensiva y **sirve como su propio control** `r fa("female", fill = "salmon")` `r fa("arrows-alt-h", fill = "forestgreen")` `r fa("female", fill = "salmon")`.  
+<br>
+2. Se define una **metodología** `r fa("clipboard-list", fill = "forestgreen")` a priori .  
+<br>
+3. La **variable dependiente** (comportamiento objetivo) es medida y registrada continuamente de manera estandarizada a lo largo de todas las fases del estudio.  
+<br>
+4. La **variable independiente** (intervención) se manipula sistemáticamente de forma controlada. 
+]
+
+.pull-right[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/f6/a7/5a/f6a75a82c478cca0f315cf1b8f2b63c8.jpg" width="400px"/>]
+]
+]
+
+
+
+.panel[.panel-name[Objetivo]
+>Establecer una relación funcional (es decir, causa y efecto) entre la **conducta objetivo** (VD) y **la intervención** (VI), para determinar si una intervención ejerce un efecto sobre la conducta objetivo que se investiga.
+
+Los SCED son herramientas científicamente rigurosas y flexibles para desarrollar y evaluar hipótesis. Su flexibilidad se manifiesta en cómo, en la etapa de planificación, los diseños pueden adaptarse específicamente a la situación bajo investigación o combinarse para abordar mejor la pregunta clínica o de investigación.
+]
+
+.panel[.panel-name[Uso]
+En el campo de las ciencias del comportamiento, ya sea en el contexto de la investigación aplicada o la práctica clínica, se pueden utilizar para: 
+1. Evaluar nuevas intervenciones
+2. Aislar los componentes de la intervención eficaz y perfeccionar la eficacia de las intervenciones
+3. Comparar y evaluar intervenciones.
+]
+
+.panel[.panel-name[Clasificación]
+.center[<img src="https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/87f59f64-c81a-4771-bd80-ec57c0da4c9a/gr1_lrg.jpg" style="width: 87%" />]
+]
+]
+---
+# `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+Es importante evaluar el grado en que se han aplicado los métodos de investigación dentro de un estudio de caso único, para determinar si cumple con el rigor metodológico _"aceptable"_ que permita su interpretación.
+
+.tr[[Horner, et. al (2005),](https://journals.sagepub.com/doi/10.1177/001440290507100203) [Kratochwill, et al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)
+]]
+
+--
+
+### **1. Descripción de los participantes y del entorno**
+
+.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/f6/a7/5a/f6a75a82c478cca0f315cf1b8f2b63c8.jpg" width="400px"/>]]
+
+--
+.right-column[
+- Los participantes se describen con suficiente detalle para permitir que otros seleccionen individuos con características similares.
+(por ejemplo, edad, sexo, discapacidad, diagnóstico).
+-  El proceso de selección de participantes se describe con precisión replicable.
+- Las características críticas del entorno físico se describen con suficiente precisión para permitir la replicación.]
+
+---
+# `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+Es importante evaluar el grado en que se han aplicado los métodos de investigación dentro de un estudio de caso único, para determinar si cumple con el rigor metodológico _"aceptable"_ que permita su interpretación.
+
+.tr[[Horner, et. al (2005),](https://journals.sagepub.com/doi/10.1177/001440290507100203) [Kratochwill, et al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)
+]]
+
+--
+
+### **2. Variable dependiente**
+
+.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/f6/a7/5a/f6a75a82c478cca0f315cf1b8f2b63c8.jpg" width="400px"/>]]
+
+--
+.right-column[
+- Las variables dependientes se describen con precisión operativa.
+- Cada variable dependiente se mide con un procedimiento que genera un índice cuantificable.
+- La medición de la variable dependiente es válida y se describe con precisión replicable.
+- Las variables dependientes se miden repetidamente a lo largo del tiempo.
+- Se recopilan datos sobre la confiabilidad o el acuerdo interobservador asociado con cada variable dependiente.]
+
+---
 # A slide where bullets appear
 
 --
@@ -81,3 +175,24 @@ Often used for transitions
 --
 
 * third point
+
+---
+title: "Font Awesome in R Markdown"
+output: html_document
+---
+
+# Just a few tests with `r fa("font-awesome-logo-full", fill = "forestgreen")`
+
+It works well in headings...
+
+# `r fa("brain", fill = "forestgreen")` H1 Heading
+
+## `r fa("r-project", fill = "forestgreen")` H2 Heading
+
+### `r fa("r-project", fill = "steelblue")` H3 Heading
+
+#### `r fa("r-project", fill = "steelblue")` H4 Heading
+
+##### `r fa("r-project", fill = "steelblue")` H5 Heading
+
+...and works equally well within inline text: `r fa("r-project", fill = "steelblue")`.
