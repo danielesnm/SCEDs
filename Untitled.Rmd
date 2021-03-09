@@ -44,12 +44,14 @@ xaringanExtra::use_clipboard()
 xaringanExtra::use_webcam()
 xaringanExtra::use_broadcast()
 xaringanExtra::use_tachyons()
+xaringanExtra::use_scribble()
 # uncomment the following lines if you want to use the NHS-R theme colours by default
 # scale_fill_continuous <- partial(scale_fill_nhs, discrete = FALSE)
 # scale_fill_discrete <- partial(scale_fill_nhs, discrete = TRUE)
 # scale_colour_continuous <- partial(scale_colour_nhs, discrete = FALSE)
 # scale_colour_discrete <- partial(scale_colour_nhs, discrete = TRUE)
 ```
+
 
 class: title-slide, left, bottom
 
@@ -122,21 +124,23 @@ En el campo de las ciencias del comportamiento, ya sea en el contexto de la inve
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
 Es importante evaluar el grado en que se han aplicado los métodos de investigación dentro de un estudio de caso único, para determinar si cumple con el rigor metodológico _"aceptable"_ que permita su interpretación.
 
-.tr[[Horner, et. al (2005),](https://journals.sagepub.com/doi/10.1177/001440290507100203) [Kratochwill, et al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)
+.tr[[Horner, et. al (2005),](https://journals.sagepub.com/doi/10.1177/001440290507100203) [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)
 ]]
 
 --
 
 ### **1. Descripción de los participantes y del entorno**
 
-.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/f6/a7/5a/f6a75a82c478cca0f315cf1b8f2b63c8.jpg" width="400px"/>]]
+.left-column[.center[<img style="border-radius: 50%;" src="https://www.brouter.cl/portal/assets/images/aseguramiento-calidad.png" width="600px"/>]]
 
 --
 .right-column[
-- Los participantes se describen con suficiente detalle para permitir que otros seleccionen individuos con características similares.
-(por ejemplo, edad, sexo, discapacidad, diagnóstico).
--  El proceso de selección de participantes se describe con precisión replicable.
-- Las características críticas del entorno físico se describen con suficiente precisión para permitir la replicación.]
+Descripción con suficiente precisón para permitir la replicación de: 
+- Los participantes.
+
+- El proceso de selección.
+
+- Las características del entorno físico.]
 
 ---
 # `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
@@ -144,37 +148,133 @@ Es importante evaluar el grado en que se han aplicado los métodos de investigac
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
 Es importante evaluar el grado en que se han aplicado los métodos de investigación dentro de un estudio de caso único, para determinar si cumple con el rigor metodológico _"aceptable"_ que permita su interpretación.
 
-.tr[[Horner, et. al (2005),](https://journals.sagepub.com/doi/10.1177/001440290507100203) [Kratochwill, et al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)
+.tr[[Horner, et. al (2005),](https://journals.sagepub.com/doi/10.1177/001440290507100203) [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)
 ]]
 
---
-
 ### **2. Variable dependiente**
-
-.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/f6/a7/5a/f6a75a82c478cca0f315cf1b8f2b63c8.jpg" width="400px"/>]]
+.left-column[.center[<img style="border-radius: 50%;" src="https://www.brouter.cl/portal/assets/images/aseguramiento-calidad.png" width="600px"/>]]
 
 --
 .right-column[
-- Las variables dependientes se describen con precisión operativa.
-- Cada variable dependiente se mide con un procedimiento que genera un índice cuantificable.
-- La medición de la variable dependiente es válida y se describe con precisión replicable.
-- Las variables dependientes se miden repetidamente a lo largo del tiempo.
+- Descripción con precisión operativa.
+
+- Se mide repetidamente a lo largo del tiempo, con un procedimiento que genere índices cuantificables.
+
 - Se recopilan datos sobre la confiabilidad o el acuerdo interobservador asociado con cada variable dependiente.]
+
+---
+# `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+Es importante evaluar el grado en que se han aplicado los métodos de investigación dentro de un estudio de caso único, para determinar si cumple con el rigor metodológico _"aceptable"_ que permita su interpretación.
+
+.tr[[Horner, et. al (2005),](https://journals.sagepub.com/doi/10.1177/001440290507100203) [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)
+]]
+
+### **3. Variable independiente**
+
+.left-column[.center[<img style="border-radius: 50%;" src="https://www.brouter.cl/portal/assets/images/aseguramiento-calidad.png" width="600px"/>]]
+
+--
+.right-column[
+- Se debe de describir con precisión replicable.
+
+- Se manipula sistemáticamente y está bajo el control del experimentador.
+
+- La introducción y el retiro de la variable independiente durante el estudio, deben ser controlada por investigador.
+]
+
+---
+# `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+Es importante evaluar el grado en que se han aplicado los métodos de investigación dentro de un estudio de caso único, para determinar si cumple con el rigor metodológico _"aceptable"_ que permita su interpretación.
+
+.tr[[Horner, et. al (2005),](https://journals.sagepub.com/doi/10.1177/001440290507100203) [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)
+]]
+
+### **4. Establecimineto de línea base**
+
+.left-column[.center[<img style="border-radius: 50%;" src="https://www.brouter.cl/portal/assets/images/aseguramiento-calidad.png" width="600px"/>]]
+
+--
+.right-column[
+- La mayoría de los estudios con metodología de caso único incluyen una fase de referencia que proporciona una medición repetida de una variable dependiente y establece un patrón de respuesta que puede usarse para predecir el patrón de desempeño futuro.
+
+- Las condiciones de la línea de base se describen con precisión replicable.
+
+]
+
+---
+# `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+Es importante evaluar el grado en que se han aplicado los métodos de investigación dentro de un estudio de caso único, para determinar si cumple con el rigor metodológico _"aceptable"_ que permita su interpretación.
+
+.tr[[Horner, et. al (2005),](https://journals.sagepub.com/doi/10.1177/001440290507100203) [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)
+]]
+
+### **5. Control Experimental/Validez Interna**
+
+.left-column[.center[<img style="border-radius: 50%;" src="https://www.brouter.cl/portal/assets/images/aseguramiento-calidad.png" width="600px"/>]]
+
+--
+.right-column[
+- El diseño proporciona al menos tres demostraciones de efecto experimental en tres momentos diferentes.
+
+- El diseño controla las amenazas comunes a la validez interna (por ejemplo, permite la eliminación de hipótesis rivales).
+
+- Una fase no puede usarse para demostrar el efecto experimental si tiene menos de 3 puntos de datos, preferiblemente 5.
+]
+
+---
+
+
+class: inverse, middle, center
+
+# Diseños de Caso Único
+
+Often used for transitions
 
 ---
 # A slide where bullets appear
 
 --
 
-* first point
+* WITHDRAWAL/REVERSAL DESIGNS
 
 --
 
-* second point
+* MULTIPLE BASELINE DESIGNS
 
 --
 
-* third point
+* ALTERNATING TREATMENTS DESIGNS
+
+--
+
+* CHANGING CRITERION DESIGNS
+
+---
+background-image: url(http://blogs.cuit.columbia.edu/df2675/files/2018/08/ABAB-Reversal.jpg)
+background-position: 90% 80%
+background-size: 46%
+# **WITHDRAWAL/REVERSAL DESIGNS**
+____
+
+- Su estructura consiste en una secuencia de fases durante las cuales, la intervención se implementa y se retira sistemáticamente, de modo que cuando se termina la fase B (intervención), las condiciones vuelven a la fase A (línea base) y presumiblemente, también lo hace la conducta objetivo.  
+
+<br>
+
+.pull-left[1. Se mide el comportamiento en linea base hasta lograr su estabilidad.  
+
+2. Se aplica la variable independiente.  
+
+3. Se sigue midiendo el comportamiento, para ver si se produce un cambio.  
+
+4. La variable independiente se interrumpe, para ver si el cambio que se produjo depende de ella.]
+
+---
 
 ---
 title: "Font Awesome in R Markdown"
