@@ -74,11 +74,13 @@ Often used for transitions
 
 .panelset[
 .panel[.panel-name[`r fa("question", fill = "salmon")` ¿Qué es un SCED?]
-- Son estudios que **se centran en un solo individuo** `r fa("user", fill = "salmon")` , en lugar de comparar dos o más grupos de participantes.  
-<br>
-- Comparan el comportamiento de un participante **antes, durante y después** de la implementación de una intervención.
+- Una metodología de investigación en la que el sujeto sirve como su propio control `r fa("female", fill = "salmon")` `r fa("arrows-alt-h", fill = "forestgreen")` `r fa("female", fill = "salmon")`, en lugar de comparar a otro individuo o grupo `r fa("users-slash", fill = "salmon")`  
+<br>  
+- Comparan el comportamiento de un participante **antes, durante y después** de la implementación de una intervención.  
+<br>  
+- La atención se centra en un **N = 1**(un solo individuo), en el que el **1** puede ser _un individuo o un grupo de individuos._
 
-.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/21/74/25/217425b7086d6695a7f589db9bbf3891.jpg" width="500px"/>
+.center[<img style="border-radius: 25%;" src="https://i.pinimg.com/564x/38/e2/8b/38e28b844e257ba81377e4cb9a878285.jpg" width="450px"/>
 
 ]
 ]
@@ -131,7 +133,7 @@ Es importante evaluar el grado en que se han aplicado los métodos de investigac
 
 ### **1. Descripción de los participantes y del entorno**
 
-.left-column[.center[<img style="border-radius: 50%;" src="https://www.brouter.cl/portal/assets/images/aseguramiento-calidad.png" width="600px"/>]]
+.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="600px"/>]]
 
 --
 .right-column[
@@ -152,7 +154,7 @@ Es importante evaluar el grado en que se han aplicado los métodos de investigac
 ]]
 
 ### **2. Variable dependiente**
-.left-column[.center[<img style="border-radius: 50%;" src="https://www.brouter.cl/portal/assets/images/aseguramiento-calidad.png" width="600px"/>]]
+.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="600px"/>]]
 
 .right-column[
 - Descripción con precisión operativa.
@@ -172,7 +174,7 @@ Es importante evaluar el grado en que se han aplicado los métodos de investigac
 
 ### **3. Variable independiente**
 
-.left-column[.center[<img style="border-radius: 50%;" src="https://www.brouter.cl/portal/assets/images/aseguramiento-calidad.png" width="600px"/>]]
+.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="600px"/>]]
 
 .right-column[
 - Se debe de describir con precisión replicable.
@@ -193,7 +195,7 @@ Es importante evaluar el grado en que se han aplicado los métodos de investigac
 
 ### **4. Establecimineto de línea base**
 
-.left-column[.center[<img style="border-radius: 50%;" src="https://www.brouter.cl/portal/assets/images/aseguramiento-calidad.png" width="600px"/>]]
+.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="600px"/>]]
 
 .right-column[
 - La mayoría de los estudios con metodología de caso único incluyen una fase de referencia que proporciona una medición repetida de una variable dependiente y establece un patrón de respuesta que puede usarse para predecir el patrón de desempeño futuro.
@@ -213,7 +215,7 @@ Es importante evaluar el grado en que se han aplicado los métodos de investigac
 
 ### **5. Control Experimental/Validez Interna**
 
-.left-column[.center[<img style="border-radius: 50%;" src="https://www.brouter.cl/portal/assets/images/aseguramiento-calidad.png" width="600px"/>]]
+.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="600px"/>]]
 
 .right-column[
 - El diseño proporciona al menos tres demostraciones de efecto experimental en tres momentos diferentes.
@@ -236,7 +238,7 @@ Often used for transitions
 background-image: url(https://cdn.mdedge.com/files/s3fs-public/styles/teaser_opengraph/public/CP01811040.JPG)
 background-position: 90% 50%
 background-size: 35%
-# Clasificación de los SCED
+.center[# Clasificación de los SCED]
 
 --
 
