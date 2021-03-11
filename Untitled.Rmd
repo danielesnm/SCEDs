@@ -87,18 +87,9 @@ Often used for transitions
 
 
 .panel[.panel-name[Elementos escenciales]
-.pull-left[<br> 
-1. El individuo es estudiado de forma intensiva y **sirve como su propio control** `r fa("female", fill = "salmon")` `r fa("arrows-alt-h", fill = "forestgreen")` `r fa("female", fill = "salmon")`.  
-<br>
-2. Se define una **metodología** `r fa("clipboard-list", fill = "forestgreen")` a priori .  
-<br>
-3. La **variable dependiente** (comportamiento objetivo) es medida y registrada continuamente de manera estandarizada a lo largo de todas las fases del estudio.  
-<br>
-4. La **variable independiente** (intervención) se manipula sistemáticamente de forma controlada. 
-]
 
-.pull-right[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/f6/a7/5a/f6a75a82c478cca0f315cf1b8f2b63c8.jpg" width="400px"/>]
-]
+.center[<img style="border-radius: 0%;" src="https://github.com/danielesnm/SCEDs/blob/main/img/componenteSCED.png?raw=true" width="800px"/>]
+
 ]
 
 
@@ -278,6 +269,11 @@ background-size: 43%
 
 4. La variable independiente se interrumpe, para ver si el cambio que se produjo depende de ella.]
 
+---
+.bg-washed-yellow.b--gold.ba.bw2.br-pill.shadow-5.ph4.mt5.w-60.grow.tc[
+## Multiple-baseline designs (MBD)]
+---
+.pull-right[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/f6/a7/5a/f6a75a82c478cca0f315cf1b8f2b63c8.jpg" width="400px"/>]
 ---
 
 ---
