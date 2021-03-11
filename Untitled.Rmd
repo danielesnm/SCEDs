@@ -88,8 +88,19 @@ Often used for transitions
 
 .panel[.panel-name[Elementos escenciales]
 
-.center[<img style="border-radius: 0%;" src="https://github.com/danielesnm/SCEDs/blob/main/img/componenteSCED.png?raw=true" width="800px"/>]
 
+.left-column[
+**`.left-column[]` (_columna-izquierda_) coloca el contenido en una columna que tiene un 20% de ancho de la diapositiva**
+Y el texto es un poco más claro.
+]
+--
+.right-column[
+**`.right-column[]` (_columna-derecha-) coloca contenido en una columna que tiene un 75% de ancho de la diapositiva**
+- Tambien tiene un _poquito_ de relleno por arriba
+- Y a diferencia de las clases de contenido `.pull` (_jalar_), estas clases de columnas estan fijas para la diapositiva entera
+- Estas clases de columnas estan diseñadas para usarse juntas
+.center[<img style="border-radius: 0%;" src="https://github.com/danielesnm/SCEDs/blob/main/img/grafica.png?raw=true" width="400px"/>]
+]
 ]
 
 
@@ -270,8 +281,30 @@ background-size: 43%
 4. La variable independiente se interrumpe, para ver si el cambio que se produjo depende de ella.]
 
 ---
-.bg-washed-yellow.b--gold.ba.bw2.br-pill.shadow-5.ph4.mt5.w-60.grow.tc[
-## Multiple-baseline designs (MBD)]
+## Multiple-baseline designs (MBD)
+
+.center[#### `r fa("asterisk", fill = "gold")` Se introduce una transición de la línea base al tratamiento (A-B) en diferentes momentos a través de diferentes _personas, comportamientos o entornos_.]
+
+.pull-left[.center[<img style="border-radius: 0%;" src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" width="400px"/>]
+]
+
+.pull-right[- Cada transición es una oportunidad para observar los efectos del tratamiento.
+
+- Cuando la línea base es estable para cada condición, se inicia la fase de intervención solo en una condición, mientras que los datos de la línea base continúan registrándose para las otras condiciones.
+
+- La característica definitoria de los MBD es que:
+  1. El inicio de la fase A ocurre simultáneamente en todos los niveles.
+  1. El inicio de la fase B luego se escalona secuencialmente a lo largo del tiempo a través de los diferentes niveles, de modo que cada línea base se vuelve progresivamente más larga en los niveles posteriores. 
+]
+
+
+---
+.pull-left[.center[<img style="border-radius: 0%;" src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" width="400px"/>]]
+
+.pull-right[- Se introduce una transición de la línea base al tratamiento (A-B) en diferentes momentos a través de diferentes personas, comportamientos o entornos.
+
+- 
+]
 ---
 .pull-right[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/f6/a7/5a/f6a75a82c478cca0f315cf1b8f2b63c8.jpg" width="400px"/>]
 ---
