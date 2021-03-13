@@ -76,13 +76,17 @@ class: middle
 ]
 
 ---
-# `r fa("user", fill = "salmon")` **Conceptos básicos**
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/1.%20conceptos%20b%C3%A1sicos.png?raw=true)
+background-position: 50% 75%
+background-size: 95%
+---
+# `r fa("user", fill = "salmon")` **Descripción**
 
 .panelset[
 .panel[.panel-name[`r fa("question", fill = "salmon")` ¿Qué es un SCED?]
 - Una metodología de investigación en la que el sujeto sirve como su propio control `r fa("female", fill = "salmon")` `r fa("arrows-alt-h", fill = "forestgreen")` `r fa("female", fill = "salmon")`, en lugar de compararse a un grupo `r fa("users-slash", fill = "salmon")`  
 <br>  
-- Comparan el comportamiento de un participante **antes, durante y después** de la implementación de una intervención.  
+- Comparan el comportamiento de un participante .pink[antes, durante y después] de la implementación de una intervención.  
 <br>  
 - La atención se centra en un **N = 1**(un solo individuo), en el que el **1** puede ser _un individuo o un grupo de individuos._
 
@@ -107,9 +111,33 @@ En el campo de las .pink[ciencias del comportamiento], ya sea en el contexto de 
 ]
 
 .panel[.panel-name[Clasificación]
-.center[<img src="https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/87f59f64-c81a-4771-bd80-ec57c0da4c9a/gr1_lrg.jpg" style="width: 60%" />]
+
+.center[<img src="https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/87f59f64-c81a-4771-bd80-ec57c0da4c9a/gr1_lrg.jpg" style="width: 70%" />]
 ]
 ]
+
+???
+El estudio de caso es una descripción subjetiva del comportamiento de un individuo, carece de controles variables y recopilación sistemática de datos.
+
+No puede documentar las relaciones causales entre la intervención y los cambios en el comportamiento.
+
+La investigación de un solo tema exige un control cuidadoso de las variables, una recopilación de datos confiable y claramente delineada, y la introducción y manipulación de una sola intervención a la vez.]
+
+---
+# `r fa("bullseye", fill = "salmon")` **Conceptos básicos**
+
+.left-column[.orange[Variable dependiente: medición de resultados 
+]
+]
+
+.pink[Id., definir y comprender el comportamiento objetivo]
+- Elección impulsada por los **objetivos del estudio**. 
+- Debe definirse **operativamente** (es decir, observable, medible y verificable). Saber qué constituye y qué no constituye la ocurrencia del comportamiento, y tener un conocimiento íntimo sobre el contexto en el que ocurre.  
+- Estas definiciones operativas deben de ser objetivas, completas y claras, para cualquier persona. 
+- Se **mide repetidamente** a lo largo del tiempo.  
+- La medición de los resultados se puede obtener mediante métodos como **la observación, el autoinforme, la evaluación clínica, etc.**
+
+
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/grafica%20medidas%20repetidas.png?raw=true)
 background-position: 55% 85%
