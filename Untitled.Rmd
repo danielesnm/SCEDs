@@ -100,7 +100,7 @@ class: middle
 ]
 
 .panel[.panel-name[Uso]
-En el campo de las ciencias del comportamiento, ya sea en el contexto de la investigación aplicada o la práctica clínica, se pueden utilizar para: 
+En el campo de las .pink[ciencias del comportamiento], ya sea en el contexto de la **investigación aplicada** o la **práctica clínica** para: 
 1. Evaluar nuevas intervenciones
 2. Aislar los componentes de la intervención eficaz y perfeccionar la eficacia de las intervenciones
 3. Comparar y evaluar intervenciones.
@@ -110,6 +110,48 @@ En el campo de las ciencias del comportamiento, ya sea en el contexto de la inve
 .center[<img src="https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/87f59f64-c81a-4771-bd80-ec57c0da4c9a/gr1_lrg.jpg" style="width: 60%" />]
 ]
 ]
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/grafica%20medidas%20repetidas.png?raw=true)
+background-position: 55% 85%
+background-size: 60%
+# **Elementos escenciales**
+
+.left-column[
+.pink[ Medidas repetidas `r fa("arrow-right", fill = "steelblue")`]
+]
+
+
+• Requiere la medición repetida de la **VD** en intervalos de tiempo regulares.
+
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/grafica%20linea%20base.png?raw=true)
+background-position: 70% 100%
+background-size: 38%
+# **Elementos escenciales**
+
+.left-column[
+.pink[ Baseline `r fa("arrow-right", fill = "steelblue")`]
+]
+
+• Fase durante la cual NO se implementa la intervención.
+• Refleja el desempeño antes de la intervención.  
+• Proporcionan dos aspectos de control análogos a un grupo control en un diseño de grupo:
+1. Sus puntuaciones sirven como grupo de control.
+1. Sus medidas repetidas resuelven el problema de la validez interna.
+
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/grafica%20intercencion.png?raw=true)
+background-position: 60% 90%
+background-size: 45%
+# **Elementos escenciales**
+
+.left-column[
+.pink[ Fase de `r fa("arrow-right", fill = "steelblue")` intervención ]
+]
+
+• Fase durante la cual se implementa la intervención.  
+• Sus medidas repetidas reflejan el desempeño de la persona durante la intervención.  
+• Los datos se comparan con de la baseline para determinar si se ha producido un cambio.
 ---
 # `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
 
@@ -323,46 +365,6 @@ Discuss in groups of three and then as a large group.
 ]
 
 ---
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/grafica%20medidas%20repetidas.png?raw=true)
-background-position: 55% 85%
-background-size: 60%
-# **Elementos escenciales**
 
-.left-column[
-.pink[ Medidas repetidas `r fa("arrow-right", fill = "steelblue")`]
-]
-
-
-• Requiere la medición repetida de la **VD** en intervalos de tiempo regulares.
-
----
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/grafica%20linea%20base.png?raw=true)
-background-position: 70% 100%
-background-size: 38%
-# **Elementos escenciales**
-
-.left-column[
-.pink[ Baseline `r fa("arrow-right", fill = "steelblue")`]
-]
-
-• Fase durante la cual NO se implementa la intervención.
-• Refleja el desempeño antes de la intervención.  
-• Proporcionan dos aspectos de control análogos a un grupo control en un diseño de grupo:
-1. Sus puntuaciones sirven como grupo de control.
-1. Sus medidas repetidas resuelven el problema de la validez interna.
-
----
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/grafica%20intercencion.png?raw=true)
-background-position: 60% 90%
-background-size: 45%
-# **Elementos escenciales**
-
-.left-column[
-.pink[ Fase de `r fa("arrow-right", fill = "steelblue")` intervención ]
-]
-
-• Fase durante la cual se implementa la intervención.  
-• Sus medidas repetidas reflejan el desempeño de la persona durante la intervención.  
-• Los datos se comparan con de la baseline para determinar si se ha producido un cambio.
 
 
