@@ -131,23 +131,30 @@ La investigación de un solo tema exige un control cuidadoso de las variables, u
 
 A diferencia de los ensayos grupales donde se utilizan referencias normativas o pruebas estandarizadas, la metodología SCED requiere de la creación de medidas de resultado relevantes para el paciente y para la intervención que se puedan evaluar de forma continua.
 
-.center[<img style="border-radius: 25%;" src="https://i.pinimg.com/564x/38/e2/8b/38e28b844e257ba81377e4cb9a878285.jpg" width="400px"/>
+.center[<img style="border-radius: 2%;" src="https://github.com/danielesnm/SCEDs/blob/main/img/grafica%20medidas%20repetidas.png?raw=true" width="450px"/>
 ]
+
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/outcome%20mesures.png?raw=true)
+background-position: 50% 70%
+background-size: 95%
+# `r fa("bullseye", fill = "salmon")` **Conceptos básicos**
+
+.pink[Group V.S SCED [(Krasny-Pacini & Evans, 2018).](https://www.sciencedirect.com/science/article/pii/S1877065717304542)]  
+
+
 
 ---
 # `r fa("bullseye", fill = "salmon")` **Conceptos básicos**
 
-.left-column[.orange[Variable dependiente: medición de resultados 
-]
-]
+.pink[Identificar, definir y comprender el comportamiento objetivo]  
 
+• Deben de ser: _relevantes para el comportamiento en cuestión y que mejor se adapten a la intervención_.
 
-.pink[Id., definir y comprender el comportamiento objetivo]  
-• Elección impulsada por los **objetivos del estudio**.  
+• Para mejorar la calidad del estudio y minimizar el sesgo: deben ser específicos, observables y replicables.
 
-• **Definición operativa** (observable, medible y verificable) objetiva, completa y clara para cualquier persona. Saber qué constituye y qué no constituye la ocurrencia del comportamiento, y tener un conocimiento íntimo sobre el contexto en el que ocurre.  
+• Es recomendable en la práctica que se lleve a cabo y se informe la evaluación de la concordancia entre observadores (IRR) sobre el comportamiento objetivo.
 
-• Se **mide repetidamente** a lo largo del tiempo mediante métodos como **la observación, el autoinforme, la evaluación clínica, etc.**
 
 ---
 # `r fa("bullseye", fill = "salmon")` **Conceptos básicos**
