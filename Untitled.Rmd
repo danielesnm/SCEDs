@@ -1,7 +1,7 @@
 ---
-title: .pink[ " >*Introduccion a los <br> Diseños experimentales de caso único para la investigación clínica*" ]
-subtitle: "Daniel Salazar Frías"
-author: "Universidad de Granada"
+title: .pink[ " >Evaluación de la evidencia en la práctica clínica (I):" ]
+subtitle: .pink["Diseños experimentales de caso único"]
+author: "Npsic. Daniel Salazar Frías"
 institute: "Universidad de Granada"
 date: "Presentation Date"
 output:
@@ -89,10 +89,6 @@ background-size: 95%
 - Comparan el comportamiento de un participante .pink[antes, durante y después] de la implementación de una intervención.  
 <br>  
 - La atención se centra en un **N = 1**(un solo individuo), en el que el **1** puede ser _un individuo o un grupo de individuos._
-
-.center[<img style="border-radius: 25%;" src="https://i.pinimg.com/564x/38/e2/8b/38e28b844e257ba81377e4cb9a878285.jpg" width="450px"/>
-
-]
 ]
 
 .panel[.panel-name[Objetivo]
@@ -104,10 +100,11 @@ background-size: 95%
 ]
 
 .panel[.panel-name[Uso]
-En el campo de las .pink[ciencias del comportamiento], ya sea en el contexto de la **investigación aplicada** o la **práctica clínica** para: 
-1. Evaluar nuevas intervenciones
-2. Aislar los componentes de la intervención eficaz y perfeccionar la eficacia de las intervenciones
-3. Comparar y evaluar intervenciones.
+En el campo de las .pink[ciencias del comportamiento], en el contexto de la **investigación aplicada** o la **práctica clínica** para: 
+1. Evaluar/comparar intervenciones y perfeccionar su eficacia.
+2. Aislar los componentes de la intervención eficaz.
+3. Imposibilidad de obtener una muestra homogénea de pacientes para un estudio grupal.
+4. Limitación de tiempo (por ejemplo, un estudio que debe completarse en un plazo de 8 meses, etc) o financiación limitada que no permite la contratación de un grupo.
 ]
 
 .panel[.panel-name[Clasificación]
@@ -126,16 +123,46 @@ La investigación de un solo tema exige un control cuidadoso de las variables, u
 ---
 # `r fa("bullseye", fill = "salmon")` **Conceptos básicos**
 
+.left-column[.orange[Variable dependiente: 
+]
+]
+
+.pink[Medidas de resultado repetidas]  
+
+A diferencia de los ensayos grupales donde se utilizan referencias normativas o pruebas estandarizadas, la metodología SCED requiere de la creación de medidas de resultado relevantes para el paciente y para la intervención que se puedan evaluar de forma continua.
+
+.center[<img style="border-radius: 25%;" src="https://i.pinimg.com/564x/38/e2/8b/38e28b844e257ba81377e4cb9a878285.jpg" width="400px"/>
+]
+
+---
+# `r fa("bullseye", fill = "salmon")` **Conceptos básicos**
+
 .left-column[.orange[Variable dependiente: medición de resultados 
 ]
 ]
 
-.pink[Id., definir y comprender el comportamiento objetivo]
-- Elección impulsada por los **objetivos del estudio**. 
-- Debe definirse **operativamente** (es decir, observable, medible y verificable). Saber qué constituye y qué no constituye la ocurrencia del comportamiento, y tener un conocimiento íntimo sobre el contexto en el que ocurre.  
-- Estas definiciones operativas deben de ser objetivas, completas y claras, para cualquier persona. 
-- Se **mide repetidamente** a lo largo del tiempo.  
-- La medición de los resultados se puede obtener mediante métodos como **la observación, el autoinforme, la evaluación clínica, etc.**
+
+.pink[Id., definir y comprender el comportamiento objetivo]  
+• Elección impulsada por los **objetivos del estudio**.  
+
+• **Definición operativa** (observable, medible y verificable) objetiva, completa y clara para cualquier persona. Saber qué constituye y qué no constituye la ocurrencia del comportamiento, y tener un conocimiento íntimo sobre el contexto en el que ocurre.  
+
+• Se **mide repetidamente** a lo largo del tiempo mediante métodos como **la observación, el autoinforme, la evaluación clínica, etc.**
+
+---
+# `r fa("bullseye", fill = "salmon")` **Conceptos básicos**
+
+.left-column[.orange[Variable independiente: implementación de la intervención 
+]
+]
+
+
+.pink[Id., definir y comprender el comportamiento objetivo]  
+• Elección impulsada por los **objetivos del estudio**.  
+
+• **Definición operativa** (observable, medible y verificable) objetiva, completa y clara para cualquier persona. Saber qué constituye y qué no constituye la ocurrencia del comportamiento, y tener un conocimiento íntimo sobre el contexto en el que ocurre.  
+
+• Se **mide repetidamente** a lo largo del tiempo mediante métodos como **la observación, el autoinforme, la evaluación clínica, etc.**
 
 
 ---
@@ -317,10 +344,9 @@ background-image: url(http://blogs.cuit.columbia.edu/df2675/files/2018/08/ABAB-R
 background-position: 90% 20%
 background-size: 43%
 
-.bg-washed-red.b--dark-pink.ba.bw2.br-pill.shadow-5.ph4.mt5.w-60.grow.tc[
-### Withdrawal/Reversal designs]
+.pink[## Withdrawal/Reversal designs]
 
-.pull-left[- Su estructura consiste en una secuencia de fases durante las cuales, la intervención se implementa y se retira sistemáticamente, de modo que cuando se termina la fase B (intervención), las condiciones vuelven a la fase A (línea base) y presumiblemente, también lo hace la conducta objetivo.  
+.pull-left[- Su estructura consiste en una secuencia de fases durante las cuales, la intervención se implementa y se retira sistemáticamente, de modo que cuando se termina la fase B (intervención), las condiciones vuelven a la fase A y presumiblemente, también lo hace la conducta objetivo.  
 
 1. Se mide el comportamiento en linea base hasta lograr su estabilidad.  
 2. Se aplica la variable independiente.  
@@ -330,16 +356,17 @@ background-size: 43%
 4. La variable independiente se interrumpe, para ver si el cambio que se produjo depende de ella.]
 
 ---
-## Multiple-baseline designs (MBD)
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true)
+background-position: 85% 28%
+background-size: 30%
 
-.center[#### `r fa("asterisk", fill = "gold")` Se introduce una transición de la línea base al tratamiento (A-B) en diferentes momentos a través de diferentes _personas, comportamientos o entornos_.]
+## .pink[ Multiple-baseline designs (MBD) ]
 
-.pull-left[.center[<img style="border-radius: 0%;" src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" width="400px"/>]
-]
+`r fa("asterisk", fill = "gold")` Se introduce el tratamiento de manera secuencial a través de diferentes _personas, comportamientos o entornos_.
 
-.pull-right[- Cada transición es una oportunidad para observar los efectos del tratamiento.
+.pull-left[- Cada transición es una oportunidad para observar los efectos del tratamiento.
 
-- Cuando la línea base es estable para cada condición, se inicia la fase de intervención solo en una condición, mientras que los datos de la línea base continúan registrándose para las otras condiciones.
+- Cuando la línea base es estable, se inicia la fase de intervención solo en una condición, mientras que los datos de la línea base continúan registrándose para las otras condiciones.
 
 - La característica definitoria de los MBD es que:
   1. El inicio de la fase A ocurre simultáneamente en todos los niveles.
