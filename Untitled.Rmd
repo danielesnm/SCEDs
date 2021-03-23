@@ -291,10 +291,10 @@ background-size: 37%, contain
 Eliminan la necesidad de volver a la línea de base y, por lo tanto, son particularmente adecuados para la evaluación de intervenciones con efectos duraderos, como los efectos de rehabilitación.
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-part.png?raw=true)
-background-position: 0% 50%, 60% 85%
+background-position: 0% 50%, 56% 90%
 background-size: contain, 60%
 
-### `r fa("users", fill = "gold")` .gold[ Entre participantes: ] 
+### `r fa("users", fill = "gold")` .gold[ Entre participantes: ] [Krasny-Pacini & Evans (2018)](https://www.sciencedirect.com/science/article/pii/S1877065717304542) 
 
 ???
 se necesitan al menos 3 sujetos. 
@@ -306,20 +306,22 @@ La MBD en todos los pacientes se utiliza en muchos dominios de la rehabilitació
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx.png?raw=true)
-background-position: 0% 50%, 60% 85%
+background-position: 0% 50%, 56% 85%
 background-size: contain, 60%
 
-### `r fa("laptop-house", fill = "gold")` .gold[ Entre contextos: ] 
+### `r fa("laptop-house", fill = "gold")` .gold[ Entre contextos: ] [Feeney (2010)](https://pubmed.ncbi.nlm.nih.gov/21076242/) 
 
 ???
 Consiste en implementar una intervención secuencialmente en los diferentes entornos en los que opera un paciente. Un buen ejemplo es el artículo de Feeney [40] sobre rutinas sensibles al contexto en la escuela para niños con lesión cerebral traumática. La intervención consiste en enviar un equipo de extensión a la escuela de los pacientes y entrenar a los maestros para brindar un apoyo adecuado y estructurado para las funciones ejecutivas del estudiante. En este artículo, el coaching se presenta primero al profesor de inglés, luego después de cinco sesiones al profesor de matemáticas y finalmente cinco sesiones más tarde al profesor de ciencias. Feeney muestra que el comportamiento desafiante del alumno disminuye en intensidad y frecuencia cuando y solo cuando el maestro ha recibido el entrenamiento y lo implementa en el aula (mientras que en los mismos días, el comportamiento desafiante sigue siendo alto en las aulas donde los maestros no habían recibido el entrenamiento).
 ---
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-part.png?raw=true)
-background-position: 0% 50%, 60% 85%
-background-size: contain, 60%
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-comp.png?raw=true)
+background-position: 0% 50%, 56% 90%
+background-size: contain, 53%
 
-### `r fa("people-arrows", fill = "gold")` .gold[ Entre comportamientos: ] 
-  
+### `r fa("people-arrows", fill = "gold")` .gold[ Entre comportamientos: ] [Boman, et al. (2010)](https://pubmed.ncbi.nlm.nih.gov/20568962/) 
+
+???
+probar recordatorios de problemas de memoria para el objetivo uno del paciente "recordar tomar la medicación", luego el objetivo dos "recordar el almuerzo" y finalmente el objetivo tres "recordar llevar el teléfono celular" [48] y medir repetidamente el número de acciones recordadas para cada objetivo por semana
 ---
 .pull-left[.center[<img style="border-radius: 0%;" src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" width="400px"/>]]
 
