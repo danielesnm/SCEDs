@@ -274,19 +274,25 @@ background-size: 43%
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true)
-background-position: 81% 99%, 5% 50%
-background-size: 31%, contain
+background-position: 18% 99%, 0% 50%
+background-size: 37%, contain
 
-# .gold[ Multiple-baseline designs (MBD) ]
 `r fa("asterisk", fill = "gold")` Se introduce el tratamiento de manera secuencial a través de diferentes __personas, comportamientos o entornos__.
 
-.pull-left[- Cuando A es estable, se inicia B solo en una condición, mientras que los datos de A continúan registrándose para las otras condiciones.
+.pull-right[- Cuando A es estable, se inicia B solo en una condición, mientras que los datos de A continúan registrándose para las otras condiciones.
 
 - Cada transición es una oportunidad para observar los efectos del tratamiento.
 ]
-
+???
+- La característica definitoria de los MBD es que:
+  1. El inicio de la fase A ocurre simultáneamente en todos los niveles.
+  1. El inicio de la fase B luego se escalona secuencialmente a lo largo del tiempo a través de los diferentes niveles, de modo que cada línea base se vuelve progresivamente más larga en los niveles posteriores.
 ---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true)
+background-position: 0% 50%
+background-size: contain
 
+# .gold[ Multiple-baseline designs (MBD) ]
 - La característica definitoria de los MBD es que:
   1. El inicio de la fase A ocurre simultáneamente en todos los niveles.
   1. El inicio de la fase B luego se escalona secuencialmente a lo largo del tiempo a través de los diferentes niveles, de modo que cada línea base se vuelve progresivamente más larga en los niveles posteriores.
