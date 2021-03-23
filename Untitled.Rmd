@@ -287,15 +287,15 @@ background-size: 37%, contain
 - La característica definitoria de los MBD es que:
   1. El inicio de la fase A ocurre simultáneamente en todos los niveles.
   1. El inicio de la fase B luego se escalona secuencialmente a lo largo del tiempo a través de los diferentes niveles, de modo que cada línea base se vuelve progresivamente más larga en los niveles posteriores.
----
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true)
-background-position: 0% 50%
-background-size: contain
 
-# .gold[ Multiple-baseline designs (MBD) ]
-- La característica definitoria de los MBD es que:
-  1. El inicio de la fase A ocurre simultáneamente en todos los niveles.
-  1. El inicio de la fase B luego se escalona secuencialmente a lo largo del tiempo a través de los diferentes niveles, de modo que cada línea base se vuelve progresivamente más larga en los niveles posteriores.
+Eliminan la necesidad de volver a la línea de base y, por lo tanto, son particularmente adecuados para la evaluación de intervenciones con efectos duraderos, como los efectos de rehabilitación.
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-part.png?raw=true)
+background-position: 0% 50%, 60% 85%
+background-size: contain, 60%
+
+### `r fa("users", fill = "gold")` .gold[ Entre participantes: ] 
+
   
 ---
 .pull-left[.center[<img style="border-radius: 0%;" src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" width="400px"/>]]
