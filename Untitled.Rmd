@@ -102,9 +102,9 @@ background-size: 95%
 .panel[.panel-name[Uso]
 En el campo de las .pink[ciencias del comportamiento], en el contexto de la **investigación aplicada** o la **práctica clínica** para: 
 1. Evaluar/comparar intervenciones y perfeccionar su eficacia.
-2. Aislar los componentes de la intervención eficaz.
+2. Realizar investigaciones en un entorno clínico (fuera de un equipo de investigación) con uno o pocos pacientes
 3. Imposibilidad de obtener una muestra homogénea de pacientes para un estudio grupal.
-4. Limitación de tiempo (por ejemplo, un estudio que debe completarse en un plazo de 8 meses, etc) o financiación limitada que no permite la contratación de un grupo.
+4. Limitación de tiempo (por ejemplo, un estudio que debe completarse en un plazo de 8 meses, etc).
 ]
 
 .panel[.panel-name[Clasificación]
@@ -129,10 +129,19 @@ La investigación de un solo tema exige un control cuidadoso de las variables, u
 
 .pink[Medidas de resultado repetidas]  
 
-A diferencia de los ensayos grupales donde se utilizan referencias normativas o pruebas estandarizadas, la metodología SCED requiere de la creación de medidas de resultado relevantes para el paciente y para la intervención que se puedan evaluar de forma continua.
+A diferencia de los ensayos grupales donde se utilizan referencias normativas o pruebas estandarizadas, la metodología SCED requiere de la creación de medidas de resultado relevantes para el paciente y para la intervención y que puedan evaluarse de forma continua.
 
 .center[<img style="border-radius: 2%;" src="https://github.com/danielesnm/SCEDs/blob/main/img/grafica%20medidas%20repetidas.png?raw=true" width="450px"/>
 ]
+
+???
+Hay tres formas principales de adquirir las medidas repetidas:
+ 
+independientemente de las sesiones de intervención (por ejemplo, mensajes de texto enviados por los pacientes tres veces a la semana fuera del centro de rehabilitación)
+
+durante cada sesión de intervención (por ejemplo: número de verbos correctamente nombrados al final de cada sesión de logopedia);
+
+durante la sesión de intervención, pero solo en algunos días de intervención (por ejemplo, una vez a la semana durante una intervención diaria).
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/outcome%20mesures.png?raw=true)
@@ -149,34 +158,42 @@ background-size: 95%
 
 .pink[Identificar, definir y comprender el comportamiento objetivo]  
 
-• Deben de ser: _relevantes para el comportamiento en cuestión y que mejor se adapten a la intervención_.
+- Deben de ser: _relevantes para el comportamiento en cuestión y que mejor se adapten a la intervención_.
 
-• Para mejorar la calidad del estudio y minimizar el sesgo: deben ser específicos, observables y replicables.
+- Para mejorar la calidad del estudio y minimizar el sesgo: deben ser específicos, observables y replicables.
 
-• Es recomendable en la práctica que se lleve a cabo y se informe la evaluación de la concordancia entre observadores (IRR) sobre el comportamiento objetivo.
+- Es recomendable en la práctica que se lleve a cabo y se informe la evaluación de la concordancia entre observadores (IRR) sobre el comportamiento objetivo.
+
+---
+# `r fa("bullseye", fill = "salmon")` **Conceptos básicos**
+
+.pink[Algunos ejemplos la literatura sobre rehabilitación]
+- **Tratamiento para la recuperación de sustantivos y verbos en pacientes con afasia** `r fa("arrow-alt-circle-right", fill = "salmon")` Número de sustantivos y verbos nombrados al terminar cada sesión [(Anastasia et al., 2007).](https://www.tandfonline.com/doi/citedby/10.1080/09602010600814661?scroll=top&needAccess=true)
+
+- **Uso de teléfonos inteligentes en pacientes disejecutivos graves** `r fa("arrow-alt-circle-right", fill = "salmon")` Número de llamadas telefónicas realizadas a tiempo [(Svodova et al., 2012).](https://www.tandfonline.com/doi/abs/10.1080/09602011.2011.652498)
+
+- **Uso de teléfonos inteligentes para pacientes disejecutivos graves** `r fa("arrow-alt-circle-right", fill = "salmon")` Número de llamadas telefónicas programadas realizadas a tiempo [(Svodova et al., 2012).](https://www.tandfonline.com/doi/abs/10.1080/09602011.2011.652498)
 
 
 ---
 # `r fa("bullseye", fill = "salmon")` **Conceptos básicos**
 
-.left-column[.orange[Variable independiente: implementación de la intervención 
+.left-column[.orange[Variable independiente: 
 ]
 ]
 
+.right-column[.pink[Elección y aplicación de las intervenciones]  
 
-.pink[Id., definir y comprender el comportamiento objetivo]  
-• Elección impulsada por los **objetivos del estudio**.  
-
-• **Definición operativa** (observable, medible y verificable) objetiva, completa y clara para cualquier persona. Saber qué constituye y qué no constituye la ocurrencia del comportamiento, y tener un conocimiento íntimo sobre el contexto en el que ocurre.  
-
-• Se **mide repetidamente** a lo largo del tiempo mediante métodos como **la observación, el autoinforme, la evaluación clínica, etc.**
+- Debe implementarse de manera estandarizada, a fin de reducir la posibilidad de variabilidad de los resultados. 
+- Las medidas utilizados durante la fase inicial deben ser idénticos a las utilizados durante la intervención. 
+- Se identifica a priori un criterio de tratamiento exitoso para determinar su efectividad.]
 
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/grafica%20medidas%20repetidas.png?raw=true)
 background-position: 55% 85%
 background-size: 60%
-# **Elementos escenciales**
+# `r fa("paperclip", fill = "salmon")` **Elementos escenciales**
 
 .left-column[
 .pink[ Medidas repetidas `r fa("arrow-right", fill = "steelblue")`]
@@ -189,7 +206,7 @@ background-size: 60%
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/grafica%20linea%20base.png?raw=true)
 background-position: 70% 100%
 background-size: 38%
-# **Elementos escenciales**
+# `r fa("paperclip", fill = "salmon")` **Elementos escenciales**
 
 .left-column[
 .pink[ Baseline `r fa("arrow-right", fill = "steelblue")`]
@@ -205,7 +222,7 @@ background-size: 38%
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/grafica%20intercencion.png?raw=true)
 background-position: 60% 90%
 background-size: 45%
-# **Elementos escenciales**
+# `r fa("paperclip", fill = "salmon")` **Elementos escenciales**
 
 .left-column[
 .pink[ Fase de `r fa("arrow-right", fill = "steelblue")` intervención ]
@@ -215,6 +232,112 @@ background-size: 45%
 • Sus medidas repetidas reflejan el desempeño de la persona durante la intervención.  
 • Los datos se comparan con de la baseline para determinar si se ha producido un cambio.
 ---
+
+class: inverse, middle, center
+
+# Diseños de Caso Único
+
+Often used for transitions
+
+---
+# `r fa("list-ul", fill = "salmon")` **Clasificación de los SCED**
+
+.pull-left[.bg-washed-red.b--dark-pink.ba.bw2.br-pill.shadow-5.ph4.mt5.w-100.grow.tc[
+### Withdrawal/Reversal designs]
+
+.bg-washed-yellow.b--gold.ba.bw2.br-pill.shadow-5.ph4.mt5.w-100.grow.tc[
+### Multiple-baseline designs]
+]
+
+.pull-right[.bg-washed-green.b--dark-green.ba.bw2.br-pill.shadow-5.ph4.mt5.w-100.grow.tc[
+### Alternating treatments designs]
+
+.bg-washed-blue.b--navy.ba.bw2.br-pill.shadow-5.ph4.mt5.w-100.grow.tc[
+### Changing criterion designs]
+]
+
+---
+background-image: url(http://blogs.cuit.columbia.edu/df2675/files/2018/08/ABAB-Reversal.jpg)
+background-position: 90% 20%
+background-size: 43%
+
+.pink[## Withdrawal/Reversal designs]
+
+.pull-left[- Su estructura consiste en una secuencia de fases durante las cuales, la intervención se implementa y se retira sistemáticamente, de modo que cuando se termina la fase B (intervención), las condiciones vuelven a la fase A y presumiblemente, también lo hace la conducta objetivo.  
+
+1. Se mide el comportamiento en linea base hasta lograr su estabilidad.  
+2. Se aplica la variable independiente.  
+
+3. Se sigue midiendo el comportamiento, para ver si se produce un cambio.  
+
+4. La variable independiente se interrumpe, para ver si el cambio que se produjo depende de ella.]
+
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true)
+background-position: 85% 28%
+background-size: 30%
+
+## .pink[ Multiple-baseline designs (MBD) ]
+
+`r fa("asterisk", fill = "gold")` Se introduce el tratamiento de manera secuencial a través de diferentes _personas, comportamientos o entornos_.
+
+.pull-left[- Cada transición es una oportunidad para observar los efectos del tratamiento.
+
+- Cuando la línea base es estable, se inicia la fase de intervención solo en una condición, mientras que los datos de la línea base continúan registrándose para las otras condiciones.
+
+- La característica definitoria de los MBD es que:
+  1. El inicio de la fase A ocurre simultáneamente en todos los niveles.
+  1. El inicio de la fase B luego se escalona secuencialmente a lo largo del tiempo a través de los diferentes niveles, de modo que cada línea base se vuelve progresivamente más larga en los niveles posteriores. 
+]
+
+
+---
+.pull-left[.center[<img style="border-radius: 0%;" src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" width="400px"/>]]
+
+.pull-right[- Se introduce una transición de la línea base al tratamiento (A-B) en diferentes momentos a través de diferentes personas, comportamientos o entornos.
+
+- 
+]
+---
+.pull-right[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/f6/a7/5a/f6a75a82c478cca0f315cf1b8f2b63c8.jpg" width="400px"/>]
+---
+
+---
+title: "Font Awesome in R Markdown"
+output: html_document
+---
+
+# Just a few tests with `r fa("font-awesome-logo-full", fill = "forestgreen")`
+
+It works well in headings...
+
+# `r fa("brain", fill = "forestgreen")` H1 Heading
+
+## `r fa("r-project", fill = "forestgreen")` H2 Heading
+
+### `r fa("r-project", fill = "steelblue")` H3 Heading
+
+#### `r fa("r-project", fill = "steelblue")` H4 Heading
+
+##### `r fa("r-project", fill = "steelblue")` H5 Heading
+
+...and works equally well within inline text: `r fa("r-project", fill = "steelblue")`.
+
+---
+
+
+# .pink[ ijoiergnowrkgmoewri ]
+
+.discussion[
+Discuss in groups of three and then as a large group.
+
+- What are your first reactions to the curriculum we just described for an intro data science course? 
+- Which components can you see yourself (or do you already) include in an intro data science curriculum?
+- Which components do you have reservations about, and why?
+]
+
+---
+
 # `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
 
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
@@ -318,115 +441,5 @@ Es importante evaluar el grado en que se han aplicado los métodos de investigac
 
 - Una fase no puede usarse para demostrar el efecto experimental si tiene menos de 3 puntos de datos, preferiblemente 5.
 ]
-
----
-
-
-class: inverse, middle, center
-
-# Diseños de Caso Único
-
-Often used for transitions
-
----
-
-.center[# Clasificación de los SCED]
-
-.pull-left[.bg-washed-red.b--dark-pink.ba.bw2.br-pill.shadow-5.ph4.mt5.w-100.grow.tc[
-### Withdrawal/Reversal designs]
-
-.bg-washed-yellow.b--gold.ba.bw2.br-pill.shadow-5.ph4.mt5.w-100.grow.tc[
-### Multiple-baseline designs]
-]
-
-.pull-right[.bg-washed-green.b--dark-green.ba.bw2.br-pill.shadow-5.ph4.mt5.w-100.grow.tc[
-### Alternating treatments designs]
-
-.bg-washed-blue.b--navy.ba.bw2.br-pill.shadow-5.ph4.mt5.w-100.grow.tc[
-### Changing criterion designs]
-]
-
----
-background-image: url(http://blogs.cuit.columbia.edu/df2675/files/2018/08/ABAB-Reversal.jpg)
-background-position: 90% 20%
-background-size: 43%
-
-.pink[## Withdrawal/Reversal designs]
-
-.pull-left[- Su estructura consiste en una secuencia de fases durante las cuales, la intervención se implementa y se retira sistemáticamente, de modo que cuando se termina la fase B (intervención), las condiciones vuelven a la fase A y presumiblemente, también lo hace la conducta objetivo.  
-
-1. Se mide el comportamiento en linea base hasta lograr su estabilidad.  
-2. Se aplica la variable independiente.  
-
-3. Se sigue midiendo el comportamiento, para ver si se produce un cambio.  
-
-4. La variable independiente se interrumpe, para ver si el cambio que se produjo depende de ella.]
-
----
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true)
-background-position: 85% 28%
-background-size: 30%
-
-## .pink[ Multiple-baseline designs (MBD) ]
-
-`r fa("asterisk", fill = "gold")` Se introduce el tratamiento de manera secuencial a través de diferentes _personas, comportamientos o entornos_.
-
-.pull-left[- Cada transición es una oportunidad para observar los efectos del tratamiento.
-
-- Cuando la línea base es estable, se inicia la fase de intervención solo en una condición, mientras que los datos de la línea base continúan registrándose para las otras condiciones.
-
-- La característica definitoria de los MBD es que:
-  1. El inicio de la fase A ocurre simultáneamente en todos los niveles.
-  1. El inicio de la fase B luego se escalona secuencialmente a lo largo del tiempo a través de los diferentes niveles, de modo que cada línea base se vuelve progresivamente más larga en los niveles posteriores. 
-]
-
-
----
-.pull-left[.center[<img style="border-radius: 0%;" src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" width="400px"/>]]
-
-.pull-right[- Se introduce una transición de la línea base al tratamiento (A-B) en diferentes momentos a través de diferentes personas, comportamientos o entornos.
-
-- 
-]
----
-.pull-right[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/f6/a7/5a/f6a75a82c478cca0f315cf1b8f2b63c8.jpg" width="400px"/>]
----
-
----
-title: "Font Awesome in R Markdown"
-output: html_document
----
-
-# Just a few tests with `r fa("font-awesome-logo-full", fill = "forestgreen")`
-
-It works well in headings...
-
-# `r fa("brain", fill = "forestgreen")` H1 Heading
-
-## `r fa("r-project", fill = "forestgreen")` H2 Heading
-
-### `r fa("r-project", fill = "steelblue")` H3 Heading
-
-#### `r fa("r-project", fill = "steelblue")` H4 Heading
-
-##### `r fa("r-project", fill = "steelblue")` H5 Heading
-
-...and works equally well within inline text: `r fa("r-project", fill = "steelblue")`.
-
----
-
-
-# .pink[ ijoiergnowrkgmoewri ]
-
-.discussion[
-Discuss in groups of three and then as a large group.
-
-- What are your first reactions to the curriculum we just described for an intro data science course? 
-- Which components can you see yourself (or do you already) include in an intro data science curriculum?
-- Which components do you have reservations about, and why?
-]
-
----
-
 
 
