@@ -257,20 +257,20 @@ Often used for transitions
 ]
 
 ---
-background-image: url(http://blogs.cuit.columbia.edu/df2675/files/2018/08/ABAB-Reversal.jpg)
-background-position: 90% 20%
-background-size: 43%
-
-.pink[## Withdrawal/Reversal designs]
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/WRD1.png?raw=true), url(http://blogs.cuit.columbia.edu/df2675/files/2018/08/ABAB-Reversal.jpg)
+background-position: 0% 50%, 90% 20%
+background-size: contain, 43%
 
 .pull-left[- Su estructura consiste en una secuencia de fases durante las cuales, la intervención se implementa y se retira sistemáticamente, de modo que cuando se termina la fase B (intervención), las condiciones vuelven a la fase A y presumiblemente, también lo hace la conducta objetivo.  
+]
 
+???
 1. Se mide el comportamiento en linea base hasta lograr su estabilidad.  
 2. Se aplica la variable independiente.  
 
 3. Se sigue midiendo el comportamiento, para ver si se produce un cambio.  
 
-4. La variable independiente se interrumpe, para ver si el cambio que se produjo depende de ella.]
+4. La variable independiente se interrumpe, para ver si el cambio que se produjo depende de ella.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true)
