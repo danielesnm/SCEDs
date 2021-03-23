@@ -277,11 +277,11 @@ background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?
 background-position: 18% 99%, 0% 50%
 background-size: 37%, contain
 
-`r fa("asterisk", fill = "gold")` Se introduce el tratamiento de manera secuencial a través de diferentes __personas, comportamientos o entornos__.
+`r fa("asterisk", fill = "gold")` Se introduce el tratamiento de manera secuencial a través de diferentes __participantes `r fa("arrow-right", fill = "gold")` contextos `r fa("arrow-right", fill = "gold")` comportamientos__.
 
 .pull-right[- Cuando A es estable, se inicia B solo en una condición, mientras que los datos de A continúan registrándose para las otras condiciones.
 
-- Cada transición es una oportunidad para observar los efectos del tratamiento.
+- Cada transición ofrece una oportunidad para observar los efectos del tratamiento.
 ]
 ???
 - La característica definitoria de los MBD es que:
@@ -296,6 +296,29 @@ background-size: contain, 60%
 
 ### `r fa("users", fill = "gold")` .gold[ Entre participantes: ] 
 
+???
+se necesitan al menos 3 sujetos. 
+1.	Todos comienzan el estudio con una fase A sin ninguna intervención durante la cual la variable objetivo se mide repetidamente para cada paciente, hasta que uno de los pacientes comienza la intervención, mientras que los demás continúan sin intervención, todos los pacientes siguen midiéndose repetidamente en la variable objetivo.
+2.	Idealmente, la elección de los pacientes que comenzarán la intervención y después de cuántas medidas de referencia debe determinarse mediante un procedimiento de aleatorización (esto se describirá más adelante). 
+3.	Luego, la intervención se aplica a un segundo paciente después de un retraso (de nuevo, si es posible, determinado mediante aleatorización) y finalmente al tercer paciente. 
+
+La MBD en todos los pacientes se utiliza en muchos dominios de la rehabilitación [19,24,29,34,46]. La ventaja de la introducción secuencial de la intervención es visualizar la falta de efecto de reevaluación y la falta de progreso no relacionado con la intervención en los pacientes que aún no han tenido la intervención. Esta es la razón principal por la que la MBD en pacientes es un diseño más sólido que los diseños AB.
+
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx.png?raw=true)
+background-position: 0% 50%, 60% 85%
+background-size: contain, 60%
+
+### `r fa("laptop-house", fill = "gold")` .gold[ Entre contextos: ] 
+
+???
+Consiste en implementar una intervención secuencialmente en los diferentes entornos en los que opera un paciente. Un buen ejemplo es el artículo de Feeney [40] sobre rutinas sensibles al contexto en la escuela para niños con lesión cerebral traumática. La intervención consiste en enviar un equipo de extensión a la escuela de los pacientes y entrenar a los maestros para brindar un apoyo adecuado y estructurado para las funciones ejecutivas del estudiante. En este artículo, el coaching se presenta primero al profesor de inglés, luego después de cinco sesiones al profesor de matemáticas y finalmente cinco sesiones más tarde al profesor de ciencias. Feeney muestra que el comportamiento desafiante del alumno disminuye en intensidad y frecuencia cuando y solo cuando el maestro ha recibido el entrenamiento y lo implementa en el aula (mientras que en los mismos días, el comportamiento desafiante sigue siendo alto en las aulas donde los maestros no habían recibido el entrenamiento).
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-part.png?raw=true)
+background-position: 0% 50%, 60% 85%
+background-size: contain, 60%
+
+### `r fa("people-arrows", fill = "gold")` .gold[ Entre comportamientos: ] 
   
 ---
 .pull-left[.center[<img style="border-radius: 0%;" src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" width="400px"/>]]
