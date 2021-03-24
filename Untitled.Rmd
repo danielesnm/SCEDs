@@ -273,22 +273,49 @@ background-size: contain, 43%
 4. La variable independiente se interrumpe, para ver si el cambio que se produjo depende de ella.
 
 ---
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true)
-background-position: 18% 99%, 0% 50%
-background-size: 37%, contain
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true)
+background-position: 0% 50%
+background-size: contain
 
-`r fa("asterisk", fill = "gold")` Se introduce el tratamiento de manera secuencial a través de diferentes __participantes `r fa("arrow-right", fill = "gold")` contextos `r fa("arrow-right", fill = "gold")` comportamientos__.
+.panelset[
+.panel[.panel-name[Fundamentos]
+> `r fa("asterisk", fill = "gold")` Se introduce el tratamiento de manera secuencial a través de diferentes __participantes `r fa("arrow-right", fill = "gold")` contextos `r fa("arrow-right", fill = "gold")` comportamientos__.
 
-.pull-right[- Cuando A es estable, se inicia B solo en una condición, mientras que los datos de A continúan registrándose para las otras condiciones.
+.pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 75%" />]]
 
-- Cada transición ofrece una oportunidad para observar los efectos del tratamiento.
+.orange[Su característica definitoria es:]
+  1. .orange[Fase A] ocurre simultáneamente en todos los niveles.
+  
+  1. .orange[Fase B] se escalona secuencialmente a través de los diferentes niveles, de modo que cada .orange[Fase A] se vuelve progresivamente más larga en los niveles posteriores.
 ]
-???
-- La característica definitoria de los MBD es que:
-  1. El inicio de la fase A ocurre simultáneamente en todos los niveles.
-  1. El inicio de la fase B luego se escalona secuencialmente a lo largo del tiempo a través de los diferentes niveles, de modo que cada línea base se vuelve progresivamente más larga en los niveles posteriores.
 
-Eliminan la necesidad de volver a la línea de base y, por lo tanto, son particularmente adecuados para la evaluación de intervenciones con efectos duraderos, como los efectos de rehabilitación.
+.panel[.panel-name[Control experimental]
+>Se demuestra cuando, después de introducir la intervención en el primer nivel, hay poco o ningún cambio en el las otras condiciones.   
+
+.pull-right[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 68%" />]]
+
+`r fa("clipboard-check", fill = "gold")` Estándares de evidencia:
+- 5 puntos de datos en cada fase 
+
+- 6 fases para brindar 3 oportunidades (AB) para replicar el efecto experimental. 
+]
+
+???
+Este control refuerza la conclusión de que cualquier cambio observado en la conducta objetivo es atribuible a la intervención y ayuda a reducir la plausibilidad de explicaciones alternativas. 
+
+.panel[.panel-name[Ventajas/Desventajas]
+
+.pull-left[.center[.green[Ventajas] `r fa("check", fill = "green")`]  
+1.	Adecuados para la evaluación de intervenciones con efectos duraderos, como los efectos de rehabilitación. 
+2.	Debido a que la intervención no se retira, no existen preocupaciones éticas sobre la suspensión del tratamiento. 
+]
+
+.pull-right[.center[.red[Desventajas] `r fa("times", fill = "red")`]  
+1.	La medición repetida puede centrar la atención en un patrón de desempeño erróneo, que luego podría ser más difícil de erradicar.
+2.	Repercusiones éticas acerca de retrasar la introducción de la intervención a otros niveles.]
+]
+]
+
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-part.png?raw=true)
 background-position: 0% 50%, 56% 90%
