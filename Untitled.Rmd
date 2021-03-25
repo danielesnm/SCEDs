@@ -92,7 +92,7 @@ background-size: 95%
 ]
 
 .panel[.panel-name[Objetivo]
->Establecer una relación funcional entre la **conducta objetivo** (VD) y **la intervención** (VI), para determinar si ésta ejerce un efecto sobre la conducta que se investiga.  
+>Establecer una relación funcional entre el **comportamiento objetivo** (VD) y **la intervención** (VI), para determinar si ésta ejerce un efecto sobre el comportamiento que se investiga.  
 
 - Son herramientas científicamente rigurosas y flexibles para desarrollar y evaluar hipótesis. 
 
@@ -102,7 +102,7 @@ background-size: 95%
 .panel[.panel-name[Uso]
 En el campo de las .pink[ciencias del comportamiento], en el contexto de la **investigación aplicada** o la **práctica clínica** para: 
 1. Evaluar/comparar intervenciones y perfeccionar su eficacia.
-2. Realizar investigaciones en un entorno clínico (fuera de un equipo de investigación) con uno o pocos pacientes
+2. Realizar investigaciones en un entorno clínico (fuera de un equipo de investigación) con uno o pocos pacientes.
 3. Imposibilidad de obtener una muestra homogénea de pacientes para un estudio grupal.
 4. Limitación de tiempo (por ejemplo, un estudio que debe completarse en un plazo de 8 meses, etc).
 ]
@@ -231,13 +231,11 @@ background-size: 45%
 • Fase durante la cual se implementa la intervención.  
 • Sus medidas repetidas reflejan el desempeño de la persona durante la intervención.  
 • Los datos se comparan con de la baseline para determinar si se ha producido un cambio.
+
 ---
-
-class: inverse, middle, center
-
-# Diseños de Caso Único
-
-Often used for transitions
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/2.clasificacion.png?raw=true)
+background-position: 50% 75%
+background-size: 95%
 
 ---
 # `r fa("list-ul", fill = "salmon")` **Clasificación de los SCED**
@@ -254,6 +252,50 @@ Often used for transitions
 
 .bg-washed-blue.b--navy.ba.bw2.br-pill.shadow-5.ph4.mt5.w-100.grow.tc[
 ### Changing criterion designs]
+]
+
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/WRD1.png?raw=true)
+background-position: 0% 50%
+background-size: contain
+
+.panelset[
+.panel[.panel-name[Fundamentos]
+> `r fa("asterisk", fill = "pink")` **El retiro de la intervención** ocurre durante una o más fases, con el fin de demostrar sus efectos en el comportamiento.
+
+.pull-left[.center[<img src="http://blogs.cuit.columbia.edu/df2675/files/2018/08/ABAB-Reversal.jpg" style="width: 85%" />]]
+
+.orange[Su característica definitoria es:]
+  1. .orange[Fase A] ocurre simultáneamente en todos los niveles.
+  
+  1. .orange[Fase B] se escalona secuencialmente a través de los diferentes niveles, de modo que cada .orange[Fase A] se vuelve progresivamente más larga en los niveles posteriores.
+]
+
+.panel[.panel-name[Control experimental]
+>Se demuestra cuando, después de introducir la intervención en el primer nivel, hay poco o ningún cambio en el las otras condiciones.   
+
+.pull-right[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 68%" />]]
+
+`r fa("clipboard-check", fill = "gold")` Estándares de evidencia:
+- 5 puntos de datos en cada fase 
+
+- 6 fases para brindar 3 oportunidades (AB) para replicar el efecto experimental. 
+]
+
+???
+Este control refuerza la conclusión de que cualquier cambio observado en la conducta objetivo es atribuible a la intervención y ayuda a reducir la plausibilidad de explicaciones alternativas. 
+
+.panel[.panel-name[Ventajas/Desventajas]
+
+.pull-left[.center[.green[Ventajas] `r fa("check", fill = "green")`]  
+1.	Adecuados para la evaluación de intervenciones con efectos duraderos, como los efectos de rehabilitación. 
+2.	Debido a que la intervención no se retira, no existen preocupaciones éticas sobre la suspensión del tratamiento. 
+]
+
+.pull-right[.center[.red[Desventajas] `r fa("times", fill = "red")`]  
+1.	La medición repetida puede centrar la atención en un patrón de desempeño erróneo, que luego podría ser más difícil de erradicar.
+2.	Repercusiones éticas acerca de retrasar la introducción de la intervención a otros niveles.]
+]
 ]
 
 ---
