@@ -503,25 +503,35 @@ background-size: 95%
 
 # `r fa("chart-bar", fill = "salmon")` Análisis de los resultados  
 
-•	.pink[Criterios experimentales] `r fa("arrow-circle-right", fill = "salmon")` existe relación funcional entre los cambios observados en la conducta objetivo (VD) y la intervención (VI). Nivel de evidencia de la presencia (o ausencia) de un efecto de la intervención. 
+.pink[Criterios experimentales] `r fa("arrow-circle-right", fill = "salmon")` existe relación funcional entre los cambios observados en la conducta objetivo (VD) y la intervención (VI). Nivel de evidencia de la presencia (o ausencia) de un efecto de la intervención. 
 .right[`r fa("brain", fill = "salmon")`.orange[¿el tratamiento ha tenido un efecto relevante?]]
 
-•	.pink[Criterios terapéuticos] `r fa("arrow-circle-right", fill = "salmon")` la intervención ha tenido o no un impacto importante o clínicamente significativo en la vida diaria del participante. 
+.pink[Criterios terapéuticos] `r fa("arrow-circle-right", fill = "salmon")` la intervención ha tenido o no un impacto importante o clínicamente significativo en la vida diaria del participante. 
 .right[`r fa("brain", fill = "salmon")`.orange[¿los efectos ayudan a la persona a mejorar en su vida diaria?]]
 
-Análisis visual y / o estadístico de los datos
+--
+
+.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/analisis.png?raw=true" style="width: 60%" />]
 
 
 ---
 # `r fa("eye", fill = "salmon")` Análisis Visual
 
-- Considerado el método principal para analizar los datos de SCED.
-
-- Interpretación de los datos que se han representado en un gráfico sin ningún análisis estadístico adicional.
+- Considerado el método principal para analizar los datos de SCED, permitiendo la Interpretación de los datos que se han representado gráficamente sin ningún análisis estadístico adicional.
 
 - Eenfatiza el cambio significativo clínico, más que estadístico. Por lo tanto, si una intervención realmente ha tenido un efecto en el comportamiento del participante, esto debería ser claramente obvio en los datos graficados.
 
 - Los efectos de pequeñas intervenciones pueden ser difíciles de detectar visualmente e incluso si son estadísticamente significativos, pueden no ser clínicamente significativos.
+
+---
+# `r fa("eye", fill = "salmon")` Análisis Visual
+
+- En los últimos años se han propuesto varios procedimientos para llevar acabo de manera sistemática el análisis visual [(Kratochwill, et al., 2010)](https://ies.ed.gov/ncee/wwc/Docs/ReferenceResources/wwc_scd.pdf): 
+
+.pink[Paso 1:] evaluar la estabilidad de la línea base.  
+.pink[Paso 2:] evaluar la consistencia de los datos dentro de la misma fase.  
+.pink[Paso 3:] comparar fases adyacentes (A-B, B-A) y fases similares (todas las fases A, todas las fases B, etc.).  
+.pink[Paso 4:] integrar esta información y determinar si el efecto de la intervención se ha demostrado de forma independiente al menos en 3 ocasiones.
 
 ---
 
