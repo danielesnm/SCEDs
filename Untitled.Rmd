@@ -107,9 +107,15 @@ En el campo de las .pink[ciencias del comportamiento], en el contexto de la **in
 4. Limitación de tiempo (por ejemplo, un estudio que debe completarse en un plazo de 8 meses, etc).
 ]
 
-.panel[.panel-name[Clasificación]
+.panel[.panel-name[Estructura básica]
 
-.center[<img src="https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/87f59f64-c81a-4771-bd80-ec57c0da4c9a/gr1_lrg.jpg" style="width: 70%" />]
+- .orange[Fase A:] medidas repetidas de la VD para establecer la línea base. 
+
+.center[**Introducción del tratamiento (VI)**] 
+
+- .orange[Fase B:] nuevas medidas repetidas de la VD durante el tratamiento
+
+.center[<img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.3758%2Fs13428-018-1084-x/MediaObjects/13428_2018_1084_Fig1_HTML.png" style="width: 45%" />]
 ]
 ]
 
@@ -399,6 +405,95 @@ probar recordatorios de problemas de memoria para el objetivo uno del paciente "
 - 
 ]
 
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ATD1.png?raw=true)
+background-position: 0% 50%
+background-size: contain
+
+.panelset[
+.panel[.panel-name[Fundamentos]
+> `r fa("asterisk", fill = "gold")` Se introduce el tratamiento de manera secuencial a través de diferentes __participantes `r fa("arrow-right", fill = "gold")` contextos `r fa("arrow-right", fill = "gold")` comportamientos__.
+
+.pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 75%" />]]
+
+.orange[Su característica definitoria es:]
+  1. .orange[Fase A] ocurre simultáneamente en todos los niveles.
+  
+  1. .orange[Fase B] se escalona secuencialmente a través de los diferentes niveles, de modo que cada .orange[Fase A] se vuelve progresivamente más larga en los niveles posteriores.
+]
+
+.panel[.panel-name[Control experimental]
+>Se demuestra cuando, después de introducir la intervención en el primer nivel, hay poco o ningún cambio en el las otras condiciones.   
+
+.pull-right[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 68%" />]]
+
+`r fa("clipboard-check", fill = "gold")` Estándares de evidencia:
+- 5 puntos de datos en cada fase 
+
+- 6 fases para brindar 3 oportunidades (AB) para replicar el efecto experimental. 
+]
+
+???
+Este control refuerza la conclusión de que cualquier cambio observado en la conducta objetivo es atribuible a la intervención y ayuda a reducir la plausibilidad de explicaciones alternativas. 
+
+.panel[.panel-name[Ventajas/Desventajas]
+
+.pull-left[.center[.green[Ventajas] `r fa("check", fill = "green")`]  
+1.	Adecuados para la evaluación de intervenciones con efectos duraderos, como los efectos de rehabilitación. 
+2.	Debido a que la intervención no se retira, no existen preocupaciones éticas sobre la suspensión del tratamiento. 
+]
+
+.pull-right[.center[.red[Desventajas] `r fa("times", fill = "red")`]  
+1.	La medición repetida puede centrar la atención en un patrón de desempeño erróneo, que luego podría ser más difícil de erradicar.
+2.	Repercusiones éticas acerca de retrasar la introducción de la intervención a otros niveles.]
+]
+]
+
+
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/CCD1.png?raw=true)
+background-position: 0% 50%
+background-size: contain
+
+.panelset[
+.panel[.panel-name[Fundamentos]
+> `r fa("asterisk", fill = "gold")` Se introduce el tratamiento de manera secuencial a través de diferentes __participantes `r fa("arrow-right", fill = "gold")` contextos `r fa("arrow-right", fill = "gold")` comportamientos__.
+
+.pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 75%" />]]
+
+.orange[Su característica definitoria es:]
+  1. .orange[Fase A] ocurre simultáneamente en todos los niveles.
+  
+  1. .orange[Fase B] se escalona secuencialmente a través de los diferentes niveles, de modo que cada .orange[Fase A] se vuelve progresivamente más larga en los niveles posteriores.
+]
+
+.panel[.panel-name[Control experimental]
+>Se demuestra cuando, después de introducir la intervención en el primer nivel, hay poco o ningún cambio en el las otras condiciones.   
+
+.pull-right[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 68%" />]]
+
+`r fa("clipboard-check", fill = "gold")` Estándares de evidencia:
+- 5 puntos de datos en cada fase 
+
+- 6 fases para brindar 3 oportunidades (AB) para replicar el efecto experimental. 
+]
+
+???
+Este control refuerza la conclusión de que cualquier cambio observado en la conducta objetivo es atribuible a la intervención y ayuda a reducir la plausibilidad de explicaciones alternativas. 
+
+.panel[.panel-name[Ventajas/Desventajas]
+
+.pull-left[.center[.green[Ventajas] `r fa("check", fill = "green")`]  
+1.	Adecuados para la evaluación de intervenciones con efectos duraderos, como los efectos de rehabilitación. 
+2.	Debido a que la intervención no se retira, no existen preocupaciones éticas sobre la suspensión del tratamiento. 
+]
+
+.pull-right[.center[.red[Desventajas] `r fa("times", fill = "red")`]  
+1.	La medición repetida puede centrar la atención en un patrón de desempeño erróneo, que luego podría ser más difícil de erradicar.
+2.	Repercusiones éticas acerca de retrasar la introducción de la intervención a otros niveles.]
+]
+]
+
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/3.analisis%20dedatos.png?raw=true)
@@ -406,7 +501,61 @@ background-position: 50% 75%
 background-size: 95%
 ---
 
+# `r fa("chart-bar", fill = "salmon")` Análisis de los resultados  
 
+•	.pink[Criterios experimentales] `r fa("arrow-circle-right", fill = "salmon")` existe relación funcional entre los cambios observados en la conducta objetivo (VD) y la intervención (VI). Nivel de evidencia de la presencia (o ausencia) de un efecto de la intervención. 
+.right[`r fa("brain", fill = "salmon")`.orange[¿el tratamiento ha tenido un efecto relevante?]]
+
+•	.pink[Criterios terapéuticos] `r fa("arrow-circle-right", fill = "salmon")` la intervención ha tenido o no un impacto importante o clínicamente significativo en la vida diaria del participante. 
+.right[`r fa("brain", fill = "salmon")`.orange[¿los efectos ayudan a la persona a mejorar en su vida diaria?]]
+
+Análisis visual y / o estadístico de los datos
+
+
+---
+# `r fa("eye", fill = "salmon")` Análisis Visual
+
+- Considerado el método principal para analizar los datos de SCED.
+
+- Interpretación de los datos que se han representado en un gráfico sin ningún análisis estadístico adicional.
+
+- Eenfatiza el cambio significativo clínico, más que estadístico. Por lo tanto, si una intervención realmente ha tenido un efecto en el comportamiento del participante, esto debería ser claramente obvio en los datos graficados.
+
+- Los efectos de pequeñas intervenciones pueden ser difíciles de detectar visualmente e incluso si son estadísticamente significativos, pueden no ser clínicamente significativos.
+
+---
+
+## Start with a mini-lecture
+
+- **Lesson:** Web scraping essentials for turning a structured table into a data frame in R.
+
+---
+
+## Follow up with a hands-on exercise
+
+- **Lesson:** Web scraping essentials for turning a structured table into a data frame in R.
+- **Ex 1:** Scrape the table off the web and save as a data frame.
+
+
+---
+
+## And a thought exercise
+
+- **Lesson:** Web scraping essentials for turning a structured table into a data frame in R.
+- **Ex 1:** Scrape the table off the web and save as a data frame.
+- **Ex 2:** What other information do we need represented as variables in the data to obtain the desired facets? 
+
+
+---
+
+
+
+## And finally, the veggies!
+
+- **Lesson:** Web scraping essentials for turning a structured table into a data frame in R.
+- **Ex 1:** Scrape the table off the web and save as a data frame.
+- **Ex 2:** What other information do we need represented as variables in the data to obtain the desired facets? 
+- **Lesson:** “Just enough” string parsing and regular expressions to go from
 
 
 
