@@ -517,11 +517,11 @@ background-size: 95%
 ---
 # `r fa("eye", fill = "salmon")` Análisis Visual
 
-- Considerado el método principal para analizar los datos de SCED, permitiendo la Interpretación de los datos que se han representado gráficamente sin ningún análisis estadístico adicional.
+- Considerado el método principal para analizar los datos de SCED, permitiendo la interpretación de los datos que se han representado gráficamente sin ningún análisis estadístico adicional.
 
-- Eenfatiza el cambio significativo clínico, más que estadístico. Por lo tanto, si una intervención realmente ha tenido un efecto en el comportamiento del participante, esto debería ser claramente obvio en los datos graficados.
+- Se centra en el cambio clínico, más que estadístico. Por lo tanto, si una intervención realmente ha tenido un efecto en el comportamiento del participante, esto debería ser claramente observable en los datos graficados.
 
-- Los efectos de pequeñas intervenciones pueden ser difíciles de detectar visualmente e incluso si son estadísticamente significativos, pueden no ser clínicamente significativos.
+- Efectos  pequeños,  pueden ser difíciles de detectar visualmente e incluso si son estadísticamente significativos, pueden no ser clínicamente significativos.
 
 ---
 # `r fa("eye", fill = "salmon")` Análisis Visual
@@ -529,12 +529,38 @@ background-size: 95%
 - En los últimos años se han propuesto varios procedimientos para llevar acabo de manera sistemática el análisis visual [(Kratochwill, et al., 2010)](https://ies.ed.gov/ncee/wwc/Docs/ReferenceResources/wwc_scd.pdf): 
 
 .pink[Paso 1:] evaluar la estabilidad de la línea base.  
-.pink[Paso 2:] evaluar la consistencia de los datos dentro de la misma fase.  
-.pink[Paso 3:] comparar fases adyacentes (A-B, B-A) y fases similares (todas las fases A, todas las fases B, etc.).  
-.pink[Paso 4:] integrar esta información y determinar si el efecto de la intervención se ha demostrado de forma independiente al menos en 3 ocasiones.
+
+.pink[Paso 2:] evaluar los datos dentro de cada fase.  
+.orange[Level, Trend, Variability]
+
+.pink[Paso 3:] comparar datos entre fases adyacentes (A-B).  
+.orange[Immediacy of the Effect, Overlap, Consistency]
+
+.pink[Paso 4:] determinar si el efecto de la intervención se ha demostrado de forma independiente al menos en 3 ocasiones.
 
 ---
+# `r fa("eye", fill = "salmon")` Paso 1: estabilidad de la línea base
 
+---
+# `r fa("eye", fill = "salmon")` Paso 2: análisis dentro de cada fase
+
+## .orange[Level:] puntuación media de los datos.
+
+---
+# `r fa("eye", fill = "salmon")` Paso 2: análisis dentro de cada fase
+
+.orange[Level:] puntuación media de los datos.  
+## .orange[Trend:] pendiente de la línea recta que mejor se ajusta a los datos.
+
+---
+# `r fa("eye", fill = "salmon")` Paso 2: análisis dentro de cada fase
+
+.orange[Level:] puntuación media de los datos.  
+.orange[Trend:] pendiente de la línea recta que mejor se ajusta a los datos.  
+## .orange[Variability:] rango o desviación estándar de los datos sobre la línea recta que mejor se ajusta.
+
+
+---
 ## Start with a mini-lecture
 
 - **Lesson:** Web scraping essentials for turning a structured table into a data frame in R.
