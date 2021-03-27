@@ -515,18 +515,25 @@ background-size: 95%
 
 
 ---
+background-image: url(https://www.almrsal.com/wp-content/uploads/2018/12/%D9%85%D8%A7%D8%B0%D8%A7-%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%86-%D8%AC%D9%85%D8%B9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA.jpg)
+background-position: 50% 110%
+background-size: 40%
 # `r fa("eye", fill = "salmon")` Análisis Visual
 
-- Considerado el método principal para analizar los datos de SCED, permitiendo la interpretación de los datos que se han representado gráficamente sin ningún análisis estadístico adicional.
+- .pink[Considerado el método principal para analizar los datos de SCED]. Permiten la interpretación de los datos que se han representado gráficamente sin ningún análisis estadístico adicional.
 
-- Se centra en el cambio clínico, más que estadístico. Por lo tanto, si una intervención realmente ha tenido un efecto en el comportamiento del participante, esto debería ser claramente observable en los datos graficados.
+- .pink[Se centra en el cambio clínico, más que estadístico.] Si una intervención realmente ha tenido un efecto en el comportamiento del participante, esto debería ser claramente observable en los datos graficados.
 
+???
 - Efectos  pequeños,  pueden ser difíciles de detectar visualmente e incluso si son estadísticamente significativos, pueden no ser clínicamente significativos.
 
 ---
+background-image: url(https://lh3.googleusercontent.com/proxy/4q_tHEVIx6RCZESIWVgnL0z3QT21DybQewxk5zJMYswg373IzIM7xnPQO46dh9pMDDDPXL9bFk81FOivQyhM93swHINjAFuQOOgMVi1T6g)
+background-position: 95% 60%
+background-size: 25%
 # `r fa("eye", fill = "salmon")` Análisis Visual
 
-- En los últimos años se han propuesto varios procedimientos para llevar acabo de manera sistemática el análisis visual [(Kratochwill, et al., 2010)](https://ies.ed.gov/ncee/wwc/Docs/ReferenceResources/wwc_scd.pdf): 
+- Se han propuesto varios procedimientos para llevar acabo de manera sistemática el análisis visual [(Kratochwill, et al., 2010)](https://ies.ed.gov/ncee/wwc/Docs/ReferenceResources/wwc_scd.pdf): 
 
 .pink[Paso 1:] evaluar la estabilidad de la línea base.  
 
@@ -541,18 +548,34 @@ background-size: 95%
 ---
 # `r fa("eye", fill = "salmon")` Paso 1: estabilidad de la línea base
 
+Los .pink[2 propósitos] de una línea de base son
+
+a)	Demostrar que la **conducta objetivo** se presenta con .pink[frecuencia.]  
+b)	Proporcionar un **patrón de respuesta** claramente definido .pink[(predecible y estable) con poca o ninguna tendencia], que pueda ser utilizado para evaluar los efectos de una intervención.
+
+
+
 ---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/level.png?raw=true)
+background-position: 50% 75%
+background-size: 70%
 # `r fa("eye", fill = "salmon")` Paso 2: análisis dentro de cada fase
 
 ## .orange[Level:] puntuación media de los datos.
 
 ---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/trend.png?raw=true)
+background-position: 50% 95%
+background-size: 70%
 # `r fa("eye", fill = "salmon")` Paso 2: análisis dentro de cada fase
 
 .orange[Level:] puntuación media de los datos.  
 ## .orange[Trend:] pendiente de la línea recta que mejor se ajusta a los datos.
 
 ---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/variability.png?raw=true)
+background-position: 50% 100%
+background-size: 70%
 # `r fa("eye", fill = "salmon")` Paso 2: análisis dentro de cada fase
 
 .orange[Level:] puntuación media de los datos.  
