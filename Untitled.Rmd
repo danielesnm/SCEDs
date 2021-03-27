@@ -550,12 +550,45 @@ background-size: 25%
 
 Los .pink[2 propósitos] de una línea de base son
 
-a)	Demostrar que la **conducta objetivo** se presenta con .pink[frecuencia.] y con un **patrón de respuesta** claramente definido .pink[(predecible y estable), con poca o ninguna tendencia],
-b)	Evaluar los efectos de una intervención.
+a)	Demostrar que el **comportamiento** se presenta .pink[frecuentemente,] con un **patrón predecible** y con .pink[poca o ninguna tendencia.] 
 
 --
 
-.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/BL-trend1.png?raw=true" style="width: 60%" />]
+.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/BL-trend.png?raw=true" style="width: 55%" />]
+
+---
+# `r fa("eye", fill = "salmon")` Paso 1: estabilidad de la línea base
+
+Los .pink[2 propósitos] de una línea de base son
+
+a)	Demostrar que el **comportamiento** se presenta .pink[frecuentemente,] con un **patrón predecible** y con .pink[poca o ninguna tendencia.]  
+b)	Evaluar los .pink[efectos de una intervención.]  
+
+--
+
+.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/BL-trend1.png?raw=true" style="width: 100%" />]
+
+---
+# `r fa("eye", fill = "salmon")` Paso 1: estabilidad de la línea base
+
+Los .pink[2 propósitos] de una línea de base son
+
+a)	Demostrar que el **comportamiento** se presenta .pink[frecuentemente,] con un **patrón predecible** y con .pink[poca o ninguna tendencia.]  
+b)	Evaluar los .pink[efectos de una intervención.]  
+
+
+.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/BL-trend2.png?raw=true" style="width: 100%" />]
+---
+
+# `r fa("eye", fill = "salmon")` Paso 1: estabilidad de la línea base
+
+Los .pink[2 propósitos] de una línea de base son
+
+a)	Demostrar que el **comportamiento** se presenta .pink[frecuentemente,] con un **patrón predecible** y con .pink[poca o ninguna tendencia.]  
+b)	Evaluar los .pink[efectos de una intervención.]  
+
+
+.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/BL-trend3.png?raw=true" style="width: 100%" />]
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/level.png?raw=true)
