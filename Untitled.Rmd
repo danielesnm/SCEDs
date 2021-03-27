@@ -550,18 +550,25 @@ background-size: 25%
 
 Los .pink[2 propósitos] de una línea de base son
 
-a)	Demostrar que el **comportamiento** se presenta .pink[frecuentemente,] con un **patrón predecible** y con .pink[poca o ninguna tendencia.] 
+a)	Demostrar que el **comportamiento** se presenta .pink[frecuentemente,] con un **patrón estable** y con .pink[poca o ninguna tendencia.] 
 
 --
 
 .center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/BL-trend.png?raw=true" style="width: 55%" />]
+
+???
+Una pregunta que surge a menudo en la investigación de diseño de caso único es cuántos puntos de datos se necesitan para establecer la estabilidad de la línea de base.
+
+-	considerar la cantidad de variabilidad en la serie de datos. Los datos muy variables pueden requerir una fase más larga para establecer la estabilidad.
+-	si se espera que el efecto de la intervención sea grande y demuestre un patrón de datos que excede la varianza de la línea de base, una línea de base más corta puede ser suficiente.
 
 ---
 # `r fa("eye", fill = "salmon")` Paso 1: estabilidad de la línea base
 
 Los .pink[2 propósitos] de una línea de base son
 
-a)	Demostrar que el **comportamiento** se presenta .pink[frecuentemente,] con un **patrón predecible** y con .pink[poca o ninguna tendencia.]  
+a)	Demostrar que el **comportamiento** se presenta .pink[frecuentemente,] con un **patrón estable** y con .pink[poca o ninguna tendencia.] 
+
 b)	Evaluar los .pink[efectos de una intervención.]  
 
 --
@@ -573,7 +580,8 @@ b)	Evaluar los .pink[efectos de una intervención.]
 
 Los .pink[2 propósitos] de una línea de base son
 
-a)	Demostrar que el **comportamiento** se presenta .pink[frecuentemente,] con un **patrón predecible** y con .pink[poca o ninguna tendencia.]  
+a)	Demostrar que el **comportamiento** se presenta .pink[frecuentemente,] con un **patrón estable** y con .pink[poca o ninguna tendencia.]  
+
 b)	Evaluar los .pink[efectos de una intervención.]  
 
 
@@ -584,7 +592,8 @@ b)	Evaluar los .pink[efectos de una intervención.]
 
 Los .pink[2 propósitos] de una línea de base son
 
-a)	Demostrar que el **comportamiento** se presenta .pink[frecuentemente,] con un **patrón predecible** y con .pink[poca o ninguna tendencia.]  
+a)	Demostrar que el **comportamiento** se presenta .pink[frecuentemente,] con un **patrón estable** y con .pink[poca o ninguna tendencia.]  
+
 b)	Evaluar los .pink[efectos de una intervención.]  
 
 
@@ -596,7 +605,7 @@ background-position: 50% 75%
 background-size: 70%
 # `r fa("eye", fill = "salmon")` Paso 2: análisis dentro de cada fase
 
-## .orange[Level:] puntuación media de los datos.
+### .orange[Level:] utilizando la media o la mediana de los datos.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/trend.png?raw=true)
@@ -604,8 +613,8 @@ background-position: 50% 95%
 background-size: 70%
 # `r fa("eye", fill = "salmon")` Paso 2: análisis dentro de cada fase
 
-.orange[Level:] puntuación media de los datos.  
-## .orange[Trend:] pendiente de la línea recta que mejor se ajusta a los datos.
+.orange[Level:] utilizando la media o la mediana de los datos.  
+### .orange[Trend:] pendiente de la línea recta que mejor se ajusta a los datos.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/variability.png?raw=true)
@@ -613,9 +622,9 @@ background-position: 50% 100%
 background-size: 70%
 # `r fa("eye", fill = "salmon")` Paso 2: análisis dentro de cada fase
 
-.orange[Level:] puntuación media de los datos.  
+.orange[Level:] utilizando la media o la mediana de los datos.  
 .orange[Trend:] pendiente de la línea recta que mejor se ajusta a los datos.  
-## .orange[Variability:] rango o desviación estándar de los datos sobre la línea recta que mejor se ajusta.
+### .orange[Variability:] rango o desviación estándar de los datos sobre la línea recta que mejor se ajusta.
 
 
 ---
