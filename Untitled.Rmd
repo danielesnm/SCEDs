@@ -609,12 +609,12 @@ background-size: 50%
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/trend.png?raw=true)
-background-position: 50% 95%
-background-size: 60%
+background-position: 50% 100%
+background-size: 45%
 # `r fa("eye", fill = "salmon")` Paso 2: análisis dentro de cada fase
 
 .orange[Level:] utilizando la media o la mediana de los datos.  
-### .orange[Trend:] dirección de los datos: acendente, descendente, plana.  
+### .orange[Trend:] dirección: acendente, descendente, plana.  
 - línea recta que mejor se ajusta a los datos.  
 
 ---
