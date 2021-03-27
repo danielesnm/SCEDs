@@ -620,7 +620,7 @@ background-size: 45%
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/variability.png?raw=true)
 background-position: 50% 100%
-background-size: 60%
+background-size: 45%
 # `r fa("eye", fill = "salmon")` Paso 2: análisis dentro de cada fase
 
 .orange[Level:] utilizando la media o la mediana de los datos.  
