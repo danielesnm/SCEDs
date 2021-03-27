@@ -602,7 +602,7 @@ b)	Evaluar los .pink[efectos de una intervención.]
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/level.png?raw=true)
 background-position: 50% 75%
-background-size: 70%
+background-size: 50%
 # `r fa("eye", fill = "salmon")` Paso 2: análisis dentro de cada fase
 
 ### .orange[Level:] utilizando la media o la mediana de los datos.
