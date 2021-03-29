@@ -639,15 +639,18 @@ background-size: 47%
 .pull-left[.pink[A menor proporción] de puntos de datos superpuestos, más convincente será la demostración de un efecto.]
 
 ---
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/trend.png?raw=true)
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/immediacyeffect.png?raw=true)
 background-position: 90% 92%
 background-size: 47%
 # `r fa("eye", fill = "salmon")` Paso 3: comparar fases adyacentes
 
 .orange[Overlap:] % de datos que se superponen con los de la fase anterior.  
-### .orange[Immediacy of the effect:] cambio de nivel entre los últimos tresdatos en una fase y los primeros tres puntos de datos de la siguiente.  
+### .orange[Immediacy of the effect:] cambio de level entre los últimos 3 datos en la fase y los primeros 3 de la siguiente.  
 
-.pull-left[.ponk[A mayor rapidez del efecto], más convincente será la inferencia de que el cambio en la medida de resultado se debe a la manipulación de la variable independiente.]
+.pull-left[.pink[A mayor rapidez del efecto], más convincente será la inferencia de que el cambio en la medida de resultado se debe a la manipulación de la variable independiente.]
+
+---
+
 ---
 background-image: url(https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_500,h_500/https://www.masanalytics.com/wp-content/uploads/2020/07/3497811-Recuperado.png), url(https://gblobscdn.gitbook.com/assets%2F-LIP3Xr2BuWD7FDjJFmZ%2F-MKBNUIGCtwWguMJWtSN%2F-MKBNdeuEPTwjAin4yl7%2FCinchyBrain.png?alt=media&token=c67e90e6-f62a-4cea-9320-00bfe88c9ad8)
 background-position: 80% 90%, 20% 90%
