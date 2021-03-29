@@ -400,13 +400,6 @@ background-size: contain, 53%
 
 ???
 probar recordatorios de problemas de memoria para el objetivo uno del paciente "recordar tomar la medicación", luego el objetivo dos "recordar el almuerzo" y finalmente el objetivo tres "recordar llevar el teléfono celular" [48] y medir repetidamente el número de acciones recordadas para cada objetivo por semana
----
-.pull-left[.center[<img style="border-radius: 0%;" src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" width="400px"/>]]
-
-.pull-right[- Se introduce una transición de la línea base al tratamiento (A-B) en diferentes momentos a través de diferentes personas, comportamientos o entornos.
-
-- 
-]
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ATD1.png?raw=true)
@@ -604,44 +597,58 @@ b)	Evaluar los .pink[efectos de una intervención.]
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/level.png?raw=true)
-background-position: 50% 75%
-background-size: 50%
+background-position: 90% 92%
+background-size: 47%
 # `r fa("eye", fill = "salmon")` Paso 2: análisis dentro de cada fase
 
-### .orange[Level:] utilizando la media o la mediana de los datos.
-
+### .orange[Level:] cambio en la media de los datos de cada fase.
+<br><br><br>
+.pull-left[Se refiere a los .pink[cambios en el _comportamiento_] que ocurren dentro de cada condición]
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/trend.png?raw=true)
-background-position: 50% 100%
-background-size: 45%
+background-position: 90% 92%
+background-size: 47%
 # `r fa("eye", fill = "salmon")` Paso 2: análisis dentro de cada fase
 
-.orange[Level:] utilizando la media o la mediana de los datos.  
-### .orange[Trend:] dirección: acendente, descendente, plana.  
-- línea recta que mejor se ajusta a los datos.  
+.orange[Level:] cambio en la media de los datos de cada fase.  
+### .orange[Trend:] dirección en la que los datos se mueven dentro de cada fase.  
+
+.pull-left[.pink[Línea recta] que mejor se ajusta a los datos (`r fa("arrow-up", fill = "salmon")` `r fa("arrow-down", fill = "salmon")` `r fa("equals", fill = "salmon")`).]
+
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/variability.png?raw=true)
-background-position: 50% 100%
-background-size: 45%
+background-position: 90% 92%
+background-size: 47%
 # `r fa("eye", fill = "salmon")` Paso 2: análisis dentro de cada fase
 
-.orange[Level:] utilizando la media o la mediana de los datos.  
-.orange[Trend:] dirección de los datos: acendente, descendente, plana.  
-### .orange[Variability:] estabilidad de los datos.  
-- rango o desviación estándar de los datos sobre la línea recta que mejor se ajusta.  
+.orange[Level:] cambio en la media de los datos de cada fase.  
+.orange[Trend:] dirección en la que los datos se mueven dentro de cada fase.  
+### .orange[Variability:] grado de dispersión general de los datos.  
+  
+.pull-left[.pink[Rango de estabilidad] mediante el procedimiento de [Lane & Gast (2014)](https://pubmed.ncbi.nlm.nih.gov/23883189/), al menos el 80% de los puntos de datos deben caer dentro de ± 25% de la mediana de cada condición.]
 
 ---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/level.png?raw=true)
+background-position: 50% 75%
+background-size: 50%
 # `r fa("eye", fill = "salmon")` Paso 3: comparar fases adyacentes 
 
+### .orange[Overlap:] proporción de datos de una fase que se superpone con los datos de la fase anterior.
+
 ---
+background-image: url(https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_500,h_500/https://www.masanalytics.com/wp-content/uploads/2020/07/3497811-Recuperado.png)
+background-position: 50% 90%
+background-size: 30%
 # `r fa("eye", fill = "salmon")` Paso 4: demostración del efecto
 
+Consiste en integrar esta información para determinar si el efecto de la intervención se ha demostrado de forma independiente al menos en tres ocasiones (documentar  una relación causal o funcional).
 ---
 background-image: url(https://www.almrsal.com/wp-content/uploads/2018/12/%D9%85%D8%A7%D8%B0%D8%A7-%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%86-%D8%AC%D9%85%D8%B9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA.jpg)
 background-position: 50% 110%
 background-size: 40%
 # `r fa("search", fill = "salmon")` Análisis Estadístico
+
 
 
 ---
