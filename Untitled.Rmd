@@ -271,10 +271,13 @@ background-size: contain
 
 .pull-left[.center[<img src="http://blogs.cuit.columbia.edu/df2675/files/2018/08/ABAB-Reversal.jpg" style="width: 85%" />]]
 
-.orange[Su premisa es:]
--	Si la intervención es eficaz, el comportamiento objetivo debe mejorarse solo durante el curso de la intervención. 
+.orange[Su característica definitoria es:]
+- .orange[Fase A] sirve como un predictor del comportamiento objetivo futuro. 
 
--	Las puntuaciones deben empeorar cuando se _"retira"_ la intervención.
+- .orange[Fase B] se introduce/retira sistemáticamente durante el estudio. Cuando B termina, las condiciones vuelven a A
+
+.right[secuencia: .yellow[A-B], .pink[A-B-A], **A-B-A-B**, ...etc.]
+
 ]
 
 .panel[.panel-name[Control experimental]
@@ -295,13 +298,12 @@ Este control refuerza la conclusión de que cualquier cambio observado en la con
 .panel[.panel-name[Ventajas/Desventajas]
 
 .pull-left[.center[.green[Ventajas] `r fa("check", fill = "green")`]  
-1.	Adecuados para la evaluación de intervenciones con efectos duraderos, como los efectos de rehabilitación. 
-2.	Debido a que la intervención no se retira, no existen preocupaciones éticas sobre la suspensión del tratamiento. 
+1.	Útil en rehabilitación para pruebas de órtesis, prótesis, uso de fármacos (metilfenato, fármacos antiparkinsonianos), dispositivos adaptativos y tecnología asistencial (smartphones). 
 ]
 
 .pull-right[.center[.red[Desventajas] `r fa("times", fill = "red")`]  
-1.	La medición repetida puede centrar la atención en un patrón de desempeño erróneo, que luego podría ser más difícil de erradicar.
-2.	Repercusiones éticas acerca de retrasar la introducción de la intervención a otros niveles.]
+1.	Repercusiones éticas acerca de terminar en Fase A (ej. ABA), particularmente si la intervención ha sido efectiva.
+2. Es éticamente importante establecer procedimientos para planificar la continuación de los efectos de la intervención después del estudio.]
 ]
 ]
 
