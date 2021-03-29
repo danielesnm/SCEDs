@@ -271,21 +271,22 @@ background-size: contain
 
 .pull-left[.center[<img src="http://blogs.cuit.columbia.edu/df2675/files/2018/08/ABAB-Reversal.jpg" style="width: 85%" />]]
 
-.orange[Su característica definitoria es:]
-  1. .orange[Fase A] ocurre simultáneamente en todos los niveles.
-  
-  1. .orange[Fase B] se escalona secuencialmente a través de los diferentes niveles, de modo que cada .orange[Fase A] se vuelve progresivamente más larga en los niveles posteriores.
+.orange[Su premisa es:]
+-	Si la intervención es eficaz, el comportamiento objetivo debe mejorarse solo durante el curso de la intervención. 
+
+-	Las puntuaciones deben empeorar cuando se _"retira"_ la intervención.
 ]
 
 .panel[.panel-name[Control experimental]
->Se demuestra cuando, después de introducir la intervención en el primer nivel, hay poco o ningún cambio en el las otras condiciones.   
+>Si la intervención es eficaz, el comportamiento objetivo debe mejorarse durante el curso de la intervención y empeorar cuando se .pink[_"retira"_].  
 
-.pull-right[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 68%" />]]
+.pull-right[.center[<img src="http://blogs.cuit.columbia.edu/df2675/files/2018/08/ABAB-Reversal.jpg" style="width: 85%" />]]
 
-`r fa("clipboard-check", fill = "gold")` Estándares de evidencia:
+`r fa("clipboard-check", fill = "salmon")` Estándares de evidencia:
 - 5 puntos de datos en cada fase 
 
-- 6 fases para brindar 3 oportunidades (AB) para replicar el efecto experimental. 
+- 4 fases para brindar 3 oportunidades (AB) para la replicación intraindividual del efecto experimental. 
+
 ]
 
 ???
@@ -628,6 +629,17 @@ background-size: 45%
 ### .orange[Variability:] estabilidad de los datos.  
 - rango o desviación estándar de los datos sobre la línea recta que mejor se ajusta.  
 
+---
+# `r fa("eye", fill = "salmon")` Paso 3: comparar fases adyacentes 
+
+---
+# `r fa("eye", fill = "salmon")` Paso 4: demostración del efecto
+
+---
+background-image: url(https://www.almrsal.com/wp-content/uploads/2018/12/%D9%85%D8%A7%D8%B0%D8%A7-%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%86-%D8%AC%D9%85%D8%B9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA.jpg)
+background-position: 50% 110%
+background-size: 40%
+# `r fa("search", fill = "salmon")` Análisis Estadístico
 
 
 ---
@@ -706,109 +718,85 @@ Discuss in groups of three and then as a large group.
 ]
 
 ---
-
 # `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
 
-.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-Es importante evaluar el grado en que se han aplicado los métodos de investigación dentro de un estudio de caso único, para determinar si cumple con el rigor metodológico _"aceptable"_ que permita su interpretación.
+.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="500px"/>]]
 
-.tr[[Horner, et. al (2005),](https://journals.sagepub.com/doi/10.1177/001440290507100203) [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)
-]]
+.bg-washed-green.b--dark-green.ba.bw2.br-pill.shadow-5.ph4.mt5.f3.b.i[
+¿Cómo determinar si el estudio cumple con el rigor metodológico _"aceptable"_ que permita su interpretación? [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)]
 
---
-
-### **1. Descripción de los participantes y del entorno**
-
-.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="600px"/>]]
-
---
-.right-column[
-Descripción con suficiente precisón para permitir la replicación de: 
-- Los participantes.
-
-- El proceso de selección.
-
-- Las características del entorno físico.]
+### **1. Descripción de los participantes/entorno** 
+- ¿Se describieron los participantes lo suficientemente bien como para permitir la comparación con otros estudios o para su replicación?
 
 ---
 # `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
 
-.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-Es importante evaluar el grado en que se han aplicado los métodos de investigación dentro de un estudio de caso único, para determinar si cumple con el rigor metodológico _"aceptable"_ que permita su interpretación.
+.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="500px"/>]]
 
-.tr[[Horner, et. al (2005),](https://journals.sagepub.com/doi/10.1177/001440290507100203) [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)
-]]
+.bg-washed-green.b--dark-green.ba.bw2.br-pill.shadow-5.ph4.mt5.f3.b.i[
+¿Cómo determinar si el estudio cumple con el rigor metodológico _"aceptable"_ que permita su interpretación? [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)]
 
 ### **2. Variable dependiente**
-.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="600px"/>]]
 
-.right-column[
-- Descripción con precisión operativa.
-
-- Se mide repetidamente a lo largo del tiempo, con un procedimiento que genere índices cuantificables.
-
-- Se recopilan datos sobre la confiabilidad o el acuerdo interobservador asociado con cada variable dependiente.]
+- ¿Se definió operativamente?  
+- ¿Se evaluó la confiabilidad entre evaluadores?  
+- ¿El evaluador desconocía la fase del estudio en la que estaba involucrado el participante?  
+- ¿Se demostró estabilidad de los datos en la línea de base?  
+- ¿Se midió repetidamente con índices cuantificables?
 
 ---
 # `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
 
-.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-Es importante evaluar el grado en que se han aplicado los métodos de investigación dentro de un estudio de caso único, para determinar si cumple con el rigor metodológico _"aceptable"_ que permita su interpretación.
+.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="500px"/>]]
 
-.tr[[Horner, et. al (2005),](https://journals.sagepub.com/doi/10.1177/001440290507100203) [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)
-]]
+.bg-washed-green.b--dark-green.ba.bw2.br-pill.shadow-5.ph4.mt5.f3.b.i[
+¿Cómo determinar si el estudio cumple con el rigor metodológico _"aceptable"_ que permita su interpretación? [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)]
 
 ### **3. Variable independiente**
 
-.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="600px"/>]]
-
-.right-column[
-- Se debe de describir con precisión replicable.
-
-- Se manipula sistemáticamente y está bajo el control del experimentador.
-
-- La introducción y el retiro de la variable independiente durante el estudio, deben ser controlada por investigador.
-]
+- ¿Se definieron operativamente las condiciones de intervención para permitir su replicación?
+- ¿La introducción y el retiro de la variable independiente durante el estudio, estuvo controlada por investigador?
 
 ---
 # `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
 
-.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-Es importante evaluar el grado en que se han aplicado los métodos de investigación dentro de un estudio de caso único, para determinar si cumple con el rigor metodológico _"aceptable"_ que permita su interpretación.
+.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="500px"/>]]
 
-.tr[[Horner, et. al (2005),](https://journals.sagepub.com/doi/10.1177/001440290507100203) [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)
-]]
+.bg-washed-green.b--dark-green.ba.bw2.br-pill.shadow-5.ph4.mt5.f3.b.i[
+¿Cómo determinar si el estudio cumple con el rigor metodológico _"aceptable"_ que permita su interpretación? [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)]
 
-### **4. Establecimineto de línea base**
+### **4. Diseño**
 
-.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="600px"/>]]
+- ¿Se estableció clara y correctamente el tipo de SCED, por ejemplo, changing-criterion, multiple-basline, etc.?
+- ¿Hubo un número adecuado de puntos de datos en cada fase (mínimo de cinco) para cada participante?
+- ¿Se replicaron los efectos de la intervención en tres o más sujetos?
 
-.right-column[
-- La mayoría de los estudios con metodología de caso único incluyen una fase de referencia que proporciona una medición repetida de una variable dependiente y establece un patrón de respuesta que puede usarse para predecir el patrón de desempeño futuro.
-
-- Las condiciones de la línea de base se describen con precisión replicable.
-
-]
 
 ---
 # `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
 
-.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-Es importante evaluar el grado en que se han aplicado los métodos de investigación dentro de un estudio de caso único, para determinar si cumple con el rigor metodológico _"aceptable"_ que permita su interpretación.
+.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="500px"/>]]
 
-.tr[[Horner, et. al (2005),](https://journals.sagepub.com/doi/10.1177/001440290507100203) [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)
-]]
+.bg-washed-green.b--dark-green.ba.bw2.br-pill.shadow-5.ph4.mt5.f3.b.i[
+¿Cómo determinar si el estudio cumple con el rigor metodológico _"aceptable"_ que permita su interpretación? [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)]
 
-### **5. Control Experimental/Validez Interna**
+### **5. Análisis**
 
-.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="600px"/>]]
+- ¿Se realizó un análisis visual apropiado?
+- ¿Los gráficos utilizados para el análisis visual siguieron convenciones estándar, por ejemplo, ejes x/y etiquetados de manera clara, fases claramente etiquetadas (A, B, etc.), etc.?
+- ¿Se realizaron análisis estadísticos y se cumplen los criterios para su uso?
 
-.right-column[
-- El diseño proporciona al menos tres demostraciones de efecto experimental en tres momentos diferentes.
+---
+# `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
 
-- El diseño controla las amenazas comunes a la validez interna (por ejemplo, permite la eliminación de hipótesis rivales).
+.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="500px"/>]]
 
-- Una fase no puede usarse para demostrar el efecto experimental si tiene menos de 3 puntos de datos, preferiblemente 5.
-]
+.bg-washed-green.b--dark-green.ba.bw2.br-pill.shadow-5.ph4.mt5.f3.b.i[
+¿Cómo determinar si el estudio cumple con el rigor metodológico _"aceptable"_ que permita su interpretación? [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)]
 
+### **6. Control Experimental/Validez Interna**
 
+- Estrategias de replicación para mejorar la validez externa:
+1. Replicación directa: mismos procedimientos con diferentes participantes que tienen características similares.
+2. Replicación sistemática: repetir el experimento en diferentes entornos, utilizando diferentes participantes.
+3. Replicación clínica: combinar diferentes intervenciones en el mismo entorno y con participantes con los mismos tipos de problemas.
