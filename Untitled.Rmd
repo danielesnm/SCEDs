@@ -637,12 +637,13 @@ background-size: 50%
 ### .orange[Overlap:] proporción de datos de una fase que se superpone con los datos de la fase anterior.
 
 ---
-background-image: url(https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_500,h_500/https://www.masanalytics.com/wp-content/uploads/2020/07/3497811-Recuperado.png)
-background-position: 50% 90%
-background-size: 30%
+background-image: url(https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_500,h_500/https://www.masanalytics.com/wp-content/uploads/2020/07/3497811-Recuperado.png), url(https://gblobscdn.gitbook.com/assets%2F-LIP3Xr2BuWD7FDjJFmZ%2F-MKBNUIGCtwWguMJWtSN%2F-MKBNdeuEPTwjAin4yl7%2FCinchyBrain.png?alt=media&token=c67e90e6-f62a-4cea-9320-00bfe88c9ad8)
+background-position: 80% 90%, 20% 90%
+background-size: 30%, 30%
 # `r fa("eye", fill = "salmon")` Paso 4: demostración del efecto
 
-Consiste en integrar esta información para determinar si el efecto de la intervención se ha demostrado de forma independiente al menos en tres ocasiones (documentar  una relación causal o funcional).
+Consiste en .pink[integrar esta información] para determinar si el efecto de la intervención se ha demostrado de forma independiente al menos en .pink[tres ocasiones] (documentar  una relación causal o funcional).
+
 ---
 background-image: url(https://www.almrsal.com/wp-content/uploads/2018/12/%D9%85%D8%A7%D8%B0%D8%A7-%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%86-%D8%AC%D9%85%D8%B9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA.jpg)
 background-position: 50% 110%
@@ -726,6 +727,10 @@ Discuss in groups of three and then as a large group.
 - Which components do you have reservations about, and why?
 ]
 
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/4.calidad.png?raw=true)
+background-position: 50% 75%
+background-size: 95%
 ---
 # `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
 
