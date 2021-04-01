@@ -772,13 +772,17 @@ Los ES robustos apoyan la detección de pequeñas diferencias entre tratamientos
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/dstatistic.png?raw=true)
-background-position:60% 80%
-background-size: 45%
+background-position:60% 70%
+background-size: 43%
 # `r fa("square-root-alt", fill = "salmon")` Effect Size (ES)
 
 .left-column[.orange[Standardized Mean `r fa("arrow-right", fill = "salmon")` Difference]]
 
 Mismo procedimiento que en diseños de grupo (*d* de Cohen). .pink[*d* for single case designs] [Shadish et al. 2014](https://pubmed.ncbi.nlm.nih.gov/23862576/)
+
+<br><br><br><br><br><br><br><br><br><br>
+
+[Single-case effect size calculator](https://jepusto.shinyapps.io/SCD-effect-sizes/[https://jepusto.shinyapps.io/SCD-effect-sizes/) (Pustejovsky & Swan, 2018).
 
 ???
 Se calcula tomando la media de los datos de la fase B, restando por la media de los datos de la fase A y dividiendo por la desviación estándar de la fase A.  
@@ -795,13 +799,50 @@ Sin embargo, no tiene en cuenta todas las características del SCD que explica e
 Siguen las mismas convenciones que muchos cálculos de tamaño del efecto de diseño de grupo, incluidos la d de Cohen y la g de Hedges.
 
 ---
+background-image: url(https://cdn-prod.voxy.com/wp-content/uploads/2017/10/DataScience-Color.png)
+background-position:8% 60%
+background-size: 15%
 # `r fa("square-root-alt", fill = "salmon")` Effect Size (ES)
 
-.left-column[.orange[Non overlap methods `r fa("arrow-right", fill = "salmon")`
+.left-column[.orange[Non-overlap methods `r fa("arrow-right", fill = "salmon")`
 <br>]
 ]
 
 Se basan en el concepto de que la eficacia de una intervención se refleja en el grado en que los datos de la fase B no se superponen con los de la fase A.
+
+1. .pink[PND.] % of non-overlap data [(Scruggs et al., 1987)](https://journals.sagepub.com/doi/abs/10.1177/074193258700800206?journalCode=rsed)  
+2. .pink[PEM.] % of data exceeding the median [(Ma, 2006)](https://pubmed.ncbi.nlm.nih.gov/16894232/)  
+3. .pink[PAND.] % of all non-overlapping data [(Parker et al.,2007)](https://journals.sagepub.com/doi/10.1177/00224669070400040101)  
+4. .pink[IRD.] Improvement rate difference [(Parker, et al., 2009)](https://journals.sagepub.com/doi/10.1177/001440290907500201)  
+5. .pink[NAP.] Nonoverlap of all pairs [(Parker & Vannest, 2009)](https://pubmed.ncbi.nlm.nih.gov/19892081/)  
+6. .pink[TAU-u.] nonoverlap + trend [(Parker et al. 2011)](https://pubmed.ncbi.nlm.nih.gov/21496513/)
+
+---
+background-image: url(https://cdn-prod.voxy.com/wp-content/uploads/2017/10/DataScience-Color.png)
+background-position:8% 60%
+background-size: 15%
+# `r fa("square-root-alt", fill = "salmon")` PND. % of non-overlap data
+
+- Primer método desarrollado, utilizado extensamente ya que se calcula facilmente.  
+- Es una medida precisa cuando los datos demuestran características estables sin tendencias o valores atípicos. 
+
+---
+background-image: url(https://cdn-prod.voxy.com/wp-content/uploads/2017/10/DataScience-Color.png)
+background-position:8% 60%
+background-size: 15%
+##¿cómo se calcula?
+# `r fa("square-root-alt", fill = "salmon")` PND. % of non-overlap data
+
+1.	Identificar la puntuación más extrema en Fase A. 
+
+2.	Identificar el número de datos en Fase B, que excede este nivel. 
+
+3.	6 datos de los 7 posibles Fase B demuestran una mejora en la puntuación. Se dividen estos datos y tenemos ES para PND (6/7 = 0.86 PND).
+
+???
+1a.	Los valores de los datos de la línea de base en este ejemplo (ver Figura 1) son 4, 3 y 5. Tres es la puntuación mejorada más extrema, ya que tiene el valor más bajo en la medida de pánico en la línea de base. 
+
+2a.	Se considera que las puntuaciones de pánico superiores a 3 se superponen en el gráfico. Los valores de los datos de intervención son 2, 1, 2, 1, 3, 0 y 2. Solo una puntuación en la fase de tratamiento tiene un valor que se superpone al valor de la puntuación extrema en la línea de base: el valor de la línea de base de 3. Los valores restantes de 2, 1 2, 1, 0 y 2 no se superponen con el punto de datos de la línea de base. 
 ---
 class: inverse
 # `r fa("toolbox", fill = "salmon")` Recursos
@@ -820,6 +861,8 @@ class: inverse
 
 ### .right[`r fa("internet-explorer", fill = "salmon")` **Web-based applications**]
 [Visual Aids & Non-overlap indices.](https://manolov.shinyapps.io/Overlap/)  (Manolov, 2015)
+
+[Single-case effect size calculator.](https://jepusto.shinyapps.io/SCD-effect-sizes/[https://jepusto.shinyapps.io/SCD-effect-sizes/) (Pustejovsky & Swan, 2018)
 
 ---
 ## Start with a mini-lecture
