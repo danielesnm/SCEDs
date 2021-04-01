@@ -771,19 +771,16 @@ Por lo tanto, cuando se reportan estimaciones de ES creíbles además de los dat
 Los ES robustos apoyan la detección de pequeñas diferencias entre tratamientos y pueden discriminar a los moderadores cuando las diferencias en los tratamientos se agrupan y agregan.
 
 ---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/dstatistic.png?raw=true)
+background-position:60% 80%
+background-size: 45%
 # `r fa("square-root-alt", fill = "salmon")` Effect Size (ES)
 
-.left-column[
-.orange[Standardized Mean `r fa("arrow-right", fill = "salmon")` Difference]
-]
+.left-column[.orange[Standardized Mean `r fa("arrow-right", fill = "salmon")` Difference]]
 
-• Mismo procedimiento que lo cálculos de ES en diseños de grupo (*d* de Cohen). 
-.right[d for single case designs [Shadish et al. 2014](https://pubmed.ncbi.nlm.nih.gov/23862576/)]
-
-
+Mismo procedimiento que en diseños de grupo (*d* de Cohen). .pink[*d* for single case designs] [Shadish et al. 2014](https://pubmed.ncbi.nlm.nih.gov/23862576/)
 
 ???
-
 Se calcula tomando la media de los datos de la fase B, restando por la media de los datos de la fase A y dividiendo por la desviación estándar de la fase A.  
 Las ventajas de este enfoque son que los cálculos son simples y directos y que el tamaño del efecto resultante se interpreta en unidades de desviación estándar. 
 
@@ -793,9 +790,18 @@ Sin embargo, no tiene en cuenta todas las características del SCD que explica e
 ---
 # `r fa("square-root-alt", fill = "salmon")` Effect Size (ES)
 
-.left-column[Regresion based models]
+.left-column[.orange[Regresion based `r fa("arrow-right", fill = "salmon")` models]]
 
 Siguen las mismas convenciones que muchos cálculos de tamaño del efecto de diseño de grupo, incluidos la d de Cohen y la g de Hedges.
+
+---
+# `r fa("square-root-alt", fill = "salmon")` Effect Size (ES)
+
+.left-column[.orange[Non overlap methods `r fa("arrow-right", fill = "salmon")`
+<br>]
+]
+
+Se basan en el concepto de que la eficacia de una intervención se refleja en el grado en que los datos de la fase B no se superponen con los de la fase A.
 ---
 class: inverse
 # `r fa("toolbox", fill = "salmon")` Recursos
