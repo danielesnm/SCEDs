@@ -904,19 +904,42 @@ Si es evidente una gran variabilidad o tendencia, es posible que la mediana no r
 Una mediana no incorpora comportamientos que mejoran o deterioran y, por lo tanto, no es óptima cuando existe una tendencia de referencia.
 
 ---
-background-image: url()
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/NAPgrafica.png?raw=true)
 background-position:50% 95%
-background-size: 40%
+background-size: 35%
 # `r fa("square-root-alt", fill = "salmon")` .pink[NAP.] non-overlap of all pairs
 
 - Utiliza una comparación por pares de todos los datos, haciéndolo más robusto y sensible a la identificación de cambios en las puntuaciones [(Parker & Vannest, 2009)](https://pubmed.ncbi.nlm.nih.gov/19892081/)
 
-.pink[Ventaja teórica:] utiliza todos los datos disponibles (compara todos los datos de Fase A frente a todos los de Fase B)
+.pink[Ventaja teórica:] utiliza todos los datos disponibles (compara todos los datos de Fase A, frente a todos los de Fase B)
 
+
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/NAPcalculo.png?raw=true)
+background-position:95% 50%
+background-size: 35%
+# `r fa("square-root-alt", fill = "salmon")` .pink[NAP.] non-overlap of all pairs
+
+.pull-left[1. Para cada punto de datos de la Fase A:
+- 1 por cada dato de la fase B que lo supere
+- .5 por cada dato de la fase B que sea igual
+- 0 por cada dato de la fase B que sea menor 
+
+2. Sumar los valores para todos los datos del paso 1 y reste del total de pares posibles para obtener el recuento sin superposición.
+- en este ejemplo, hay 2.5
+- en este ejemplo, hay 5 * 5 = 25
+
+3. Divida la suma del paso 2 por el número total de comparaciones (25)
+]
+
+
+---
+# `r fa("square-root-alt", fill = "salmon")` .pink[NAP.] non-overlap of all pairs
 .pink[Ventaja numérica:] interpretabilidad
 - valor de 1 indica una mejora perfecta
 - valor de .5 indica que no hay cambios
 - valor de 0 indica reducción perfecta
+
 
 ---
 class: inverse
