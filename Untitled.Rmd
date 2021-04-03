@@ -328,7 +328,7 @@ background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/WRD1.png
 background-position: 0% 50%, 50% 98%
 background-size: contain, 39%
 
-### `r fa("brain", fill = "salmon")` .gold[ B-A-B: ]
+### `r fa("brain", fill = "salmon")` .pink[ B-A-B: ]
 
 -  Se puede implementar cuando un paciente ya esta bajo un tratamiento y se desea aclarar la efectividad del mismo 
 
@@ -339,6 +339,24 @@ background-size: contain, 39%
 
 ???
 en un diseño B-A-B-A-C, los investigadores pueden obtener información sobre la efectividad de una intervención que ya está implementada y comparar su efectividad con la falta de tratamiento, así como con una intervención alternativa.
+
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/WRD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/WRDmultiple.png?raw=true)
+background-position: 0% 50%, 55% 98%
+background-size: contain, 66%
+
+### `r fa("brain", fill = "salmon")` .pink[A-B-A-C-A-B-BC-B:] 
+[The effectiveness of control strategies for dementia-driven wandering, preventing escape attempts (Valle Padilla et al. 2013)](https://pubmed.ncbi.nlm.nih.gov/23199418/) 
+
+???
+objetivo: reducir la frecuencia de la deambulación provocada por la demencia en un hombre de 80 años con diagnóstico de presunta enfermedad de Alzheimer. El comportamiento objetivo fue la frecuencia de intentos de fuga del centro de cuidado diurno para adultos al que asistió el participante. 
+
+diseño: A-B-A-C-A-B-BC-B para comparar la efectividad de:
+En la fase inicial (A) no se impidieron los intentos de fuga. 
+(B) consistió en pegar tiras de plástico negro en el suelo frente a la puerta de salida y en el cristal de la puerta. 
+(C) entrenamiento cognitivo con refuerzo 
+
+resultados:  alta frecuencia de intentos de escapecuando no hubo intervención (fases A). Cuando se introdujo la intervención B, la frecuencia de los intentos de escape se redujo significativamente. Con un retorno a las condiciones de la línea de base en la siguiente fase, la frecuencia de los intentos de escape aumentó hasta casi los niveles iniciales de la línea de base. Cuando se introdujo la intervención C en la siguiente fase, la frecuencia de los intentos de escape se redujo drásticamente una vez más. Tras la retirada de la intervención C, la frecuencia de escape volvió a aumentar a un nivel comparable al de las líneas de base anteriores. Restableciendo drásticamente la intervención B redujo la frecuencia de los intentos de fuga, al igual que la combinación de las dos intervenciones.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true)
