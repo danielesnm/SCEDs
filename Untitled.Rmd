@@ -62,18 +62,16 @@ class: title-slide, left, bottom
 ### `r rmarkdown::metadata$date`
 
 ---
+background-image: url(https://i.pinimg.com/originals/b0/29/6a/b0296afb65f4549c8e0e874ca4da7a65.png)
+background-position: 95% 50%
+background-size: 20%
+# `r fa("list-ol", fill = "salmon")` **Orden de la presentación**
+____
 
-class: middle
-
-.pull-left-narrow[
-  .huge-blue-number[1]
-]
-.pull-right-wide[
-  .larger[
-  design
-  foundations
-  ]
-]
+## .pink[1.] Descripción y conceptos básicos
+## .pink[2.] Clasificación de los SCED's
+## .pink[3.] Evaluación y análisis de datos
+## .pink[4.] Indicadores de calidad de los SCED's
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/1.%20conceptos%20b%C3%A1sicos.png?raw=true)
@@ -288,17 +286,16 @@ background-size: contain
 
 .panelset[
 .panel[.panel-name[Fundamentos]
-> `r fa("asterisk", fill = "pink")` **El retiro de la intervención** ocurre durante una o más fases, con el fin de demostrar sus efectos en el comportamiento.
+> `r fa("asterisk", fill = "pink")` **La introducción/retiro de la intervención** ocurre durante una o más fases, para demostrar sus efectos en VD.
 
 .pull-left[.center[<img src="http://blogs.cuit.columbia.edu/df2675/files/2018/08/ABAB-Reversal.jpg" style="width: 90%" />]]
 
 .orange[Su característica definitoria es:]
-- .orange[Fase A] sirve como un predictor del comportamiento objetivo futuro. 
+- .orange[Fase A.] Se toman medidas de la VD. 
 
-- .orange[Fase B] se introduce/retira sistemáticamente durante el estudio. Cuando B termina, las condiciones vuelven a A
+- .orange[Fase B.] Se introduce/retira sistemáticamente durante el estudio. Cuando B retira, las condiciones vuelven a Fase A.
 
-.right[secuencia: .yellow[A-B], .pink[A-B-A], **A-B-A-B**, ...etc.]
-
+.right[Este patrón se repite tantas veces como sea necesario para demostrar un efecto: .yellow[A-B], .pink[A-B-A], **A-B-A-B**, ...etc.]
 ]
 
 .panel[.panel-name[Control experimental]
@@ -319,7 +316,9 @@ Este control refuerza la conclusión de que cualquier cambio observado en la con
 .panel[.panel-name[Ventajas/Desventajas]
 
 .pull-left[.center[.green[Ventajas] `r fa("check", fill = "green")`]  
-1.	Útil en rehabilitación para pruebas de órtesis, prótesis, uso de fármacos (metilfenato, fármacos antiparkinsonianos), dispositivos adaptativos y tecnología asistencial (smartphones). 
+1.	Útil en rehabilitación para pruebas de prótesis, fármacos (metilfenato), dispositivos adaptativos y tecnología asistencial (smartphones). 
+
+2. Los diseños A-B-A-B, al tener una fase de intervención adicional, incorporan una replicación intraindividual más sistemática del efecto experimental.
 ]
 
 .pull-right[.center[.red[Desventajas] `r fa("times", fill = "red")`]  
@@ -354,7 +353,7 @@ background-size: contain
 .panel[.panel-name[Fundamentos]
 > `r fa("asterisk", fill = "gold")` Se introduce el tratamiento de manera secuencial a través de diferentes __participantes `r fa("arrow-right", fill = "gold")` contextos `r fa("arrow-right", fill = "gold")` comportamientos__.
 
-.pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 80%" />]]
+.pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 75%" />]]
 
 .orange[Su característica definitoria es:]
   1. .orange[Fase A] ocurre simultáneamente en todos los niveles.
@@ -365,7 +364,7 @@ background-size: contain
 .panel[.panel-name[Control experimental]
 >Se demuestra cuando, después de introducir Fase B en el primer nivel, hay poco o ningún cambio en el las otras Fases A   
 
-.pull-right[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 80%" />]]
+.pull-right[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 75%" />]]
 
 `r fa("clipboard-check", fill = "gold")` Estándares de evidencia:
 - 5 puntos de datos en cada fase 
@@ -408,22 +407,43 @@ La MBD en todos los pacientes se utiliza en muchos dominios de la rehabilitació
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx.png?raw=true)
-background-position: 0% 50%, 56% 85%
-background-size: contain, 60%
+background-position: 0% 50%, 56% 95%
+background-size: contain, 50%
 
-### `r fa("laptop-house", fill = "gold")` .gold[ Entre contextos: ] [Feeney (2010)](https://pubmed.ncbi.nlm.nih.gov/21076242/) 
+### `r fa("laptop-house", fill = "gold")` .gold[ Entre contextos: ] 
+
+[Structured flexibility: the use of context self-regulatory scripts to support young persons with ABI and behav. difficulties (Feeney, 2010)](https://pubmed.ncbi.nlm.nih.gov/21076242/) 
 
 ???
-Consiste en implementar una intervención secuencialmente en los diferentes entornos en los que opera un paciente. Un buen ejemplo es el artículo de Feeney [40] sobre rutinas sensibles al contexto en la escuela para niños con lesión cerebral traumática. La intervención consiste en enviar un equipo de extensión a la escuela de los pacientes y entrenar a los maestros para brindar un apoyo adecuado y estructurado para las funciones ejecutivas del estudiante. En este artículo, el coaching se presenta primero al profesor de inglés, luego después de cinco sesiones al profesor de matemáticas y finalmente cinco sesiones más tarde al profesor de ciencias. Feeney muestra que el comportamiento desafiante del alumno disminuye en intensidad y frecuencia cuando y solo cuando el maestro ha recibido el entrenamiento y lo implementa en el aula (mientras que en los mismos días, el comportamiento desafiante sigue siendo alto en las aulas donde los maestros no habían recibido el entrenamiento).
+
+Un buen ejemplo es el artículo de Feeney [40]. 
+
+Objetivo: Este estudio investigó los efectos de una intervención en función cognitiva y ejecutiva, para el tratamiento de problemas de conducta observados en 2 niños con lesión cerebral traumática grave.
+
+Diseño: MBD-Entre contextos que integró intervenciones d para abordar comportamientos desafiantes graves en diversos entornos de la escuela
+
+Intervención:  entrenar a los maestros para brindar un apoyo adecuado y estructurado para las funciones ejecutivas del estudiante.
+
+Resultados: la intervención redujo la frecuencia e intensidad de los comportamientos desafiantes y aumentó la cantidad de trabajo completado.
+
+Conclusiones: Estos 2 experimentos exitosos de un solo sujeto amplían los hallazgos de estudios previos sobre el uso de una intervención orientada al apoyo que utiliza guiones cognitivos / conductuales flexibles y sensibles al contexto combinados con intervenciones conductuales positivas y apoyos para reducir los comportamientos desafiantes.
+
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-comp.png?raw=true)
-background-position: 0% 50%, 56% 90%
-background-size: contain, 53%
+background-position: 0% 50%, 56% 95%
+background-size: contain, 43%
 
-### `r fa("people-arrows", fill = "gold")` .gold[ Entre comportamientos: ] [Boman, et al. (2010)](https://pubmed.ncbi.nlm.nih.gov/20568962/) 
+### `r fa("people-arrows", fill = "gold")` .gold[ Entre comportamientos: ] 
+
+[Support in everyday activities with a home-based electronic memory aid for persons with memory impairments (Boman, et al. 2010)](https://pubmed.ncbi.nlm.nih.gov/20568962/) 
 
 ???
-probar recordatorios de problemas de memoria para el objetivo uno del paciente "recordar tomar la medicación", luego el objetivo dos "recordar el almuerzo" y finalmente el objetivo tres "recordar llevar el teléfono celular" [48] y medir repetidamente el número de acciones recordadas para cada objetivo por semana
+
+Propósito:examinar las efectividad de una ayuda de memoria electrónica domiciliaria para personas con deficits de memoria, como apoyo para realizar las actividades cotidianas en sus propios entornos domésticos.
+
+Método: El método involucró un estudio de un solo sujeto con un diseño AB de línea base múltiple. y probar recordatorios de problemas de memoria para diferentes comportamientos:  "recordar tomar la medicación", "recordar el almuerzo" "recordar llevar el teléfono celular" 
+
+Resultados: Cuatro participantes mejoraron en completar la mayoría de las actividades elegidas por ellos mismos cuando se utilizó la ayuda de memoria electrónica. El rendimiento y la satisfacción con el rendimiento y la calidad de vida mejoraron, pero no hubo una mejora en la función de la memoria.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ATD1.png?raw=true)
@@ -745,7 +765,7 @@ background-position: 80% 97%
 background-size: 36%
 # `r fa("square-root-alt", fill = "salmon")` Análisis Estadístico
 
-- Existe una .pink[gran variedad de técnicas estadísticas] para interpretar los datos SCED y hay una investigación en curso sobre el análisis estadístico de los datos SCED. 
+- Existe una .pink[gran variedad de técnicas estadísticas] para interpretar los datos SCED. Estudios  recientes han encontraron que las técnicas disponibles arrojan resultados moderadamente diferentes en la misma serie de datos [(Smith, 2012).](https://pubmed.ncbi.nlm.nih.gov/22845874/)
 
 - .pink[No existen criterios acordados] para el análisis estadístico de los datos de SCED y los autores deben elegir el método analítico que se guíe por una serie de consideraciones: 
 
@@ -753,13 +773,19 @@ background-size: 36%
 .orange[(a)] **la pregunta de investigación**   
 .orange[(b)] **las características de los datos**  
 
-(Kratochwill et al., 2013)
-
 ???
 - Efectos  pequeños,  pueden ser difíciles de detectar visualmente e incluso si son estadísticamente significativos, pueden no ser clínicamente significativos.
 
-
 ---
+# `r fa("square-root-alt", fill = "salmon")` Análisis Estadístico
+
+Intenta abordar las siguientes preguntas  de investigación:  
+
+(1) ¿La introducción / manipulación del IV da como resultado un cambio estadísticamente significativo en el nivel del DV (cambio de nivel o efecto de fase análisis)? 
+
+(2) ¿La introducción / manipulación del IV da como resultado un cambio estadísticamente significativo en la pendiente del DV a lo largo del tiempo (análisis de cambio de pendiente)? y 
+
+(3) ¿Existen relaciones significativas entre la trayectoria de la VD y otras covariables potenciales? Los análisis de cambio de nivel y pendiente son relevantes para los estudios de efectividad de la intervención y otras preguntas de investigación en las que se espera que la IV produzca cambios en la VD en una dirección particular.
 
 ---
 # `r fa("square-root-alt", fill = "salmon")` Effect Size (ES)
@@ -815,7 +841,7 @@ Se basan en el concepto de que la eficacia de una intervención se refleja en el
 3. .pink[PAND.] % of all non-overlapping data [(Parker et al.,2007)](https://journals.sagepub.com/doi/10.1177/00224669070400040101)  
 4. .pink[IRD.] improvement rate difference [(Parker, et al., 2009)](https://journals.sagepub.com/doi/10.1177/001440290907500201)  
 5. .pink[NAP.] nonoverlap of all pairs [(Parker & Vannest, 2009)](https://pubmed.ncbi.nlm.nih.gov/19892081/)  
-6. .pink[TAU-u.] nonoverlap + trend [(Parker et al. 2011)](https://pubmed.ncbi.nlm.nih.gov/21496513/)
+6. .pink[Tau-U.] nonoverlap + trend [(Parker et al. 2011)](https://pubmed.ncbi.nlm.nih.gov/21496513/)
 
 ---
 background-image: url(https://cdn-prod.voxy.com/wp-content/uploads/2017/10/DataScience-Color.png)
@@ -915,21 +941,29 @@ background-size: 35%
 
 
 ---
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/NAPcalculo.png?raw=true)
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/NAPpaso1.png?raw=true)
 background-position:95% 50%
-background-size: 35%
+background-size: 45%
 # `r fa("square-root-alt", fill = "salmon")` .pink[NAP.] non-overlap of all pairs
 
 .pull-left[1. Para cada punto de datos de la Fase A:
-- 1 por cada dato de la fase B que lo supere
-- .5 por cada dato de la fase B que sea igual
-- 0 por cada dato de la fase B que sea menor 
+- 1 por cada dato de la fase B que lo supere (overlap)
+- .5 por cada dato de la fase B que sea igual (tie)
+- 0 por cada dato de la fase B que sea menor (no overlap)
+]
 
-2. Sumar los valores para todos los datos del paso 1 y reste del total de pares posibles para obtener el recuento sin superposición.
-- en este ejemplo, hay 2.5
-- en este ejemplo, hay 5 * 5 = 25
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/NAPpaso1.png?raw=true)
+background-position:95% 50%
+background-size: 45%
+# `r fa("square-root-alt", fill = "salmon")` .pink[NAP.] non-overlap of all pairs
 
-3. Divida la suma del paso 2 por el número total de comparaciones (25)
+.pull-left[2.Sumar los valores para todos los datos del paso 1 y dividir por el # de comparaci0nes
+- 1 + .5 + 1 = 2.5
+
+3.Dividir la suma del paso 2 por el # total de comparaciones posibles (5x5= 25)
+- 2.5/25 = .1
+## .pink[NAP = .1]
 ]
 
 
@@ -939,6 +973,33 @@ background-size: 35%
 - valor de 1 indica una mejora perfecta
 - valor de .5 indica que no hay cambios
 - valor de 0 indica reducción perfecta
+
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/NAPpaso1.png?raw=true)
+background-position:95% 50%
+background-size: 45%
+# `r fa("square-root-alt", fill = "salmon")` .pink[Tau-U.]
+
+- Es equivalente a la prueba U de Mann-Whitney y  Kendall’s Rank Correlation. 
+
+- La principal limitación de NAP (no controla trend) llevó al desarrollo de un nuevo índice que integra la no superposición y la tendencia: TauU (Parker, Vannest, Davis y Sauber, 2011).
+
+- NAP es el porcentaje de datos que no se superponen, mientras que Tau-U es el porcentaje de datos que no se superponen menos que se superponen. Puede controlar las tendencias de referencia
+
+
+
+---
+# `r fa("square-root-alt", fill = "salmon")` .pink[Tau-U.] 
+Ventajas de su uso  
+Fuerte poder estadístico con series de datos cortas, sensibilidad y disponibilidad de intervalos de confianza y valores p.  
+
+El indice de ES se interpreta siguiendo la recomendación de Vannest & Ninci (2015), es decir: 
+
+• >0,8 (efecto muy grande)  
+• 0,6-0,8 (efecto grande)  
+• 0,2-0,6 (efecto moderado)  
+• <0,2 (efecto pequeño) 
+
 
 
 ---
