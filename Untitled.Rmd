@@ -324,20 +324,21 @@ Este control refuerza la conclusión de que cualquier cambio observado en la con
 ]
 
 ---
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/WRD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/ABAB.png?raw=true)
-background-position: 0% 50%, 100% 50%
-background-size: contain, 50%
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-comp2.png?raw=true)
+background-position: 0% 50%, 56% 95%
+background-size: contain, 39%
 
-.pull-left[- Su estructura consiste en una secuencia de fases durante las cuales, la intervención se implementa y se retira sistemáticamente, de modo que cuando se termina la fase B (intervención), las condiciones vuelven a la fase A y presumiblemente, también lo hace la conducta objetivo.  
-]
+### `r fa("people-arrows", fill = "gold")` .gold[ BAB: ]
+
+-  Se puede implementar cuando un paciente se presenta con un tratamiento ya implementado y se desea aclarar la efectividad del mismo 
+
+- Sirve como precursor de una serie de diseños más complejos, que implican la alternancia de una intervención existente (B) a una nueva intervención (C) que se supone que es más eficaz .orange[(B-A-B-A-C).]  
+
+- Es útil cuando un tratamiento no esta siendo lo suficientemente eficaz o está acompañado de efectos secundarios indeseables. 
+
 
 ???
-1. Se mide el comportamiento en linea base hasta lograr su estabilidad.  
-2. Se aplica la variable independiente.  
-
-3. Se sigue midiendo el comportamiento, para ver si se produce un cambio.  
-
-4. La variable independiente se interrumpe, para ver si el cambio que se produjo depende de ella.
+en un diseño B-A-B-A-C, los investigadores pueden obtener información sobre la efectividad de una intervención que ya está implementada y comparar su efectividad con la falta de tratamiento, así como con una intervención alternativa.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true)
