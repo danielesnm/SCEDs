@@ -444,6 +444,28 @@ Propósito:examinar las efectividad de una ayuda de memoria electrónica domicil
 Método: El método involucró un estudio de un solo sujeto con un diseño AB de línea base múltiple. y probar recordatorios de problemas de memoria para diferentes comportamientos:  "recordar tomar la medicación", "recordar el almuerzo" "recordar llevar el teléfono celular" 
 
 Resultados: Cuatro participantes mejoraron en completar la mayoría de las actividades elegidas por ellos mismos cuando se utilizó la ayuda de memoria electrónica. El rendimiento y la satisfacción con el rendimiento y la calidad de vida mejoraron, pero no hubo una mejora en la función de la memoria.
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-comp2.png?raw=true)
+background-position: 0% 50%, 56% 95%
+background-size: contain, 39%
+
+### `r fa("people-arrows", fill = "gold")` .gold[ Entre comportamientos: ] 
+
+[Evaluating an intervention to increase meaningful activity after severe TBI (Tate, et al. 2018)](https://www.tandfonline.com/doi/abs/10.1080/09602011.2018.1488746?journalCode=pnrh20) 
+
+???
+
+objetivo: desarrollar una nueva intervención dirigida a to increase meaningful activity en pacientes con DCA severo y evaluar su efecto. 
+
+diseño: línea base múltiple a través de comportamientos.  
+1.Pasos caminados al dia
+2.Actividades que involucraban el contacto con otras personas (going to the café, meeting friends, going to a social event) 
+3.Actividades recreativas/deportivas fura de casa (e.g., sailing)
+
+Por lo tanto, la PEPA se muestra prometedora como una intervención eficaz para
+aumentar la actividad no profesional y mejorar los resultados de salud mental en las personas con discapacidad neuroconductual después de una sTBI. Estos resultados se suman a la evidencia de la eficacia de las intervenciones dirigidas a objetivos.
+
+
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ATD1.png?raw=true)
