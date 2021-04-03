@@ -290,7 +290,7 @@ background-size: contain
 
 - .orange[Fase B.] Se introduce/retira sistemáticamente durante el estudio. Cuando B retira, las condiciones vuelven a Fase A.
 
-.right[Este patrón se repite tantas veces como sea necesario para demostrar un efecto: .yellow[A-B], .pink[A-B-A], **A-B-A-B**, ...etc.]
+.right[Este patrón se repite tantas veces como sea necesario para demostrar un efecto: .yellow[A-B], .pink[A-B-A], **A-B-A-B**]
 ]
 
 .panel[.panel-name[Control experimental]
@@ -313,7 +313,7 @@ Este control refuerza la conclusión de que cualquier cambio observado en la con
 .pull-left[.center[.green[Ventajas] `r fa("check", fill = "green")`]  
 1.	Útil en rehabilitación para pruebas de prótesis, fármacos, dispositivos adaptativos y tecnología asistencial (smartphones). 
 
-2. Los diseños A-B-A-B, al tener una fase de intervención adicional, incorporan una replicación intraindividual más sistemática del efecto experimental.
+2. A-B-A-B, al tener una fase B adicional, incorporan una replicación intraindividual más sistemática del efecto experimental.
 ]
 
 .pull-right[.center[.red[Desventajas] `r fa("times", fill = "red")`]  
@@ -324,15 +324,15 @@ Este control refuerza la conclusión de que cualquier cambio observado en la con
 ]
 
 ---
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-comp2.png?raw=true)
-background-position: 0% 50%, 56% 95%
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/WRD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/BAB.png?raw=true)
+background-position: 0% 50%, 50% 98%
 background-size: contain, 39%
 
-### `r fa("people-arrows", fill = "gold")` .gold[ BAB: ]
+### `r fa("brain", fill = "salmon")` .gold[ B-A-B: ]
 
--  Se puede implementar cuando un paciente se presenta con un tratamiento ya implementado y se desea aclarar la efectividad del mismo 
+-  Se puede implementar cuando un paciente ya esta bajo un tratamiento y se desea aclarar la efectividad del mismo 
 
-- Sirve como precursor de una serie de diseños más complejos, que implican la alternancia de una intervención existente (B) a una nueva intervención (C) que se supone que es más eficaz .orange[(B-A-B-A-C).]  
+- Sirve como precursor de diseños más complejos, que implican la alternancia de una intervención existente (B) y una nueva (C) que se supone que es más eficaz .orange[(B-A-B-A-C).]  
 
 - Es útil cuando un tratamiento no esta siendo lo suficientemente eficaz o está acompañado de efectos secundarios indeseables. 
 
