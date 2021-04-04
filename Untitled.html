@@ -13,13 +13,6 @@
     <link href="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.css" rel="stylesheet" />
     <script src="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.js"></script>
     <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
-    <script src="libs/xaringanExtra-webcam/webcam.js"></script>
-    <script id="xaringanExtra-webcam-options" type="application/json">{"width":"200","height":"200","margin":"1em"}</script>
-    <script src="libs/js-cookie/js.cookie.js"></script>
-    <script src="libs/peerjs/peerjs.min.js"></script>
-    <script src="libs/tiny.toast/toast.min.js"></script>
-    <link href="libs/xaringanExtra-broadcast/broadcast.css" rel="stylesheet" />
-    <script src="libs/xaringanExtra-broadcast/broadcast.js"></script>
     <link href="libs/tachyons/tachyons.min.css" rel="stylesheet" />
     <script src="libs/fabric/fabric.min.js"></script>
     <link href="libs/xaringanExtra-scribble/scribble.css" rel="stylesheet" />
@@ -489,18 +482,20 @@ background-size: contain
 .panel[.panel-name[Fundamentos]
 &gt; &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="rfa" style="height:0.75em;fill:gold;position:relative;"&gt;&lt;path d="M478.21 334.093L336 256l142.21-78.093c11.795-6.477 15.961-21.384 9.232-33.037l-19.48-33.741c-6.728-11.653-21.72-15.499-33.227-8.523L296 186.718l3.475-162.204C299.763 11.061 288.937 0 275.48 0h-38.96c-13.456 0-24.283 11.061-23.994 24.514L216 186.718 77.265 102.607c-11.506-6.976-26.499-3.13-33.227 8.523l-19.48 33.741c-6.728 11.653-2.562 26.56 9.233 33.037L176 256 33.79 334.093c-11.795 6.477-15.961 21.384-9.232 33.037l19.48 33.741c6.728 11.653 21.721 15.499 33.227 8.523L216 325.282l-3.475 162.204C212.237 500.939 223.064 512 236.52 512h38.961c13.456 0 24.283-11.061 23.995-24.514L296 325.282l138.735 84.111c11.506 6.976 26.499 3.13 33.227-8.523l19.48-33.741c6.728-11.653 2.563-26.559-9.232-33.036z"/&gt;&lt;/svg&gt; Se compara los efectos de 2 ó más intervenciónes sobre el mismo comportamiento. 
 
-.pull-left[.center[&lt;img src="https://github.com/danielesnm/SCEDs/blob/main/img/ATDab.png?raw=true" style="width: 85%" /&gt;]]
+.pull-left[.center[&lt;img src="https://github.com/danielesnm/SCEDs/blob/main/img/ATD-AB.png?raw=true" style="width: 76%" /&gt;]]
 
 .orange[Su característica definitoria es:]
-- Las intervenciones se presentan de manera alternada (aleatorizar o contrabalancear).  
-- En un período de tiempo variable.  
+- Las intervenciones se presentan de manera alternada (aleatorizar o contrabalancear). 
+
+- En un período de tiempo variable. 
+
 - Mismo número de veces.
 ]
 
 .panel[.panel-name[Control experimental]
-&gt;Se demuestra cuando, después de introducir la intervención en el primer nivel, hay poco o ningún cambio en el las otras condiciones.   
+&gt;Se demuestra cuando una intervención muestra consistentemente un mejor efecto sobre la conducta objetivo que la otra intervención. La línea que une los puntos de la I-1 no se superpone a la línea de la I-2.   
 
-.pull-right[.center[&lt;img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 68%" /&gt;]]
+.pull-right[.center[&lt;img src="https://github.com/danielesnm/SCEDs/blob/main/img/ATD-AB.png?raw=true" style="width: 76%" /&gt;]]
 
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="rfa" style="height:0.75em;fill:gold;position:relative;"&gt;&lt;path d="M336 64h-80c0-35.3-28.7-64-64-64s-64 28.7-64 64H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM192 40c13.3 0 24 10.7 24 24s-10.7 24-24 24-24-10.7-24-24 10.7-24 24-24zm121.2 231.8l-143 141.8c-4.7 4.7-12.3 4.6-17-.1l-82.6-83.3c-4.7-4.7-4.6-12.3.1-17L99.1 285c4.7-4.7 12.3-4.6 17 .1l46 46.4 106-105.2c4.7-4.7 12.3-4.6 17 .1l28.2 28.4c4.7 4.8 4.6 12.3-.1 17z"/&gt;&lt;/svg&gt; Estándares de evidencia:
 - 5 puntos de datos en cada fase 
@@ -523,6 +518,15 @@ Este control refuerza la conclusión de que cualquier cambio observado en la con
 2.	Repercusiones éticas acerca de retrasar la introducción de la intervención a otros niveles.]
 ]
 ]
+
+???
+El orden de presentación de las intervenciones no debe ser sistemático como en un diseño A-B-A-B-A-B, por ejemplo, debe contrabalancearse (C-A-B, A-B-C y B-C-A) o aleatorizarse, para controlar efectos de orden (en los que la introducción de una intervención influye en una intervención posterior) 
+
+fortalece el control experimental y crea coherencia dentro de los procedimientos experimentales [18].
+
+El nivel decomportamiento bajo una intervención se usa para predecir el nivel de la conducta objetivo cuando esa intervención se aplica a continuación. La próxima aplicación de la intervención sirve para verificar esta predicción y (con suerte) para replicar el efecto que la intervención tuvo previamente sobre la conducta objetivo (Cooper, Herron y Heward, 2007). 
+
+El efecto de cada intervención sobre la conducta objetivo se evalúa en todas las condiciones, donde la condición 1 se refiere a todos los datos de la intervención 1 y la condición 2 se refiere a todos los datos de la intervención 2. Por esa razón, como muestra la Figura 7.1, todos los datos los puntos para la intervención 1 se suman, aunque la intervención no se entregó en ocasiones contiguas. Los datos de la intervención 2 también se grafican de esta manera.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/CCD1.png?raw=true)

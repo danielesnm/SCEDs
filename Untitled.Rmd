@@ -41,8 +41,6 @@ knitr::knit_engines$set("markdown")
 xaringanExtra::use_tile_view()
 xaringanExtra::use_panelset()
 xaringanExtra::use_clipboard()
-xaringanExtra::use_webcam()
-xaringanExtra::use_broadcast()
 xaringanExtra::use_tachyons()
 xaringanExtra::use_scribble()
 # uncomment the following lines if you want to use the NHS-R theme colours by default
@@ -507,18 +505,20 @@ background-size: contain
 .panel[.panel-name[Fundamentos]
 > `r fa("asterisk", fill = "gold")` Se compara los efectos de 2 ó más intervenciónes sobre el mismo comportamiento. 
 
-.pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/ATDab.png?raw=true" style="width: 85%" />]]
+.pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/ATD-AB.png?raw=true" style="width: 76%" />]]
 
 .orange[Su característica definitoria es:]
-- Las intervenciones se presentan de manera alternada (aleatorizar o contrabalancear).  
-- En un período de tiempo variable.  
+- Las intervenciones se presentan de manera alternada (aleatorizar o contrabalancear). 
+
+- En un período de tiempo variable. 
+
 - Mismo número de veces.
 ]
 
 .panel[.panel-name[Control experimental]
->Se demuestra cuando, después de introducir la intervención en el primer nivel, hay poco o ningún cambio en el las otras condiciones.   
+>Se demuestra cuando una intervención muestra consistentemente un mejor efecto sobre la conducta objetivo que la otra intervención. La línea que une los puntos de la I-1 no se superpone a la línea de la I-2.   
 
-.pull-right[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 68%" />]]
+.pull-right[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/ATD-AB.png?raw=true" style="width: 76%" />]]
 
 `r fa("clipboard-check", fill = "gold")` Estándares de evidencia:
 - 5 puntos de datos en cada fase 
@@ -541,6 +541,15 @@ Este control refuerza la conclusión de que cualquier cambio observado en la con
 2.	Repercusiones éticas acerca de retrasar la introducción de la intervención a otros niveles.]
 ]
 ]
+
+???
+El orden de presentación de las intervenciones no debe ser sistemático como en un diseño A-B-A-B-A-B, por ejemplo, debe contrabalancearse (C-A-B, A-B-C y B-C-A) o aleatorizarse, para controlar efectos de orden (en los que la introducción de una intervención influye en una intervención posterior) 
+
+fortalece el control experimental y crea coherencia dentro de los procedimientos experimentales [18].
+
+El nivel decomportamiento bajo una intervención se usa para predecir el nivel de la conducta objetivo cuando esa intervención se aplica a continuación. La próxima aplicación de la intervención sirve para verificar esta predicción y (con suerte) para replicar el efecto que la intervención tuvo previamente sobre la conducta objetivo (Cooper, Herron y Heward, 2007). 
+
+El efecto de cada intervención sobre la conducta objetivo se evalúa en todas las condiciones, donde la condición 1 se refiere a todos los datos de la intervención 1 y la condición 2 se refiere a todos los datos de la intervención 2. Por esa razón, como muestra la Figura 7.1, todos los datos los puntos para la intervención 1 se suman, aunque la intervención no se entregó en ocasiones contiguas. Los datos de la intervención 2 también se grafican de esta manera.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/CCD1.png?raw=true)
