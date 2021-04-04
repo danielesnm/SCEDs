@@ -507,17 +507,12 @@ background-size: contain
 .panel[.panel-name[Fundamentos]
 > `r fa("asterisk", fill = "gold")` Se compara los efectos de 2 ó más intervenciónes sobre el mismo comportamiento. 
 
-.pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 75%" />]]
+.pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/ATDab.png?raw=true" style="width: 85%" />]]
 
 .orange[Su característica definitoria es:]
-- Las intervenciones se presentan de manera alternada.  
-
-- Dentro  de un período de tiempo variable.  
-
-- Orden de las intervenciones aleatorizado.  
-
+- Las intervenciones se presentan de manera alternada (aleatorizar o contrabalancear).  
+- En un período de tiempo variable.  
 - Mismo número de veces.
-
 ]
 
 .panel[.panel-name[Control experimental]
