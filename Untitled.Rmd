@@ -82,7 +82,7 @@ background-size: 95%
 
 .panelset[
 .panel[.panel-name[`r fa("question", fill = "salmon")` ¿Qué es un SCED?]
-- Una metodología de investigación en la que el sujeto sirve como su propio control `r fa("female", fill = "salmon")` `r fa("arrows-alt-h", fill = "forestgreen")` `r fa("female", fill = "salmon")`, en lugar de compararse a un grupo `r fa("users-slash", fill = "salmon")`  
+- Una metodología de investigación en la que el sujeto sirve como su propio control `r fa("female", fill = "salmon")` `r fa("arrows-alt-h", fill = "forestgreen")` `r fa("female", fill = "salmon")`
 <br>  
 - Comparan el comportamiento de un participante .pink[antes, durante y después] de la implementación de una intervención.  
 <br>  
@@ -92,38 +92,48 @@ background-size: 95%
 .panel[.panel-name[Objetivo]
 >Establecer una relación funcional entre el **comportamiento objetivo** (VD) y **la intervención** (VI), para determinar si ésta ejerce un efecto sobre el comportamiento que se investiga.  
 
-- Son herramientas científicamente rigurosas y flexibles para desarrollar y evaluar hipótesis. 
+- Método científicamente riguroso y flexible para desarrollar y evaluar hipótesis en el ámbito clínico. 
 
 - Su diseño puede adaptarse a la situación bajo investigación o combinarse para abordar mejor la pregunta clínica o de investigación.
 ]
 
 .panel[.panel-name[Uso]
 En el campo de las .pink[ciencias del comportamiento], en el contexto de la **investigación aplicada** o la **práctica clínica** para: 
-1. Evaluar/comparar intervenciones y perfeccionar su eficacia.
-2. Realizar investigaciones en un entorno clínico (fuera de un equipo de investigación) con uno o pocos pacientes.
-3. Imposibilidad de obtener una muestra homogénea de pacientes para un estudio grupal.
-4. Limitación de tiempo (por ejemplo, un estudio que debe completarse en un plazo de 8 meses, etc).
+1. Evaluar/comparar intervenciones y perfeccionar su eficacia en un entorno clínico (fuera de un equipo de investigación) con uno o pocos pacientes.
+2. Imposibilidad de obtener una muestra homogénea de pacientes para un estudio grupal.
+3. Limitación de tiempo (por ejemplo, un estudio que debe completarse en un plazo de 8 meses, etc).
 ]
 
 .panel[.panel-name[Estructura básica]
 
-- .orange[Fase A:] medidas repetidas de la VD para establecer la línea base. 
+- .orange[Fase A: medidas repetidas] de la VD para establecer la línea base. 
 
 .center[**Introducción del tratamiento (VI)**] 
 
-- .orange[Fase B:] nuevas medidas repetidas de la VD durante el tratamiento
+- .orange[Fase B: medidas repetidas] de la VD durante el tratamiento
 
 .center[<img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.3758%2Fs13428-018-1084-x/MediaObjects/13428_2018_1084_Fig1_HTML.png" style="width: 45%" />]
 ]
 ]
 
 ???
-El estudio de caso es una descripción subjetiva del comportamiento de un individuo, carece de controles variables y recopilación sistemática de datos.
 
-No puede documentar las relaciones causales entre la intervención y los cambios en el comportamiento.
+- Los diseños de grupo comparan el desempeño de una muestra de individuos con otros `r fa("users-slash", fill = "salmon")`  
 
-La investigación de un solo tema exige un control cuidadoso de las variables, una recopilación de datos confiable y claramente delineada, y la introducción y manipulación de una sola intervención a la vez.]
+Es importante no confundir con:
+- **Estudios de caso**, en donde se hace una descripción subjetiva del comportamiento de un individuo, carece de controles variables y recopilación sistemática de datos.
 
+- O estudios donde solo se evalua al participante **antes y despues de un tratamiento** ya que esto no permite documentar las relaciones causales entre la intervención y los cambios en el comportamiento.
+
+- **SCED** exige un control cuidadoso de las variables, una recopilación de datos confiable y sistematica, y la introducción y manipulación de una intervención.
+
+Fortalezas: 
+- El investigador puede establecer una relación de causa y efecto entre el tratamiento y el comportamiento utilizando solo un participante 
+Limitaciones: 
+- Problema con las generalizaciones ya que los diseños usan solo un participante
+
+
+Tres componentes básicos: (a) mediciónes repetidas, (b) linea base y (c) fase de tratamiento
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elementos1.png?raw=true)
 background-size: contain
@@ -495,14 +505,19 @@ background-size: contain
 
 .panelset[
 .panel[.panel-name[Fundamentos]
-> `r fa("asterisk", fill = "gold")` Se introduce el tratamiento de manera secuencial a través de diferentes __participantes `r fa("arrow-right", fill = "gold")` contextos `r fa("arrow-right", fill = "gold")` comportamientos__.
+> `r fa("asterisk", fill = "gold")` Se compara los efectos de 2 ó más intervenciónes sobre el mismo comportamiento. 
 
 .pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 75%" />]]
 
 .orange[Su característica definitoria es:]
-  1. .orange[Fase A] ocurre simultáneamente en todos los niveles.
-  
-  1. .orange[Fase B] se escalona secuencialmente a través de los diferentes niveles, de modo que cada .orange[Fase A] se vuelve progresivamente más larga en los niveles posteriores.
+- Las intervenciones se presentan de manera alternada.  
+
+- Dentro  de un período de tiempo variable.  
+
+- Orden de las intervenciones aleatorizado.  
+
+- Mismo número de veces.
+
 ]
 
 .panel[.panel-name[Control experimental]
