@@ -516,14 +516,14 @@ background-size: contain
 ]
 
 .panel[.panel-name[Control experimental]
->Se demuestra cuando una intervención muestra consistentemente un mejor efecto sobre la conducta objetivo que la otra intervención. La línea que une los puntos de la I-1 no se superpone a la línea de la I-2.   
+>Se demuestra cuando una intervención muestra un mejor efecto sobre el comportamiento que la otra intervención. La línea que une los puntos de la intervención 1 no se superpone a la línea de la intervención 2.   
 
-.pull-right[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/ATD-AB.png?raw=true" style="width: 76%" />]]
+.pull-right[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/ATD-stand.png?raw=true" style="width: 80%" />]]
 
 `r fa("clipboard-check", fill = "gold")` Estándares de evidencia:
-- 5 puntos de datos en cada fase 
+- 6 puntos de datos para cada intervención. 
 
-- 6 fases para brindar 3 oportunidades (AB) para replicar el efecto experimental. 
+- Al menos cinco oportunidades para replicar el efecto experimental. 
 ]
 
 ???
