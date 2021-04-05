@@ -367,27 +367,13 @@ background-size: contain, 60%
 
 ### `r fa("users", fill = "gold")` .gold[ Entre participantes: ] [Krasny-Pacini & Evans (2018)](https://www.sciencedirect.com/science/article/pii/S1877065717304542) 
 ---
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx.png?raw=true)
-background-position: 0% 50%, 56% 95%
-background-size: contain, 50%
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx2.png?raw=true)
+background-position: 0% 50%, 10% 95%, 90% 95% 
+background-size: contain, 45%, 45%
 
 ### `r fa("laptop-house", fill = "gold")` .gold[ Entre contextos: ] 
 
 [Structured flexibility: the use of context self-regulatory scripts to support young persons with ABI and behav. difficulties (Feeney, 2010)](https://pubmed.ncbi.nlm.nih.gov/21076242/) 
-
-???
-
-Un buen ejemplo es el artículo de Feeney [40]. 
-
-Objetivo: Este estudio investigó los efectos de una intervención en función cognitiva y ejecutiva, para el tratamiento de problemas de conducta observados en 2 niños con lesión cerebral traumática grave.
-
-Diseño: MBD-Entre contextos que integró intervenciones d para abordar comportamientos desafiantes graves en diversos entornos de la escuela
-
-Intervención:  entrenar a los maestros para brindar un apoyo adecuado y estructurado para las funciones ejecutivas del estudiante.
-
-Resultados: la intervención redujo la frecuencia e intensidad de los comportamientos desafiantes y aumentó la cantidad de trabajo completado.
-
-Conclusiones: Estos 2 experimentos exitosos de un solo sujeto amplían los hallazgos de estudios previos sobre el uso de una intervención orientada al apoyo que utiliza guiones cognitivos / conductuales flexibles y sensibles al contexto combinados con intervenciones conductuales positivas y apoyos para reducir los comportamientos desafiantes.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-comp.png?raw=true)
