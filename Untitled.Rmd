@@ -368,8 +368,8 @@ background-size: contain, 60%
 ### `r fa("users", fill = "gold")` .gold[ Entre participantes: ] [Krasny-Pacini & Evans (2018)](https://www.sciencedirect.com/science/article/pii/S1877065717304542) 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx2.png?raw=true)
-background-position: 0% 50%, 10% 95%, 90% 95% 
-background-size: contain, 45%, 45%
+background-position: 0% 50%, 17% 85%, 98% 85% 
+background-size: contain, 41%, 44%
 
 ### `r fa("laptop-house", fill = "gold")` .gold[ Entre contextos: ] 
 
@@ -384,13 +384,7 @@ background-size: contain, 43%
 
 [Support in everyday activities with a home-based electronic memory aid for persons with memory impairments (Boman, et al. 2010)](https://pubmed.ncbi.nlm.nih.gov/20568962/) 
 
-???
 
-Propósito:examinar las efectividad de una ayuda de memoria electrónica domiciliaria para personas con deficits de memoria, como apoyo para realizar las actividades cotidianas en sus propios entornos domésticos.
-
-Método: El método involucró un estudio de un solo sujeto con un diseño AB de línea base múltiple. y probar recordatorios de problemas de memoria para diferentes comportamientos:  "recordar tomar la medicación", "recordar el almuerzo" "recordar llevar el teléfono celular" 
-
-Resultados: Cuatro participantes mejoraron en completar la mayoría de las actividades elegidas por ellos mismos cuando se utilizó la ayuda de memoria electrónica. El rendimiento y la satisfacción con el rendimiento y la calidad de vida mejoraron, pero no hubo una mejora en la función de la memoria.
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-comp2.png?raw=true)
 background-position: 0% 50%, 56% 95%
