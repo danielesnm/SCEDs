@@ -80,24 +80,27 @@ background-size: 95%
 
 .panelset[
 .panel[.panel-name[`r fa("question", fill = "salmon")` ¿Qué es un SCED?]
-- Una metodología de investigación en la que el sujeto sirve como su propio control `r fa("female", fill = "salmon")` `r fa("arrows-alt-h", fill = "forestgreen")` `r fa("female", fill = "salmon")`
-<br>  
-- Comparan el comportamiento de un participante .pink[antes, durante y después] de la implementación de una intervención.  
-<br>  
-- La atención se centra en un **N = 1**(un solo individuo), en el que el **1** puede ser _un individuo o un grupo de individuos._
+- Una metodología de investigación en la que el sujeto sirve como su propio control `r fa("female", fill = "salmon")` `r fa("arrows-alt-h", fill = "forestgreen")` `r fa("female", fill = "salmon")`, comparando su desempeño .pink[antes, durante y después] de la implementación de una intervención.  
+
+- Exige un control cuidadoso de las variables, una **recopilación de datos** confiable y sistematica, y la **introducción y manipulación** de una intervención.  
+
+- **N = 1** en el que el **1** puede ser _un individuo o un grupo de individuos._
 ]
 
 .panel[.panel-name[Objetivo]
->Establecer una relación funcional entre el **comportamiento objetivo** (VD) y **la intervención** (VI), para determinar si ésta ejerce un efecto sobre el comportamiento que se investiga.  
 
-- Método científicamente riguroso y flexible para desarrollar y evaluar hipótesis en el ámbito clínico. 
+.left-column[
+.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/3b/d0/42/3bd042671b3bab2cf3c2d84ade6166b0.jpg" width="300px"/>]]
 
-- Su diseño puede adaptarse a la situación bajo investigación o combinarse para abordar mejor la pregunta clínica o de investigación.
-]
+.right-column[ 
+> Establecer una relación funcional entre el **comportamiento objetivo** (VD) y **la intervención** (VI), para determinar si ésta ejerce un efecto sobre el comportamiento que se investiga.  
+
+]]
+
 
 .panel[.panel-name[Uso]
 En el campo de las .pink[ciencias del comportamiento], en el contexto de la **investigación aplicada** o la **práctica clínica** para: 
-1. Evaluar/comparar intervenciones y perfeccionar su eficacia en un entorno clínico (fuera de un equipo de investigación) con uno o pocos pacientes.
+1. Evaluar/comparar intervenciones y perfeccionar su eficacia en un entorno clínico (fuera de un equipo de investigación).
 2. Imposibilidad de obtener una muestra homogénea de pacientes para un estudio grupal.
 3. Limitación de tiempo (por ejemplo, un estudio que debe completarse en un plazo de 8 meses, etc).
 ]
@@ -114,24 +117,6 @@ En el campo de las .pink[ciencias del comportamiento], en el contexto de la **in
 ]
 ]
 
-???
-
-- Los diseños de grupo comparan el desempeño de una muestra de individuos con otros `r fa("users-slash", fill = "salmon")`  
-
-Es importante no confundir con:
-- **Estudios de caso**, en donde se hace una descripción subjetiva del comportamiento de un individuo, carece de controles variables y recopilación sistemática de datos.
-
-- O estudios donde solo se evalua al participante **antes y despues de un tratamiento** ya que esto no permite documentar las relaciones causales entre la intervención y los cambios en el comportamiento.
-
-- **SCED** exige un control cuidadoso de las variables, una recopilación de datos confiable y sistematica, y la introducción y manipulación de una intervención.
-
-Fortalezas: 
-- El investigador puede establecer una relación de causa y efecto entre el tratamiento y el comportamiento utilizando solo un participante 
-Limitaciones: 
-- Problema con las generalizaciones ya que los diseños usan solo un participante
-
-
-Tres componentes básicos: (a) mediciónes repetidas, (b) linea base y (c) fase de tratamiento
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elementos1.png?raw=true)
 background-size: contain
@@ -657,45 +642,58 @@ background-size: contain
 
 .panelset[
 .panel[.panel-name[Fundamentos]
-> `r fa("asterisk", fill = "gold")` Se introduce el tratamiento de manera secuencial a través de diferentes __participantes `r fa("arrow-right", fill = "gold")` contextos `r fa("arrow-right", fill = "gold")` comportamientos__.
+> `r fa("asterisk", fill = "blue")` La intervención no se manipua, es el criterio de desempeño el que se manipula sistemáticamente en incrementos o decrementos escalonados.
 
-.pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 75%" />]]
+.pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/CCD.png?raw=true" style="width: 75%" />]]
 
 .orange[Su característica definitoria es:]
-  1. .orange[Fase A] ocurre simultáneamente en todos los niveles.
+  1. .orange[Fase A.] hasta lograr estabilidad
   
-  1. .orange[Fase B] se escalona secuencialmente a través de los diferentes niveles, de modo que cada .orange[Fase A] se vuelve progresivamente más larga en los niveles posteriores.
+  1. .orange[Fase B.] consta de una serie de subfases (b1, b2, b3). La intervención no se retira y se aplica la misma. Es el criterio de desempeño el que se manipula sistemáticamente en incrementos o decrementos escalonados.
 ]
 
 .panel[.panel-name[Control experimental]
->Se demuestra cuando, después de introducir la intervención en el primer nivel, hay poco o ningún cambio en el las otras condiciones.   
+>Se demuestra cuando el comportamiento objetivo cambia de una manera clara de manera gradual correspondiente a los cambios de criterio.   
 
-.pull-right[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 68%" />]]
+.pull-right[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/CCD.png?raw=true" style="width: 75%" />]]
 
-`r fa("clipboard-check", fill = "gold")` Estándares de evidencia:
-- 5 puntos de datos en cada fase 
+`r fa("clipboard-check", fill = "blue")` Estándares de evidencia:
+- 3-5 puntos de datos en cada fase 
 
-- 6 fases para brindar 3 oportunidades (AB) para replicar el efecto experimental. 
+- 3 cambios de criterio, para replicar el efecto experimental. 
 ]
 
-???
-Este control refuerza la conclusión de que cualquier cambio observado en la conducta objetivo es atribuible a la intervención y ayuda a reducir la plausibilidad de explicaciones alternativas. 
 
 .panel[.panel-name[Ventajas/Desventajas]
 
 .pull-left[.center[.green[Ventajas] `r fa("check", fill = "green")`]  
-1.	Adecuados para la evaluación de intervenciones con efectos duraderos, como los efectos de rehabilitación. 
-2.	Debido a que la intervención no se retira, no existen preocupaciones éticas sobre la suspensión del tratamiento. 
+1. Personas con DCA pueden ser susceptibles a cambios graduales. Con los CCD, los comportamientos se pueden moldear gradualmente hacia un objetivo deseado.  
+
+2. La magnitud del CC puede adaptarse al propio proceso de los participantes.
 ]
 
 .pull-right[.center[.red[Desventajas] `r fa("times", fill = "red")`]  
-1.	La medición repetida puede centrar la atención en un patrón de desempeño erróneo, que luego podría ser más difícil de erradicar.
-2.	Repercusiones éticas acerca de retrasar la introducción de la intervención a otros niveles.]
+1.	El CC debe lograr un equilibrio para que los cambios requeridos en el comportamiento no solo sean detectables, sino también alcanzables. Sin embargo, esto se establece a priori, y *siempre hay algún grado de subjetividad o involucrado”* ]
 ]
 ]
 
+
+???
+**Fundamentos**
+- Es esencialmente un diseño A-B con una fase B extendida. Una vez introducida la intervención, se mantiene constante en todas las subfases. Se establece un criterio de rendimiento para el comportamiento, a priori, para cada subfase, y el criterio se incrementa / decrementa de manera escalonada en cada subfase sucesiva.
+
+- El desempeño en A sirve para predecir el nivel de desempeño de la conducta objetivo en la primera subfase de intervención (b1) cuando el primer criterio se vuelve operativo. El nivel de desempeño en cada subfase se convierte entonces en la "línea de base" con la que se compara el desempeño en la siguiente subfase. 
+
+La Figura muestra un CCD hipotético donde el objetivo de los cambios de criterio durante las subfases de intervención es aumentar (acelerar) el nivel de la conducta objetivo. 
+
+
+**Control experimental**
+- Las amenazas a la validez interna se minimizan mediante la replicación intraindividual del efecto experimental en cada cambio de criterio. 
+
+Sin embargo, si el comportamiento objetivo cambia de manera constante y repetida en la dirección predicha cada vez que se cambia el criterio de desempeño, es cada vez menos probable que los cambios observados en cada una de las varias ocasiones reflejen la influencia de factores externos.
+
 ---
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/CCD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/ATDcomparison.png?raw=true)
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/CCD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/CCDstandard.png?raw=true)
 background-position: 0% 50%, 50% 40%
 background-size: contain, 50%
 
@@ -709,7 +707,7 @@ background-size: contain, 50%
 - Contiene una única fase de comparación durante la cual las dos intervenciones se administran de forma alterna . Las líneas de base iniciales tienen un papel menos crítico en los ATD que otros tipos de SCED. 
 
 ---
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/CCD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/ATDcomparison.png?raw=true)
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/CCD1.png?raw=true), url()
 background-position: 0% 50%, 50% 40%
 background-size: contain, 50%
 
