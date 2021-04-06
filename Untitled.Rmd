@@ -774,25 +774,33 @@ Intenta abordar las siguientes preguntas  de investigación:
 ---
 # `r fa("square-root-alt", fill = "salmon")` Effect Size (ES)
 
-Índice cuantitativo de importancia práctica que estima la importancia del cambio asociado con una intervención. Aunque el análisis visual sigue siendo el más utilizado en SCED, éste se puede complementar con un ES para proporcionar resultados estandarizados y confiables que contribuyan a prácticas basadas en evidencia. 
+a) Índice cuantitativo que estima la importancia del cambio asociado con una intervención. Complementa al análisis visual para proporcionar resultados estandarizados y confiables que contribuyan a prácticas basadas en evidencia. 
 
-Por lo tanto, cuando se reportan estimaciones de ES creíbles además de los datos analizados visualmente, mejora la credibilidad, confiabilidad de los hallazgos.
+b) Cuando se reportan estimaciones de ES creíbles además de los datos analizados visualmente, mejora la credibilidad, confiabilidad de los hallazgos.
 
-Los ES robustos apoyan la detección de pequeñas diferencias entre tratamientos y pueden discriminar a los moderadores cuando las diferencias en los tratamientos se agrupan y agregan.
+c)  ES robustos apoyan la detección de pequeñas diferencias entre tratamientos..
 
 ---
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/dstatistic.png?raw=true)
+background-image: url(hhttps://github.com/danielesnm/SCEDs/blob/main/img/dstatistic.png?raw=true)
 background-position:60% 70%
 background-size: 43%
 # `r fa("square-root-alt", fill = "salmon")` Effect Size (ES)
 
-.left-column[.orange[Standardized Mean `r fa("arrow-right", fill = "salmon")` Difference]]
+.left-column[.orange[Standardized Mean `r fa("arrow-right", fill = "salmon")` Difference]
+<br><br>
+.orange[Regresion based `r fa("arrow-right", fill = "salmon")` models]
+]
 
-Mismo procedimiento que en diseños de grupo (*d* de Cohen). .pink[*d* for single case designs] [Shadish et al. 2014](https://pubmed.ncbi.nlm.nih.gov/23862576/)
+.right-column[- d for single case designs  
+- Between-cases standardised mean difference (BC-SMD)  
+- Percentage change index (PCI). 
 
-<br><br><br><br><br><br><br><br><br><br>
-
-[Single-case effect size calculator](https://jepusto.shinyapps.io/SCD-effect-sizes/[https://jepusto.shinyapps.io/SCD-effect-sizes/) (Pustejovsky & Swan, 2018).
+<br>  
+- Slope and level change (SLC)  
+- Generalised least squares regression  
+- Piecewise regression  
+- Multilevel analysis 
+]
 
 ???
 Se calcula tomando la media de los datos de la fase B, restando por la media de los datos de la fase A y dividiendo por la desviación estándar de la fase A.  
@@ -806,7 +814,7 @@ Sin embargo, no tiene en cuenta todas las características del SCD que explica e
 
 .left-column[.orange[Regresion based `r fa("arrow-right", fill = "salmon")` models]]
 
-Siguen las mismas convenciones que muchos cálculos de tamaño del efecto de diseño de grupo, incluidos la d de Cohen y la g de Hedges.
+
 
 ---
 background-image: url(https://cdn-prod.voxy.com/wp-content/uploads/2017/10/DataScience-Color.png)
