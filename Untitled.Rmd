@@ -772,35 +772,15 @@ Intenta abordar las siguientes preguntas  de investigación:
 (3) ¿Existen relaciones significativas entre la trayectoria de la VD y otras covariables potenciales? Los análisis de cambio de nivel y pendiente son relevantes para los estudios de efectividad de la intervención y otras preguntas de investigación en las que se espera que la IV produzca cambios en la VD en una dirección particular.
 
 ---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ESSCED.png?raw=true)
+background-position: 50% 97%
+background-size: 70%
 # `r fa("square-root-alt", fill = "salmon")` Effect Size (ES)
 
-a) Índice cuantitativo que estima la importancia del cambio asociado con una intervención. Complementa al análisis visual para proporcionar resultados estandarizados y confiables que contribuyan a prácticas basadas en evidencia. 
+a) Estima la importancia del cambio asociado con una intervención. Complementa al análisis visual, proporcionando resultados estandarizados y confiables.. 
 
 b) Cuando se reportan estimaciones de ES creíbles además de los datos analizados visualmente, mejora la credibilidad, confiabilidad de los hallazgos.
 
-c)  ES robustos apoyan la detección de pequeñas diferencias entre tratamientos..
-
----
-background-image: url(hhttps://github.com/danielesnm/SCEDs/blob/main/img/dstatistic.png?raw=true)
-background-position:60% 70%
-background-size: 43%
-# `r fa("square-root-alt", fill = "salmon")` Effect Size (ES)
-
-.left-column[.orange[Standardized Mean `r fa("arrow-right", fill = "salmon")` Difference]
-<br><br>
-.orange[Regresion based `r fa("arrow-right", fill = "salmon")` models]
-]
-
-.right-column[- d for single case designs  
-- Between-cases standardised mean difference (BC-SMD)  
-- Percentage change index (PCI). 
-
-<br>  
-- Slope and level change (SLC)  
-- Generalised least squares regression  
-- Piecewise regression  
-- Multilevel analysis 
-]
 
 ???
 Se calcula tomando la media de los datos de la fase B, restando por la media de los datos de la fase A y dividiendo por la desviación estándar de la fase A.  
@@ -808,13 +788,7 @@ Las ventajas de este enfoque son que los cálculos son simples y directos y que 
 
 Sin embargo, no tiene en cuenta todas las características del SCD que explica el análisis visual, en particular la tendencia. Además, como la mayoría de los otros enfoques, el cálculo no tiene en cuenta la dependencia serial en los datos y, como resultado, los errores estándar pueden ser mal estimados, aumentando las tasas de error de Tipo I o Tipo II, dependiendo de la dirección de la autocorrelación.
 
-
----
-# `r fa("square-root-alt", fill = "salmon")` Effect Size (ES)
-
-.left-column[.orange[Regresion based `r fa("arrow-right", fill = "salmon")` models]]
-
-
+El mayor enfoque en los tamaños del efecto en la investigación cuantitativa seguirá teniendo un impacto en la investigación de la SCD y promoverá más estudios. El manual de publicación de la Asociación Estadounidense de Psicología, que comienza con la quinta edición, ha sugerido que todos los manuscritos publicados incluyan tamaños de efecto. Además, dado que los investigadores esperan utilizar los SCD para la identificación de prácticas basadas en evidencia, los financiadores de subvenciones y los encargados de formular políticas requerirán análisis más sofisticados de los efectos de la intervención más allá del análisis visual. Aunque actualmente no existe un método acordado, esta revisión describe una serie de opciones viables para los investigadores. A medida que crece la base de la literatura en este campo, también lo hará su capacidad para definir los mejores métodos para el análisis del efecto para la investigación de la ECF.
 
 ---
 background-image: url(https://cdn-prod.voxy.com/wp-content/uploads/2017/10/DataScience-Color.png)
@@ -938,10 +912,15 @@ background-position:95% 50%
 background-size: 45%
 # `r fa("square-root-alt", fill = "salmon")` .pink[NAP.] non-overlap of all pairs
 
-.pull-left[1. Para cada punto de datos de la Fase A:
-- 1 por cada dato de la fase B que lo supere (overlap)
-- .5 por cada dato de la fase B que sea igual (tie)
-- 0 por cada dato de la fase B que sea menor (no overlap)
+.pull-left[1. NAP comienza con todas las comparaciones por pares 
+(#Pairs = n A × n B) entre fases.  
+
+2. Cada comparación tiene uno de tres resultados:  
+mejora (1)  
+no mejora (0)  
+empate (.5).  
+
+3. NAP = (Pos +.5 × Empate) / #Pairs.
 ]
 
 ---
@@ -950,21 +929,20 @@ background-position:95% 50%
 background-size: 45%
 # `r fa("square-root-alt", fill = "salmon")` .pink[NAP.] non-overlap of all pairs
 
-.pull-left[2.Sumar los valores para todos los datos del paso 1 y dividir por el # de comparaci0nes
-- 1 + .5 + 1 = 2.5
-
-3.Dividir la suma del paso 2 por el # total de comparaciones posibles (5x5= 25)
-- 2.5/25 = .1
+.pull-left[
 ## .pink[NAP = .1]
+
+.pink[Ventaja numérica:] interpretabilidad
+• >0,8 (efecto muy grande)  
+• 0,6-0,8 (efecto grande)  
+• 0,2-0,6 (efecto moderado)  
+• <0,2 (efecto pequeño) 
 ]
 
 
 ---
 # `r fa("square-root-alt", fill = "salmon")` .pink[NAP.] non-overlap of all pairs
-.pink[Ventaja numérica:] interpretabilidad
-- valor de 1 indica una mejora perfecta
-- valor de .5 indica que no hay cambios
-- valor de 0 indica reducción perfecta
+
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/NAPpaso1.png?raw=true)
