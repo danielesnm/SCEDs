@@ -218,8 +218,6 @@ class: inverse
 ### .right[`r fa("book", fill = "salmon")` **Libros y artículos**]
 [SCED's for Clinical Research and Neurorehabilitation Settings: Planning, Conduct, Analysis and Reporting.](https://www.amazon.es/Single-Case-Experimental-Clinical-Research-Neurorehabilitation-ebook/dp/B07LB8S5DC) Fundamentos teóricos y metodológicos de los SCED's y su aplicación en el entorno clínico y de investigación de neurorrehabilitación (Tate & Perdices, 2019).
 
-[Open Science and Single-Case Design Research.](https://journals.sagepub.com/doi/abs/10.1177/0741932521996452) Cómo aplicar las prácticas de OS para mejorar el impacto de SCED (Cook, et al., 2021)
-
 [SCED's to assess intervention effectiveness in rehabilitation: A practical guide.](https://pubmed.ncbi.nlm.nih.gov/29253607/) (Krasny-Pacini & Evans, 2018).
 
 [The Use of Single-Subject Research to Identify Evidence-Based Practice in Special Education.](https://journals.sagepub.com/doi/10.1177/001440290507100203) (Horner, et al., 2005)
@@ -377,8 +375,8 @@ background-size: contain, 41%, 44%
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-comp.png?raw=true)
-background-position: 0% 50%, 56% 95%
-background-size: contain, 43%
+background-position: 0% 50%, 63% 95%
+background-size: contain, 87%
 
 ### `r fa("people-arrows", fill = "gold")` .gold[ Entre comportamientos: ] 
 
@@ -393,19 +391,6 @@ background-size: contain, 39%
 ### `r fa("people-arrows", fill = "gold")` .gold[ Entre comportamientos: ] 
 
 [Evaluating an intervention to increase meaningful activity after severe TBI (Tate, et al. 2018)](https://www.tandfonline.com/doi/abs/10.1080/09602011.2018.1488746?journalCode=pnrh20) 
-
-???
-
-objetivo: desarrollar una nueva intervención dirigida a to increase meaningful activity en pacientes con DCA severo y evaluar su efecto. 
-
-diseño: línea base múltiple a través de comportamientos.  
-1.Pasos caminados al dia
-2.Actividades que involucraban el contacto con otras personas (going to the café, meeting friends, going to a social event) 
-3.Actividades recreativas/deportivas fura de casa (e.g., sailing)
-We used the Goal Attainment Scale (GAS; Kiresuk, Smith, & Cardillo, 2014) to
-operationally define and measure the levels of activity for each TB.
-
-la intervencion se muestra  como una intervención eficaz para aumentar la actividad no profesional y mejorar los resultados de salud mental en las personas con discapacidad neuroconductual después de una sTBI.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ATD1.png?raw=true)
@@ -456,52 +441,6 @@ Este control refuerza la conclusión de que cualquier cambio observado en la con
 ]
 ]
 
-???
-.green[Fundamentos:]
-- El orden de presentación de las intervenciones no debe ser sistemático como en un diseño A-B-A-B. Debe contrabalancearse o aleatorizarse, para controlar efectos de tratamiento.
-
-- El nivel decomportamiento bajo una intervención se usa para predecir el nivel cuando esa intervención se aplica de neuvo. La próxima aplicación sirve para verificar esta predicción y replicar el efecto.
-
-- El efecto de cada intervención sobre la conducta se evalúa en todas las condiciones.  Por esa razón, todos los puntos para la intervención 1 se presentan juntos, aunque la intervención no se entregó en ocasiones contiguas. 
-
-.green[Control experimental:]
-Requisitos:
-1. Los efectos de la intervención deben poder retirarse; de lo contrario, aumenta el riesgo de efectos de interferencia de múltiples tratamientos. 
-
-2. El comportamiento que se trata deben responder rápidamente a la intervención para demostrar la eficacia diferencial de dos intervenciones. La experiencia clínica guiaría esta elección, se puede esperar que haya ocasiones en las que el comportamiento objetivo que se investiga no responda tanto como se anticipó a priori. 
-
-3. Las intervenciones deben ser lo suficientemente diferentes desde el punto de vista del procedimiento para que el participante pueda distinguirlas fácilmente. 
-
-.green[Ventajas/Desventajas]  
-VENTAJAS
-(inicio/finalización de otras terapias no relacionadas con el estudio) 
-
-2. Las intervenciones pueden iniciarse inmediatamente, abordando así la urgencia terapéutica, además, las intervenciones nunca se retiran y el estudio puede finalizar con una fase de "mejor tratamiento".
-
-DESVENTAJAS
-Efectos de arrastre: se refieren a la influencia de una intervención en una intervención contigua. Dos tipos de efectos de arrastre: 
-
--	Contraste: cambios en el comportamiento en una dirección opuesta a la esperada debido al contraste entre las intervenciones. El participante puede encontrar la intervención 3 aburrida, afectando negativamente a las otras dos intervenciones, de modo que su efectividad es en realidad opuesta a la esperada. 
-
--	Inducción se refiere a la transferencia del efecto de una intervención a la otra, como si hubiera una interacción sinérgica entre las intervenciones. Ocurrir porque la intervención 2 predispone favorablemente al participante a recibir la intervención 1. En este caso, el efecto de la intervención 1 sería mayor debido a la existencia de la intervención 2, que si la intervención 1 se utilizara de forma aislada. 
-
-aleatorizar la secuencia de alternancia (aunque los efectos de arrastre no son, por definición, dependientes del orden). En segundo lugar, implementar cada intervención en días alternos, en lugar de en el mismo día o sesión.
-
-
-Efectos de alternancia: producidos por las intervenciones que se administran dentro de un tiempo relativamente breve entre sí. 
-
--	es preferible una secuencia de alternancia más lenta, pero advierten que la velocidad de alternancia también debe ser lo suficientemente rápida para permitir al participante discriminar entre intervenciones. No existen reglas estrictas y rápidas sobre cómo lograr este equilibrio de manera satisfactoria.
-
-3 formas de estimar los efectos del tratamiento múltiple a través de una verificación independiente. 
-
--	realizar una sola intervención en varias ocasiones antes de comenzar la fase de comparación.Los cambios en el efecto de B entre las fases "sola" y de comparación reflejarían, nuevamente, efectos de interferencia de múltiples tratamientos.
-
--	utilizar la manipulación funcional para evaluar la interferencia de múltiples tratamientos. En este caso, se aumenta la "dosis" (es decir, intensidad, duración, frecuencia) de una intervención. Si el efecto de la segunda intervención sin cambios varía después de que se ha aumentado la dosis de la primera intervención, el cambio podría atribuirse a efectos de arrastre.
-
-
-Changes under one intervention are less readily attributable to extraneous factors if changes do not also occur in the other interventions at the same time. ATDs should, however, only be used with interventions that are withdrawable and target behaviours that are likely to respond quickly to the intervention.
-
-Clinically, ATDs are practical because the intervention can be started immediately without a pre- ceding baseline, interventions are not withdrawn, and the design yields clinically useful data in a relatively short time.
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ATD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/ATDcomparison.png?raw=true)
 background-position: 0% 50%, 50% 40%
@@ -513,17 +452,6 @@ background-size: contain, 50%
 - No incluye baseline.  
 - Una de las intervenciónes puede ser una *fase sin tratamiento*.  
 - Las intervenciones se pueden implementar de inmediato.
-???
-- Contiene una única fase de comparación durante la cual las dos intervenciones se administran de forma alterna . Las líneas de base iniciales tienen un papel menos crítico en los ATD que otros tipos de SCED. 
-
-- No requerir una línea de base significa que las intervenciones se pueden comenzar de inmediato. Esto puede ser deseable en el entorno clínico, si el comportamiento es perjudicial para el participante y quienes lo rodean. 
-
-- Muchos investigadores que utilizan este diseño incluyen datos de referencia reemplazando una fase de intervención con una fase sin tratamiento. 
-
-- Este diseño es util porque las intervenciones se pueden implementar de inmediato. Aunque no es necesario recopilar datos en BL, es recomendable hacerlo si es posible. 
-
-- Sin embargo, esta no es equivalente a una BL previa a la intervención, y pueden ocurrir múltiples interferencias en el tratamiento cuando se usa una fase sin tratamiento entre varias fases de la intervención. Específicamente, los efectos de arrastre pueden ocurrir con intervenciones que preceden a la introducción de una fase de referencia.
-
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ATD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/ATDbl-comp.png?raw=true)
@@ -536,30 +464,16 @@ background-size: contain, 50%
 - La inclusión de baseline permite sacar conclusiones confiables sobre la efectividad de las intervenciones.  
 - Además, se puede incluir una *fase sin tratamiento*.  
 
-???
-- Una segunda variante del diseño incluye una línea base inicial de la fase A antes de la fase de comparación del diseño básico.
-
-- inclusión de una intervención "sin tratamiento" en la fase de comparación facilita la evaluación de la interferencia de múltiples tratamientos. 
-
-- Si el patrón y el nivel del comportamiento durante la intervención "sin tratamiento" en la fase de comparación es similar al observado en la fase inicial
-fase inicial, sugiere que la probabilidad de interferencia de múltiples tratamientos es baja (Wolery et al., 2014).
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ATD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/ATDbl-comp-bbest-png.png?raw=true)
 background-position: 0% 50%, 50% 40%
 background-size: contain, 50%
 
-### `r fa("sort-down", fill = "green")` .green[Fase de comparación con la fase de mejor tratamiento]
+### `r fa("sort-down", fill = "green")` .green[Fase de comparación con fase de mejor tratamiento:]
 
 <br><br><br><br><br><br><br><br><br><br>
 - Incluye fase de "mejor tratamiento" en la que se aplica la intervención más eficaz. 
 - Permite estimar la magnitud de los efectos de interferencia de la intervención y, por lo tanto, fortalecer la validez interna.
-
-???
-- Si el patrón de la conducta es el mismo durante la comparación y esta fase, sugiere que los efectos de interferencia de la intervención no son una preocupación. 
-
-- Por el contrario, un cambio marcado en la respuesta de la conducta objetivo durante la fase de "mejor tratamiento" sugeriría que las intervenciones han interactuado. 
-
-- Se puede implementar con o sin  línea base. Incluirla ayuda a establecer aún más cuán efectiva es la intervención "superior" cuando se administra.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/CCD1.png?raw=true)
@@ -603,48 +517,12 @@ background-size: contain
 ]
 ]
 
-
-???
-**Fundamentos**
-- Es esencialmente un diseño A-B con una fase B extendida. Una vez introducida la intervención, se mantiene constante en todas las subfases. Se establece un criterio de rendimiento para el comportamiento, a priori, para cada subfase, y el criterio se incrementa / decrementa de manera escalonada en cada subfase sucesiva.
-
-- El desempeño en A sirve para predecir el nivel de desempeño de la conducta objetivo en la primera subfase de intervención (b1) cuando el primer criterio se vuelve operativo. El nivel de desempeño en cada subfase se convierte entonces en la "línea de base" con la que se compara el desempeño en la siguiente subfase. 
-
-La Figura muestra un CCD hipotético donde el objetivo de los cambios de criterio durante las subfases de intervención es aumentar (acelerar) el nivel de la conducta objetivo. 
-
-
-**Control experimental**
-- Las amenazas a la validez interna se minimizan mediante la replicación intraindividual del efecto experimental en cada cambio de criterio. 
-
-Sin embargo, si el comportamiento objetivo cambia de manera constante y repetida en la dirección predicha cada vez que se cambia el criterio de desempeño, es cada vez menos probable que los cambios observados en cada una de las varias ocasiones reflejen la influencia de factores externos.
-
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/CCD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/CCDstandard.png?raw=true)
-background-position: 0% 50%, 50% 40%
-background-size: contain, 50%
+background-position: 0% 50%, 50% 70%
+background-size: contain, 70%
 
 ### `r fa("sort-down", fill = "blue")` .blue[ Diseño standard: ] 
-
-<br><br><br><br><br><br><br><br><br><br>
-- No incluye baseline.  
-- Una de las intervenciónes puede ser una *fase sin tratamiento*.  
-- Las intervenciones se pueden implementar de inmediato.
-???
-- Contiene una única fase de comparación durante la cual las dos intervenciones se administran de forma alterna . Las líneas de base iniciales tienen un papel menos crítico en los ATD que otros tipos de SCED. 
-
----
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/CCD1.png?raw=true), url()
-background-position: 0% 50%, 50% 40%
-background-size: contain, 50%
-
-### `r fa("sort-down", fill = "blue")` .blue[ Diseño de rangos: ] 
-
-<br><br><br><br><br><br><br><br><br><br>
-- No incluye baseline.  
-- Una de las intervenciónes puede ser una *fase sin tratamiento*.  
-- Las intervenciones se pueden implementar de inmediato.
-???
-- Contiene una única fase de comparación durante la cual las dos intervenciones se administran de forma alterna . Las líneas de base iniciales tienen un papel menos crítico en los ATD que otros tipos de SCED. 
 
 ---
 class: inverse
@@ -662,6 +540,21 @@ ____
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/3.analisis%20dedatos.png?raw=true)
 background-position: 50% 75%
 background-size: 95%
+
+---
+background-image: url(https://www.researchsolutions.com/hubfs/website/img/animation/preloadHome.png)
+background-position: 90% 103%
+background-size: 25%
+# `r fa("chart-bar", fill = "salmon")` Publicaciónes recientes
+
+- .orange[A Priori Justification for Effect Measures in Single-Case Experimental Designs] [(Manolov, Moeyaert, Fingerhut, 2021)](https://www.researchgate.net/publication/350391799_A_Priori_Justification_for_Effect_Measures_in_Single-Case_Experimental_Designs)
+
+- .orange[Open Science and Single-Case Design Research] [(Cook, et al., 2021)](https://journals.sagepub.com/doi/abs/10.1177/0741932521996452)
+
+- .orange[Bayesian Multilevel Single Case Models using “Stan”. A new tool to study single cases in Neuropsychology] [(Scandola & Romano, 2021)](https://www.sciencedirect.com/science/article/abs/pii/S0028393221000853?via%3Dihub)
+
+- .orange[SCD-MVA: A mobile application for conducting single-case experimental design research during the pandemic] [(Moeyaert, Bursali & Ferron, 2020)](https://onlinelibrary.wiley.com/doi/full/10.1002/hbe2.223)
+
 ---
 
 # `r fa("chart-bar", fill = "salmon")` Análisis de los resultados  
@@ -672,23 +565,18 @@ background-size: 95%
 .pink[Criterios terapéuticos] `r fa("arrow-circle-right", fill = "salmon")` la intervención ha tenido o no un impacto importante o clínicamente significativo en la vida diaria del participante. 
 .right[`r fa("brain", fill = "salmon")`.orange[¿los efectos ayudan a la persona a mejorar en su vida diaria?]]
 
---
-
 .center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/analisis.png?raw=true" style="width: 60%" />]
 
 
 ---
 background-image: url(https://www.almrsal.com/wp-content/uploads/2018/12/%D9%85%D8%A7%D8%B0%D8%A7-%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%86-%D8%AC%D9%85%D8%B9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA.jpg)
-background-position: 50% 110%
+background-position: 50% 105%
 background-size: 40%
 # `r fa("eye", fill = "salmon")` Análisis Visual
 
 - .pink[Considerado el método principal para analizar los datos de SCED]. Permiten la interpretación de los datos que se han representado gráficamente sin ningún análisis estadístico adicional.
 
-- .pink[Se centra en el cambio clínico, más que estadístico.] Si una intervención realmente ha tenido un efecto en el comportamiento del participante, esto debería ser claramente observable en los datos graficados.
-
-???
-- Efectos  pequeños,  pueden ser difíciles de detectar visualmente e incluso si son estadísticamente significativos, pueden no ser clínicamente significativos.
+- .pink[Se centra en el cambio clínico.] Si una intervención realmente ha tenido un efecto en el comportamiento del participante, esto debería ser claramente observable en los datos graficados.
 
 ---
 background-image: url(https://www.pinclipart.com/picdir/big/328-3288388_analyze-data-seo-clipart.png), url(https://nepsa.es/wp-content/uploads/2020/03/QU%C3%89DATEENCASA-6-1024x819.png)
@@ -720,9 +608,6 @@ background-size: 23%
 .pink[Paso 4:] determinar si el efecto de la intervención se ha demostrado de forma independiente al menos en 3 ocasiones.
 .right[[(Kratochwill, et al., 2010)](https://ies.ed.gov/ncee/wwc/Docs/ReferenceResources/wwc_scd.pdf)]
 
-???
-Se han propuesto varios procedimientos para llevar acabo de manera sistemática el análisis visual [(Kratochwill, et al., 2010)](https://ies.ed.gov/ncee/wwc/Docs/ReferenceResources/wwc_scd.pdf):
-
 ---
 # `r fa("eye", fill = "salmon")` Paso 1: estabilidad de la línea base
 
@@ -730,15 +615,7 @@ Los .pink[2 propósitos] de una línea de base son
 
 a)	Demostrar que el **comportamiento** se presenta .pink[frecuentemente,] con un **patrón estable** y con .pink[poca o ninguna tendencia.] 
 
---
-
 .center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/BL-trend.png?raw=true" style="width: 55%" />]
-
-???
-Una pregunta que surge a menudo en la investigación de diseño de caso único es cuántos puntos de datos se necesitan para establecer la estabilidad de la línea de base.
-
--	considerar la cantidad de variabilidad en la serie de datos. Los datos muy variables pueden requerir una fase más larga para establecer la estabilidad.
--	si se espera que el efecto de la intervención sea grande y demuestre un patrón de datos que excede la varianza de la línea de base, una línea de base más corta puede ser suficiente.
 
 ---
 # `r fa("eye", fill = "salmon")` Paso 1: estabilidad de la línea base
@@ -762,10 +639,9 @@ a)	Demostrar que el **comportamiento** se presenta .pink[frecuentemente,] con un
 
 b)	Evaluar los .pink[efectos de una intervención.]  
 
-
 .center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/BL-trend2.png?raw=true" style="width: 100%" />]
----
 
+---
 # `r fa("eye", fill = "salmon")` Paso 1: estabilidad de la línea base
 
 Los .pink[2 propósitos] de una línea de base son
@@ -773,7 +649,6 @@ Los .pink[2 propósitos] de una línea de base son
 a)	Demostrar que el **comportamiento** se presenta .pink[frecuentemente,] con un **patrón estable** y con .pink[poca o ninguna tendencia.]  
 
 b)	Evaluar los .pink[efectos de una intervención.]  
-
 
 .center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/BL-trend3.png?raw=true" style="width: 100%" />]
 
@@ -786,6 +661,7 @@ background-size: 47%
 ### .orange[Level:] cambio en la media de los datos de cada fase.
 <br><br><br>
 .pull-left[Se refiere a los .pink[cambios en el _comportamiento_] que ocurren dentro de cada condición]
+
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/trend.png?raw=true)
 background-position: 90% 92%
@@ -796,7 +672,6 @@ background-size: 47%
 ### .orange[Trend:] dirección en la que los datos se mueven dentro de cada fase.  
 
 .pull-left[.pink[Línea recta] que mejor se ajusta a los datos (`r fa("arrow-up", fill = "salmon")` `r fa("arrow-down", fill = "salmon")` `r fa("equals", fill = "salmon")`).]
-
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/variability.png?raw=true)
@@ -884,9 +759,6 @@ background-size: 36%
 <br>
 .orange[(a)] **la pregunta de investigación**   
 .orange[(b)] **las características de los datos**  
-
-???
-- Efectos  pequeños,  pueden ser difíciles de detectar visualmente e incluso si son estadísticamente significativos, pueden no ser clínicamente significativos.
 
 ---
 # `r fa("square-root-alt", fill = "salmon")` Análisis Estadístico
