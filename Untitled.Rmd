@@ -907,20 +907,44 @@ background-size: 35%
 
 
 ---
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/NAPpaso1.png?raw=true)
-background-position:95% 50%
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/NAPgrafica.png?raw=true)
+background-position:95% 60%
 background-size: 45%
 # `r fa("square-root-alt", fill = "salmon")` .pink[NAP.] non-overlap of all pairs
 
-.pull-left[1. NAP comienza con todas las comparaciones por pares 
-(#Pairs = n A × n B) entre fases.  
+.pull-left[1. Comienza con el cálculo de todas las comparaciones entre fases posibles  
+.pink[Pairs = nA × nB]
+
+]
+
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/NAPgrafica.png?raw=true)
+background-position:95% 60%
+background-size: 45%
+# `r fa("square-root-alt", fill = "salmon")` .pink[NAP.] non-overlap of all pairs
+
+.pull-left[1. #Pairs = 45).  
 
 2. Cada comparación tiene uno de tres resultados:  
-mejora (1)  
-no mejora (0)  
-empate (.5).  
+• mejora (1)  
+• no mejora (0)  
+• empate (.5)  
+]
 
-3. NAP = (Pos +.5 × Empate) / #Pairs.
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/NAPgrafica.png?raw=true)
+background-position:95% 60%
+background-size: 45%
+# `r fa("square-root-alt", fill = "salmon")` .pink[NAP.] non-overlap of all pairs
+
+.pull-left[1. #Pairs = 45).  
+
+2. Cada comparación tiene uno de tres resultados:  
+• mejora (1)  
+• no mejora (0)  
+• empate (.5).  
+
+3. .pink[NAP] = (Pos +.5 × Empate) / #Pairs.
 ]
 
 ---
@@ -930,13 +954,13 @@ background-size: 45%
 # `r fa("square-root-alt", fill = "salmon")` .pink[NAP.] non-overlap of all pairs
 
 .pull-left[
-## .pink[NAP = .1]
+## .pink[NAP = .9]
 
 .pink[Ventaja numérica:] interpretabilidad
-• >0,8 (efecto muy grande)  
-• 0,6-0,8 (efecto grande)  
-• 0,2-0,6 (efecto moderado)  
-• <0,2 (efecto pequeño) 
+
+• weak effects: 0–.65  
+• medium effects: .66–.92  
+• large or strong effects: .93–1.0.
 ]
 
 
