@@ -1095,6 +1095,9 @@ background-size: 90%
 ]
 
 ---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/RoBINT-ejemplo.png?raw=true)
+background-position: 50% 90%
+background-size: 45%
 
-
+[Evaluating an intervention to increase meaningful activity after severe traumatic brain injury: A single-case experimental design with direct inter- subject and systematic replications (Tate, et al. 2018)](https://www.tandfonline.com/doi/abs/10.1080/09602011.2018.1488746?journalCode=pnrh20) 
 
