@@ -1044,91 +1044,43 @@ class: inverse
 [Single-case effect size calculator.](https://jepusto.shinyapps.io/SCD-effect-sizes/[https://jepusto.shinyapps.io/SCD-effect-sizes/) (Pustejovsky & Swan, 2018)
 
 ---
-## Start with a mini-lecture
-
-- **Lesson:** Web scraping essentials for turning a structured table into a data frame in R.
-
----
-
-## Follow up with a hands-on exercise
-
-- **Lesson:** Web scraping essentials for turning a structured table into a data frame in R.
-- **Ex 1:** Scrape the table off the web and save as a data frame.
-
-
----
-
-## And a thought exercise
-
-- **Lesson:** Web scraping essentials for turning a structured table into a data frame in R.
-- **Ex 1:** Scrape the table off the web and save as a data frame.
-- **Ex 2:** What other information do we need represented as variables in the data to obtain the desired facets? 
-
-
----
-
-
-
-## And finally, the veggies!
-
-- **Lesson:** Web scraping essentials for turning a structured table into a data frame in R.
-- **Ex 1:** Scrape the table off the web and save as a data frame.
-- **Ex 2:** What other information do we need represented as variables in the data to obtain the desired facets? 
-- **Lesson:** “Just enough” string parsing and regular expressions to go from
-
-
-
-
-
----
-.pull-right[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/f6/a7/5a/f6a75a82c478cca0f315cf1b8f2b63c8.jpg" width="400px"/>]
----
-
----
-title: "Font Awesome in R Markdown"
-output: html_document
----
-
-# Just a few tests with `r fa("font-awesome-logo-full", fill = "forestgreen")`
-
-It works well in headings...
-
-# `r fa("brain", fill = "forestgreen")` H1 Heading
-
-## `r fa("r-project", fill = "forestgreen")` H2 Heading
-
-### `r fa("r-project", fill = "steelblue")` H3 Heading
-
-#### `r fa("r-project", fill = "steelblue")` H4 Heading
-
-##### `r fa("r-project", fill = "steelblue")` H5 Heading
-
-...and works equally well within inline text: `r fa("r-project", fill = "steelblue")`.
-
----
-
-
-# .pink[ ijoiergnowrkgmoewri ]
-
-.discussion[
-Discuss in groups of three and then as a large group.
-
-- What are your first reactions to the curriculum we just described for an intro data science course? 
-- Which components can you see yourself (or do you already) include in an intro data science curriculum?
-- Which components do you have reservations about, and why?
-]
-
----
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/4.calidad.png?raw=true)
 background-position: 50% 75%
 background-size: 95%
+
+---
+# `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
+
+- [Oxford Centre for Evidence-based Medicine Levels]( https://www.cebm.ox.ac.uk/resources/levels-of-evidence/oxford-centre-for-evidence-based-medicine-levels-of-evidence-march-2009) en 2011, clasificó a los ensayos n=1 como evidencia  Nivel 1b para propósitos de decisión de tratamiento, gracias al interés renovado en SCED que esta resurgiendo en los últmos años. 
+
+- Su aplicación para determinar la efectividad de las intervenciones de rehabilitación en pacientes con DCA, es uno de los desarrollos más importantes en neurorrehabilitación en los últimos 5 años. SCED bien diseñados pueden contribuir sustancialmente a la base de evidencia. [(Wilson, 2011)](https://www.cambridge.org/core/journals/brain-impairment/article/abs/cutting-edge-developments-in-neuropsychological-rehabilitation-and-possible-future-directions/C230F6036D3166853B2A600F2F15E9E1)
+
+- [Herramientas para evaluar críticamente los SCED.](https://pubmed.ncbi.nlm.nih.gov/24050810/)
+
+---
+background-image: url(https://images.squarespace-cdn.com/content/v1/5e28a36c630fb46e596d49c0/1588196524013-JX4M6NQBST2Y6C0REPOU/ke17ZwdGBToddI8pDm48kGDpvalPb1SqHoCn1hwN0Y57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmx-YtV7KdJhhcFMxgH7DNwVWsr4BytTuzU0mdZNjZkC7ehjA8nxqmKGxR1QtMJl5J/Cognitive+Rehabilitation?format=1500w)
+background-position: 30% 25%
+background-size: 14%
+
+# `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
+
+
+.right[### .pink[Risk of Bias in N-of-1 Trials (RoBiNT)]
+] 
+
+<br>
+- Instrumento confiable y válido de 15 ítems para medir el riesgo de sesgo y calificar la calidad de la metodología seguida en  SCED  [(Tate, et. al, 2013)](https://pubmed.ncbi.nlm.nih.gov/24050810/). 
+
+- Su uso, junto con las pautas para reportar informes [(Single-Case Reporting guideline In BEhavioural interventions. SCRIBE)](https://www.sciencedirect.com/science/article/pii/S0022440516300073), proporcionan una guía muy completa para *planificar, implementar y reportar* estudios de caso único. 
+
+
 ---
 # `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
 
 .left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="500px"/>]]
 
 .bg-washed-green.b--dark-green.ba.bw2.br-pill.shadow-5.ph4.mt5.f3.b.i[
-¿Cómo determinar si el estudio cumple con el rigor metodológico _"aceptable"_ que permita su interpretación? [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)]
+Risk of Bias in N-of-1 Trials (RoBiNT) Scale [Tate, et. al (2013)](https://pubmed.ncbi.nlm.nih.gov/24050810/)]
 
 ### **1. Descripción de los participantes/entorno** 
 - ¿Se describieron los participantes lo suficientemente bien como para permitir la comparación con otros estudios o para su replicación?
