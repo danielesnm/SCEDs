@@ -925,8 +925,8 @@ background-size: 45%, 25%
 
 .pull-left[1. Pairs = **25**  
 2. Cada comparación tiene uno de tres resultados:  
-• mejora (1)  
-• no mejora (0)  
+• positivo (1)  
+• negativo (0)  
 • empate (.5)  
 ]
 
@@ -937,8 +937,8 @@ background-size: 45%
 # `r fa("square-root-alt", fill = "salmon")` .pink[NAP.] non-overlap of all pairs
 
 .pull-left[1. Pairs = **25**  
-2. Sum. comp = **22.5**  
-3. NAP = Sum. comp / #Pairs
+2. positivos + empates = **22.5**  
+3. NAP = positivos + empates / #Pairs
 ]
 
 ---
@@ -948,7 +948,7 @@ background-size: 45%
 # `r fa("square-root-alt", fill = "salmon")` .pink[NAP.] non-overlap of all pairs
 
 .pull-left[1. Pairs = **25**  
-2. Sum. comp = **22.5**  
+2. Pos + empates = **22.5**  
 3. .pink[NAP = .9]
 
 • weak effects: 0–.65  
@@ -956,38 +956,71 @@ background-size: 45%
 • large or strong effects: .93–1.0.
 ]
 
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/PEM-PND-NAP.png?raw=true)
+background-position:50% 100%
+background-size: 70%
+# `r fa("square-root-alt", fill = "salmon")` .pink[PND v.s PEM v.s NAP] 
 
 ---
-# `r fa("square-root-alt", fill = "salmon")` .pink[NAP.] non-overlap of all pairs
-
-
----
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/NAPpaso1.png?raw=true)
+background-image: url(hhttps://github.com/danielesnm/SCEDs/blob/main/img/NAPpaso1.png?raw=true)
 background-position:95% 50%
 background-size: 45%
 # `r fa("square-root-alt", fill = "salmon")` .pink[Tau-U.]
 
-- Es equivalente a la prueba U de Mann-Whitney y  Kendall’s Rank Correlation. 
+- La principal limitación de NAP (no controla la tendencia de los datos) llevó al desarrollo de un nuevo índice que integra la no superposición y la tendencia (Parker, Vannest, Davis y Sauber, 2011).
 
-- La principal limitación de NAP (no controla trend) llevó al desarrollo de un nuevo índice que integra la no superposición y la tendencia: TauU (Parker, Vannest, Davis y Sauber, 2011).
+- Fuerte poder estadístico con series de datos cortas, sensibilidad y disponibilidad de intervalos de confianza y valores p.
 
-- NAP es el porcentaje de datos que no se superponen, mientras que Tau-U es el porcentaje de datos que no se superponen menos que se superponen. Puede controlar las tendencias de referencia
-
-
+- Tau-U se puede utilizar en estudios metaanalíticos.
 
 ---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/NAPgrafica.png?raw=true)
+background-position:15% 98%
+background-size: 40%
+
 # `r fa("square-root-alt", fill = "salmon")` .pink[Tau-U.] 
-Ventajas de su uso  
-Fuerte poder estadístico con series de datos cortas, sensibilidad y disponibilidad de intervalos de confianza y valores p.  
+
+NAP = (positivos + empates / #Pairs)  
+.pink[Tau-U = (positivos - negativos / #Pairs)]
 
 El indice de ES se interpreta siguiendo la recomendación de Vannest & Ninci (2015), es decir: 
 
-• >0,8 (efecto muy grande)  
+.right[ • >0,8 (efecto muy grande)  
 • 0,6-0,8 (efecto grande)  
 • 0,2-0,6 (efecto moderado)  
-• <0,2 (efecto pequeño) 
+• <0,2 (efecto pequeño)] 
 
 
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/NAPgrafica.png?raw=true)
+background-position:15% 98%
+background-size: 40%
+
+# `r fa("square-root-alt", fill = "salmon")` .pink[Tau-U.] 
+
+.pink[Tau-U = (positivos - negativos / #Pairs)]
+
+El indice de ES se interpreta siguiendo la recomendación de Vannest & Ninci (2015), es decir: 
+
+.right[ • >0,8 (efecto muy grande)  
+• 0,6-0,8 (efecto grande)  
+• 0,2-0,6 (efecto moderado)  
+• <0,2 (efecto pequeño)
+
+.pink[Tau-U = .84]
+]
+
+---
+# `r fa("calculator", fill = "salmon")` .pink[Web-based Calculators]
+
+.right[## .orange[Non-overlap methods]
+]
+- [Single-case effect size calculator (Pustejovsky & Swan, 2018)](https://jepusto.shinyapps.io/SCD-effect-sizes/)
+
+- [Tau-U calculator (Vannest, Parker, Gonen & Adiguzel, 2016)](http://www.singlecaseresearch.org/calculators/tau-u)
+
+- [Visual Aids & Non-overlap indices (Manolov, 2015)](https://manolov.shinyapps.io/Overlap/)  
 
 ---
 class: inverse
@@ -1172,44 +1205,3 @@ background-size: 95%
 1. Replicación directa: mismos procedimientos con diferentes participantes que tienen características similares.
 2. Replicación sistemática: repetir el experimento en diferentes entornos, utilizando diferentes participantes.
 3. Replicación clínica: combinar diferentes intervenciones en el mismo entorno y con participantes con los mismos tipos de problemas.
-
----
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/grafica%20medidas%20repetidas.png?raw=true)
-background-position: 55% 90%
-background-size: 45%
-# `r fa("paperclip", fill = "salmon")` **Elementos escenciales**
-
-.left-column[
-.pink[ Medidas repetidas `r fa("arrow-right", fill = "steelblue")`]
-]
-<br>
-• Requiere la medición repetida de la **VD** en intervalos de tiempo regulares.
-
----
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/grafica%20linea%20base.png?raw=true)
-background-position: 55% 90%
-background-size: 45%
-# `r fa("paperclip", fill = "salmon")` **Elementos escenciales**
-
-.left-column[
-.pink[ Baseline `r fa("arrow-right", fill = "steelblue")`]
-]
-
-• Fase durante la cual NO se implementa la intervención.
-• Refleja el desempeño antes de la intervención.  
-• Sus puntuaciones sirven como grupo de control.
-
-
----
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/grafica%20intercencion.png?raw=true)
-background-position: 55% 90%
-background-size: 45%
-# `r fa("paperclip", fill = "salmon")` **Elementos escenciales**
-
-.left-column[
-.pink[ Fase de `r fa("arrow-right", fill = "steelblue")` intervención ]
-]
-
-• Fase durante la cual se implementa la intervención.  
-• Refleja el desempeño durante la intervención.  
-• Los datos se comparan con de la baseline para determinar si se ha producido un cambio.
