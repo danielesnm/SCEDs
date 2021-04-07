@@ -1032,17 +1032,6 @@ class: inverse
 
 [Analytical Options for Single-Case Experimental Designs: Review and Application to Brain Impairment.](https://www.cambridge.org/core/journals/brain-impairment/article/abs/analytical-options-for-singlecase-experimental-designs-review-and-application-to-brain-impairment/8954606BFA91C7BAD66067D0D835E819) (Manolov & Solanas, 2018).
 
-
-
----
-class: inverse
-# `r fa("toolbox", fill = "salmon")` Recursos
-
-### .right[`r fa("internet-explorer", fill = "salmon")` **Web-based applications**]
-[Visual Aids & Non-overlap indices.](https://manolov.shinyapps.io/Overlap/)  (Manolov, 2015)
-
-[Single-case effect size calculator.](https://jepusto.shinyapps.io/SCD-effect-sizes/[https://jepusto.shinyapps.io/SCD-effect-sizes/) (Pustejovsky & Swan, 2018)
-
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/4.calidad.png?raw=true)
 background-position: 50% 75%
@@ -1075,85 +1064,37 @@ background-size: 14%
 
 
 ---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/SCEDstandards.png?raw=true)
+background-position: 50% 70%
+background-size: 90%
+
 # `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
-
-.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="500px"/>]]
-
-.bg-washed-green.b--dark-green.ba.bw2.br-pill.shadow-5.ph4.mt5.f3.b.i[
-Risk of Bias in N-of-1 Trials (RoBiNT) Scale [Tate, et. al (2013)](https://pubmed.ncbi.nlm.nih.gov/24050810/)]
-
-### **1. Descripción de los participantes/entorno** 
-- ¿Se describieron los participantes lo suficientemente bien como para permitir la comparación con otros estudios o para su replicación?
 
 ---
-# `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
+# `r fa("clipboard-check", fill = "green")` .pink[Ítems en la escala RoBiNT]
 
-.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="500px"/>]]
+.pull-left[.center[.orange[Validez interna]]  
+1.Diseño  
+2.Aleatorización  
+3.Muestreo  
+4.Participantes/terapeutas ciegos  
+5.Evaluadores ciegos  
+6.Confiabilidad entre evaluadores (IRR)  
+7.Adherencia al tratamiento
+]
 
-.bg-washed-green.b--dark-green.ba.bw2.br-pill.shadow-5.ph4.mt5.f3.b.i[
-¿Cómo determinar si el estudio cumple con el rigor metodológico _"aceptable"_ que permita su interpretación? [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)]
-
-### **2. Variable dependiente**
-
-- ¿Se definió operativamente?  
-- ¿Se evaluó la confiabilidad entre evaluadores?  
-- ¿El evaluador desconocía la fase del estudio en la que estaba involucrado el participante?  
-- ¿Se demostró estabilidad de los datos en la línea de base?  
-- ¿Se midió repetidamente con índices cuantificables?
-
----
-# `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
-
-.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="500px"/>]]
-
-.bg-washed-green.b--dark-green.ba.bw2.br-pill.shadow-5.ph4.mt5.f3.b.i[
-¿Cómo determinar si el estudio cumple con el rigor metodológico _"aceptable"_ que permita su interpretación? [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)]
-
-### **3. Variable independiente**
-
-- ¿Se definieron operativamente las condiciones de intervención para permitir su replicación?
-- ¿La introducción y el retiro de la variable independiente durante el estudio, estuvo controlada por investigador?
+.pull-right[.center[.orange[Validez externa]]  
+8.Caracteristicas de la linea base  
+9.Entorno terapeutico  
+10.Variable dependiente  
+11.Variable independiente  
+12.Registro de datos  
+13.Análisis de datos  
+14.Replicación  
+15.Generalización
+]
 
 ---
-# `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
-
-.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="500px"/>]]
-
-.bg-washed-green.b--dark-green.ba.bw2.br-pill.shadow-5.ph4.mt5.f3.b.i[
-¿Cómo determinar si el estudio cumple con el rigor metodológico _"aceptable"_ que permita su interpretación? [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)]
-
-### **4. Diseño**
-
-- ¿Se estableció clara y correctamente el tipo de SCED, por ejemplo, changing-criterion, multiple-basline, etc.?
-- ¿Hubo un número adecuado de puntos de datos en cada fase (mínimo de cinco) para cada participante?
-- ¿Se replicaron los efectos de la intervención en tres o más sujetos?
 
 
----
-# `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
 
-.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="500px"/>]]
-
-.bg-washed-green.b--dark-green.ba.bw2.br-pill.shadow-5.ph4.mt5.f3.b.i[
-¿Cómo determinar si el estudio cumple con el rigor metodológico _"aceptable"_ que permita su interpretación? [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)]
-
-### **5. Análisis**
-
-- ¿Se realizó un análisis visual apropiado?
-- ¿Los gráficos utilizados para el análisis visual siguieron convenciones estándar, por ejemplo, ejes x/y etiquetados de manera clara, fases claramente etiquetadas (A, B, etc.), etc.?
-- ¿Se realizaron análisis estadísticos y se cumplen los criterios para su uso?
-
----
-# `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
-
-.left-column[.center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/71/f7/e4/71f7e4a818c1ab1916fd1aa55b36da37.jpg" width="500px"/>]]
-
-.bg-washed-green.b--dark-green.ba.bw2.br-pill.shadow-5.ph4.mt5.f3.b.i[
-¿Cómo determinar si el estudio cumple con el rigor metodológico _"aceptable"_ que permita su interpretación? [Kratochwill, et. al (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794)]
-
-### **6. Control Experimental/Validez Interna**
-
-- Estrategias de replicación para mejorar la validez externa:
-1. Replicación directa: mismos procedimientos con diferentes participantes que tienen características similares.
-2. Replicación sistemática: repetir el experimento en diferentes entornos, utilizando diferentes participantes.
-3. Replicación clínica: combinar diferentes intervenciones en el mismo entorno y con participantes con los mismos tipos de problemas.
