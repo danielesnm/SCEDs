@@ -121,23 +121,23 @@ En el campo de las .pink[ciencias del comportamiento], en el contexto de la **in
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elementos1.png?raw=true)
 background-size: contain
 
----
+--
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elementos2.png?raw=true)
 background-size: contain
 
----
+--
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elementos3.png?raw=true)
 background-size: contain
 
----
+--
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elemento4.png?raw=true)
 background-size: contain
 
----
+--
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elemento5.png?raw=true)
 background-size: contain
 
----
+--
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elemento6.png?raw=true)
 background-size: contain
 
@@ -187,7 +187,8 @@ background-size: 95%
 
 - **Uso de teléfonos inteligentes en pacientes disejecutivos graves** `r fa("arrow-alt-circle-right", fill = "salmon")` Número de llamadas telefónicas realizadas a tiempo [(Svodova et al., 2012).](https://www.tandfonline.com/doi/abs/10.1080/09602011.2011.652498)
 
-- **Uso de teléfonos inteligentes para pacientes disejecutivos graves** `r fa("arrow-alt-circle-right", fill = "salmon")` Número de llamadas telefónicas programadas realizadas a tiempo [(Svodova et al., 2012).](https://www.tandfonline.com/doi/abs/10.1080/09602011.2011.652498)
+- **Uso de un reloj inteligente como dispositivo de aviso para personas con
+DCA** `r fa("arrow-alt-circle-right", fill = "salmon")` Porcentaje de tareas de memoria completadas con éxito [(Jamieson et al., 2019).](https://pubmed.ncbi.nlm.nih.gov/28425328/)
 
 ---
 # `r fa("bullseye", fill = "salmon")` **Conceptos básicos**
@@ -206,17 +207,18 @@ background-size: 95%
 # `r fa("star", fill = "salmon")` **SCED Standards**
 
 - [Kratochwill, et al., (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794) han propuesto una serie de indicadores de calidad que los SCED deben cumplir para poder “determinar si los resultados son válidos y creíbles y clasificarlos como:  
-
-.pink[(a)] *Meets Design Standards*  
+.center[.pink[(a)] *Meets Design Standards*  
 .pink[(b)] *Meets Design Standards With Reservations*  
-.pink[(c)] *Does Not Meet Design Standards*  
+.pink[(c)] *Does Not Meet Design Standards* 
+]
 ____
 
-**Estándar de diseño 1**: manipulación de variables  
-**Estándar de diseño 2**: acuerdo entre evaluadores  
-**Estándar de diseño 3**: control experimental  
-**Estándar de diseño 4**: validez de fase 
-
+.pull-left[`r fa("star", fill = "salmon")`**Estándar 1**: manipulación de variables  
+`r fa("star", fill = "salmon")`**Estándar 2**: acuerdo entre evaluadores  
+]
+.pull-right[`r fa("star", fill = "salmon")`**Estándar 3**: control experimental  
+`r fa("star", fill = "salmon")`**Estándar 4**: validez de fase 
+]
 ---
 class: inverse
 # `r fa("toolbox", fill = "salmon")` Recursos
@@ -1053,7 +1055,7 @@ background-position: 50% 75%
 background-size: 95%
 
 ---
-# `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
+# `r fa("clipboard-check", fill = "salmon")` **Indicadores de calidad en SCED**
 
 - [Oxford Centre for Evidence-based Medicine Levels]( https://www.cebm.ox.ac.uk/resources/levels-of-evidence/oxford-centre-for-evidence-based-medicine-levels-of-evidence-march-2009) en 2011, clasificó a los ensayos n=1 como evidencia  Nivel 1b para propósitos de decisión de tratamiento, gracias al interés renovado en SCED que esta resurgiendo en los últmos años. 
 
@@ -1066,7 +1068,7 @@ background-image: url(https://images.squarespace-cdn.com/content/v1/5e28a36c630f
 background-position: 30% 25%
 background-size: 14%
 
-# `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
+# `r fa("clipboard-check", fill = "salmon")` **Indicadores de calidad en SCED**
 
 
 .right[### .pink[Risk of Bias in N-of-1 Trials (RoBiNT)]
@@ -1083,10 +1085,10 @@ background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/SCEDstan
 background-position: 50% 70%
 background-size: 90%
 
-# `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
+# `r fa("clipboard-check", fill = "salmon")` **Indicadores de calidad en SCED**
 
 ---
-# `r fa("clipboard-check", fill = "green")` .pink[Ítems en la escala RoBiNT]
+# `r fa("clipboard-check", fill = "salmon")` .pink[Ítems en la escala RoBiNT]
 
 .pull-left[.center[.orange[Validez interna]]  
 1.Diseño  
@@ -1121,7 +1123,7 @@ background-image: url(https://images.squarespace-cdn.com/content/v1/5e28a36c630f
 background-position: 15% 25%
 background-size: 14%
 
-# `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
+# `r fa("clipboard-check", fill = "salmon")` **Indicadores de calidad en SCED**
 
 
 .right[### .pink[Single-Case Reporting guideline In BEhavioural interventions (SCRIBE)]
@@ -1133,4 +1135,16 @@ background-size: 14%
 - Su propósito es mejorar la literatura científica a través de informes claros, completos y transparentes sobre cómo se realizaron los estudios.
 
 ---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/SCRIBE1.png?raw=true)
+background-position: 50% 50%
+background-size: 90%
 
+# `r fa("clipboard-check", fill = "salmon")` .pink[Ítems en SCRIBE]
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+.right[[SCRIBE Checklist (Tate, et al. 2016)](https://www.sydney.edu.au/content/dam/corporate/documents/faculty-of-medicine-and-health/research/scribe2016-checklist.pdf)] 
+
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/SCRIBE2.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/SCRIBE3.png?raw=true)
+background-position: 2% 50%, 98% 50%
+background-size: 50%, 45%
