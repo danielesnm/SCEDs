@@ -1,9 +1,9 @@
 ---
-title: .pink[ " >Evaluación de la evidencia en la práctica clínica (I):" ]
+title: .pink[ "Evaluación de la evidencia en la práctica clínica (I):" ]
 subtitle: .pink["Diseños experimentales de caso único"]
 author: "Npsic. Daniel Salazar Frías"
 institute: "Universidad de Granada"
-date: "Presentation Date"
+date: "9 de abril de 2021"
 output:
   xaringan::moon_reader:
     css: 
@@ -201,6 +201,21 @@ background-size: 95%
 - Se implementa de manera estandarizada, para reducir la posibilidad de variabilidad de los resultados. 
 - Las medidas de resultado deben de ser idénticas a las utilizados durante la Fase A. 
 - Se identifica a priori un criterio de tratamiento exitoso para determinar su efectividad.]
+
+---
+# `r fa("star", fill = "salmon")` **SCED Standards**
+
+- [Kratochwill, et al., (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794) han propuesto una serie de indicadores de calidad que los SCED deben cumplir para poder “determinar si los resultados son válidos y creíbles y clasificarlos como:  
+
+.pink[(a)] *Meets Design Standards*  
+.pink[(b)] *Meets Design Standards With Reservations*  
+.pink[(c)] *Does Not Meet Design Standards*  
+____
+
+**Estándar de diseño 1**: manipulación de variables  
+**Estándar de diseño 2**: acuerdo entre evaluadores  
+**Estándar de diseño 3**: control experimental  
+**Estándar de diseño 4**: validez de fase 
 
 ---
 class: inverse
@@ -525,6 +540,14 @@ background-size: contain, 70%
 ### `r fa("sort-down", fill = "blue")` .blue[ Diseño standard: ] 
 
 ---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/deciciontree.png?raw=true)
+background-position: 50% 75%
+background-size: 100%
+
+[(Tate & Perdices, 2019)](https://www.amazon.es/Single-Case-Experimental-Clinical-Research-Neurorehabilitation-ebook/dp/B07LB8S5DC) 
+
+
+---
 class: inverse
 # `r fa("toolbox", fill = "salmon")` Recursos
 ____
@@ -761,23 +784,12 @@ background-size: 36%
 .orange[(b)] **las características de los datos**  
 
 ---
-# `r fa("square-root-alt", fill = "salmon")` Análisis Estadístico
-
-Intenta abordar las siguientes preguntas  de investigación:  
-
-(1) ¿La introducción / manipulación del IV da como resultado un cambio estadísticamente significativo en el nivel del DV (cambio de nivel o efecto de fase análisis)? 
-
-(2) ¿La introducción / manipulación del IV da como resultado un cambio estadísticamente significativo en la pendiente del DV a lo largo del tiempo (análisis de cambio de pendiente)? y 
-
-(3) ¿Existen relaciones significativas entre la trayectoria de la VD y otras covariables potenciales? Los análisis de cambio de nivel y pendiente son relevantes para los estudios de efectividad de la intervención y otras preguntas de investigación en las que se espera que la IV produzca cambios en la VD en una dirección particular.
-
----
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ESSCED.png?raw=true)
 background-position: 50% 97%
 background-size: 70%
 # `r fa("square-root-alt", fill = "salmon")` Effect Size (ES)
 
-a) Estima la importancia del cambio asociado con una intervención. Complementa al análisis visual, proporcionando resultados estandarizados y confiables.. 
+a) Estima la importancia del cambio asociado con una intervención. Complementa al análisis visual, proporcionando resultados estandarizados y confiables. 
 
 b) Cuando se reportan estimaciones de ES creíbles además de los datos analizados visualmente, mejora la credibilidad, confiabilidad de los hallazgos.
 
@@ -810,9 +822,9 @@ Se basan en el concepto de que la eficacia de una intervención se refleja en el
 6. .pink[Tau-U.] nonoverlap + trend [(Parker et al. 2011)](https://pubmed.ncbi.nlm.nih.gov/21496513/)
 
 ---
-background-image: url(https://cdn-prod.voxy.com/wp-content/uploads/2017/10/DataScience-Color.png)
-background-position:8% 60%
-background-size: 15%
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/NAPgrafica.png?raw=true)
+background-position:50% 95%
+background-size: 40%
 # `r fa("square-root-alt", fill = "salmon")` .pink[PND.] % of non-overlap data
 
 - Primer método desarrollado, utilizado extensamente ya que se calcula facilmente.  
@@ -1008,7 +1020,10 @@ El indice de ES se interpreta siguiendo la recomendación de Vannest & Ninci (20
 • 0,2-0,6 (efecto moderado)  
 • <0,2 (efecto pequeño)
 
-.pink[Tau-U = .84]
+.pink[Tau-U = .84]  
+NAP = .90  
+PEM = 1  
+PND = .40
 ]
 
 ---
@@ -1079,7 +1094,7 @@ background-size: 90%
 3.Muestreo  
 4.Participantes/terapeutas ciegos  
 5.Evaluadores ciegos  
-6.Confiabilidad entre evaluadores (IRR)  
+6.Confiabilidad entre eval. (IRR)  
 7.Adherencia al tratamiento
 ]
 
@@ -1100,4 +1115,22 @@ background-position: 50% 90%
 background-size: 45%
 
 [Evaluating an intervention to increase meaningful activity after severe traumatic brain injury: A single-case experimental design with direct inter- subject and systematic replications (Tate, et al. 2018)](https://www.tandfonline.com/doi/abs/10.1080/09602011.2018.1488746?journalCode=pnrh20) 
+
+---
+background-image: url(https://images.squarespace-cdn.com/content/v1/5e28a36c630fb46e596d49c0/1588196524013-JX4M6NQBST2Y6C0REPOU/ke17ZwdGBToddI8pDm48kGDpvalPb1SqHoCn1hwN0Y57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmx-YtV7KdJhhcFMxgH7DNwVWsr4BytTuzU0mdZNjZkC7ehjA8nxqmKGxR1QtMJl5J/Cognitive+Rehabilitation?format=1500w)
+background-position: 15% 25%
+background-size: 14%
+
+# `r fa("clipboard-check", fill = "green")` **Indicadores de calidad en SCED**
+
+
+.right[### .pink[Single-Case Reporting guideline In BEhavioural interventions (SCRIBE)]
+] 
+
+<br>
+- Herramienta de 26 ítems que especifica qué información sobre el estudio es esencial reportar en los reportes científicos  [(Tate, et. al, 2016)](https://psycnet.apa.org/fulltext/2016-17384-001.html). 
+
+- Su propósito es mejorar la literatura científica a través de informes claros, completos y transparentes sobre cómo se realizaron los estudios.
+
+---
 
