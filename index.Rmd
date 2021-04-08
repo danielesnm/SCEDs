@@ -1,6 +1,6 @@
 ---
 title: .pink[Evaluación de la evidencia en la práctica clínica (I):]
-subtitle: .pink[Diseños experimentales de caso único]
+subtitle: .pink[Diseños experimentales de caso único (SCED)]
 author: "Npsic. Daniel Salazar Frías"
 institute: "Universidad de Granada"
 date: "9 de abril de 2021"
@@ -65,11 +65,11 @@ background-position: 0% 50%
 background-size: contain
 # `r fa("list-ol", fill = "salmon")` **Orden de la presentación**
 
-<br>
-.right[### .pink[1.] Descripción y conceptos básicos
-### .pink[2.] Clasificación de los SCED's
+.right[### .orange[Diseños experimentales de caso único]
+### .pink[1.] Descripción y conceptos básicos
+### .pink[2.] Clasificación
 ### .pink[3.] Evaluación y análisis de datos
-### .pink[4.] Indicadores de calidad de los SCED's
+### .pink[4.] Indicadores de calidad
 ]
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/1.%20conceptos%20b%C3%A1sicos.png?raw=true)
