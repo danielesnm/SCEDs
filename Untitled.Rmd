@@ -1,6 +1,6 @@
 ---
-title: .pink[ "Evaluación de la evidencia en la práctica clínica (I):" ]
-subtitle: .pink["Diseños experimentales de caso único"]
+title: .pink[Evaluación de la evidencia en la práctica clínica (I):]
+subtitle: .pink[Diseños experimentales de caso único]
 author: "Npsic. Daniel Salazar Frías"
 institute: "Universidad de Granada"
 date: "9 de abril de 2021"
@@ -339,7 +339,7 @@ background-size: contain
 
 .panelset[
 .panel[.panel-name[Fundamentos]
-> `r fa("asterisk", fill = "gold")` Se introduce el tratamiento de manera secuencial a través de diferentes __participantes `r fa("arrow-right", fill = "gold")` contextos `r fa("arrow-right", fill = "gold")` comportamientos__.
+> `r fa("asterisk", fill = "gold")` Se introduce la intervención de manera escalonada a través de diferentes __participantes `r fa("arrow-right", fill = "gold")` contextos `r fa("arrow-right", fill = "gold")` comportamientos__.
 
 .pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 75%" />]]
 
@@ -750,7 +750,7 @@ background-position: 80% 90%, 20% 90%
 background-size: 30%, 30%
 # `r fa("eye", fill = "salmon")` Paso 4: demostración del efecto
 
-Consiste en .pink[integrar esta información] para determinar si el efecto de la intervención se ha demostrado de forma independiente al menos en .pink[tres ocasiones] (documentar  una relación causal o funcional).
+Consiste en .pink[integrar esta información] para determinar si el efecto de la intervención se ha demostrado de forma independiente al menos en .pink[tres ocasiones.] 
 
 ---
 class: inverse
@@ -1148,3 +1148,5 @@ background-size: 90%
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/SCRIBE2.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/SCRIBE3.png?raw=true)
 background-position: 2% 50%, 98% 50%
 background-size: 50%, 45%
+
+---
