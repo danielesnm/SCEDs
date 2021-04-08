@@ -190,6 +190,18 @@ A diferencia de los ensayos grupales donde se utilizan herramientas de medición
 .right[[(Krasny-Pacini & Evans, 2018).](https://www.sciencedirect.com/science/article/pii/S1877065717304542)]
 
 ---
+# `r fa("check-double", fill = "salmon")` **Maximización de la validez en SCED**
+
+Hay muchos factores que pueden interferir con un estudio que produce resultados creíbles, y se clasifican en cuatro dominios:
+
+`r fa("check-double", fill = "salmon")` .pink[Validez interna:] la capacidad de atribuir cambios en la variable dependiente a la variable independiente, en lugar de factores externos.  
+
+`r fa("check-double", fill = "salmon")` .pink[Validez de constructo:] los constructos subyacentes a las variables de interés en el estudio y cómo se miden.  
+`r fa("check-double", fill = "salmon")` .pink[Validez de evaluación de los datos:] hacer inferencias precisas sobre los datos. 
+
+`r fa("check-double", fill = "salmon")` .pink[Validez externa:] la aplicabilidad de la intervención en otros contextos.
+
+---
 # `r fa("star", fill = "salmon")` **SCED Standards**
 
 - [Kratochwill, et al., (2013)](https://journals.sagepub.com/doi/10.1177/0741932512452794) han propuesto una serie de indicadores de calidad que los SCED deben cumplir para poder “determinar si los resultados son válidos y creíbles y clasificarlos como:  
