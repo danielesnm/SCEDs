@@ -156,16 +156,16 @@
   }
 
 .remark-slide-number {
-  font-size: 10pt;
-  margin-bottom: -11.6px;
-  margin-right: 10px;
+  font-size: 1pt;
+  margin-bottom: -1px;
+  margin-right: 1px;
   color: #FFFFFF; /* white */
   opacity: 1; /* default: 0.5 */
 }
 
 .remark-slide-number .progress-bar {
   height: 1%;
-  background-color: var(--classic-blue);
+  background-color: #FFFFFF;
 }
 
 /* Square bullets for lists */
