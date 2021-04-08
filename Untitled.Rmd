@@ -60,17 +60,17 @@ class: title-slide, left, bottom
 ### `r rmarkdown::metadata$date`
 
 ---
-background-image: url(https://i.pinimg.com/originals/b0/29/6a/b0296afb65f4549c8e0e874ca4da7a65.png)
-background-position: 95% 50%
-background-size: 20%
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/indice.png?raw=true)
+background-position: 0% 50%
+background-size: contain
 # `r fa("list-ol", fill = "salmon")` **Orden de la presentación**
-____
 
-## .pink[1.] Descripción y conceptos básicos
-## .pink[2.] Clasificación de los SCED's
-## .pink[3.] Evaluación y análisis de datos
-## .pink[4.] Indicadores de calidad de los SCED's
-
+<br>
+.right[### .pink[1.] Descripción y conceptos básicos
+### .pink[2.] Clasificación de los SCED's
+### .pink[3.] Evaluación y análisis de datos
+### .pink[4.] Indicadores de calidad de los SCED's
+]
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/1.%20conceptos%20b%C3%A1sicos.png?raw=true)
 background-position: 50% 75%
@@ -100,9 +100,11 @@ background-size: 95%
 
 .panel[.panel-name[Uso]
 En el campo de las .pink[ciencias del comportamiento], en el contexto de la **investigación aplicada** o la **práctica clínica**: 
-1. Evaluar/comparar intervenciones y perfeccionar su eficacia.
-2. Imposibilidad de obtener una muestra homogénea de pacientes para un estudio grupal.
-3. Limitación de tiempo (por ejemplo, un estudio que debe completarse en un plazo de 8 meses, etc).
+1. Evaluar/comparar intervenciones y perfeccionar su eficacia.  
+
+2. Imposibilidad de obtener una muestra homogénea de pacientes para un estudio grupal.  
+
+3. Limitación de tiempo.
 ]
 
 .panel[.panel-name[Estructura básica]
@@ -143,10 +145,6 @@ background-size: contain
 
 --
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elemento7.png?raw=true)
-background-size: contain
-
---
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elemento8.png?raw=true)
 background-size: contain
 
 --
@@ -1078,14 +1076,6 @@ background-size: 14%
 - Instrumento confiable y válido de 15 ítems para medir el riesgo de sesgo y calificar la calidad de la metodología seguida en  SCED  [(Tate, et. al, 2013)](https://pubmed.ncbi.nlm.nih.gov/24050810/). 
 
 - Su uso, junto con las pautas para reportar informes [(Single-Case Reporting guideline In BEhavioural interventions. SCRIBE)](https://www.sciencedirect.com/science/article/pii/S0022440516300073), proporcionan una guía muy completa para *planificar, implementar y reportar* estudios de caso único. 
-
-
----
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/SCEDstandards.png?raw=true)
-background-position: 50% 70%
-background-size: 90%
-
-# `r fa("clipboard-check", fill = "salmon")` **Indicadores de calidad en SCED**
 
 ---
 # `r fa("clipboard-check", fill = "salmon")` .pink[Ítems en la escala RoBiNT]
