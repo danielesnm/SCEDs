@@ -83,8 +83,6 @@ background-size: 95%
 - Una metodología de investigación en la que el sujeto sirve como su propio control `r fa("female", fill = "salmon")` `r fa("arrows-alt-h", fill = "forestgreen")` `r fa("female", fill = "salmon")`, comparando su desempeño .pink[antes, durante y después] de la implementación de una intervención.  
 
 - Exigen un control cuidadoso de las variables, una **recopilación de datos** confiable y sistemática, y la **introducción y manipulación** de una intervención.  
-
-- **N = 1** en el que el **1** puede ser _un individuo o un grupo de individuos._
 ]
 
 .panel[.panel-name[Objetivo]
@@ -182,7 +180,7 @@ A diferencia de los ensayos grupales donde se utilizan herramientas de medición
 
 .right-column[.pink[La intervención que se utilizará]  
 
-- Se implementa de manera estandarizada, para reducir la posibilidad de variabilidad de los resultados. 
+- Se debe de implementar de manera estandarizada, para reducir la posibilidad de variabilidad de los resultados. 
 - Las medidas de resultado deben de ser idénticas a las utilizados durante la Fase A. 
 - **Se identifica a priori un criterio de tratamiento exitoso para determinar su efectividad.**
 ]
@@ -192,12 +190,13 @@ A diferencia de los ensayos grupales donde se utilizan herramientas de medición
 ---
 # `r fa("check-double", fill = "salmon")` **Maximización de la validez en SCED**
 
-.right[Hay muchos factores que pueden interferir con un estudio que produce resultados creíbles, y se clasifican en cuatro dominios: 
+.right[Hay muchos factores que pueden interferir con los resultados de un estudio y se clasifican en cuatro dominios:
+]
 
 `r fa("check-double", fill = "salmon")` .orange[Validez interna:] la capacidad de atribuir cambios en la variable dependiente a la variable independiente, y no a factores externos.  
 
 `r fa("check-double", fill = "salmon")` .orange[Validez de constructo:] los constructos subyacentes a las variables de interés en el estudio y cómo se miden.  
-`r fa("check-double", fill = "salmon")` .orange[Validez de evaluación de los datos:] hacer inferencias precisas sobre los datos. 
+`r fa("check-double", fill = "salmon")` .orange[Validez de los datos:] hacer inferencias precisas sobre los datos. 
 
 `r fa("check-double", fill = "salmon")` .orange[Validez externa:] la aplicabilidad de la intervención en otros contextos.
 
@@ -218,7 +217,7 @@ ____
 `r fa("star", fill = "salmon")`**Estándar 4**: validez de fase 
 ]
 ---
-class: inverse
+
 # `r fa("toolbox", fill = "salmon")` Recursos
 ### .right[`r fa("internet-explorer", fill = "salmon")` **Web**]
 [NeuroBite.](https://neurorehab-evidence.com/web/cms/content/home) base de datos que cataloga estudios de tratamientos cognitivos y de otro tipo para problemas que se producen como consecuencia de un daño cerebral adquirido (DCA).
@@ -228,7 +227,6 @@ class: inverse
 [The International Collaborative Network (ICN) for N-of-1 Clinical Trials and Single-Case Designs (SCDs)](https://www.nof1sced.org/)
 
 ---
-class: inverse
 # `r fa("toolbox", fill = "salmon")` Recursos
 ### .right[`r fa("book", fill = "salmon")` **Libros y artículos**]
 [SCED's for Clinical Research and Neurorehabilitation Settings: Planning, Conduct, Analysis and Reporting.](https://www.amazon.es/Single-Case-Experimental-Clinical-Research-Neurorehabilitation-ebook/dp/B07LB8S5DC) Fundamentos teóricos y metodológicos de los SCED's y su aplicación en el entorno clínico y de investigación de neurorrehabilitación (Tate & Perdices, 2019).
@@ -328,82 +326,6 @@ background-size: contain, 66%
 [The effectiveness of control strategies for dementia-driven wandering, preventing escape attempts (Valle Padilla et al. 2013)](https://pubmed.ncbi.nlm.nih.gov/23199418/) 
 
 ---
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true)
-background-position: 0% 50%
-background-size: contain
-
-.panelset[
-.panel[.panel-name[Fundamentos]
-> `r fa("asterisk", fill = "gold")` Se introduce la intervención de manera escalonada a través de diferentes __participantes `r fa("arrow-right", fill = "gold")` contextos `r fa("arrow-right", fill = "gold")` comportamientos__.
-
-.pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 75%" />]]
-
-.orange[Su característica definitoria es:]
-  1. .orange[Fase A] ocurre simultáneamente en todos los niveles.
-  
-  1. .orange[Fase B] se escalona secuencialmente a través de los diferentes niveles, de modo que cada .orange[Fase A] se vuelve progresivamente más larga en los niveles posteriores.
-]
-
-.panel[.panel-name[Control experimental]
->Se demuestra cuando, después de introducir Fase B en el primer nivel, hay poco o ningún cambio en el las otras Fases A   
-
-.pull-right[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 75%" />]]
-
-`r fa("clipboard-check", fill = "gold")` Estándares de evidencia:
-- 5 puntos de datos en cada fase 
-
-- 6 fases para brindar 3 oportunidades (AB) para replicar el efecto experimental. 
-]
-
-.panel[.panel-name[Ventajas/Desventajas]
-
-.pull-left[.center[.green[Ventajas] `r fa("check", fill = "green")`]  
-1.	Adecuados para la evaluación de intervenciones con efectos duraderos, como los efectos de rehabilitación.  
-
-2.	Debido a que la intervención no se retira, no existen preocupaciones éticas sobre la suspensión del tratamiento. 
-]
-
-.pull-right[.center[.red[Desventajas] `r fa("times", fill = "red")`]  
-1. Repercusiones éticas acerca de retrasar la introducción de la intervención a otros niveles. La medición repetida puede centrar la atención en un patrón de desempeño erróneo, que luego podría ser más difícil de erradicar.]
-]
-]
-
----
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-part.png?raw=true)
-background-position: 0% 50%, 56% 90%
-background-size: contain, 60%
-
-### `r fa("users", fill = "gold")` .gold[ Entre participantes: ] [(Guercio, Johnson, Dixon, 2012)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3469300/) 
-
----
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx2.png?raw=true)
-background-position: 0% 50%, 17% 85%, 98% 85% 
-background-size: contain, 41%, 44%
-
-### `r fa("laptop-house", fill = "gold")` .gold[ Entre contextos: ] 
-
-[Structured flexibility: the use of context self-regulatory scripts to support young persons with ABI and behav. difficulties (Feeney, 2010)](https://pubmed.ncbi.nlm.nih.gov/21076242/) 
-
----
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-comp.png?raw=true)
-background-position: 0% 50%, 63% 95%
-background-size: contain, 87%
-
-### `r fa("people-arrows", fill = "gold")` .gold[ Entre comportamientos: ] 
-
-[Support in everyday activities with a home-based electronic memory aid for persons with memory impairments (Boman, et al. 2010)](https://pubmed.ncbi.nlm.nih.gov/20568962/) 
-
-
----
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-comp2.png?raw=true)
-background-position: 0% 50%, 56% 95%
-background-size: contain, 39%
-
-### `r fa("people-arrows", fill = "gold")` .gold[ Entre comportamientos: ] 
-
-[Evaluating an intervention to increase meaningful activity after severe TBI (Tate, et al. 2018)](https://www.tandfonline.com/doi/abs/10.1080/09602011.2018.1488746?journalCode=pnrh20) 
-
----
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ATD1.png?raw=true)
 background-position: 0% 50%
 background-size: contain
@@ -423,7 +345,7 @@ background-size: contain
 ]
 
 .panel[.panel-name[Control experimental]
->Se demuestra cuando una intervención muestra un mejor efecto sobre el comportamiento que la otra intervención. La línea que une los puntos de la intervención 1 no se superpone a la línea de la intervención 2.   
+>El nivel de comportamiento bajo una intervención se usa para predecir el nivel cuando esa intervención se aplica de nuevo. La próxima aplicación sirve para verificar esta predicción y replicar el efecto.
 
 .pull-right[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/ATD-stand.png?raw=true" style="width: 80%" />]]
 
@@ -432,9 +354,6 @@ background-size: contain
 
 - Al menos cinco oportunidades para replicar el efecto experimental. 
 ]
-
-???
-Este control refuerza la conclusión de que cualquier cambio observado en la conducta objetivo es atribuible a la intervención y ayuda a reducir la plausibilidad de explicaciones alternativas. 
 
 .panel[.panel-name[Ventajas/Desventajas]
 
@@ -451,18 +370,6 @@ Este control refuerza la conclusión de que cualquier cambio observado en la con
 - Efectos de alternancia ]
 ]
 ]
-
----
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ATD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/ATDcomparison.png?raw=true)
-background-position: 0% 50%, 50% 40%
-background-size: contain, 50%
-
-### `r fa("sort-down", fill = "green")` .green[ Fase de comparación: ] 
-
-<br><br><br><br><br><br><br><br><br><br>
-- No incluye baseline.  
-- Una de las intervenciónes puede ser una *fase sin tratamiento*.  
-- Las intervenciones se pueden implementar de inmediato.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ATD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/ATDbl-comp.png?raw=true)
@@ -485,6 +392,75 @@ background-size: contain, 50%
 <br><br><br><br><br><br><br><br><br><br>
 - Incluye fase de "mejor tratamiento" en la que se aplica la intervención más eficaz. 
 - Permite estimar la magnitud de los efectos de interferencia de la intervención y, por lo tanto, fortalecer la validez interna.
+
+
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true)
+background-position: 0% 50%
+background-size: contain
+
+.panelset[
+.panel[.panel-name[Fundamentos]
+> `r fa("asterisk", fill = "gold")` Se introduce la intervención de manera escalonada a través de diferentes __participantes `r fa("arrow-right", fill = "gold")` contextos `r fa("arrow-right", fill = "gold")` comportamientos__.
+
+.pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 75%" />]]
+
+.orange[Su característica definitoria es:]
+  1. .orange[Fase A] ocurre simultáneamente en todos los niveles.
+  
+  1. La introuduccion de la .orange[Fase B] se escalona secuencialmente a través de los diferentes niveles, de modo que cada .orange[Fase A] se vuelve progresivamente más larga en los niveles posteriores.
+]
+
+.panel[.panel-name[Control experimental]
+>Se demuestra cuando, después de introducir Fase B en el primer nivel, hay poco o ningún cambio en el las otras Fases A   
+
+.pull-right[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 75%" />]]
+
+`r fa("clipboard-check", fill = "gold")` Estándares de evidencia:
+- 5 puntos de datos en cada fase 
+
+- 6 fases para brindar 3 oportunidades (AB) para replicar el efecto experimental. 
+]
+
+.panel[.panel-name[Ventajas/Desventajas]
+
+.pull-left[.center[.green[Ventajas] `r fa("check", fill = "green")`]  
+1.	Adecuados para la evaluación de intervenciones con efectos duraderos, como los efectos de rehabilitación cognitiva.  
+
+2.	Permite evaluar simultáneamente la efectividad de una intervención en el mismo individuo en diferentes entornos/comportamientos. 
+]
+
+.pull-right[.center[.red[Desventajas] `r fa("times", fill = "red")`]  
+1. Repercusiones éticas acerca de retrasar la introducción de la intervención a otros niveles, ya que mediciones repetidas puede centrar la atención en un patrón de desempeño erróneo, que luego podría ser más difícil de erradicar.]
+]
+]
+
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-part1.png?raw=true)
+background-position: 0% 50%, 84% 98%
+background-size: contain, 37%
+
+### `r fa("users", fill = "gold")` .gold[ Entre participantes: ] 
+
+.pull-left[[Behavioral treatment for pathological gambling in persons with acquired brain injury (Guercio, Johnson, Dixon, 2012)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3469300/) 
+]
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx2.png?raw=true)
+background-position: 0% 50%, 17% 85%, 98% 85% 
+background-size: contain, 41%, 44%
+
+### `r fa("laptop-house", fill = "gold")` .gold[ Entre contextos: ] 
+
+[Structured flexibility: the use of context self-regulatory scripts to support young persons with ABI and behav. difficulties (Feeney, 2010)](https://pubmed.ncbi.nlm.nih.gov/21076242/) 
+
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-comp2.png?raw=true)
+background-position: 0% 50%, 56% 95%
+background-size: contain, 39%
+
+### `r fa("people-arrows", fill = "gold")` .gold[ Entre comportamientos: ] 
+
+[Evaluating an intervention to increase meaningful activity after severe TBI (Tate, et al. 2018)](https://www.tandfonline.com/doi/abs/10.1080/09602011.2018.1488746?journalCode=pnrh20) 
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/CCD1.png?raw=true)
@@ -518,13 +494,13 @@ background-size: contain
 .panel[.panel-name[Ventajas/Desventajas]
 
 .pull-left[.center[.green[Ventajas] `r fa("check", fill = "green")`]  
-1. Personas con DCA pueden ser susceptibles a cambios graduales. Con los CCD, los comportamientos se pueden moldear gradualmente hacia un objetivo deseado.  
+1. Con este diseño, los comportamientos se pueden moldear gradualmente hacia un objetivo deseado.  
 
-2. La magnitud del CC puede adaptarse al propio proceso de los participantes.
+2. La magnitud del cambio de criterio puede adaptarse al propio proceso de los participantes.
 ]
 
 .pull-right[.center[.red[Desventajas] `r fa("times", fill = "red")`]  
-1.	El CC debe lograr un equilibrio para que los cambios requeridos en el comportamiento no solo sean detectables, sino también alcanzables. Sin embargo, esto se establece a priori, y *siempre hay algún grado de subjetividad o involucrado”* ]
+1.	El cambio de criterio debe lograr un equilibrio para que los cambios requeridos en el comportamiento no solo sean detectables, sino también alcanzables. Sin embargo, esto se establece a priori, y *siempre hay algún grado de subjetividad o involucrado”* ]
 ]
 ]
 
@@ -542,19 +518,6 @@ background-size: 100%
 
 [(Tate & Perdices, 2019)](https://www.amazon.es/Single-Case-Experimental-Clinical-Research-Neurorehabilitation-ebook/dp/B07LB8S5DC) 
 
-
----
-class: inverse
-# `r fa("toolbox", fill = "salmon")` Recursos
-____
-### .right[`r fa("book", fill = "salmon")` **Libros y artículos**]
-[Lane y Gast, (2014)](https://pubmed.ncbi.nlm.nih.gov/23883189/) .orange[protocolo detallado], diseñado para investigadores que analizan visualmente los datos SCED.
-
-[Barton, et al., (2018; págs. 308–310)](https://www.routledge.com/Single-Case-Research-Methodology-Applications-in-Special-Education-and/Ledford-Gast/p/book/9781138557130) .orange[resúmenes y hojas de trabajo] para registrar datos, así como un ejemplo utilizando datos hipotéticos, que ilustran cómo realizar el análisis.
-
-### .right[`r fa("internet-explorer", fill = "salmon")` **Web-based applications**]
-[Visual Aids & Non-overlap indices (Manolov, 2015)](https://manolov.shinyapps.io/Overlap/)
-
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/3.analisis%20dedatos.png?raw=true)
 background-position: 50% 75%
@@ -566,9 +529,9 @@ background-position: 90% 103%
 background-size: 25%
 # `r fa("chart-bar", fill = "salmon")` Publicaciónes recientes
 
-- .orange[A Priori Justification for Effect Measures in Single-Case Experimental Designs] [(Manolov, Moeyaert, Fingerhut, 2021)](https://www.researchgate.net/publication/350391799_A_Priori_Justification_for_Effect_Measures_in_Single-Case_Experimental_Designs)
-
 - .orange[Open Science and Single-Case Design Research] [(Cook, et al., 2021)](https://journals.sagepub.com/doi/abs/10.1177/0741932521996452)
+
+- .orange[A Priori Justification for Effect Measures in Single-Case Experimental Designs] [(Manolov, Moeyaert, Fingerhut, 2021)](https://www.researchgate.net/publication/350391799_A_Priori_Justification_for_Effect_Measures_in_Single-Case_Experimental_Designs)
 
 - .orange[Bayesian Multilevel Single Case Models using “Stan”. A new tool to study single cases in Neuropsychology] [(Scandola & Romano, 2021)](https://www.sciencedirect.com/science/article/abs/pii/S0028393221000853?via%3Dihub)
 
@@ -747,25 +710,6 @@ background-size: 30%, 30%
 Consiste en .pink[integrar esta información] para determinar si el efecto de la intervención se ha demostrado de forma independiente al menos en .pink[tres ocasiones.] 
 
 ---
-class: inverse
-# `r fa("toolbox", fill = "salmon")` Recursos
-### .right[`r fa("book", fill = "salmon")` **Libros y artículos**]
-[Visual analysis in single case experimental design studies: brief review and guidelines.](https://pubmed.ncbi.nlm.nih.gov/23883189/) protocolo diseñado para investigadores que analizan visualmente los datos SCED (Lane & Gast, 2014).
-
-[Single Case Research Methodology Applications in Special Education and Behavioral Sciences.](https://www.routledge.com/Single-Case-Research-Methodology-Applications-in-Special-Education-and/Ledford-Gast/p/book/9781138557130) resúmenes y hojas de trabajo, así como un ejemplo que ilustra cómo realizar el análisis (Ledford & Gast, 2018).
-
-[Single-case designs technical documentation.](https://ies.ed.gov/ncee/wwc/Docs/ReferenceResources/wwc_scd.pdf) (Kratochwill, et al. 2010).
-
-[Systematic Use of Visual Analysis for Assessing Outcomes in SCED.](https://www.cambridge.org/core/journals/brain-impairment/article/systematic-use-of-visual-analysis-for-assessing-outcomes-in-single-case-design-studies/57014928F0BDC5D2E26F331627D94341) (Ledford, et al., 2017)
-
----
-class: inverse
-# `r fa("toolbox", fill = "salmon")` Recursos
-
-### .right[`r fa("internet-explorer", fill = "salmon")` **Web-based applications**]
-[Visual Aids & Non-overlap indices.](https://manolov.shinyapps.io/Overlap/)  (Manolov, 2015)
-
----
 background-image: url(https://www.simplemdg.com/wp-content/uploads/2020/12/3156627-1024x585.jpg)
 background-position: 80% 97%
 background-size: 36%
@@ -790,13 +734,18 @@ a) Estima la importancia del cambio asociado con una intervención. Complementa 
 b) Cuando se reportan estimaciones de ES creíbles además de los datos analizados visualmente, mejora la credibilidad, confiabilidad de los hallazgos.
 
 
-???
-Se calcula tomando la media de los datos de la fase B, restando por la media de los datos de la fase A y dividiendo por la desviación estándar de la fase A.  
-Las ventajas de este enfoque son que los cálculos son simples y directos y que el tamaño del efecto resultante se interpreta en unidades de desviación estándar. 
 
-Sin embargo, no tiene en cuenta todas las características del SCD que explica el análisis visual, en particular la tendencia. Además, como la mayoría de los otros enfoques, el cálculo no tiene en cuenta la dependencia serial en los datos y, como resultado, los errores estándar pueden ser mal estimados, aumentando las tasas de error de Tipo I o Tipo II, dependiendo de la dirección de la autocorrelación.
+---
+# `r fa("square-root-alt", fill = "salmon")` Effect Size (ES)
 
-El mayor enfoque en los tamaños del efecto en la investigación cuantitativa seguirá teniendo un impacto en la investigación de la SCD y promoverá más estudios. El manual de publicación de la Asociación Estadounidense de Psicología, que comienza con la quinta edición, ha sugerido que todos los manuscritos publicados incluyan tamaños de efecto. Además, dado que los investigadores esperan utilizar los SCD para la identificación de prácticas basadas en evidencia, los financiadores de subvenciones y los encargados de formular políticas requerirán análisis más sofisticados de los efectos de la intervención más allá del análisis visual. Aunque actualmente no existe un método acordado, esta revisión describe una serie de opciones viables para los investigadores. A medida que crece la base de la literatura en este campo, también lo hará su capacidad para definir los mejores métodos para el análisis del efecto para la investigación de la ECF.
+### Non-overlap methods
+
+Se basan en el concepto de que la eficacia de una intervención se refleja en el grado en que los datos de la fase B no se superponen con los de la fase A. .orange[Tienen 4 ventajas principales:]  
+
+1. Facilidad de cálculo, requiriendo en su mayor parte sólo habilidades aritméticas básicas.  
+2. Enfoque no paramétrico que requiere supuestos mínimos sobre la distribución de datos.  
+3. Correspondencia intuitiva con el análisis visual.  
+4. Se puede utilizar con todos los tipos de SCED.
 
 ---
 background-image: url(https://cdn-prod.voxy.com/wp-content/uploads/2017/10/DataScience-Color.png)
@@ -808,8 +757,7 @@ background-size: 15%
 <br>]
 ]
 
-Se basan en el concepto de que la eficacia de una intervención se refleja en el grado en que los datos de la fase B no se superponen con los de la fase A.
-
+<br><br><br>
 1. .pink[PND.] % of non-overlap data [(Scruggs et al., 1987)](https://journals.sagepub.com/doi/abs/10.1177/074193258700800206?journalCode=rsed)  
 2. .pink[PEM.] % of data exceeding the median [(Ma, 2006)](https://pubmed.ncbi.nlm.nih.gov/16894232/)  
 3. .pink[PAND.] % of all non-overlapping data [(Parker et al.,2007)](https://journals.sagepub.com/doi/10.1177/00224669070400040101)  
@@ -846,11 +794,6 @@ background-size: 40%
 [(Scruggs et al., 1987)](https://journals.sagepub.com/doi/abs/10.1177/074193258700800206?journalCode=rsed)
 ]
 
-???
-1a.	Los valores de los datos de la línea de base en este ejemplo (ver Figura 1) son 4, 3 y 5. Tres es la puntuación mejorada más extrema, ya que tiene el valor más bajo en la medida de pánico en la línea de base. 
-
-2a.	Se considera que las puntuaciones de pánico superiores a 3 se superponen en el gráfico. Los valores de los datos de intervención son 2, 1, 2, 1, 3, 0 y 2. Solo una puntuación en la fase de tratamiento tiene un valor que se superpone al valor de la puntuación extrema en la línea de base: el valor de la línea de base de 3. Los valores restantes de 2, 1 2, 1, 0 y 2 no se superponen con el punto de datos de la línea de base. 
-
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/PNDoutlier.png?raw=true)
 background-position:50% 95%
@@ -859,12 +802,6 @@ background-size: 40%
 
 .orange[No se recomienda su uso si:]  
 1. hay puntuaciones extremas en la línea de base.
-
-???
-funciona bien con conjuntos de datos pequeños (5 puntos de datos por fase) y se ve menos afectado por la autocorrelación que algunas técnicas basadas en regresión (Manolov & Solanas, 2009). 
-
-Sin embargo, es propenso al error Tipo II (Lenz, 2013) y no es adecuado si
-Cuando los datos de línea de base contienen puntuaciones extremas, el ES puede convertirse rápidamente en 0 o 1. Por ejemplo, si solo un dato de la serie de datos de línea de base fuera 0, todos los efectos serían 0, independientemente de cuántos datos representaran altos niveles de pánico del cliente, o cuántos datos representaron la intervención que produjo una mejora en el pánico del cliente.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/PNDtrend1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/PNDtrend2.png?raw=true)
@@ -875,9 +812,6 @@ background-size: 40%, 40%
 .orange[No se recomienda su uso si:]  
 1. hay puntuaciones extremas en la línea de base.  
 2. hay tendencia  o variabilidad significativa en la línea de base. 
-
-???
-La tendencia tampoco se aborda adecuadamente en el PND. Otro ejemplo hipotético ilustra que tanto una tendencia creciente como una tendencia decreciente se tratarían de manera idéntica: si el pánico empeorara y los valores de los datos mostraran una tendencia creciente de 2, 3 y 4, el PND ES sería idéntico a una tendencia que demostrara que el pánico estaba mejorando y las puntuaciones estaban disminuyendo (las puntuaciones representaban valores de 4, 3 y 2). Ni el escenario de puntaje extremo ni el escenario de tendencia producirían un PND ES que tuviera sentido para el consejero o coincidiera con un análisis visual. En el primer ejemplo, una gran cantidad de días mejores (como se ve por las puntuaciones de pánico más bajas) se volvería irrelevante en el cálculo dada una puntuación extrema en la línea de base. En el siguiente ejemplo, tanto una tendencia creciente (el cliente empeora) como una tendencia decreciente (el cliente mejora) se tratarían de la misma manera en el cálculo.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/PNDoutlier.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/PEM.png?raw=true)
@@ -897,11 +831,6 @@ background-size: 32%, 32%
 
 .pull-left[- Falta de sensibilidad a la magnitud del efecto del tratamiento`r fa("arrow-right", fill = "salmon")`  
 - Mismo problema que PND, cuando hay tendencia `r fa("arrow-down", fill = "salmon")`]
-
-???
-La intervención puede ser levemente no superpuesta o en gran medida no superpuesta y producir el mismo efecto del 100%. Además, este ES no es sensible a la tendencia, similar al PND. 
-Si es evidente una gran variabilidad o tendencia, es posible que la mediana no refleje los datos más de lo que lo haría un solo punto. 
-Una mediana no incorpora comportamientos que mejoran o deterioran y, por lo tanto, no es óptima cuando existe una tendencia de referencia.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/NAPgrafica.png?raw=true)
@@ -1023,6 +952,16 @@ PND = .40
 ]
 
 ---
+# `r fa("toolbox", fill = "salmon")` Recursos
+### .right[`r fa("book", fill = "salmon")` **Libros y artículos**]
+[Visual analysis in single case experimental design studies: brief review and guidelines.](https://pubmed.ncbi.nlm.nih.gov/23883189/) protocolo diseñado para investigadores que analizan visualmente los datos SCED (Lane & Gast, 2014).
+
+[Single Case Research Methodology Applications in Special Education and Behavioral Sciences.](https://www.routledge.com/Single-Case-Research-Methodology-Applications-in-Special-Education-and/Ledford-Gast/p/book/9781138557130) resúmenes y hojas de trabajo, así como un ejemplo que ilustra cómo realizar el análisis (Ledford & Gast, 2018).
+
+[Single-case designs technical documentation.](https://ies.ed.gov/ncee/wwc/Docs/ReferenceResources/wwc_scd.pdf) (Kratochwill, et al. 2010).
+
+[Systematic Use of Visual Analysis for Assessing Outcomes in SCED.](https://www.cambridge.org/core/journals/brain-impairment/article/systematic-use-of-visual-analysis-for-assessing-outcomes-in-single-case-design-studies/57014928F0BDC5D2E26F331627D94341) (Ledford, et al., 2017)
+---
 # `r fa("calculator", fill = "salmon")` .pink[Web-based Calculators]
 
 .right[## .orange[Non-overlap methods]
@@ -1034,7 +973,24 @@ PND = .40
 - [Visual Aids & Non-overlap indices (Manolov, 2015)](https://manolov.shinyapps.io/Overlap/)  
 
 ---
-class: inverse
+# `r fa("calculator", fill = "salmon")` .pink[Web-based Calculators]
+
+.right[## .orange[Standard Mean Difference]
+]
+- [Single-case effect size calculator (Pustejovsky, Chen & Hamilton, 2020)](https://jepusto.shinyapps.io/SCD-effect-sizes/)
+
+- [Between-case standardized mean difference estimator (Vannest, Parker, Gonen & Adiguzel, 2016)](https://jepusto.shinyapps.io/scdhlm/)
+
+- [Average differences between pairs of conditions (Manolov, 2015)](https://manolov.shinyapps.io/Change/)  
+
+---
+# `r fa("calculator", fill = "salmon")` .pink[Web-based Calculators]
+
+.right[## .orange[Reggresion methods]
+]
+- [Regression analysis options (Manolov, 2015)](https://manolov.shinyapps.io/Regression/)
+
+---
 # `r fa("toolbox", fill = "salmon")` Recursos
 ### .right[`r fa("book", fill = "salmon")` **Libros y artículos**]
 [Analyzing single-case data with R and scan.](https://jazznbass.github.io/scan-Book/) para administrar, visualizar y analizar datos de SCED. (Wilbert, 2021).
@@ -1134,5 +1090,3 @@ background-size: 90%
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/SCRIBE2.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/SCRIBE3.png?raw=true)
 background-position: 2% 50%, 98% 50%
 background-size: 50%, 45%
-
----
