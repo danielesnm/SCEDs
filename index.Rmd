@@ -82,7 +82,7 @@ background-size: 95%
 .panel[.panel-name[`r fa("question", fill = "salmon")` ¿Qué es un diseño de caso único?]
 - Una metodología de investigación en la que el sujeto sirve como su propio control `r fa("female", fill = "salmon")` `r fa("arrows-alt-h", fill = "forestgreen")` `r fa("female", fill = "salmon")`, comparando su desempeño .pink[antes, durante y después] de la implementación de una intervención.  
 
-- Exige un control cuidadoso de las variables, una **recopilación de datos** confiable y sistematica, y la **introducción y manipulación** de una intervención.  
+- Exigen un control cuidadoso de las variables, una **recopilación de datos** confiable y sistemática, y la **introducción y manipulación** de una intervención.  
 
 - **N = 1** en el que el **1** puede ser _un individuo o un grupo de individuos._
 ]
@@ -99,7 +99,7 @@ background-size: 95%
 
 
 .panel[.panel-name[Uso]
-En el campo de las .pink[ciencias del comportamiento], en el contexto de la **investigación aplicada** o la **práctica clínica**: 
+En el campo de las .pink[ciencias del comportamiento], en el contexto de la **investigación aplicada** y la **práctica clínica**: 
 1. Evaluar/comparar intervenciones y perfeccionar su eficacia.  
 
 2. Imposibilidad de obtener una muestra homogénea de pacientes para un estudio grupal.  
@@ -156,7 +156,7 @@ background-size: contain
 A diferencia de los ensayos grupales donde se utilizan herramientas de medición validadas y con propiedades psicométricas conocidas, las medidas utilizadas en los diseños de caso único: 
 
 - Son creadas para el estudio.  
-- Corresponder a un comportamiento objetivo y deben de ser relevantes para las personas. 
+- Corresponden a un comportamiento objetivo y relevante para las personas. 
 - Deben de poder evaluarse de forma continua.  
 - Medición rápida, ya que la administración será repetitiva.
 
@@ -192,14 +192,14 @@ A diferencia de los ensayos grupales donde se utilizan herramientas de medición
 ---
 # `r fa("check-double", fill = "salmon")` **Maximización de la validez en SCED**
 
-Hay muchos factores que pueden interferir con un estudio que produce resultados creíbles, y se clasifican en cuatro dominios:
+.right[Hay muchos factores que pueden interferir con un estudio que produce resultados creíbles, y se clasifican en cuatro dominios: 
 
-`r fa("check-double", fill = "salmon")` .pink[Validez interna:] la capacidad de atribuir cambios en la variable dependiente a la variable independiente, en lugar de factores externos.  
+`r fa("check-double", fill = "salmon")` .orange[Validez interna:] la capacidad de atribuir cambios en la variable dependiente a la variable independiente, y no a factores externos.  
 
-`r fa("check-double", fill = "salmon")` .pink[Validez de constructo:] los constructos subyacentes a las variables de interés en el estudio y cómo se miden.  
-`r fa("check-double", fill = "salmon")` .pink[Validez de evaluación de los datos:] hacer inferencias precisas sobre los datos. 
+`r fa("check-double", fill = "salmon")` .orange[Validez de constructo:] los constructos subyacentes a las variables de interés en el estudio y cómo se miden.  
+`r fa("check-double", fill = "salmon")` .orange[Validez de evaluación de los datos:] hacer inferencias precisas sobre los datos. 
 
-`r fa("check-double", fill = "salmon")` .pink[Validez externa:] la aplicabilidad de la intervención en otros contextos.
+`r fa("check-double", fill = "salmon")` .orange[Validez externa:] la aplicabilidad de la intervención en otros contextos.
 
 ---
 # `r fa("star", fill = "salmon")` **SCED Standards**
@@ -268,20 +268,21 @@ background-size: contain
 .panel[.panel-name[Fundamentos]
 > `r fa("asterisk", fill = "pink")` **La introducción/retiro de la intervención** ocurre durante una o más fases, para demostrar sus efectos en VD.
 
-.pull-left[.center[<img src="http://blogs.cuit.columbia.edu/df2675/files/2018/08/ABAB-Reversal.jpg" style="width: 90%" />]]
+.pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/grafica.png?raw=true" style="width: 90%" />]]
 
 .orange[Su característica definitoria es:]
 - .orange[Fase A.] Se toman medidas de la VD. 
 
-- .orange[Fase B.] Se introduce/retira sistemáticamente durante el estudio. Cuando B retira, las condiciones vuelven a Fase A.
+- .orange[Fase B.] Se introduce/retira sistemáticamente durante el estudio. 
 
-.right[Este patrón se repite tantas veces como sea necesario para demostrar un efecto: .yellow[A-B], .pink[A-B-A], **A-B-A-B**]
+<br><br>
+Este patrón se repite tantas veces como sea necesario para demostrar un efecto: .yellow[A-B], .pink[A-B-A], **A-B-A-B**
 ]
 
 .panel[.panel-name[Control experimental]
 >Si la intervención es eficaz, el comportamiento debe mejorar durante Fase B y empeorar cuando se .pink[_"retira"_].  
 
-.pull-right[.center[<img src="http://blogs.cuit.columbia.edu/df2675/files/2018/08/ABAB-Reversal.jpg" style="width: 90%" />]]
+.pull-right[.center[<img src="https://www.researchgate.net/profile/Matt-Tincani/publication/315789876/figure/fig2/AS:479824608272384@1491410509031/Reversal-design-depicting-three-demonstrations-of-experimental-control.png" style="width: 90%" />]]
 
 `r fa("clipboard-check", fill = "salmon")` Estándares de evidencia:
 - 5 puntos de datos en cada fase 
@@ -304,10 +305,6 @@ background-size: contain
 2. Establecer procedimientos para planificar la continuación de los efectos de la intervención después del estudio.]
 ]
 ]
-
-???
-Estandares de evidencia
-Este control refuerza la conclusión de que cualquier cambio observado en la conducta objetivo es atribuible a la intervención y ayuda a reducir la plausibilidad de explicaciones alternativas.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/WRD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/BAB.png?raw=true)
@@ -367,9 +364,7 @@ background-size: contain
 ]
 
 .pull-right[.center[.red[Desventajas] `r fa("times", fill = "red")`]  
-1.	La medición repetida puede centrar la atención en un patrón de desempeño erróneo, que luego podría ser más difícil de erradicar.  
-
-2.	Repercusiones éticas acerca de retrasar la introducción de la intervención a otros niveles.]
+1. Repercusiones éticas acerca de retrasar la introducción de la intervención a otros niveles. La medición repetida puede centrar la atención en un patrón de desempeño erróneo, que luego podría ser más difícil de erradicar.]
 ]
 ]
 
@@ -378,7 +373,8 @@ background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png
 background-position: 0% 50%, 56% 90%
 background-size: contain, 60%
 
-### `r fa("users", fill = "gold")` .gold[ Entre participantes: ] [Krasny-Pacini & Evans (2018)](https://www.sciencedirect.com/science/article/pii/S1877065717304542) 
+### `r fa("users", fill = "gold")` .gold[ Entre participantes: ] [(Guercio, Johnson, Dixon, 2012)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3469300/) 
+
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx2.png?raw=true)
 background-position: 0% 50%, 17% 85%, 98% 85% 
