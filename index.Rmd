@@ -729,10 +729,15 @@ Multiple Baseline design [(Pierce & Schreibman, 1994)](https://www.ncbi.nlm.nih.
 .pink[VI:] pictorial self-management  
 
 ---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/data.png?raw=true)
+background-position: 95% 60%
+background-size: 25%
+# `r fa("exclamation", fill = "salmon")` Ejemplo
 
-La disponibilidad de diferentes softwares es un aspecto importante en el contexto SCED, ya que facilita tanto la recogida de datos como la elaboración de gráficos y su análisis 
+[Web based app](https://manolov.shinyapps.io/Overlap/)  
+Visual aids & Nonoverlap indices (Manolov, 2015) 
 
-Visual aids & Nonoverlap indices (Manolov, 2015) [(Web based app)](https://manolov.shinyapps.io/Overlap/)
+.pull-left[Para utilizar el software, es necesario preparar un archivo de datos (por ejemplo, Excel) con la siguiente estructura:] 
 
 ---
 background-image: url(https://www.simplemdg.com/wp-content/uploads/2020/12/3156627-1024x585.jpg)
