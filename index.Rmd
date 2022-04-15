@@ -43,7 +43,7 @@ xaringanExtra::use_panelset()
 xaringanExtra::use_clipboard()
 xaringanExtra::use_tachyons()
 xaringanExtra::use_scribble()
-xaringanExtra::use_progress_bar(color = "#0051BA", location = "top")
+xaringanExtra::use_editable(expires = 1)
 
 # uncomment the following lines if you want to use the NHS-R theme colours by default
 # scale_fill_continuous <- partial(scale_fill_nhs, discrete = FALSE)
@@ -743,6 +743,29 @@ Visual aids & Nonoverlap indices (Manolov, 2015)
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/webexaple.png?raw=true)
 background-position: 95% 60%
 background-size: contain
+
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/graphrep1.png?raw=true)
+background-position: 95% 60%
+background-size: 38%
+
+# `r fa("eye", fill = "salmon")` ¿Qué vemos?  
+.pink[Level, Trend, Variability]  
+
+.pull-left[.can-edit[...]
+]
+
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/graphrep2.png?raw=true)
+background-position: 95% 60%
+background-size: 45%
+
+# `r fa("eye", fill = "salmon")` ¿Qué vemos?  
+.pink[Level, Trend, Variability]  
+
+.pull-left[.can-edit[...]
+]
+
 
 ---
 background-image: url(https://www.simplemdg.com/wp-content/uploads/2020/12/3156627-1024x585.jpg)
