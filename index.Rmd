@@ -84,8 +84,6 @@ background-size: 95%
 .panel[.panel-name[`r fa("question", fill = "salmon")` ¿Qué es un diseño de caso único?]
 - Una metodología de investigación en la que el sujeto sirve como su propio control `r fa("female", fill = "salmon")` `r fa("arrows-alt-h", fill = "forestgreen")` `r fa("female", fill = "salmon")`, comparando su desempeño .pink[antes, durante y después] de la implementación de una intervención.  
 
-- Cada participante es analizado individualmente, en lugar de compararlo con grupo.
-
 - Exigen un control cuidadoso de las variables, una **recopilación de datos** confiable y sistemática, y la **introducción y manipulación** de una intervención.  
 ]
 
@@ -191,23 +189,6 @@ A diferencia de los ensayos grupales donde se utilizan herramientas de medición
 ]
 
 .right[[(Krasny-Pacini & Evans, 2018).](https://www.sciencedirect.com/science/article/pii/S1877065717304542)]
-
-
----
-background-image: url(https://healingproperties.org/wp-content/uploads/2020/12/addiction-surgery.jpg)
-background-position: 90% 92%
-background-size: 40%
-# `r fa("user", fill = "salmon")` **Single Case Designs**
-`r fa("arrow-alt-circle-right", fill = "salmon")` Mide la VD antes y después de la manipulación experimental (VD)  
-
-**Antes de la manipulación** = .pink[Baseline period]  
-**Después de la manipulación** = .pink[Treatment period]  
-
-.pull-left[Ejemplo. [(Mayberg, et al. 2005).](https://www.sciencedirect.com/science/article/pii/S089662730500156X)  
-
-6 pacientes con depresión severa fueron tratados con "deep brain stimulation".  
-Se tomaron múltiples medidas de depresión antes y después del tratamiento
-]
 
 ---
 # `r fa("check-double", fill = "salmon")` **Maximización de la validez en SCED**
