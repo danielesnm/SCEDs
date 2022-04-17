@@ -3,7 +3,7 @@ title: .pink[Evaluación de la evidencia en la práctica clínica (I):]
 subtitle: .pink[Diseños experimentales de caso único (SCED)]
 author: "Npsic. Daniel Salazar Frías"
 institute: "Universidad de Granada"
-date: "9 de abril de 2021"
+date: "21 de abril de 2022"
 output:
   xaringan::moon_reader:
     css: 
@@ -81,10 +81,14 @@ background-size: 95%
 # `r fa("user", fill = "salmon")` **Diseño de Caso Único**
 
 .panelset[
-.panel[.panel-name[`r fa("question", fill = "salmon")` ¿Qué es un diseño de caso único?]
+.panel[.panel-name[`r fa("question", fill = "salmon")` ¿Qué es?]
 - Una metodología de investigación en la que el sujeto sirve como su propio control `r fa("female", fill = "salmon")` `r fa("arrows-alt-h", fill = "forestgreen")` `r fa("female", fill = "salmon")`, comparando su desempeño .pink[antes, durante y después] de la implementación de una intervención.  
 
-- Exigen un control cuidadoso de las variables, una **recopilación de datos** confiable y sistemática, y la **introducción y manipulación** de una intervención.  
+- Al igual que los diseños de grupo, exigen:  
+>1. Control cuidadoso de las variables  
+>2. Recopilación sistemática de datos  
+>3. Introducción y manipulación de una intervención 
+
 ]
 
 .panel[.panel-name[Objetivo]
@@ -106,7 +110,30 @@ En el campo de las .pink[ciencias del comportamiento], en el contexto de la **in
 
 3. Limitación de tiempo.
 ]
+
+
+.panel[.panel-name[`r fa("question", fill = "salmon")` Conceptos erroneos]
+- _.orange[Single Case]_ no significa **n=1**. 
+
+- No se limitan a intervenciones que producen grandes cambios y de manera rápida en el comportamiento.  
+
+- Pueden utilizarse para .pink[detectar cambios pequeños pero significativos en el comportamiento] y que pueden cambiar lentamente con el tiempo (por ejemplo, el aprendizaje de una nueva habilidad)  
+
 ]
+]
+
+---
+# `r fa("user", fill = "salmon")` **¿Porqué aplicarla?**
+
+(a) .pink[Trabajo en equipo]. Los SCED permiten responder a preguntas que son relevantes para los profesionales de la salud y son un medio para a cortar la brecha entre los investigadores y los profesionales.  
+  
+  
+--
+(b) .pink[Eficacia en entornos reales]. La mayoría de los estudios grupales se realizan en entornos académicos, lo cual muchas veces no son aplicables y/o relevantes para los pacientes.  
+  
+  
+--
+(c) .pink[Generalización hacia la población]. Pueden utilizarse procedimientos meta-analíticos para la agregación de experimentos replicados de un solo caso; ayudando a generar conclusiones sobre una determinada intervención y su generalización a una población en particular.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elementos1.png?raw=true)
@@ -156,10 +183,9 @@ background-size: contain
 
 A diferencia de los ensayos grupales donde se utilizan herramientas de medición con propiedades psicométricas conocidas, las medidas utilizadas en los SCED: 
 
-- Son creadas para el estudio.  
-- Corresponden a un comportamiento objetivo y relevante para las personas. 
-- Deben de poder evaluarse de forma continua.  
-- Medición rápida, ya que la administración será repetitiva.
+- Corresponden a un comportamiento objetivo y debe de ser relevante para las personas. 
+- Deben de poder evaluarse de forma continua a lo largo del tiempo. 
+- Debe de poder medirse con un procedimiento que generé un índice cuantificable.
 
 .right[[(Krasny-Pacini & Evans, 2018).](https://www.sciencedirect.com/science/article/pii/S1877065717304542)]  
 
@@ -189,6 +215,34 @@ A diferencia de los ensayos grupales donde se utilizan herramientas de medición
 ]
 
 .right[[(Krasny-Pacini & Evans, 2018).](https://www.sciencedirect.com/science/article/pii/S1877065717304542)]
+
+---
+# `r fa("bullseye", fill = "salmon")` **Conceptos básicos**
+
+.left-column[.orange[Linea base: 
+]
+]
+
+.right-column[Proporciona una medición repetida de una variable dependiente y establece un patrón de respuesta que puede utilizarse para predecir/comparar con el patrón de rendimiento futuro.
+]
+
+.right[[(Krasny-Pacini & Evans, 2018).](https://www.sciencedirect.com/science/article/pii/S1877065717304542)]
+
+---
+# `r fa("user", fill = "salmon")` **Ejemplo**
+
+.orange[Promoting Error Awareness and Self-Correction During Functional Tasks] [(Ownsworth et al. 2006).](https://pubmed.ncbi.nlm.nih.gov/16433944/)
+
+SCED para probar una intervención para mejorar el funcionamiento diario  de un hombre de 36 años de edad, 4 años después de una TCE. 
+
+.pink[VI]: metacognitive contextual intervention para mejorar la conciencia de los errores y la autocorrección durante los objetivos _seleccionados_ por el cliente de cocinar en casa y realizar trabajos voluntarios (real life settings).  
+
+.pink[VD]: error frequency, error behavior and standardized awareness measures
+
+---
+.pull-left[- Reducción del 44% en la frecuencia de errores y una mayor autocorrección.  
+
+- No se evidenció generalización en el entorno de trabajo voluntario, consiguió un empleo remunerado y recibió un breve entrenamiento metacognitivo en su entorno laboral.]
 
 ---
 # `r fa("check-double", fill = "salmon")` **Maximización de la validez en SCED**
@@ -269,7 +323,7 @@ background-size: contain
 
 .panelset[
 .panel[.panel-name[Fundamentos]
-> `r fa("asterisk", fill = "pink")` **La introducción/retiro de la intervención** ocurre durante una o más fases, para demostrar sus efectos en VD.
+> `r fa("asterisk", fill = "pink")` **La implementación/retiro de la intervención** ocurre durante una o más fases, para demostrar sus efectos en VD.
 
 .pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/grafica.png?raw=true" style="width: 90%" />]]
 
@@ -716,9 +770,9 @@ Consiste en .pink[integrar esta información] para determinar si el efecto de la
 
 ---
 # `r fa("exclamation", fill = "salmon")` Ejemplo
+Teaching daily living skills to children with autism in unsupervised settings through pictorial self-management [(Pierce & Schreibman, 1994)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1297828/)  
 
-Multiple Baseline design [(Pierce & Schreibman, 1994)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1297828/)
-
+**Multiple Baseline design**  
 **Objetivo:** enseñar habilidades de la vida diaria a 3 niños de bajo funcionamiento diagnosticados con trastorno del espectro autista:  
 
 .orange[John:] _poner la mesa, hacer la comida, lavar la ropa_  
