@@ -183,9 +183,9 @@ background-size: contain
 
 A diferencia de los RCT donde se utilizan herramientas de medición con propiedades psicométricas conocidas, las medidas utilizadas en los SCED: 
 
-- Corresponden a un comportamiento objetivo y debe de ser relevante para las personas (la medida suele estar hecha y ser única para el estudio).  
+Corresponden a un comportamiento objetivo y debe de ser relevante para las personas (la medida suele estar hecha y ser única para el estudio).  
 
-- Deben de poder evaluarse de forma continua a lo largo del tiempo. 
+Deben de poder evaluarse de forma continua a lo largo del tiempo. 
 
 
 .right[[(Krasny-Pacini & Evans, 2018).](https://www.sciencedirect.com/science/article/pii/S1877065717304542)]  
@@ -210,9 +210,11 @@ A diferencia de los RCT donde se utilizan herramientas de medición con propieda
 
 .right-column[.pink[La intervención que se utilizará]  
 
-- Se debe de implementar de manera estandarizada, para reducir la posibilidad de variabilidad de los resultados. 
-- Las medidas de resultado deben de ser idénticas a las utilizados durante la Fase A. 
-- Se identifica a priori un criterio de tratamiento exitoso para determinar su efectividad.
+Se debe de implementar de manera estandarizada, para reducir la posibilidad de variabilidad de los resultados.  
+
+Las medidas de resultado deben de ser idénticas a las utilizados durante la Fase A.  
+
+Se identifica a priori un criterio de tratamiento exitoso para determinar su efectividad.
 ]
 
 .right[[(Krasny-Pacini & Evans, 2018).](https://www.sciencedirect.com/science/article/pii/S1877065717304542)]
@@ -232,25 +234,38 @@ A diferencia de los RCT donde se utilizan herramientas de medición con propieda
 ---
 # `r fa("user", fill = "salmon")` **Ejemplo**
 
-.orange[Promoting Error Awareness and Self-Correction During Functional Tasks] [(Ownsworth et al. 2006).](https://pubmed.ncbi.nlm.nih.gov/16433944/)
+.orange[Promoting Error Awareness and Self-Correction During Functional Tasks] [(Ownsworth, et al. 2006).](https://pubmed.ncbi.nlm.nih.gov/16433944/)
 
-Probar la eficacia de una intervención para mejorar el funcionamiento diario de un paciente después de un TCE. 
+Probar la eficacia de una intervención para mejorar el funcionamiento diario de un px con TCE grave, que presentaba déficits de conciencia.
 
-.pink[VI]: metacognitive contextual intervention para mejorar la conciencia de los errores y la autocorrección durante 2 tareas _seleccionadas_ por el pciante: cocinar y realizar trabajos voluntarios (real life settings).  
+.pink[Variable Independiente]  
+Intervención metacognitiva, para mejorar la conciencia de los errores y la autocorrección durante 2 tareas _seleccionadas_ por el paciante:  
+.right[**cocinar y realizar trabajos voluntarios (real life settings)**]  
 
-.pink[VD]: error frequency, error behavior and standardized awareness measures
+.pink[Variable Dependiente]  
+Error frequency, error behavior 
 
 ---
-.pull-left[- Reducción del 44% en la frecuencia de errores y una mayor autocorrección.  
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/scedownsorth.png?raw=true)
+background-position: 99% 65%
+background-size: 50%
 
-- No se evidenció generalización en el entorno de trabajo voluntario, consiguió un empleo remunerado y recibió un breve entrenamiento metacognitivo en su entorno laboral.]
+<br>
+.pull-left[.pink[Variable independiente]:  
+metacognitive intervention (da oportunidad al px de cometer, identificar y corregir sus errores.  
+- “pause/prompt/praise” technique  
+- role reversal techniques  
+- videofeedback  
+
+.pink[Variable dependiente]:  
+error frequency, error behavior]
 
 ---
 # `r fa("check-double", fill = "salmon")` **Maximización de la validez en SCED**
 
-.right[.pink[SCED permiten obtener evidencia empírica sobre la eficacia de las intervenciones.]]
+.right[.pink[¿cómo tratar estas variables de confusión?]]
 
-Una característica esencial para que la evidencia se considere sólida y confiable es **la replicación del efecto de la intervención** (Perdices et al., 2019). Siendo la replicación dentro del estudio esencial para la .orange[validez interna] y la replicación entre estudios para la .orange[validez externa]. 
+Una característica esencial para que la evidencia se considere sólida y confiable es: **la replicación del efecto de la intervención** (Perdices et al., 2019). Siendo la replicación dentro del estudio esencial para la .orange[validez interna] y la replicación entre estudios para la .orange[validez externa]. 
 
 `r fa("check-double", fill = "salmon")` .orange[Validez interna:] la capacidad de atribuir cambios en la variable dependiente a la variable independiente, y no a factores externos.  
 
