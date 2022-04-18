@@ -961,7 +961,7 @@ background-size: 40%, 40%
 # `r fa("square-root-alt", fill = "salmon")` .pink[PND.] % of non-overlap data
 
 .orange[No se recomienda su uso si:]  
-1. hay puntuaciones extremas en la línea de base.  
+1. .gray[hay puntuaciones extremas en la línea de base.]  
 2. hay tendencia  o variabilidad significativa en la línea de base. 
 
 ---
