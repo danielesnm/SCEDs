@@ -113,11 +113,11 @@ En el campo de las .pink[ciencias del comportamiento], en el contexto de la **in
 
 
 .panel[.panel-name[`r fa("question", fill = "salmon")` Conceptos erroneos]
-- _.orange[Single Case]_ no significa **n=1**. 
+- _.orange[Single Case/Caso Único]_ no significa **n=1**. 
 
-- No se limitan a intervenciones que producen grandes cambios y de manera rápida en el comportamiento.  
+- No se limitan a intervenciones que producen grandes cambios y de manera rápida en el comportamiento.
 
-- Pueden utilizarse para .pink[detectar cambios pequeños pero significativos en el comportamiento] y que pueden cambiar lentamente con el tiempo (por ejemplo, el aprendizaje de una nueva habilidad)  
+- Los resultados de SCED no carecen  de validez externa o generalización.  
 
 ]
 ]
@@ -311,6 +311,14 @@ validez de fase
 [The Use of Single-Subject Research to Identify Evidence-Based Practice in Special Education.](https://journals.sagepub.com/doi/10.1177/001440290507100203) (Horner, et al., 2005)
 
 ---
+# `r fa("toolbox", fill = "salmon")` Recursos
+### .right[`r fa("book", fill = "salmon")` **Libros y artículos**]
+[Single-Case Experimental Designs: Clinical Research and Practice](https://www.sciencedirect.com/science/article/pii/B9780128186978001916) (Vlaeyen, 2022).
+
+[Power calculations in single-case neuropsychology: A practical primer](https://www.sciencedirect.com/science/article/abs/pii/S0010945220304196?via%3Dihub) (McIntosh & Rittmo, 2021).
+
+
+---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/2.clasificacion.png?raw=true)
 background-position: 50% 75%
 background-size: 95%
@@ -367,15 +375,15 @@ Este patrón se repite tantas veces como sea necesario para demostrar un efecto:
 .panel[.panel-name[Ventajas/Desventajas]
 
 .pull-left[.center[.green[Ventajas] `r fa("check", fill = "green")`]  
-1.	Útil en rehabilitación para pruebas de prótesis, fármacos, dispositivos adaptativos y tecnología asistencial (smartphones). 
+-	Demostración clara de un efecto de la intervención en un sujeto 
 
-2. A-B-A-B, al tener una fase B adicional, incorporan una replicación intraindividual más sistemática del efecto experimental.
+- A-B-A-B, al tener una fase B adicional, incorporan una replicación intraindividual más sistemática del efecto experimental.
 ]
 
 .pull-right[.center[.red[Desventajas] `r fa("times", fill = "red")`]  
-1.	Repercusiones éticas acerca de terminar en Fase A (ej. ABA), particularmente si la intervención ha sido efectiva.  
+-	Repercusiones éticas acerca de terminar en Fase A (ej. ABA), particularmente si la intervención ha sido efectiva.  
 
-2. Establecer procedimientos para planificar la continuación de los efectos de la intervención después del estudio.]
+- No se aplica si el comportamiento es irreversible, o cuando la eliminación del tratamiento no es deseable.]
 ]
 ]
 
@@ -614,6 +622,21 @@ background-size: 25%
 
 ---
 
+background-image: url(https://www.researchsolutions.com/hubfs/website/img/animation/preloadHome.png)
+background-position: 90% 103%
+background-size: 25%
+# `r fa("chart-bar", fill = "salmon")` Publicaciónes recientes
+
+- .orange[Graphing the intersection of rate and fidelity in Single-Case Research] [(Snodgrass, et al., 2022)](https://link.springer.com/content/pdf/10.1007/s40617-021-00556-w.pdf)
+
+- .orange[Additional Graphical Representation for Single-Case Experimental Designs Data] [(Manolov & Tanious, 2022)](https://psyarxiv.com/zsq3k/)
+
+- .orange[Defining and assessing immediacy in single-case experimental designs] [(Manolov & Romano & Onghena, 2022)](https://psyarxiv.com/c234w/)
+
+- .orange[List of single-case data analysis software tools] [(OSF project: Rumen Manolov)](https://osf.io/sv9pg/)  
+
+---
+
 # `r fa("chart-bar", fill = "salmon")` Análisis de los resultados  
 
 .pink[Criterios experimentales] `r fa("arrow-circle-right", fill = "salmon")` existe relación funcional entre los cambios observados en la conducta objetivo (VD) y la intervención (VI). Nivel de evidencia de la presencia (o ausencia) de un efecto de la intervención. 
@@ -740,7 +763,7 @@ background-size: 47%
 .orange[Trend:] .gray[dirección en la que los datos se mueven dentro de cada fase.]  
 ### .orange[Variability:] grado de dispersión general de los datos.  
   
-.pull-left[.pink[Rango de estabilidad] mediante el procedimiento de [Lane & Gast (2014)](https://pubmed.ncbi.nlm.nih.gov/23883189/), al menos el 80% de los puntos de datos deben caer dentro de ± 25% de la mediana de cada condición.]
+.pull-left[.pink[Rango de estabilidad] mediante el procedimiento de [Lane & Gast (2014)](https://pubmed.ncbi.nlm.nih.gov/23883189/), al menos el 80% de los puntos de datos deben estar dentro de ± 25% de la mediana de cada condición.]
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ovrlap.png?raw=true)
@@ -804,8 +827,8 @@ background-position: 95% 60%
 background-size: 25%
 # `r fa("exclamation", fill = "salmon")` Ejemplo
 
-[Web based app](https://manolov.shinyapps.io/Overlap/)  
-Visual aids & Nonoverlap indices (Manolov, 2015) 
+Visual aids & Nonoverlap indices:  
+.pink[WEB based app]  [(Manolov, 2015)](https://manolov.shinyapps.io/Overlap/) 
 
 .pull-left[Para utilizar el software, es necesario preparar un archivo de datos (por ejemplo, Excel) con la siguiente estructura:] 
 
