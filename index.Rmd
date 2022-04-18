@@ -781,7 +781,7 @@ background-position: 90% 92%
 background-size: 47%
 # `r fa("eye", fill = "salmon")` Paso 3: comparar fases adyacentes
 
-.orange[Overlap:] % de datos que se superponen con los de la fase anterior.  
+.orange[Overlap:] .gray[% de datos que se superponen con los de la fase anterior.]  
 ### .orange[Immediacy of the effect:] cambio de level entre los últimos 3 datos en la fase y los primeros 3 de la siguiente.  
 
 .pull-left[.pink[A mayor rapidez] del efecto, más convincente será la inferencia de que el cambio se debe a la manipulación de la variable independiente.]
@@ -792,8 +792,8 @@ background-position: 90% 92%
 background-size: 47%
 # `r fa("eye", fill = "salmon")` Paso 3: comparar fases adyacentes
 
-.orange[Overlap:] % de datos que se superponen con los de la fase anterior.  
-.orange[Immediacy of the effect:] cambio de level entre los últimos 3 datos en la fase y los primeros 3 de la siguiente.   
+.orange[Overlap:] .gray[% de datos que se superponen con los de la fase anterior.]  
+.orange[Immediacy of the effect:] .gray[cambio de level entre los últimos 3 datos en la fase y los primeros 3 de la siguiente.]   
 ### .orange[Consistency:] examinar hasta qué punto hay coherencia en los patrones de datos de fases con condiciones `r fa("equals", fill = "salmon")`
 
 
@@ -962,7 +962,7 @@ background-size: 40%, 40%
 
 .orange[No se recomienda su uso si:]  
 1. .gray[hay puntuaciones extremas en la línea de base.]  
-2. hay tendencia  o variabilidad significativa en la línea de base. 
+2. hay tendencia significativa en los datos de la línea de base. 
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/PNDoutlier.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/PEM.png?raw=true)
@@ -1113,7 +1113,14 @@ PND = .40
 
 [Systematic Use of Visual Analysis for Assessing Outcomes in SCED.](https://www.cambridge.org/core/journals/brain-impairment/article/systematic-use-of-visual-analysis-for-assessing-outcomes-in-single-case-design-studies/57014928F0BDC5D2E26F331627D94341) (Ledford, et al., 2017)
 ---
+
 # `r fa("calculator", fill = "salmon")` .pink[Web-based Calculators]
+
+.right[## .orange[Visual Analysis]
+]  
+
+- [Visual Aids & Non-overlap indices (Manolov, 2015)](https://manolov.shinyapps.io/Overlap/)
+
 
 .right[## .orange[Non-overlap methods]
 ]
@@ -1121,8 +1128,7 @@ PND = .40
 
 - [Tau-U calculator (Vannest, Parker, Gonen & Adiguzel, 2016)](http://www.singlecaseresearch.org/calculators/tau-u)
 
-- [Visual Aids & Non-overlap indices (Manolov, 2015)](https://manolov.shinyapps.io/Overlap/)  
-
+  
 ---
 # `r fa("calculator", fill = "salmon")` .pink[Web-based Calculators]
 
