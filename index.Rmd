@@ -97,13 +97,13 @@ background-size: 95%
 .center[<img style="border-radius: 50%;" src="https://i.pinimg.com/564x/3b/d0/42/3bd042671b3bab2cf3c2d84ade6166b0.jpg" width="300px"/>]]
 
 .right-column[ 
-> Establecer una relación funcional entre el **comportamiento objetivo** (VD) y **la intervención** (VI), para determinar si ésta ejerce un efecto sobre el comportamiento que se investiga.  
+> Establecer una relación funcional entre el **comportamiento objetivo** (VD) y **la intervención** (VI), y de esta manera determinar su efecto.  
 
 ]]
 
 
 .panel[.panel-name[Aplicación]
-En el campo de las .pink[ciencias del comportamiento], en el contexto de la **investigación aplicada** y la **práctica clínica**: 
+En las .pink[ciencias del comportamiento], en el contexto de la **investigación aplicada** y la **práctica clínica**: 
 1. Evaluar/comparar intervenciones y perfeccionar su eficacia.  
 
 2. Imposibilidad de obtener una muestra homogénea de pacientes para un estudio grupal.  
@@ -113,11 +113,11 @@ En el campo de las .pink[ciencias del comportamiento], en el contexto de la **in
 
 
 .panel[.panel-name[`r fa("question", fill = "salmon")` Conceptos erroneos]
-- _.orange[Single Case/Caso Único]_ no significa **n=1**. 
+- _.orange[Single Case/Caso Único]_ **NO** significa **n=1**. 
 
-- No se limitan a intervenciones que producen grandes cambios y de manera rápida en el comportamiento.
+- **NO** se limitan a intervenciones que producen grandes cambios y de manera rápida en el comportamiento.
 
-- Los resultados de SCED no carecen  de validez externa o generalización.  
+- Los resultados de SCED **NO** carecen  de validez externa o generalización.  
 
 ]
 ]
@@ -125,7 +125,7 @@ En el campo de las .pink[ciencias del comportamiento], en el contexto de la **in
 ---
 # `r fa("user", fill = "salmon")` **¿Porqué aplicarla?**
 
-(a) .pink[Trabajo en equipo]. Los SCED permiten responder a preguntas que son relevantes para los profesionales de la salud y son un medio para a cortar la brecha entre los investigadores y los profesionales.  
+(a) .pink[Trabajo en equipo]. Los SCED permiten responder a preguntas que son relevantes para los profesionales de la salud y son un medio para a cortar la brecha entre los investigadores y los terapeutas  
   
   
 --
@@ -133,7 +133,7 @@ En el campo de las .pink[ciencias del comportamiento], en el contexto de la **in
   
   
 --
-(c) .pink[Generalización hacia la población]. Pueden utilizarse procedimientos meta-analíticos para la agregación de experimentos replicados de un solo caso; ayudando a generar conclusiones sobre una determinada intervención y su generalización a una población en particular.
+(c) .pink[Generalización hacia la población]. Utiliza procedimientos meta-analíticos para la agregación de los efectos de los SCED; ayudando a generar conclusiones sobre la efectividad de una intervención y su generalización a una población en particular.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elementos1.png?raw=true)
@@ -211,8 +211,6 @@ Deben de poder evaluarse de forma continua a lo largo del tiempo.
 .right-column[.pink[La intervención que se utilizará]  
 
 Se debe de implementar de manera estandarizada, para reducir la posibilidad de variabilidad de los resultados.  
-
-Las medidas de resultado deben de ser idénticas a las utilizados durante la Fase A.  
 
 Se identifica a priori un criterio de tratamiento exitoso para determinar su efectividad.
 ]
@@ -478,6 +476,14 @@ background-size: contain, 50%
 - Incluye fase de "mejor tratamiento" en la que se aplica la intervención más eficaz. 
 - Permite estimar la magnitud de los efectos de interferencia de la intervención y, por lo tanto, fortalecer la validez interna.
 
+---
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ATD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/ATD-ejemplo.png?raw=true
+background-position: 0% 50%, 90% 98%
+background-size: contain, 47%
+
+### `r fa("sort-down", fill = "green")` .green[Fase de comparación con fase de mejor tratamiento:]
+
+.pull-left[[Effects of the TOUCHMATH Program Compared to a Number Line Strategy to Teach Addition Facts to Middle School Students with Moderate Intellectual Disabilities (Fletcher et al. 2010)](https://www.jstor.org/stable/23880117?seq=7)] 
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true)
@@ -486,7 +492,7 @@ background-size: contain
 
 .panelset[
 .panel[.panel-name[Fundamentos]
-> `r fa("asterisk", fill = "gold")` Se introduce la intervención de manera escalonada a través de diferentes __participantes `r fa("arrow-right", fill = "gold")` contextos `r fa("arrow-right", fill = "gold")` comportamientos__.
+> `r fa("asterisk", fill = "gold")` Analiza los efectos de una variable independiente a través de __participantes `r fa("arrow-right", fill = "gold")` contextos `r fa("arrow-right", fill = "gold")` comportamientos__. 
 
 .pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/MBD.png?raw=true" style="width: 75%" />]]
 
@@ -537,15 +543,6 @@ background-size: contain, 41%, 44%
 ### `r fa("laptop-house", fill = "gold")` .gold[ Entre contextos: ] 
 
 [Structured flexibility: the use of context self-regulatory scripts to support young persons with ABI and behav. difficulties (Feeney, 2010)](https://pubmed.ncbi.nlm.nih.gov/21076242/) 
-
----
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-comp2.png?raw=true)
-background-position: 0% 50%, 56% 95%
-background-size: contain, 39%
-
-### `r fa("people-arrows", fill = "gold")` .gold[ Entre comportamientos: ] 
-
-[Evaluating an intervention to increase meaningful activity after severe TBI (Tate, et al. 2018)](https://www.tandfonline.com/doi/abs/10.1080/09602011.2018.1488746?journalCode=pnrh20) 
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/CCD1.png?raw=true)
