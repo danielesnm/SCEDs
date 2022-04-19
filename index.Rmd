@@ -237,11 +237,11 @@ Se identifica a priori un criterio de tratamiento exitoso para determinar su efe
 Probar la eficacia de una intervención para mejorar el funcionamiento diario de un px con TCE grave, que presentaba déficits de conciencia.
 
 .pink[Variable Independiente]  
-Intervención metacognitiva, para mejorar la conciencia de los errores y la autocorrección durante 2 tareas _seleccionadas_ por el paciante:  
+Intervención metacognitiva, para mejorar la conciencia de los errores y la autocorrección durante 2 actividades _seleccionadas_ por el paciante:  
 .right[**cocinar y realizar trabajos voluntarios (real life settings)**]  
 
 .pink[Variable Dependiente]  
-Error frequency 
+Error frequency (disminuir el número de errores en las actividades )
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/scedownsorth.png?raw=true)
@@ -250,24 +250,13 @@ background-size: 30%
 
 <br>
 .pull-left[.pink[Variable independiente]  
-Intervención metacognitiva (da oportunidad al px de cometer, identificar y corregir sus errores.  
+Intervención metacognitiva (error-based).  
 - “pause/prompt/praise” technique  
 - role reversal techniques  
 - videofeedback  
 
 .pink[Variable dependiente]  
 Error frequency]
-
----
-# `r fa("check-double", fill = "salmon")` **Maximización de la validez en SCED**
-
-.right[.pink[¿cómo tratar estas variables de confusión?]]
-
-Una característica esencial para que la evidencia se considere sólida y confiable es: **la replicación del efecto de la intervención** (Perdices et al., 2019). Siendo la replicación dentro del estudio esencial para la .orange[validez interna] y la replicación entre estudios para la .orange[validez externa]. 
-
-`r fa("check-double", fill = "salmon")` .orange[Validez interna:] la capacidad de atribuir cambios en la variable dependiente a la variable independiente, y no a factores externos.  
-
-`r fa("check-double", fill = "salmon")` .orange[Validez externa:] la aplicabilidad de la intervención en otros contextos/pacientes.
 
 ---
 # `r fa("star", fill = "salmon")` **SCED Standards**
@@ -289,6 +278,18 @@ control experimental
 `r fa("star", fill = "salmon")`**Estándar 4**:   
 validez de fase 
 ]
+
+---
+# `r fa("check-double", fill = "salmon")` **Maximización de la validez en SCED**
+
+.right[.pink[¿cómo tratar estas variables de confusión?]]
+
+Una característica esencial para que la evidencia se considere sólida y confiable es: **la replicación del efecto de la intervención** (Perdices et al., 2019). Siendo la replicación dentro del estudio esencial para la .orange[validez interna] y la replicación entre estudios para la .orange[validez externa]. 
+
+`r fa("check-double", fill = "salmon")` .orange[Validez interna:] la capacidad de atribuir cambios en la variable dependiente a la variable independiente, y no a factores externos.  
+
+`r fa("check-double", fill = "salmon")` .orange[Validez externa:] la aplicabilidad de la intervención en otros contextos/pacientes.
+
 ---
 
 # `r fa("toolbox", fill = "salmon")` Recursos
@@ -349,13 +350,12 @@ background-size: contain
 
 .pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/grafica.png?raw=true" style="width: 90%" />]]
 
-.orange[Su característica definitoria es:]
-- .orange[Fase A.] Se toman medidas de la VD. 
+.orange[Reversal design.] Inversión entre tratamientos (A, B, C, B, C, etc.) 
 
-- .orange[Fase B.] Se introduce/retira sistemáticamente durante el estudio. 
+.orange[Withdrawal design.] Inversión entre el tratamiento y la ausencia de tratamiento (A,B,A,B, etc.)
 
-<br><br>
-Este patrón se repite tantas veces como sea necesario para demostrar un efecto: .yellow[A-B], .pink[A-B-A], **A-B-A-B**
+<br>
+Este patrón se repite tantas veces como sea necesario para replicar el efecto las veces que sean necesarias: .yellow[A-B], .pink[A-B-A], **A-B-A-B**
 ]
 
 .panel[.panel-name[Control experimental]
@@ -373,28 +373,24 @@ Este patrón se repite tantas veces como sea necesario para demostrar un efecto:
 .panel[.panel-name[Ventajas/Desventajas]
 
 .pull-left[.center[.green[Ventajas] `r fa("check", fill = "green")`]  
--	Demostración clara de un efecto de la intervención en un sujeto 
+-	Puede demostrar de manera clara el efecto funcional de la intervención sobre el comportamiento. 
 
 - A-B-A-B, al tener una fase B adicional, incorporan una replicación intraindividual más sistemática del efecto experimental.
 ]
 
 .pull-right[.center[.red[Desventajas] `r fa("times", fill = "red")`]  
--	Repercusiones éticas acerca de terminar en Fase A (ej. ABA), particularmente si la intervención ha sido efectiva.  
-
-- No se aplica si el comportamiento es irreversible, o cuando la eliminación del tratamiento no es deseable.]
+- No se aplica si el comportamiento es irreversible.]
 ]
 ]
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/WRD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/BAB.png?raw=true)
-background-position: 0% 50%, 50% 98%
-background-size: contain, 39%
+background-position: 0% 50%, 50% 78%
+background-size: contain, 45%
 
 ### `r fa("brain", fill = "salmon")` .pink[ B-A-B: ]
 
 -  Se puede implementar cuando un paciente ya esta bajo un tratamiento y se desea aclarar la efectividad del mismo 
-
-- Sirve como precursor de diseños más complejos, que implican la alternancia de una intervención existente (B) y una nueva (C) que se supone que es más eficaz .orange[(B-A-B-A-C).]  
 
 - Es útil cuando un tratamiento no esta siendo lo suficientemente eficaz o está acompañado de efectos secundarios indeseables. 
 
@@ -403,7 +399,7 @@ background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/WRD1.png
 background-position: 0% 50%, 55% 98%
 background-size: contain, 66%
 
-### `r fa("brain", fill = "salmon")` .pink[A-B-A-C-A-B-BC-B:] 
+### `r fa("brain", fill = "salmon")` .pink[A-B-A-C-A-B-BC-B design:] 
 [The effectiveness of control strategies for dementia-driven wandering, preventing escape attempts (Valle Padilla et al. 2013)](https://pubmed.ncbi.nlm.nih.gov/23199418/) 
 
 ---
@@ -440,8 +436,6 @@ background-size: contain
 
 .pull-left[.center[.green[Ventajas] `r fa("check", fill = "green")`]  
 1. No requiere el retiro de la intervención.
-
-2. Las intervenciones pueden iniciarse inmediatamente.
 
 3. Comparación rápida de las intervenciones
 
@@ -1145,6 +1139,11 @@ PND = .40
 .right[## .orange[Reggresion methods]
 ]
 - [Regression analysis options (Manolov, 2015)](https://manolov.shinyapps.io/Regression/)
+
+
+.right[## .orange[Tutorial para Graficos Excel]
+]
+- [Learning how to graph SCED in excel (Duncan, 2019)](https://supervision.bamentorship.net/2019/07/01/graphing-tutorials/)
 
 ---
 # `r fa("toolbox", fill = "salmon")` Recursos
