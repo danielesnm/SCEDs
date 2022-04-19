@@ -363,7 +363,7 @@ Este patrón se repite tantas veces como sea necesario para demostrar un efecto:
 .panel[.panel-name[Control experimental]
 >Si la intervención es eficaz, el comportamiento debe mejorar durante Fase B y empeorar cuando se .pink[_"retira"_].  
 
-.pull-right[.center[<img src="https://www.researchgate.net/profile/Matt-Tincani/publication/315789876/figure/fig2/AS:479824608272384@1491410509031/Reversal-design-depicting-three-demonstrations-of-experimental-control.png" style="width: 90%" />]]
+.pull-right[.center[<img src="https://supervision.bamentorship.net/wp-content/uploads/sites/2/2019/08/reversal_design_abab_good_results1328671986751.jpg" style="width: 100%" />]]
 
 `r fa("clipboard-check", fill = "salmon")` Estándares de evidencia:
 - 5 puntos de datos en cada fase 
@@ -415,9 +415,9 @@ background-size: contain
 
 .panelset[
 .panel[.panel-name[Fundamentos]
-> `r fa("asterisk", fill = "green")` Se compara los efectos de 2 ó más intervenciónes sobre el mismo comportamiento. 
+> `r fa("asterisk", fill = "green")` Alternancia rápida de la comparación de dos o más tratamientos, mientras se miden los efectos sobre el comportamiento objetivo.
 
-.pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/ATD-AB.png?raw=true" style="width: 76%" />]]
+.pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/ATD-AB.png?raw=true" style="width: 72%" />]]
 
 .orange[Su característica definitoria es:]
 - Las intervenciones se presentan de manera alternada (aleatorizar o contrabalancear). 
@@ -441,18 +441,18 @@ background-size: contain
 .panel[.panel-name[Ventajas/Desventajas]
 
 .pull-left[.center[.green[Ventajas] `r fa("check", fill = "green")`]  
-1. Mayor control de los factores que amenazan la validez interna, ya que tendrían un impacto similar en todas las intervenciones.
+1. No requiere el retiro de la intervención.
 
-2. Las intervenciones pueden iniciarse inmediatamente, nunca se retiran y se puede finalizar con fase de "mejor tratamiento".
+2. Las intervenciones pueden iniciarse inmediatamente.
+
+3. Comparación rápida de las intervenciones
 
 ]
 
 .pull-right[.center[.red[Desventajas] `r fa("times", fill = "red")`]  
-1.	La interferencia de múltiples tratamientos  
-- Efectos de arrastre  
-- Efectos de alternancia  
+1.	La interferencia de múltiples tratamientos (efecto de arrastre/alternancia)
 
-2. No se recomienda para omportamientos que se van aprendiendo en etapas, ni tratamientos que tienen que ser administrados de manera continua para ser efectivos.]
+2.  No se recomienda para comportamientos que se van aprendiendo en etapas, ni tratamientos que tienen que ser administrados de manera continua para ser efectivos.]
 ]
 ]
 
