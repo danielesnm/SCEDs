@@ -183,7 +183,7 @@ background-size: contain
 
 A diferencia de los RCT donde se utilizan herramientas de medición con propiedades psicométricas conocidas, las medidas utilizadas en los SCED: 
 
-Corresponden a un comportamiento objetivo y debe de ser relevante para las personas.  
+Corresponden a un comportamiento objetivo que debe de ser relevante para las personas.  
 
 Deben de poder evaluarse de forma continua a lo largo del tiempo. 
 
@@ -243,22 +243,22 @@ Intervención metacognitiva, para mejorar la conciencia de los errores y la auto
 .right[**cocinar y realizar trabajos voluntarios (real life settings)**]  
 
 .pink[Variable Dependiente]  
-Error frequency, error behavior 
+Error frequency 
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/scedownsorth.png?raw=true)
-background-position: 99% 65%
-background-size: 50%
+background-position: 80% 65%
+background-size: 30%
 
 <br>
-.pull-left[.pink[Variable independiente]:  
-metacognitive intervention (da oportunidad al px de cometer, identificar y corregir sus errores.  
+.pull-left[.pink[Variable independiente]  
+Intervención metacognitiva (da oportunidad al px de cometer, identificar y corregir sus errores.  
 - “pause/prompt/praise” technique  
 - role reversal techniques  
 - videofeedback  
 
-.pink[Variable dependiente]:  
-error frequency, error behavior]
+.pink[Variable dependiente]  
+Error frequency]
 
 ---
 # `r fa("check-double", fill = "salmon")` **Maximización de la validez en SCED**
@@ -450,7 +450,9 @@ background-size: contain
 .pull-right[.center[.red[Desventajas] `r fa("times", fill = "red")`]  
 1.	La interferencia de múltiples tratamientos  
 - Efectos de arrastre  
-- Efectos de alternancia ]
+- Efectos de alternancia  
+
+2. No se recomienda para omportamientos que se van aprendiendo en etapas, ni tratamientos que tienen que ser administrados de manera continua para ser efectivos.]
 ]
 ]
 
