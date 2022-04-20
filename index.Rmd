@@ -472,6 +472,11 @@ background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/2.clasif
 background-position: 50% 75%
 background-size: 95%
 
+???
+
+En la siguiente sección, revisaremos los principales diseños que pueden adoptarse a la hora de PLANIFICAR este tipo de estudios. 
+
+
 ---
 # `r fa("list-ul", fill = "salmon")` **Clasificación de los SCED**
 
@@ -488,6 +493,15 @@ background-size: 95%
 .bg-washed-blue.b--navy.ba.bw2.br-pill.shadow-5.ph4.mt5.w-100.grow.tc[
 ### Changing criterion designs]
 ]
+
+???
+Los diseños más utilizados son estos 4, PERO cabe resaltar que EXISTE UN GRAN NÚMERO de variaciones y combinaciones de estos diseños, por lo cual nos limitaremos a revisar solamente estos 4.
+
+Para cada uno de estos diseños, vamos a revisar:  
+- Caracteristicas generales  
+- Los requisitos necesarios apra lograr control experimental  
+- Ventajas y desventajas  
+- Y algunos ejemplos
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/WRD1.png?raw=true)
@@ -532,6 +546,15 @@ Este patrón se repite tantas veces como sea necesario para replicar el efecto l
 - No se aplica si el comportamiento es irreversible.]
 ]
 ]
+
+???
+FUNDAMENTOS
+EL PRIMER DISEÑO QUE REVISAREMOS SE LLAMA WITHDRAWAL REVERSAL DESIGNS:  
+
+EN ESTE TIPO DE DISEÑo, DESPUES DE TOMAR LAS MEDIDAS DE LA LINEA BASE, el tratamiento se implementa Y RETIRA SISTEMATICAMENTE DURANTE EL ESTUDIO  
+
+EL DISEÑO A-B, COMO EL QUE MUESTRA LA IMAGEN; ES El diseño más básico de todos…..
+
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/WRD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/BAB.png?raw=true)
