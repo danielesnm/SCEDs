@@ -101,7 +101,7 @@ background-size: 95%
 
 -	Si hacemos una búsqueda en bases de datos de literatura científica. Podemos encontrar estudios que utilizan esta metodología desde los años 80…Sin embargo el surgimiento de la medicina basada en la evidencia ubicó a los ensayos controlados aleatorizados como el estándar de oro para evaluar la eficacia de las intervenciones, lo cual disminuyó el uso DE LOS DISEÑOS DE CASO ÚNICO durante un largo período de tiempo. 
 
--	,En los últimos años ha habido aumento del interés en este tipo de diseños, lo cual esta haciendo no solo que se utilice cada vez más en el ámbito de la neuropsicología si no que también esta habiendo un desarrollo importante de nuevas técnicas para la evaluación y el análisis de los datos.
+-	En los últimos años ha habido aumento del interés en este tipo de diseños, lo cual esta haciendo no solo que se utilice cada vez más en el ámbito de la neuropsicología si no que también esta habiendo un desarrollo importante de nuevas técnicas para la evaluación y el análisis de los datos.
 
 ---
 # `r fa("user", fill = "salmon")` **Diseño de Caso Único**
@@ -186,14 +186,16 @@ QUE NO ES
 QUE VENTAJAS OFRECE ESTA MEOTODOLOGÍA??
 
 a: BUENO, LA PRIMERA ES QUE FAVORECE EL TRABAJO INTERDISCIPLINARIO…
-con la formación adecuada y el apoyo a la investigación, los propios profesionales sanitarios pueden llevar a cabo estos estudios. Esto es relevante, ya que los terapeutas suelen tener el control sobre las disposiciones prácticas del tratamiento y mayor acceso a los pacientes.
+con la formación adecuada y el apoyo a la investigación, los propios profesionales sanitarios pueden llevar a cabo estos estudios. Esto es relevante, ya que los terapeutas suelen tener el control sobre las disposiciones prácticas del tratamiento y mayor acceso a los pacientes.  
+
 --
 (b) .pink[Eficacia en entornos reales]. La mayoría de los estudios grupales se realizan en entornos académicos, lo cual muchas veces no son aplicables y/o relevantes para los pacientes.  
   
 ???
 Otra razón….
 
-b. PUEDE APLICARCE EN ENTORNOS REALES.… Los SCED pueden proporcionar una solución válida a este problema Ya que su implementación la mayoría de las veces se desarrolla en condiciones reales generando datos que reflejen mejor la efectividad de esos tratamientos (Grimshaw et al., 2012).
+b. PUEDE APLICARCE EN ENTORNOS REALES.… Los SCED pueden proporcionar una solución válida a este problema Ya que su implementación la mayoría de las veces se desarrolla en condiciones reales generando datos que reflejen mejor la efectividad de esos tratamientos (Grimshaw et al., 2012).  
+
 --
 (c) .pink[Generalización hacia la población]. Utiliza procedimientos meta-analíticos para la agregación de los efectos de los SCED; ayudando a generar conclusiones sobre la efectividad de una intervención y su generalización a una población en particular.
 
@@ -208,41 +210,41 @@ background-size: contain
 ???
 AHORA VAMOS A VER UN EJEMPLO prototípico DE UN SCED
 
-1.	SUPONGAMOS que QUEREMOS investigar el efecto de una intervención, Para reducir una conducta problemática, durante un periodo de tiempo. ….
+SUPONGAMOS que QUEREMOS investigar el efecto de una intervención, Para reducir una conducta problemática, durante un periodo de tiempo. ….
 
 --
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elementos2.png?raw=true)
 background-size: contain
 
 ???
-2.	Primero se debe de establecer una línea base registrando la frecuencia con la que ocurre el comportamiento durante varios días, ANTES DE INICIAR LA INTERVENCION
+Primero se debe de establecer una línea base registrando la frecuencia con la que ocurre el comportamiento durante varios días, ANTES DE INICIAR LA INTERVENCION
 
 --
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elementos3.png?raw=true)
 background-size: contain
 
 ???
-3.	ENTONCES…supongamos que el primer día el comportamiento problemático 
+ENTONCES…supongamos que el primer día el comportamiento problemático 
 
 --
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elemento4.png?raw=true)
 background-size: contain
 
 ???
-4.	UNA VEZ QUE ESTABLECEMOS LA LINEA BASE, VAMOS A INICIAR LA INTERVENCION…
+UNA VEZ QUE ESTABLECEMOS LA LINEA BASE, VAMOS A INICIAR LA INTERVENCION…
 --
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elemento5.png?raw=true)
 background-size: contain
 
 ???
-5.	…Y CONTINUAMOS REGISTRANDO LA FRENCENCIA DEL COMPORTAMIENTO
+Y CONTINUAMOS REGISTRANDO LA FRENCENCIA DEL COMPORTAMIENTO
 --
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elemento6.png?raw=true)
 background-size: contain
 
 ???
 
-6.	…MIENTRAS DE IMPLEMENTA LA INTERVENCIÓN
+MIENTRAS DE IMPLEMENTA LA INTERVENCIÓN
 --
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elemento7.png?raw=true)
 background-size: contain
@@ -252,7 +254,7 @@ background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elemento
 background-size: contain
 
 ???
-8.	AQUÍ PODEMOS OBSRVAR LOS TRES COMPONENTES BÁSICOS DE LOS SCED: 
+AQUÍ PODEMOS OBSRVAR LOS TRES COMPONENTES BÁSICOS DE LOS SCED: 
 -	(A) línea base y 
 -	(B) fase de tratamiento
 -	(C) mediciones repetidas del comportamiento, ANTES Y DUERANTE EL TRATAMIENTO
@@ -261,10 +263,10 @@ background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elemento
 background-size: contain
 
 ???
-9.	La línea base, siempre va a estar representada como FASE A
-la intervencion como FASE B.
-EN EL EJE Y, va a estar representada la frecuencia de la variable Dependiente 
-EN el EJE X: LA MEDIDA DE TIEMPO
+La línea base, siempre va a estar representada como FASE A  
+la intervencion como FASE B.  
+EN EL EJE Y, va a estar representada la frecuencia de la variable Dependiente   
+EN el EJE X: LA MEDIDA DE TIEMPO  
 También van a aparecer LOS PUNTOS DE DATOS Y LA LINEA QUE INDICA dirección que ESTOS VAN tomando a lo largo del tiempo
 
 
@@ -308,7 +310,8 @@ ver siguiente diapo
 `r fa("arrow-alt-circle-right", fill = "salmon")` Porcentaje de tareas completadas con éxito. [(The use of a smartwatch as a prompting device for people with acquired brain injury (Jamieson et al., 2019).](https://pubmed.ncbi.nlm.nih.gov/28425328/)
 
 ???
-a.	NORMALMENTE, estas medidas suelen estar hechas y ser únicas para el estudio). De hecho, a menudo suelen ser muy simples, como….
+a.	NORMALMENTE, estas medidas suelen estar hechas y ser únicas para el estudio). De hecho, a menudo suelen ser muy simples, como….  
+
 b.	SIEMPRE VAN A ESTAR ENFOCADAS EN UNA MEJORA FUNCIONAL DEL SUJETO 
 
 ---
