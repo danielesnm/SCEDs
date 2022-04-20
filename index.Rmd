@@ -291,7 +291,9 @@ ver siguiente diapo
 `r fa("arrow-alt-circle-right", fill = "salmon")` Porcentaje de tareas completadas con éxito. [(The use of a smartwatch as a prompting device for people with acquired brain injury (Jamieson et al., 2019).](https://pubmed.ncbi.nlm.nih.gov/28425328/)
 
 ???
-a.	NORMALMENTE, estas medidas suelen estar hechas y ser únicas para el estudio). De hecho, a menudo suelen ser muy simples, como….  
+a.	NORMALMENTE, estas medidas suelen estar hechas y ser únicas para el estudio.  
+
+De hecho, a menudo suelen ser muy simples, como….  
 
 b.	SIEMPRE VAN A ESTAR ENFOCADAS EN UNA MEJORA FUNCIONAL DEL SUJETO 
 
@@ -346,8 +348,11 @@ Intervención metacognitiva, para mejorar la conciencia de los errores y la auto
 Error frequency (disminuir el número de errores en las actividades )
 
 ???
-AHORA, VAMOS A ATERRIZAR LO QUE HEMOS VISTO HASTA AHORA, EN UN EJEMPLO REAL. 
+AHORA, VAMOS A ATERRIZAR LO QUE HEMOS VISTO HASTA AHORA, EN UN EJEMPLO REAL.  
+
 EN este estudio del 2006, ownsworth y colaboradoras querían probar…
+
+cambiar diapositiva...
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/scedownsorth.png?raw=true)
@@ -365,16 +370,16 @@ Intervención metacognitiva (error-based).
 Error frequency]
 
 ???
-CAMBIAR DIAPOSITIVA
 LA INTERVENCION METACOGNITIVA, es un tipo de intervención que da oportunidad a los pacientes de QUE COMETAN errores; Y APRENDAN A IDENTIFICARLOS y CORREGIRLOS por medio de técnicas como: 
 -	Pause prompt praise
 -	Inversión de roles
 -	VIdeofeedback
 
-CON LO QUE HEMOS VISTO HASTA AHORA, COMO PODRIAMOS INTERPRETAR ESTAS GRAFICAS….
-RECORDAR: LINEA BASE, FASE DE TRATAMIENTO y MANTENIMIENTO
+Con lo que hemos visto hasta ahora:  
+¿Cómo podríamos interpretar estas graficas?  
+¿La intervención tuvo un efecto positivo en el participante?  
+RECORDEMOS: LINEA BASE, FASE DE TRATAMIENTO y MANTENIMIENTO, hay dos tareas diferentes
 
-PERO COMO PODEMOS DETERMINAR si los resultados son válidos y de esta manera evitar sacar conclusiones erroneas sobre los resultados de la intervención? 
 
 PUEDE HABER MUCHAS VARIABLES que hayan ayudado a la mejora, COMO POR EJEMPLO, EN ESTE CASO,: 
 
@@ -382,7 +387,8 @@ PUEDE HABER MUCHAS VARIABLES que hayan ayudado a la mejora, COMO POR EJEMPLO, EN
 -	CAMBIOS EN EL ENTORNO EXTERNO DEL PACIENTE (positivos o negativos) que coinciden con la introducción de la intervención y pueden confundirse con cambios debidos a la intervención.
 -	CAMBIOS EN EL PROPIO PACIENTE (positivos o negativos):  RECUPERACION; DETERIORO, RECAIDA
 
-¿¿cómo hacer frente a estas confusiones?
+
+¿CÓMO PODEMOS DETERMINAR si los resultados son válidos y de esta manera evitar sacar conclusiones erroneas sobre los resultados de la intervención? 
 
 ---
 # `r fa("star", fill = "salmon")` **SCED Standards**
