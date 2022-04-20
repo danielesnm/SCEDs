@@ -1,7 +1,7 @@
 ---
 title: .pink[Evaluación de la evidencia en la práctica clínica (I):]
 subtitle: .pink[Diseños experimentales de caso único (SCED)]
-author: "Npsic. Daniel Salazar Frías .orange[dsalazarfrias@gmail.com]"
+author: "Npsic. Daniel Salazar Frías .black[I] .orange[dsalazarfrias@gmail.com]"
 institute: "Universidad de Granada"
 date: "21 de abril de 2022"
 output:
@@ -698,7 +698,9 @@ background-size: contain, 50%
 ???
 -	LA VARIANTE MAS SIMPLE incluye una línea base A y la fase de comparación de las dos intervenciones
 
--	ADEMAS SE PUEDE INCLUIR TAMBIEN una intervención "sin tratamiento" en la fase de comparación. ES DECIR ALTERNAR ENTRE INTERVENION 1, INTERVENCION 1 y NO INTERVENCION.  Esto permitiría la evaluación de la interferencia de múltiples tratamientos. Si el patrón y el nivel del comportamiento durante la intervención "sin tratamiento" en la fase de comparación es similar al observado en la fase inicial sugiere que la probabilidad de interferencia de múltiples tratamientos es baja (Wolery et al., 2014).
+-	ADEMAS SE PUEDE INCLUIR TAMBIEN una intervención "sin tratamiento" en la fase de comparación. ES DECIR ALTERNAR ENTRE INTERVENION 1, INTERVENCION 2 y NO INTERVENCION.  
+
+Esto permitiría la evaluación de la interferencia de múltiples tratamientos. Si el patrón y el nivel del comportamiento durante la intervención "sin tratamiento" en la fase de comparación es similar al observado en la fase inicial sugiere que la probabilidad de interferencia de múltiples tratamientos es baja (Wolery et al., 2014).
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ATD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/ATDbl-comp-bbest-png.png?raw=true)
@@ -727,6 +729,8 @@ background-size: contain, 47%
 
 .pull-left[[Effects of the TOUCHMATH Program Compared to a Number Line Strategy to Teach Addition Facts to Middle School Students with Moderate Intellectual Disabilities (Fletcher et al. 2010)](https://www.jstor.org/stable/23880117?seq=7)] 
 
+???
+En este ejemplo, se quería evaluar y comparar los efectos de dos estrategias diferentes, para enseñar  a estudiantes de secundaria con discapacidad intelectual moderada a resolver problemas diversos problemas matemáticos 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true)
 background-position: 0% 50%
@@ -768,6 +772,25 @@ background-size: contain
 ]
 ]
 
+???
+ALGO IMPORTANTE ENE STE DISEÑO ES QUE LAS MEDICIONES DE LA  LINEA BASE DEBE DE EMPEZAR AL MISMO TIEMPO EN TODOS LOS NIVELS
+
+La ventaja de la introducción secuencial de la intervención es visualizar la falta de efecto y la falta de progreso en los pacientes que aún no han tenido la intervención.
+
+CONTROL EXPERIMENTAL
+-	LAS AREAS SOMBREADAS Y ETIQUETAAS COMO "verificación"; REPRESENTAN EL período EN EL QUE se verifica la PREDICCION de que la conducta objetivo SE MANTIENE IGUAL, A PESAR DE QUE LA INTERVENCION YA HA SIDO ITRODUCIDA  en otro nivel.
+
+-	LA REPLICACION PUEDE SER : 
+o	INTERINDIVIDUAL CUANDO, CADA NIVEL REPRESENTA  DIFERENTES  participantes o
+o	intraindividual CUANDO, CADA NIVEL REPRESENTA  DIFERENTES  comportamientos o entornos dentro de un solo participante.
+
+Ventajas-desventajas
+-	Es el único diseño que permite evaluar simultáneamente la efectividad de una intervención en el mismo individuo en diferentes entornos/comportamientos, abordando así de manera más integral las necesidades del participante.  
+
+ESTO ES MUY INTERESANTE, YA QUE SABEMOS QUE No es inusual que varios aspectos del repertorio COMPORTAMENTAL de un individuo se vean afectados después de una lesión cerebral adquirida.
+
+-	A pesar de estas ventajas, no se utilizan con tanta frecuencia en neurorrehabilitación en comparación con los campos de la psicología clínica, la psicología del deporte y la investigación educativa, donde se utilizan con más frecuencia. tipo de SCED.
+
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-part1.png?raw=true)
 background-position: 0% 50%, 84% 98%
@@ -775,8 +798,33 @@ background-size: contain, 37%
 
 ### `r fa("users", fill = "gold")` .gold[ Entre participantes: ] 
 
-.pull-left[[Behavioral treatment for pathological gambling in persons with acquired brain injury (Guercio, Johnson, Dixon, 2012)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3469300/) 
+.pull-left[[Behavioral treatment for pathological gambling in persons with acquired brain injury (Guercio, et al. 2012)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3469300/) 
 ]
+
+???
+Guercio y col. (2012) utilizaron un MBD entre los participantes  
+
+**Objetivo** 
+-	Este estudio investigó los efectos de una intervención destinada a reducir el juego patológico en tres personas con TCE.
+
+**Variable dependiente**
+-	Participante 1:  NUMERO DE BOLETOS DE LOTERIA 
+-	Participante 2-3- NUMERO DE FICHAS DE POKER 
+compradas en una situación de juego simulado que se realiza al final de cada sesión.
+-	CADA NIVEL REPRESENTA UN PARTICIPANTE
+
+**Variable independiente**
+-	Intervención cognitivo-conductual para enseñar a los participantes “la identificación de 'desencadenantes' que ocasionaron el juego. 
+
+El estudio se llevó a cabo en una "sala de juegos" que se construyó expresamente en el laboratorio de los investigadores. LA INTERVENCION INICIA DE MANERA ESCALONADA PARA CADA PARITICPANTE , SESION 5,,,,,,,,9,,,,,12
+
+**Resultados**  
+Después de que se introdujo la intervención, el comportamiento se redujo notablemente.  
+
+Para el primer participante , esta reducción fue gradual. 
+
+La MBD en todos los pacientes se utiliza en muchos dominios de la rehabilitación. 
+
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx2.png?raw=true)
 background-position: 0% 50%, 17% 85%, 98% 85% 
@@ -785,6 +833,21 @@ background-size: contain, 41%, 44%
 ### `r fa("laptop-house", fill = "gold")` .gold[ Entre contextos: ] 
 
 [Structured flexibility: the use of context self-regulatory scripts to support young persons with ABI and behav. difficulties (Feeney, 2010)](https://pubmed.ncbi.nlm.nih.gov/21076242/) 
+
+???
+Un ejemplo es el artículo de Feeney que investigó los efectos de una intervención de funciones ejecutivas, para la reduccion de los problemas de conducta y el aumento en el porcentaje de trabajo completado durante las clases, en 1 niño con DCA  
+
+**Variable dependiente**  
+-	Frecuencia del comportamiento desafiante  
+-	Porcentaje de trabajo completado durante cada clase
+
+-	Cada nivel representa un contexto del participante: clases de arte, matematicas y ciencia
+
+**Variable independiente**
+-	Entrenar a los maestros para brindar un apoyo adecuado y estructurado para las funciones ejecutivas del estudiante. LA INTERVENCION INICIA DE MANERA ESCALONADA EN CADA ENTORNO , SESION 6,,,,,,,11,,,,,16  
+
+**Resultados**
+-	la intervención redujo la frecuencia e intensidad de los comportamientos desafiantes y aumentó la cantidad de trabajo completado
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/CCD1.png?raw=true)
