@@ -1276,13 +1276,15 @@ background-size: 38%
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/graphrep2.png?raw=true)
-background-position: 95% 60%
-background-size: 45%
+background-position: 95% 70%
+background-size: 50%
 
 # `r fa("eye", fill = "salmon")` ¿Qué vemos?  
-.pink[Level, Trend, Variability]  
+.pull-left[.orange[Additional Graphical Representation for Single-Case Experimental Designs Data] [(Manolov & Tanious, 2022)](https://psyarxiv.com/zsq3k/)  
 
-.pull-left[.can-edit[...]
+.pink[Level, Trend, Variability, Overlap, Immediacy of the effect]  
+
+.can-edit[...]
 ]
 
 
