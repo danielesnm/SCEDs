@@ -113,11 +113,11 @@ En las .pink[ciencias del comportamiento], en el contexto de la **investigación
 
 
 .panel[.panel-name[`r fa("question", fill = "salmon")` Conceptos erroneos]
-- _.orange[Single Case/Caso Único]_ **NO** significa **n=1**. 
+- _Single Case/Caso Único_ significa **n=1**. 
 
-- **NO** se limitan a intervenciones que producen grandes cambios y de manera rápida en el comportamiento.
+- Se limitan a intervenciones que producen grandes cambios en el comportamiento y de manera rápida. 
 
-- Los resultados de SCED **NO** carecen  de validez externa o generalización.  
+- Los resultados de SCED carecen de validez externa/generalización.
 
 ]
 ]
@@ -570,7 +570,7 @@ background-size: contain
 .panel[.panel-name[Ventajas/Desventajas]
 
 .pull-left[.center[.green[Ventajas] `r fa("check", fill = "green")`]  
-1. Con este diseño, los comportamientos se pueden moldear gradualmente hacia un objetivo deseado.  
+1. Los comportamientos se pueden moldear gradualmente hacia un objetivo deseado.  
 
 2. La magnitud del cambio de criterio puede adaptarse al propio proceso de los participantes.
 ]
@@ -642,9 +642,9 @@ background-size: 25%
 
 
 ---
-background-image: url(https://www.almrsal.com/wp-content/uploads/2018/12/%D9%85%D8%A7%D8%B0%D8%A7-%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%86-%D8%AC%D9%85%D8%B9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA.jpg)
-background-position: 50% 105%
-background-size: 40%
+background-image: url(https://www.emprendedores.es/wp-content/uploads/2013/10/como-mejorar-el-producto-2048x981.jpg)
+background-position: 50% 100%
+background-size: 48%
 # `r fa("eye", fill = "salmon")` Análisis Visual
 
 - .pink[Considerado el método principal para analizar los datos de SCED]. Permiten la interpretación de los datos que se han representado gráficamente sin ningún análisis estadístico adicional.
@@ -854,12 +854,12 @@ background-size: 45%
 
 
 ---
-background-image: url(https://www.simplemdg.com/wp-content/uploads/2020/12/3156627-1024x585.jpg)
-background-position: 80% 97%
-background-size: 36%
+background-image: url(https://static.vecteezy.com/system/resources/previews/002/876/615/original/statistical-analysis-report-vector.jpg)
+background-position: 85% 125%
+background-size: 32%
 # `r fa("square-root-alt", fill = "salmon")` Análisis Estadístico
 
-- Existe una .pink[gran variedad de técnicas estadísticas] para interpretar los datos SCED. Estudios  recientes han encontraron que las técnicas disponibles arrojan resultados moderadamente diferentes en la misma serie de datos [(Smith, 2012).](https://pubmed.ncbi.nlm.nih.gov/22845874/)
+- Existe una .pink[gran variedad de técnicas estadísticas] para interpretar los datos SCED. Algunos estudios han encontraron que las técnicas disponibles arrojan resultados moderadamente diferentes en la misma serie de datos [(Smith, 2012).](https://pubmed.ncbi.nlm.nih.gov/22845874/)
 
 - .pink[No existen criterios acordados] para el análisis estadístico de los datos de SCED y los autores deben elegir el método analítico que se guíe por una serie de consideraciones: 
 
@@ -868,16 +868,25 @@ background-size: 36%
 .orange[(b)] **las características de los datos**  
 
 ---
+# `r fa("square-root-alt", fill = "salmon")` Effect Size (ES)
+
+.pink[Los tamaños del efecto en la investigación SCED proporcionan:]  
+-  Una medida objetiva del efecto de la intervención.  
+-  Una índice más preciso cuando los resultados no son grandes y obvios (análisis visual).  
+- Un método para comparar el éxito de la intervención a través de estudios de caso único dentro de meta-análisis.  
+- Una credibilidad mejorada para los estudios de caso único a los ojos de otras tradiciones de investigación.
+
+---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ESSCED.png?raw=true)
 background-position: 50% 97%
 background-size: 70%
 # `r fa("square-root-alt", fill = "salmon")` Effect Size (ES)
 
-a) Estima la importancia del cambio asociado con una intervención. Complementa al análisis visual, proporcionando resultados estandarizados y confiables. 
+a) Estima la importancia del cambio asociado con una intervención. 
 
-b) Cuando se reportan estimaciones de ES creíbles además de los datos analizados visualmente, mejora la credibilidad, confiabilidad de los hallazgos.
+b) Complementa al análisis visual, proporcionando resultados estandarizados y confiables. 
 
-
+c) Mejora la credibilidad, confiabilidad de los hallazgos.
 
 ---
 # `r fa("square-root-alt", fill = "salmon")` Effect Size (ES)
