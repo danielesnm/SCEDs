@@ -181,25 +181,21 @@ EN LOS ÚLTIMOS AÑOS SU APLICACIÓN esta siendo cada vez mayor EN…
 # `r fa("user", fill = "salmon")` **¿Porqué aplicarla?**
 
 (a) .pink[Trabajo en equipo]. Los SCED permiten responder a preguntas que son relevantes para los profesionales de la salud y son un medio para a cortar la brecha entre los investigadores y los terapeutas  
-  
+
+(b) .pink[Eficacia en entornos reales]. La mayoría de los estudios grupales se realizan en entornos académicos, lo cual muchas veces no son aplicables y/o relevantes para los pacientes.  
+
+(c) .pink[Generalización hacia la población]. Utiliza procedimientos meta-analíticos para la agregación de los efectos de los SCED; ayudando a generar conclusiones sobre la efectividad de una intervención y su generalización a una población en particular.
+
 ???
 QUE VENTAJAS OFRECE ESTA MEOTODOLOGÍA??
 
 a: BUENO, LA PRIMERA ES QUE FAVORECE EL TRABAJO INTERDISCIPLINARIO…
 con la formación adecuada y el apoyo a la investigación, los propios profesionales sanitarios pueden llevar a cabo estos estudios. Esto es relevante, ya que los terapeutas suelen tener el control sobre las disposiciones prácticas del tratamiento y mayor acceso a los pacientes.  
 
---
-(b) .pink[Eficacia en entornos reales]. La mayoría de los estudios grupales se realizan en entornos académicos, lo cual muchas veces no son aplicables y/o relevantes para los pacientes.  
-  
-???
-Otra razón….
+Otra razón….  
 
 b. PUEDE APLICARCE EN ENTORNOS REALES.… Los SCED pueden proporcionar una solución válida a este problema Ya que su implementación la mayoría de las veces se desarrolla en condiciones reales generando datos que reflejen mejor la efectividad de esos tratamientos (Grimshaw et al., 2012).  
 
---
-(c) .pink[Generalización hacia la población]. Utiliza procedimientos meta-analíticos para la agregación de los efectos de los SCED; ayudando a generar conclusiones sobre la efectividad de una intervención y su generalización a una población en particular.
-
-???
 c. POR ÚLTIMO, COMO YA LO COMENTÉ hay una creencia errónea acerca de que los resultados de los SCED carecen de validez externa y que no pueden generalizarse más allá del propio sujeto que se analiza. SIN EMBARGO, AL IGUAL QUE LOS ESTUDIOS GRUPALES….
 
 
