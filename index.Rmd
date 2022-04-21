@@ -1438,8 +1438,8 @@ background-size: 40%
 ]
 
 ---
-background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/PNDoutlier.png?raw=true)
-background-position:50% 95%
+background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/PNDoutliers.png?raw=true)
+background-position:50% 90%
 background-size: 80%
 # `r fa("square-root-alt", fill = "salmon")` .pink[PND.] % of non-overlap data
 
