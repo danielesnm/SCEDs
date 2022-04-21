@@ -1475,6 +1475,13 @@ background-size: 40%, 40%
 - PEM usa más datos que PND al calcular una mediana
 - Fácil de calcular y sencillo de entender e interpretar.
 
+???
+El primer paso es identificar la mediana de la línea de base. Usando el mismo conjunto de datos para nuestra ilustración presentada en la Figura 1, los valores de datos de línea base de 4, 3 y 5 producen un valor mediano de 4. 
+
+El segundo paso es identificar el número de puntos de datos que se superponen con la mediana. Los datos de intervención de 2, 1, 2, 1, 3, 0 y 2 no se superponen con el valor mediano de 4; por lo tanto, ninguno de los siete puntos de datos se superpone y los siete puntos de datos de intervención demuestran una mejora.
+
+ El cálculo de PEM es el mismo que el PND: el número de puntos de datos que muestran una mejora dividido por el número total de puntos de datos en la intervención, o 7/7 = 1,00 (100%) PEM.
+
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/PEMtrend.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/PEMmagnitud.png?raw=true)
 background-position:20% 95%, 80% 95%
@@ -1483,6 +1490,13 @@ background-size: 32%, 32%
 
 .pull-left[- Falta de sensibilidad a la magnitud del efecto del tratamiento`r fa("arrow-right", fill = "salmon")`  
 - Mismo problema que PND, cuando hay tendencia `r fa("arrow-down", fill = "salmon")`]
+
+???
+Una preocupación con este EE es la falta de sensibilidad a la magnitud del efecto del tratamiento. 
+
+La intervención puede ser levemente no superpuesta o en gran medida no superpuesta y producir el mismo efecto del 100%. Además, este ES no es sensible a la tendencia, similar al PND. 
+
+
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/NAPgrafica.png?raw=true)
@@ -1514,8 +1528,8 @@ background-size: 45%, 25%
 
 .pull-left[1. Pairs = **25**  
 2. Cada comparación tiene uno de tres resultados:  
-• positivo (1)  
-• negativo (0)  
+• cambio positivo (1)  
+• cambio negativo (0)  
 • empate (.5)  
 ]
 
@@ -1544,6 +1558,12 @@ background-size: 45%
 • medium effects: .66–.92  
 • large or strong effects: .93–1.0.
 ]
+
+???
+VENTAJAS 
+(a) utiliza todos los datos a diferencia del PND, que es una de las razones de su propuesta;
+(b) no se basa en representar los datos mediante una media o una línea de tendencia;
+(c) es posible obtener un valor p
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/PEM-PND-NAP.png?raw=true)
