@@ -110,7 +110,7 @@ background-size: 95%
 .panel[.panel-name[`r fa("question", fill = "salmon")` ¿Qué es?]
 - Una metodología de investigación en la que el sujeto sirve como su propio control `r fa("female", fill = "salmon")` `r fa("arrows-alt-h", fill = "forestgreen")` `r fa("female", fill = "salmon")`, comparando su desempeño .pink[antes, durante y después] de la implementación de una intervención.  
 
-- Al igual que los diseños de grupo, exigen:  
+- Al igual que los diseños de grupo, exige:  
 >1. Control cuidadoso de las variables  
 >2. Recopilación sistemática de datos  
 >3. Introducción y manipulación de una intervención 
@@ -152,11 +152,13 @@ En las .pink[ciencias del comportamiento], en el contexto de la **investigación
 **¿Qué es un SCED?** EL DISEÑO DE CASO ÚNICO es ….
 -	
 -	
-Es muy importante no confundir con:
-Estudios de caso, en donde SOLAMENTE se hace una descripción subjetiva del comportamiento de un individuo, careciendo de variables y de una recopilación sistemática de datos.
+Es muy importante no confundirlos con:  
 
-TAMPOCO HAY QUE CONFUNDIRLO, 
-con estudios cuasiexperimentales en donde SOLO se evalúa al participante antes y después de un tratamiento, PERO NO DURANTE EL TRSTAMIENTO. 
+- **Estudios de caso**, en donde SOLAMENTE se hace una descripción subjetiva del comportamiento de un individuo, careciendo de variables y de una recopilación sistemática de datos.
+
+Tampoco hay que confundirlo..  
+
+- **Estudios cuasiexperimentales** en donde SOLO se evalúa al participante antes y después de un tratamiento, PERO NO DURANTE EL TRATAMIENTO 
 
 ESTOS DOS TIPOS DE ESTUDIOS SON MÁS CORRELACIONALES O DESCRIPTIVOS Y por lo general no permiten documentar las relaciones causales entre la intervención y los cambios en el comportamiento 
 
@@ -372,10 +374,14 @@ LA INTERVENCION METACOGNITIVA, es un tipo de intervención que da oportunidad a 
 -	Inversión de roles
 -	VIdeofeedback
 
-Con lo que hemos visto hasta ahora:  
-¿Cómo podríamos interpretar estas graficas?  
-¿La intervención tuvo un efecto positivo en el participante?  
-RECORDEMOS: LINEA BASE, FASE DE TRATAMIENTO y MANTENIMIENTO, hay dos tareas diferentes
+
+RECORDEMOS los elementos principales de los diseños de caso único: 
+LINEA BASE  
+FASE DE TRATAMIENTO y MANTENIMIENTO  
+COMPORTAMIENTO QUE QUEREMOS CAMBIAR...  
+EN dos tareas diferentes
+
+HACIENDO UN ANALISIS DE LAS GRÁFICAS, podrímos decir que la intervención tuvo un efecto positivo en el participante?  
 
 
 PUEDE HABER MUCHAS VARIABLES que hayan ayudado a la mejora, COMO POR EJEMPLO, EN ESTE CASO,: 
@@ -409,14 +415,14 @@ validez de fase
 ]
 
 ???
-Se han propuesto una serie de indicadores de calidad que los SCED deben de cumplir para protegerse contra amenazas a la validez interna-externa
+SE HAN PROPUESTO UNA SERIE DE INDICADORES de calidad que los SCED deben de cumplir para protegerse contra amenazas a la validez interna-externa
 
 **Estándar 1:** manipulación de variables
 -	La variable independiente (intervención) debe ser manipulada sistemáticamente por investigador
 
 **Estándar 2:** Acuerdos entre evaluadores. 
 -	Más de un evaluador mide el comportamiento objetivo a lo largo del estudio
--	Debe de establecerse la confiabilidad entre evaluadores (IRR) en al menos el 20% de datos en cada condición (es decir, línea de base, intervención). La tasa de acuerdo debe cumplir con los umbrales mínimos (Acuerdo del 80%)
+-	Debe de establecerse la confiabilidad entre evaluadores en al menos el 20% de datos en cada condición (es decir, línea de base, intervención). La tasa de acuerdo debe cumplir con los umbrales mínimos del 80% de acuerdo
 
 **Estándar 3:** Control experimental
 -	El estudio debe brindar al menos tres oportunidades para demostrar el efecto experimental en tres momentos diferentes.
@@ -513,9 +519,9 @@ background-size: contain
 
 .pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/grafica.png?raw=true" style="width: 90%" />]]
 
-.orange[Reversal design.] Inversión entre tratamientos (A, B, C, B, C, etc.) 
+.orange[Reversal design.] Inversión entre varios tratamientos (A, B, C, B, C, etc.) 
 
-.orange[Withdrawal design.] Inversión entre el tratamiento y la ausencia de tratamiento (A,B,A,B, etc.)
+.orange[Withdrawal design.] Inversión entre un tratamiento y la ausencia de éste (A,B,A,B, etc.)
 
 <br>
 Este patrón se repite tantas veces como sea necesario para replicar el efecto las veces que sean necesarias: .yellow[A-B], .pink[A-B-A], **A-B-A-B**
@@ -1660,7 +1666,7 @@ background-size: 95%
 
 - [Oxford Centre for Evidence-based Medicine Levels]( https://www.cebm.ox.ac.uk/resources/levels-of-evidence/oxford-centre-for-evidence-based-medicine-levels-of-evidence-march-2009) en 2011, clasificó a los ensayos n=1 como evidencia  Nivel 1b para propósitos de decisión de tratamiento, gracias al interés renovado en SCED que esta resurgiendo en los últmos años. 
 
-- Su aplicación para determinar la efectividad de las intervenciones de rehabilitación en pacientes con DCA, es uno de los desarrollos más importantes en neurorrehabilitación en los últimos 5 años. SCED bien diseñados pueden contribuir sustancialmente a la base de evidencia. [(Wilson, 2011)](https://www.cambridge.org/core/journals/brain-impairment/article/abs/cutting-edge-developments-in-neuropsychological-rehabilitation-and-possible-future-directions/C230F6036D3166853B2A600F2F15E9E1)
+- Su aplicación para determinar la efectividad de las intervenciones de rehabilitación en pacientes con DCA, es uno de los desarrollos más importantes en neurorrehabilitación en los últimos años. SCED bien diseñados pueden contribuir sustancialmente a la base de evidencia. [(Wilson, 2011)](https://www.cambridge.org/core/journals/brain-impairment/article/abs/cutting-edge-developments-in-neuropsychological-rehabilitation-and-possible-future-directions/C230F6036D3166853B2A600F2F15E9E1)
 
 - [Herramientas para evaluar críticamente los SCED.](https://pubmed.ncbi.nlm.nih.gov/24050810/)
 
