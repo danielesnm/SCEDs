@@ -500,7 +500,7 @@ En la siguiente sección, revisaremos los principales diseños que pueden adopta
 ]
 
 ???
-Los diseños más utilizados son estos 4, PERO cabe resaltar que EXISTE UN GRAN NÚMERO de variaciones y combinaciones de estos diseños, por lo cual nos limitaremos a revisar solamente estos 4.
+Los diseños más utilizados son estos 4, PERO cabe resaltar que podemos encontrarnos estudios que utilicen variaciones y combinaciones de estos 4 diseños principalmente.
 
 Para cada uno de estos diseños, vamos a revisar:  
 - Caracteristicas generales  
@@ -524,7 +524,7 @@ background-size: contain
 .orange[Withdrawal design.] Inversión entre un tratamiento y la ausencia de éste (A,B,A,B, etc.)
 
 <br>
-Este patrón se repite tantas veces como sea necesario para replicar el efecto las veces que sean necesarias: .yellow[A-B], .pink[A-B-A], **A-B-A-B**
+Este patrón, se repite las veces que sea necesario para replicar su efecto: .yellow[A-B], .pink[A-B-A], **A-B-A-B**
 ]
 
 .panel[.panel-name[Control experimental]
@@ -542,13 +542,12 @@ Este patrón se repite tantas veces como sea necesario para replicar el efecto l
 .panel[.panel-name[Ventajas/Desventajas]
 
 .pull-left[.center[.green[Ventajas] `r fa("check", fill = "green")`]  
--	Puede demostrar de manera clara el efecto funcional de la intervención sobre el comportamiento. 
+-	Es muy fexible ya que permite incorporar muchas fases A-B y así demostrar de manera clara el efecto funcional de la intervención sobre el comportamiento. 
 
-- A-B-A-B, al tener una fase B adicional, incorporan una replicación intraindividual más sistemática del efecto experimental.
 ]
 
 .pull-right[.center[.red[Desventajas] `r fa("times", fill = "red")`]  
-- No se aplica en comportamientos irreversibles.]
+- No aplica para comportamientos irreversibles.]
 ]
 ]
 
