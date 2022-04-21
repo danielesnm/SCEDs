@@ -1461,6 +1461,10 @@ background-size: 40%, 40%
 1. .gray[hay puntuaciones extremas en la línea de base.]  
 2. hay tendencia significativa en los datos de la línea de base. 
 
+???
+La tendencia tampoco se aborda adecuadamente en el PND. 
+EN ESTE EJEMPLO HIPOTETICO, En el siguiente ejemplo, tanto una tendencia creciente (el cliente empeora) como una tendencia decreciente (el cliente mejora) se tratarían de la misma manera en el cálculo y daría el mismo resultado
+
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/PNDoutlier.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/PEM.png?raw=true)
 background-position:10% 95%, 90% 95%
