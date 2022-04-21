@@ -817,16 +817,14 @@ compradas en una situación de juego simulado que se realiza al final de cada se
 -	CADA NIVEL REPRESENTA UN PARTICIPANTE
 
 **Variable independiente**
--	Intervención cognitivo-conductual para enseñar a los participantes “la identificación de 'desencadenantes' que ocasionaron el juego. 
-
-El estudio se llevó a cabo en una "sala de juegos" que se construyó expresamente en el laboratorio de los investigadores. LA INTERVENCION INICIA DE MANERA ESCALONADA PARA CADA PARITICPANTE , SESION 5,,,,,,,,9,,,,,12
+-	Intervención cognitivo-conductual para enseñar a los participantes “la identificación de 'desencadenantes' que ocasionaron el juego. El estudio se llevó a cabo en una "sala de juegos" que se construyó expresamente en el laboratorio de los investigadores. LA INTERVENCION INICIA DE MANERA ESCALONADA PARA CADA PARITICPANTE , SESION 5,,,,,,,,9,,,,,12
 
 **Resultados**  
-Después de que se introdujo la intervención, el comportamiento se redujo notablemente.  
+- Después de que se introdujo la intervención, el comportamiento se redujo notablemente.  
 
-Para el primer participante , esta reducción fue gradual. 
+- Para el primer participante , esta reducción fue gradual. 
 
-La MBD en todos los pacientes se utiliza en muchos dominios de la rehabilitación. 
+- La MBD en todos los pacientes se utiliza en muchos dominios de la rehabilitación. 
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx2.png?raw=true)
@@ -1426,7 +1424,7 @@ background-size: 40%
 # `r fa("square-root-alt", fill = "salmon")` .pink[PND.] % of non-overlap data
 .left-column[### .pink[¿cómo se calcula?]
 ]  
-`r fa("angle-right", fill = "salmon")` Id. la puntuación más extrema en Fase A. `r fa("angle-right", fill = "salmon")` Id. los datos en Fase B, que excede este nivel. `r fa("angle-right", fill = "salmon")` 6 datos de los 7 posibles en la Fase B demuestran una mejora en la puntuación (6/7 = 0.86 PND ES).
+`r fa("angle-right", fill = "salmon")` Id. la puntuación más extrema en Fase A. `r fa("angle-right", fill = "salmon")` Id. los datos en Fase B, que igualan o exceden este nivel. `r fa("angle-right", fill = "salmon")` 6 datos de los 7 posibles en la Fase B demuestran una mejora en la puntuación (6/7 = 0.86 PND ES).
 
 --
 
@@ -1442,11 +1440,16 @@ background-size: 40%
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/PNDoutlier.png?raw=true)
 background-position:50% 95%
-background-size: 40%
+background-size: 80%
 # `r fa("square-root-alt", fill = "salmon")` .pink[PND.] % of non-overlap data
 
 .orange[No se recomienda su uso si:]  
 1. hay puntuaciones extremas en la línea de base.
+
+???
+NO ES ADECUADO  Cuando los datos de línea de base contienen puntuaciones extremas, el ES puede convertirse rápidamente en 0 o 1. 
+
+Por ejemplo, si solo un dato de la serie de datos de línea de base fuera 0, todos los efectos serían 0, independientemente de cuántos datos representaran altos niveles de pánico del cliente, o cuántos datos representaron la intervención que produjo una mejora en el pánico del cliente.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/PNDtrend1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/PNDtrend2.png?raw=true)
