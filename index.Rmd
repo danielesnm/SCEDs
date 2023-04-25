@@ -3,7 +3,7 @@ title: .pink[Evaluación de la evidencia en la práctica clínica (I):]
 subtitle: .pink[Diseños experimentales de caso único (SCED)]
 author: "Npsic. Daniel Salazar Frías .black[I]  .orange[dsalazarfrias@gmail.com]"
 institute: "Universidad de Granada"
-date: "21 de abril de 2022"
+date: "25 de abril de 2023"
 output:
   xaringan::moon_reader:
     css: 
@@ -27,7 +27,7 @@ options(htmltools.dir.version = FALSE)
 library(knitr)
 library(tidyverse)
 library(xaringanExtra)
-library(nhsrtheme)
+#library(nhsrtheme)
 library(NHSRdatasets)
 library(fontawesome)
 # set default options
@@ -61,15 +61,6 @@ class: title-slide, left, bottom
 ### `r rmarkdown::metadata$author`
 ### `r rmarkdown::metadata$date`
 
-???
--	Primero que nada, gracias a Mamen y a José Cesar por invitarme a dar el seminario…gracias también a los que mostraron su interés y están aqui, el objetivo del seminario es poder dar un panorama general acerca de lo que son los SCED.
-
--	Si bien no es una metodología nueva., ha teniendo mucho auge durante LOS ULTIMOS AÑOS, para evaluar la eficacia de nuevas intervenciones en pacientes con diversas patologías.
-
--	Otro objetivo de la presentación es proporcionar recursos A AQUELLAS PERSONAS que después del seminario pudieran estar INTERESADAS en aplicar esta metodología ya sea para su TFM o al terminar el master en su practica clínica.
-
--	A LO LARGO DE LA PRESENTACIÓN he incluido ALGUNOS recursos que considero interesantes y que A MI ME HAN ayudado mucho en la planificación e implementación de esta metodología y espero que a ustedes tambien les sirvan
-
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/indice.png?raw=true)
 background-position: 0% 50%
@@ -83,25 +74,10 @@ background-size: contain
 ### .pink[4.] Indicadores de calidad
 ]
 
-???
-El orden de la presentación es el siguiente: 
-
-1.	Primero haremos una breve descripción acerca de los SCED y revisaremos sus componentes principales
-2.	Después revisaremos su clasificación, es decir los diferentes tipos de diseños que existen y analizaremos algunos ejemplos
-3.	También veremos ¿cómo se analizan los datos en este tipo de metodología?
-4.	Y por último revisaremos algunos indicadores de calidad que tenemos que tener en cuenta al momento de planificar e implementar los SCED
-
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/1.%20conceptos%20b%C3%A1sicos.png?raw=true)
 background-position: 50% 75%
 background-size: 95%
-
-???
--	Los diseños experimentales de caso único (SCED) tiene una larga tradición en entornos clínicos y educativos, sobre todo para evaluar la eficacia de las intervenciones. 
-
--	Si hacemos una búsqueda en bases de datos de literatura científica. Podemos encontrar estudios que utilizan esta metodología desde los años 80…Sin embargo el surgimiento de la medicina basada en la evidencia ubicó a los ensayos controlados aleatorizados como el estándar de oro para evaluar la eficacia de las intervenciones, lo cual disminuyó el uso DE LOS DISEÑOS DE CASO ÚNICO durante un largo período de tiempo. 
-
--	En los últimos años ha habido aumento del interés en este tipo de diseños, lo cual esta haciendo no solo que se utilice cada vez más, si no que también esta habiendo un desarrollo importante de nuevas técnicas para la evaluación y el análisis de los datos.
 
 ---
 # `r fa("user", fill = "salmon")` **Diseño de Caso Único**
@@ -148,37 +124,6 @@ En las .pink[ciencias del comportamiento], en el contexto de la **investigación
 ]
 ]
 
-???
-**¿Qué es un SCED?** EL DISEÑO DE CASO ÚNICO es ….
--	
--	
-Es muy importante no confundirlos con:  
-
-- **Estudios de caso**, en donde SOLAMENTE se hace una descripción subjetiva del comportamiento de un individuo, careciendo de variables y de una recopilación sistemática de datos.
-
-Tampoco hay que confundirlo..  
-
-- **Estudios cuasiexperimentales** en donde SOLO se evalúa al participante antes y después de un tratamiento, PERO NO DURANTE EL TRATAMIENTO 
-
-ESTOS DOS TIPOS DE ESTUDIOS SON MÁS CORRELACIONALES O DESCRIPTIVOS Y por lo general no permiten documentar las relaciones causales entre la intervención y los cambios en el comportamiento 
-
-**Objetivo**
-- ENTONCES…DADO QUE EL diseño de caso único, ES UN método científicamente riguroso para desarrollar y evaluar hipótesis en el ámbito clínico, UNO DE SUS PRINCIPALES OBJETIVOS…
-
-**Aplicación**  
-EN LOS ÚLTIMOS AÑOS SU APLICACIÓN esta siendo cada vez mayor EN…
-
--	PARA
--	TAMBIEN SE UTILIZA, cuando hay una…POR EJEMPLO SI TENEMOS PACIENTES CON SINDROMES POCO COMUNES
--	O CUANDO EXISTEN limitaciones de tiempo. ESTUDIOS DE CASO UNICO, no suelen llevar tanto tiempo, como los de grupo. POR RAZONES OBVIAS COMO EL TAMAÑO DE LA MUESTRA
-
-**QUE NO ES**
--	ES IMPORTANTE RECALCAR que a pesar de que se llaman “Diseños experimentales de caso único” no quiere decir que se examina solo a un participante, significa que cada participante es analizado de manera individual, en lugar de compararlo con EL desempeño de un grupo. Generalmente el numero de participantes en los estudios que utilizan esta metodología es de 6 a 8
-
--	TAMBIEN, ES IMPORTANTE SEÑALAR QUE ESTE TIPO DE DISEÑOS NO…Pueden utilizarse para detectar cambios pequeños pero significativos y que SE PRODUDCAN lentamente (por ejemplo, el aprendizaje de una nueva habilidad). DE HECHO, EN EL ÁREA DE LA NEUROPSICOLOGIA, ESPERAMOS QUE LOS REULTADOS DE LAS INTERVENCIONES SE DEN DE MANERA PAULATINA, POR EJEMPLO, NO ESPERAMOS QUE UN PACIENTE CON AFASIA QUE HA EMPEZADO CON UNA INTERVENCIÓN MEJORE DESDE LA PRIMERA SESIÓN
-
--	OTRO CONCEPTO ERRONEO ES QUE……Esta idea errónea es quizás la más perjudicial Y LA QUE HIZO QUE POR MUCHO TIEMPO SE DEJARAN DE UTILIAZAR ESTE TIPO DE ESTUDIOS, PERO ESTA CUESTION DE LA VALIDEZ EXTERNA LA IREMOS DISCUTIENDO DURANTE LA PRESENTACION
-
 ---
 # `r fa("user", fill = "salmon")` **¿Porqué aplicarla?**
 
@@ -188,38 +133,67 @@ EN LOS ÚLTIMOS AÑOS SU APLICACIÓN esta siendo cada vez mayor EN…
 
 (c) .pink[Generalización hacia la población]. Utiliza procedimientos meta-analíticos para la agregación de los efectos de los SCED; ayudando a generar conclusiones sobre la efectividad de una intervención y su generalización a una población en particular.
 
-???
-QUE VENTAJAS OFRECE ESTA MEOTODOLOGÍA??
+---
+# `r fa("bullseye", fill = "salmon")` **Conceptos básicos**
 
-a: BUENO, LA PRIMERA ES QUE FAVORECE EL TRABAJO INTERDISCIPLINARIO…
-con la formación adecuada y el apoyo a la investigación, los propios profesionales sanitarios pueden llevar a cabo estos estudios. Esto es relevante, ya que los terapeutas suelen tener el control sobre las disposiciones prácticas del tratamiento y mayor acceso a los pacientes.  
 
-Otra razón….  
+.left-column[.orange[Variable dependiente: 
+]
+]
 
-b. PUEDE APLICARCE EN ENTORNOS REALES.… Los SCED pueden proporcionar una solución válida a este problema Ya que su implementación la mayoría de las veces se desarrolla en condiciones reales generando datos que reflejen mejor la efectividad de esos tratamientos (Grimshaw et al., 2012).  
+.pink[Comportamiento que deseamos cambiar]  
 
-c. POR ÚLTIMO, COMO YA LO COMENTÉ hay una creencia errónea acerca de que los resultados de los SCED carecen de validez externa y que no pueden generalizarse más allá del propio sujeto que se analiza. SIN EMBARGO, AL IGUAL QUE LOS ESTUDIOS GRUPALES….
 
+Corresponden a un comportamiento objetivo que debe de ser relevante para las personas y que se establece desde el inicio de la intervención.  
+
+Deben de poder evaluarse de forma continua a lo largo del tiempo. 
+
+
+.right[[(Krasny-Pacini & Evans, 2018).](https://www.sciencedirect.com/science/article/pii/S1877065717304542)]  
+
+---
+# `r fa("bullseye", fill = "salmon")` **Conceptos básicos**
+
+.pink[Algunos ejemplos:]
+`r fa("arrow-alt-circle-right", fill = "salmon")` Número de sustantivos y verbos nombrados al terminar cada sesión. [Semantic-phonologic treatment for noun and verb retrieval impairments in aphasia (Anastasia et al., 2007).](https://www.tandfonline.com/doi/citedby/10.1080/09602010600814661?scroll=top&needAccess=true)
+
+`r fa("arrow-alt-circle-right", fill = "salmon")` Número de llamadas telefónicas realizadas a tiempo. [PDA and smartphone use by individuals with moderate-to-severe memory impairment: Application of a theory-driven training programme (Svodova et al.,2012).](https://www.tandfonline.com/doi/abs/10.1080/09602011.2011.652498)
+
+`r fa("arrow-alt-circle-right", fill = "salmon")` Porcentaje de tareas completadas con éxito. [(The use of a smartwatch as a prompting device for people with acquired brain injury (Jamieson et al., 2019).](https://pubmed.ncbi.nlm.nih.gov/28425328/)
+
+---
+# `r fa("bullseye", fill = "salmon")` **Conceptos básicos**
+
+.left-column[.orange[Variable independiente: 
+]
+]
+
+.right-column[.pink[La intervención que se utilizará]  
+
+Se debe de implementar de manera estandarizada, para reducir la posibilidad de variabilidad de los resultados.  
+
+Se identifica a priori un criterio de tratamiento exitoso para determinar su efectividad.
+]
+
+.right[[(Krasny-Pacini & Evans, 2018).](https://www.sciencedirect.com/science/article/pii/S1877065717304542)]
+
+---
+# `r fa("bullseye", fill = "salmon")` **Conceptos básicos**
+
+.left-column[.orange[Linea base: 
+]
+]
+
+.right-column[Proporciona una medición repetida de una variable dependiente antes de iniciar el tratamiento.  
+
+Establece un patrón de respuesta que sirve para predecir/comparar con el patrón de rendimiento después del tratamiento
+]
+
+.right[[(Krasny-Pacini & Evans, 2018).](https://www.sciencedirect.com/science/article/pii/S1877065717304542)]
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elementos1.png?raw=true)
 background-size: contain
-
-???
-AHORA VAMOS A VER UN EJEMPLO prototípico DE UN SCED
-
-
-AQUÍ PODEMOS OBSRVAR LOS TRES COMPONENTES BÁSICOS DE LOS SCED: 
--	(A) línea base y 
--	(B) fase de tratamiento
--	(C) mediciones repetidas del comportamiento, ANTES Y DUERANTE EL TRATAMIENTO
-
-FASE A: representa La línea base  
-FASE B: la intervencion  
-EN EL EJE Y, va a estar representada la frecuencia de la variable Dependiente   
-EN el EJE X: LA MEDIDA DE TIEMPO  
-
-También van a aparecer LOS PUNTOS DE DATOS Y LA LINEA QUE INDICA dirección que ESTOS VAN tomando a lo largo del tiempo
 
 --
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elementos2.png?raw=true)
@@ -254,85 +228,6 @@ background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/elemento
 background-size: contain
 
 ---
-# `r fa("bullseye", fill = "salmon")` **Conceptos básicos**
-
-
-.left-column[.orange[Variable dependiente: 
-]
-]
-
-.pink[Comportamiento que deseamos cambiar]  
-
-A diferencia de los RCT donde se utilizan herramientas de medición con propiedades psicométricas conocidas, las medidas utilizadas en los SCED: 
-
-Corresponden a un comportamiento objetivo que debe de ser relevante para las personas.  
-
-Deben de poder evaluarse de forma continua a lo largo del tiempo. 
-
-
-.right[[(Krasny-Pacini & Evans, 2018).](https://www.sciencedirect.com/science/article/pii/S1877065717304542)]  
-
-???
-COMO YA LO VIMOS EN EL EJEMPLO ANTERIOR, son 3 los principales elementos metodológicos que deben estar presentes en este tipo de diseños 
-
-1.	PRIMERO, tenemos la VARIABLE DEPENDIENTE, que se refiere al comportamiento que deseamos cambiar… 
-
-ver siguiente diapo
-
----
-# `r fa("bullseye", fill = "salmon")` **Conceptos básicos**
-
-.pink[Algunos ejemplos:]
-`r fa("arrow-alt-circle-right", fill = "salmon")` Número de sustantivos y verbos nombrados al terminar cada sesión. [Semantic-phonologic treatment for noun and verb retrieval impairments in aphasia (Anastasia et al., 2007).](https://www.tandfonline.com/doi/citedby/10.1080/09602010600814661?scroll=top&needAccess=true)
-
-`r fa("arrow-alt-circle-right", fill = "salmon")` Número de llamadas telefónicas realizadas a tiempo. [PDA and smartphone use by individuals with moderate-to-severe memory impairment: Application of a theory-driven training programme (Svodova et al.,2012).](https://www.tandfonline.com/doi/abs/10.1080/09602011.2011.652498)
-
-`r fa("arrow-alt-circle-right", fill = "salmon")` Porcentaje de tareas completadas con éxito. [(The use of a smartwatch as a prompting device for people with acquired brain injury (Jamieson et al., 2019).](https://pubmed.ncbi.nlm.nih.gov/28425328/)
-
-???
-a.	NORMALMENTE, estas medidas suelen estar hechas y ser únicas para el estudio.  
-
-De hecho, a menudo suelen ser muy simples, como….  
-
-b.	SIEMPRE VAN A ESTAR ENFOCADAS EN UNA MEJORA FUNCIONAL DEL SUJETO 
-
----
-# `r fa("bullseye", fill = "salmon")` **Conceptos básicos**
-
-.left-column[.orange[Variable independiente: 
-]
-]
-
-.right-column[.pink[La intervención que se utilizará]  
-
-Se debe de implementar de manera estandarizada, para reducir la posibilidad de variabilidad de los resultados.  
-
-Se identifica a priori un criterio de tratamiento exitoso para determinar su efectividad.
-]
-
-.right[[(Krasny-Pacini & Evans, 2018).](https://www.sciencedirect.com/science/article/pii/S1877065717304542)]
-
-???
-2.	EL SEGUNDO ELEMENTO, es la variable independiente, que se refiere a la intervención que queremos probar
-
----
-# `r fa("bullseye", fill = "salmon")` **Conceptos básicos**
-
-.left-column[.orange[Linea base: 
-]
-]
-
-.right-column[Proporciona una medición repetida de una variable dependiente antes de iniciar el tratamiento.  
-
-Establece un patrón de respuesta que sirve para predecir/comparar con el patrón de rendimiento después del tratamiento
-]
-
-.right[[(Krasny-Pacini & Evans, 2018).](https://www.sciencedirect.com/science/article/pii/S1877065717304542)]
-
-???
-BIEN, HASTA AQUÍ HAY ALGUIEN QUE TENGA ALGUNA DUDA
-
----
 # `r fa("user", fill = "salmon")` **Ejemplo**
 
 .orange[Promoting Error Awareness and Self-Correction During Functional Tasks] [(Ownsworth, et al. 2006).](https://pubmed.ncbi.nlm.nih.gov/16433944/)
@@ -341,17 +236,10 @@ Probar la eficacia de una intervención para mejorar el funcionamiento diario de
 
 .pink[Variable Independiente]  
 Intervención metacognitiva, para mejorar la conciencia de los errores y la autocorrección durante 2 actividades _seleccionadas_ por el paciante:  
-.right[**cocinar y realizar trabajos voluntarios (real life settings)**]  
+.right[**cocinar y realizar trabajos voluntarios (contexto de la vida real)**]  
 
 .pink[Variable Dependiente]  
-Error frequency (disminuir el número de errores en las actividades )
-
-???
-AHORA, VAMOS A ATERRIZAR LO QUE HEMOS VISTO HASTA AHORA, EN UN EJEMPLO REAL.  
-
-EN este estudio del 2006, ownsworth y colaboradoras querían probar…
-
-cambiar diapositiva...
+Disminuir la frecuencia de los errores.
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/scedownsorth.png?raw=true)
@@ -361,37 +249,21 @@ background-size: 30%
 <br>
 .pull-left[.pink[Variable independiente]  
 Intervención metacognitiva (error-based).  
-- “pause/prompt/praise” technique  
-- role reversal techniques  
-- videofeedback  
+
 
 .pink[Variable dependiente]  
-Error frequency]
+Disminuir la frecuencia de los errores]
 
-???
-LA INTERVENCION METACOGNITIVA, es un tipo de intervención que da oportunidad a los pacientes de QUE COMETAN errores; Y APRENDAN A IDENTIFICARLOS y CORREGIRLOS por medio de técnicas como: 
--	Pause prompt praise
--	Inversión de roles
--	VIdeofeedback
+---
+# `r fa("check-double", fill = "salmon")` **Maximización de la validez en SCED**
 
+.right[.pink[¿cómo tratar estas variables de confusión?]]
 
-RECORDEMOS los elementos principales de los diseños de caso único: 
-LINEA BASE  
-FASE DE TRATAMIENTO y MANTENIMIENTO  
-COMPORTAMIENTO QUE QUEREMOS CAMBIAR...  
-EN dos tareas diferentes
+Una característica esencial para que la evidencia se considere sólida y confiable es: **la replicación del efecto de la intervención** (Perdices et al., 2019). Siendo la replicación dentro del estudio esencial para la .orange[validez interna] y la replicación entre estudios para la .orange[validez externa]. 
 
-HACIENDO UN ANALISIS DE LAS GRÁFICAS, podrímos decir que la intervención tuvo un efecto positivo en el participante?  
+`r fa("check-double", fill = "salmon")` .orange[Validez interna:] la capacidad de atribuir cambios en la variable dependiente a la variable independiente, y no a factores externos.  
 
-
-PUEDE HABER MUCHAS VARIABLES que hayan ayudado a la mejora, COMO POR EJEMPLO, EN ESTE CASO,: 
-
--	EL EFECTO DE LA PRACTICA
--	CAMBIOS EN EL ENTORNO EXTERNO DEL PACIENTE (positivos o negativos) que coinciden con la introducción de la intervención y pueden confundirse con cambios debidos a la intervención.
--	CAMBIOS EN EL PROPIO PACIENTE (positivos o negativos):  RECUPERACION; DETERIORO, RECAIDA
-
-
-¿CÓMO PODEMOS DETERMINAR si los resultados son válidos y de esta manera evitar sacar conclusiones erroneas sobre los resultados de la intervención? 
+`r fa("check-double", fill = "salmon")` .orange[Validez externa:] la aplicabilidad de la intervención en otros contextos/pacientes.
 
 ---
 # `r fa("star", fill = "salmon")` **SCED Standards**
@@ -413,35 +285,6 @@ control experimental
 `r fa("star", fill = "salmon")`**Estándar 4**:   
 validez de fase 
 ]
-
-???
-SE HAN PROPUESTO UNA SERIE DE INDICADORES de calidad que los SCED deben de cumplir para protegerse contra amenazas a la validez interna-externa
-
-**Estándar 1:** manipulación de variables
--	La variable independiente (intervención) debe ser manipulada sistemáticamente por investigador
-
-**Estándar 2:** Acuerdos entre evaluadores. 
--	Más de un evaluador mide el comportamiento objetivo a lo largo del estudio
--	Debe de establecerse la confiabilidad entre evaluadores en al menos el 20% de datos en cada condición (es decir, línea de base, intervención). La tasa de acuerdo debe cumplir con los umbrales mínimos del 80% de acuerdo
-
-**Estándar 3:** Control experimental
--	El estudio debe brindar al menos tres oportunidades para demostrar el efecto experimental en tres momentos diferentes.
-
-**Estándar 4:** Validez de fase. 
--	Se requiere un mínimo de 3 puntos de datos (preferiblemente 5) en cada fase 
-
-ESTOS ESTÁNDARES LOS VAMOS A IR REVISANDO EN CONJUNTO CON LOS TIPOS DE DISEÑO QUE VERMOS A CONTINUACION
-
----
-# `r fa("check-double", fill = "salmon")` **Maximización de la validez en SCED**
-
-.right[.pink[¿cómo tratar estas variables de confusión?]]
-
-Una característica esencial para que la evidencia se considere sólida y confiable es: **la replicación del efecto de la intervención** (Perdices et al., 2019). Siendo la replicación dentro del estudio esencial para la .orange[validez interna] y la replicación entre estudios para la .orange[validez externa]. 
-
-`r fa("check-double", fill = "salmon")` .orange[Validez interna:] la capacidad de atribuir cambios en la variable dependiente a la variable independiente, y no a factores externos.  
-
-`r fa("check-double", fill = "salmon")` .orange[Validez externa:] la aplicabilidad de la intervención en otros contextos/pacientes.
 
 ---
 
@@ -477,11 +320,6 @@ background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/2.clasif
 background-position: 50% 75%
 background-size: 95%
 
-???
-
-En la siguiente sección, revisaremos los principales diseños que pueden adoptarse a la hora de PLANIFICAR este tipo de estudios. 
-
-
 ---
 # `r fa("list-ul", fill = "salmon")` **Clasificación de los SCED**
 
@@ -499,15 +337,6 @@ En la siguiente sección, revisaremos los principales diseños que pueden adopta
 ### Changing criterion designs]
 ]
 
-???
-Los diseños más utilizados son estos 4, PERO cabe resaltar que podemos encontrarnos estudios que utilicen variaciones y combinaciones de estos 4 diseños principalmente.
-
-Para cada uno de estos diseños, vamos a revisar:  
-- Caracteristicas generales  
-- Los requisitos para lograr control experimental  
-- Ventajas y desventajas  
-- Y algunos ejemplos
-
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/WRD1.png?raw=true)
 background-position: 0% 50%
@@ -519,9 +348,9 @@ background-size: contain
 
 .pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/grafica.png?raw=true" style="width: 90%" />]]
 
-.orange[Reversal design.] Inversión entre varios tratamientos (A, B, C, B, C, etc.) 
+.orange[Reversal design.] Cambio entre varios tratamientos (A, B, C, B, C, etc.) 
 
-.orange[Withdrawal design.] Inversión entre un tratamiento y la ausencia de éste (A,B,A,B, etc.)
+.orange[Withdrawal design.] Cambio entre un tratamiento y la ausencia de éste (A,B,A,B, etc.)
 
 <br>
 Este patrón, se repite las veces que sea necesario para replicar su efecto: .yellow[A-B], .pink[A-B-A], **A-B-A-B**
@@ -530,7 +359,7 @@ Este patrón, se repite las veces que sea necesario para replicar su efecto: .ye
 .panel[.panel-name[Control experimental]
 >Si la intervención es eficaz, el comportamiento debe mejorar durante Fase B y empeorar cuando se .pink[_"retira"_].  
 
-.pull-right[.center[<img src="https://supervision.bamentorship.net/wp-content/uploads/sites/2/2019/08/reversal_design_abab_good_results1328671986751.jpg" style="width: 100%" />]]
+.pull-right[.center[<img src="https://qcpages.qc.cuny.edu/~dfienup/images/reversal3.jpg" style="width: 100%" />]]
 
 `r fa("clipboard-check", fill = "salmon")` Estándares de evidencia:
 - 5 puntos de datos en cada fase 
@@ -551,37 +380,6 @@ Este patrón, se repite las veces que sea necesario para replicar su efecto: .ye
 ]
 ]
 
-???
-EL PRIMER DISEÑO QUE REVISAREMOS SE LLAMA WITHDRAWAL REVERSAL DESIGNS:  
-
-EN ESTE TIPO DE DISEÑo, DESPUES DE TOMAR LAS MEDIDAS DE LA LINEA BASE, el tratamiento se implementa Y RETIRA SISTEMATICAMENTE DURANTE EL ESTUDIO
-
-REVERTSAL DESIGN, se refiere a la inversion entre tratamientos
-
-WITHDRAWAL DESIGN, se refiere a la inversion entre el tratamiento y 
-
-EL DISEÑO A-B, COMO EL QUE MUESTRA LA IMAGEN; ES El diseño más básico de todos…..
-
-
-**CONTROL EXPERIMENTAL**
-
--	SI EL COMPORTAMIENTO OBJETIVO mejora en la dirección deseada durante la fase de intervención y cambia hacia los niveles iniciales una vez que se retira el tratamiento, podríamos concluir  que el tratamiento fue responsable de la mejora de la conducta objetivo. (HACER MENCION DE LA GRAFICA)
-
-LOS ESTANDARES DE EVIDENCIA…
-
--	ES POR ESO que los diseños AB (pre-post), no se considera suficiente para demostrar el control experimental porque no se pueden descartar otras fuentes de influencia sobre el comportamiento. ENTRE MAS FASES HAYA, MAS OPORTUNIDADES DE DEMOSTRACION DEL EFECTO HABRÁ
-
-
-**VENTAJAS/DESVENTAJAS**  
-ventajas:...
-
-ADEMAS ES MUY FLEXIBLE…YA QUE PERMITE INCOPORAR MUCHAS FASES A-B y terminar siempe con una intervencion
-
-DESVENTAJAS:  
-
-Útil en rehabilitación para pruebas de prótesis, dispositivos adaptativos y tecnología asistencial (smartphones).  
-
-Puede ocurrir una desmoralización de los aprticipantes por el hecho de, la retirada del tratamiento..
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/WRD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/BAB.png?raw=true)
@@ -602,27 +400,6 @@ background-size: contain, 66%
 ### `r fa("brain", fill = "salmon")` .pink[A-B-A-C-A-B-BC-B design:] 
 [The effectiveness of control strategies for dementia-driven wandering, preventing escape attempts (Valle Padilla et al. 2013)](https://pubmed.ncbi.nlm.nih.gov/23199418/) 
 
-???
-AQUÍ PODEMOS VER UN EJEMPLO REAL DE ESTE DISEÑO, QUE INCORPORA VARIAS FASES CON LA IMPLEMENTACION Y RETIRO DE DIFERENTES INTERVENCIONES 
-
-OBJETIVO: 
--	Reducir la frecuencia de intentos de fuga del centro de cuidado…. en un px con diagnóstico de Alzheimer. 
-
-VARIABLE DEPENDIENTE:  
--	Rrecuencia de intentos de fuga del centro de cuidado al que asistía el participante. 
-
-VARIABLE INDEPENDIENTE:  
-(B) INTERVENCION AMBIENTAL: consistió en pegar señales en el suelo y en la puerta de salida  
-(C) TERAPIA cognitivo/CONDUCTUAL con refuerzo 
-
-AQUI VEMOS LOS 3 COMPONENTES BÁSICOS DE LOS SCED: 
--	(A) UNA línea base y 
--	(B) LA IMPLEMENTACION DE UN tratamiento. QUE AQUI SERIAN VARIOS 
--	(C) mediciones repetidas, DURANTE TODO EL SSTUDIO 
-
-RESULTADOS: 
-
-ESTE EJEMPLO PERMITE VER LA FLEXIBILIDAD DE ESTE TIP DE DISEÑO, PARA INCLUIR EL NUMERO DE FASES NECESARIAS QUE NOS PERMITA REPLICAR EL EFECTO
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ATD1.png?raw=true)
@@ -631,7 +408,7 @@ background-size: contain
 
 .panelset[
 .panel[.panel-name[Fundamentos]
-> `r fa("asterisk", fill = "green")` Alternancia rápida de la comparación de dos o más tratamientos, mientras se miden los efectos sobre el comportamiento objetivo.
+> `r fa("asterisk", fill = "green")` Alternancia rápida de dos o más tratamientos, mientras se miden los efectos sobre el comportamiento objetivo.
 
 .pull-left[.center[<img src="https://github.com/danielesnm/SCEDs/blob/main/img/ATD-AB.png?raw=true" style="width: 72%" />]]
 
@@ -670,23 +447,6 @@ background-size: contain
 ]
 ]
 
-???
-AHORA REVISAREMOS otro tipo de diseño llamado: ALTERNATING TREATMENT DESIGN, EL CUAL SE UTILIZA PARA COMPARAR LOS EFECTOS DE 2 O MÁS INTERVENCIONES SOBRE EL MISMO COMPORTAMIENTO
-
--	LA DIFERENCIA PRINCIPAL en relación al diseño ANTERIOR,  es que el orden de presentación de las intervenciones NO DEBE DE SER SISTEMATICO como en un diseño A-B-A-B, DONDE SE INTRODUCE Y RETIRA SISTEMATICAMENTE LA INTERVENCION
-
--	LA PRESENTACIÓN DE LAS INTERVENCIONES SE ALTERNA DE MANERA RÁPIDA. Para controlar efectos de tratamiento el orden debe contrabalancearse o aleatorizarse, 
-
-A NIVEL VISUAL, EN LAS GRAFICAS todos los puntos DE CADA INTERVENCION se presentan juntos…….En una FASE B que consiste en una fase de comparación de las 2 intervenciones, aunque REALMENTE LA intervención no se ENTREGA en ocasiones contiguas
-
-**Ventajas-desventajas**
-
-desventajas
--	Efectos de arrastre: se refieren a la influencia de una intervención en una intervención contigua. El participante puede encontrar la intervención 2 aburrida, afectando negativamente a la otra intervención,.
-
--	Efectos de alternancia: producidos por el orden de la secuencia de intervenciones. Es decir el efecto de mejora que pueda tener el tratamiento 1 influye en las mejoras que se puedan ver en el tratamiento 2
-
-
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ATD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/ATDbl-comp.png?raw=true)
 background-position: 0% 50%, 50% 40%
@@ -698,12 +458,6 @@ background-size: contain, 50%
 - La baseline permite sacar conclusiones más confiables sobre la efectividad de las intervenciones.  
 - Además, se puede incluir una *fase sin tratamiento*.  
 
-???
--	LA VARIANTE MAS SIMPLE incluye una línea base A y la fase de comparación de las dos intervenciones
-
--	ADEMAS SE PUEDE INCLUIR TAMBIEN una intervención "sin tratamiento" en la fase de comparación. ES DECIR ALTERNAR ENTRE INTERVENION 1, INTERVENCION 2 y NO INTERVENCION.  
-
-Esto permitiría la evaluación de la interferencia de múltiples tratamientos. Si el patrón y el nivel del comportamiento durante la intervención "sin tratamiento" en la fase de comparación es similar al observado en la fase inicial sugiere que la probabilidad de interferencia de múltiples tratamientos es baja (Wolery et al., 2014).
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ATD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/ATDbl-comp-bbest-png.png?raw=true)
@@ -716,12 +470,6 @@ background-size: contain, 50%
 - Incluye fase de "mejor tratamiento" en la que se aplica la intervención más eficaz. 
 - Permite estimar la magnitud de los efectos de interferencia de la intervención y, por lo tanto, fortalecer la validez interna.
 
-???
-ESTA OTRA VARIANTE, INCLUYE UNA FASE ADICIONAL EN DONDE SE CONTINÚA APLICANDO LA INTERVENCION MÁS EFICAZ. 
-
--	Si el patrón de la conducta es el mismo durante la comparación y esta fase, sugiere que los efectos de interferencia de la intervención no son una preocupación. 
--	Por el contrario, un cambio marcado en EL COMPORTAMIENTO OBJETIVO durante la fase de "mejor tratamiento" sugeriría que las intervenciones han interactuado. 
-
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/ATD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/ATD-ejemplo.png?raw=true
@@ -732,8 +480,6 @@ background-size: contain, 47%
 
 .pull-left[[Effects of the TOUCHMATH Program Compared to a Number Line Strategy to Teach Addition Facts to Middle School Students with Moderate Intellectual Disabilities (Fletcher et al. 2010)](https://www.jstor.org/stable/23880117?seq=7)] 
 
-???
-En este ejemplo, se quería evaluar y comparar los efectos de dos estrategias diferentes, para enseñar  a estudiantes de secundaria con discapacidad intelectual moderada a resolver problemas diversos problemas matemáticos 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true)
 background-position: 0% 50%
@@ -775,25 +521,6 @@ background-size: contain
 ]
 ]
 
-???
-ALGO IMPORTANTE ENE STE DISEÑO ES QUE LAS MEDICIONES DE LA  LINEA BASE DEBE DE EMPEZAR AL MISMO TIEMPO EN TODOS LOS NIVELS
-
-La ventaja de la introducción secuencial de la intervención es visualizar la falta de efecto y la falta de progreso en los pacientes que aún no han tenido la intervención.
-
-CONTROL EXPERIMENTAL
--	LAS AREAS SOMBREADAS Y ETIQUETAAS COMO "verificación"; REPRESENTAN EL período EN EL QUE se verifica la PREDICCION de que la conducta objetivo SE MANTIENE IGUAL, A PESAR DE QUE LA INTERVENCION YA HA SIDO ITRODUCIDA  en otro nivel.
-
--	LA REPLICACION PUEDE SER : 
-o	INTERINDIVIDUAL CUANDO, CADA NIVEL REPRESENTA  DIFERENTES  participantes o
-o	intraindividual CUANDO, CADA NIVEL REPRESENTA  DIFERENTES  comportamientos o entornos dentro de un solo participante.
-
-Ventajas-desventajas
--	Es el único diseño que permite evaluar simultáneamente la efectividad de una intervención en el mismo individuo en diferentes entornos/comportamientos, abordando así de manera más integral las necesidades del participante.  
-
-ESTO ES MUY INTERESANTE, YA QUE SABEMOS QUE No es inusual que varios aspectos del repertorio COMPORTAMENTAL de un individuo se vean afectados después de una lesión cerebral adquirida.
-
--	A pesar de estas ventajas, no se utilizan con tanta frecuencia en neurorrehabilitación en comparación con los campos de la psicología clínica, la psicología del deporte y la investigación educativa, donde se utilizan con más frecuencia. tipo de SCED.
-
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-part1.png?raw=true)
 background-position: 0% 50%, 84% 98%
@@ -804,28 +531,6 @@ background-size: contain, 37%
 .pull-left[[Behavioral treatment for pathological gambling in persons with acquired brain injury (Guercio, et al. 2012)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3469300/) 
 ]
 
-???
-Guercio y col. (2012) utilizaron un MBD entre los participantes  
-
-**Objetivo** 
--	Este estudio investigó los efectos de una intervención destinada a reducir el juego patológico en tres personas con TCE.
-
-**Variable dependiente**
--	Participante 1:  NUMERO DE BOLETOS DE LOTERIA 
--	Participante 2-3- NUMERO DE FICHAS DE POKER 
-compradas en una situación de juego simulado que se realiza al final de cada sesión.
--	CADA NIVEL REPRESENTA UN PARTICIPANTE
-
-**Variable independiente**
--	Intervención cognitivo-conductual para enseñar a los participantes “la identificación de 'desencadenantes' que ocasionaron el juego. El estudio se llevó a cabo en una "sala de juegos" que se construyó expresamente en el laboratorio de los investigadores. LA INTERVENCION INICIA DE MANERA ESCALONADA PARA CADA PARITICPANTE , SESION 5,,,,,,,,9,,,,,12
-
-**Resultados**  
-- Después de que se introdujo la intervención, el comportamiento se redujo notablemente.  
-
-- Para el primer participante , esta reducción fue gradual. 
-
-- La MBD en todos los pacientes se utiliza en muchos dominios de la rehabilitación. 
-
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/MBD-contx2.png?raw=true)
 background-position: 0% 50%, 17% 85%, 98% 85% 
@@ -834,21 +539,6 @@ background-size: contain, 41%, 44%
 ### `r fa("laptop-house", fill = "gold")` .gold[ Entre contextos: ] 
 
 [Structured flexibility: the use of context self-regulatory scripts to support young persons with ABI and behav. difficulties (Feeney, 2010)](https://pubmed.ncbi.nlm.nih.gov/21076242/) 
-
-???
-Un ejemplo es el artículo de Feeney que investigó los efectos de una intervención de funciones ejecutivas, para la reduccion de los problemas de conducta y el aumento en el porcentaje de trabajo completado durante las clases, en 1 niño con DCA  
-
-**Variable dependiente**  
--	Frecuencia del comportamiento desafiante  
--	Porcentaje de trabajo completado durante cada clase
-
--	Cada nivel representa un contexto del participante: clases de arte, matematicas y ciencia
-
-**Variable independiente**
--	Entrenar a los maestros para brindar un apoyo adecuado y estructurado para las funciones ejecutivas del estudiante. LA INTERVENCION INICIA DE MANERA ESCALONADA EN CADA ENTORNO , SESION 6,,,,,,,11,,,,,16  
-
-**Resultados**
--	la intervención redujo la frecuencia e intensidad de los comportamientos desafiantes y aumentó la cantidad de trabajo completado
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/CCD1.png?raw=true)
@@ -892,24 +582,6 @@ background-size: contain
 ]
 ]
 
-???
-**Fundamentos**
--	Es esencialmente un diseño A-B con una fase B extendida. Una vez introducida la intervención, se mantiene constante en todas las subfases. Es el criterio de desempeño el que se manipula sistemáticamente en incrementos o decrementos escalonados.
-
--	La Figura DE ARRIBA muestra un CCD hipotético donde el objetivo de los cambios de criterio durante las subfases de intervención es aumentar (acelerar) el nivel de la conducta objetivo. 
-
--	El desempeño en A sirve para predecir el nivel de desempeño de la conducta objetivo en la primera subfase de intervención (b1) cuando el primer criterio se vuelve operativo. El nivel de desempeño en cada subfase se convierte entonces en la "línea de base" con la que se compara el desempeño en la siguiente subfase. 
-
--	El criterio de cambio generalmente se establece como un porcentaje de la media de la fase.
-
-**Control experimental**
-
-
-**Ventajas-desventajas**
--	ESTE TIPO DE DISEÑO SE adaptan bien a la práctica de rehabilitación para evaluar intervenciones para abordar las consecuencias, funcionales y cognitivas DESPUES DE DCA
-
--	Son especialmente adecuados cuando no se puede esperar razonablemente que la conducta objetivo que se está tratando tenga una respuesta inmediata o amplia a la intervención. Mas bien de una manera gradualmente alcanzable.
-
 
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/CCD1.png?raw=true), url(https://github.com/danielesnm/SCEDs/blob/main/img/CCDstandard.png?raw=true)
@@ -917,27 +589,6 @@ background-position: 0% 50%, 50% 70%
 background-size: contain, 70%
 
 ### `r fa("sort-down", fill = "blue")` .blue[ Diseño standard: ] 
-
-???
-
-**Objetivo**
--	Mejorar la persistencia de la lectura en un px de 26 años con esquizofrenia paranoide que vivía en un centro de tratamiento comunitario.
-
-**Comportamiento objetivo**
--	Numero de paginas que leia por día
-
-**Diseño**  
--	CCD estándar, en donde el criterio de cambio era numero de paginas que se le pedía que leyera, a medida que avanzaba la intervención  
-
--	El criterio de lectura se estableció en 1 página para la primera subfase de intervención y se incrementó en una página en cada subfase de intervención posterior. LA LINEA HORIZONTAL REPRESENTA EL NIVEL QUE EL PACIENTE DEBDE DE LLEGAR PARA CAMBIAR DE FASE  
-
--	Cuando el participante había cumplido el criterio de lectura en tres sesiones durante la subfase de intervención, el criterio se incrementó en una página.  
-
--	Ademas de alcanzar el criterio de desempeño también se debe de mantener durante un número específico de sesiones consecutivas (generalmente tres o más). 
-
--	Este tipo de diseño es idealen el ambito de la neuropsicologia ya que siempre esperamos que las intervenciones cognitivas vayan modificando el comportamiento de una manera gradualmente alcanzable, lo cual ayuda a mantener la motivacion en los pacientes.
-
--	Es un diseño flexible que se puede usar con cualquier población, en una diversa gama de comportamientos, en una variedad de entornos, mientras se mantiene un control experimental adecuado ”(p. 60). Es sorprendente lo infrautilizados que parecen estar en neurorrehabilitación.
 
 
 ---
@@ -951,11 +602,6 @@ background-size: 100%
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/3.analisis%20dedatos.png?raw=true)
 background-position: 50% 75%
 background-size: 95%
-
-???
--	En la actualidad existe un acuerdo en cuanto a los componentes principales y la clasificación de LOS SCED.  
-
--	Sin embargo, la evaluación y el análisis, es un área de desacuerdo significativo, que ha recibido una gran atención y avance reciente. 
 
 
 ---
@@ -972,14 +618,6 @@ background-size: 25%
 
 - .orange[SCD-MVA: A mobile application for conducting single-case experimental design research during the pandemic] [(Moeyaert, Bursali & Ferron, 2020)](https://onlinelibrary.wiley.com/doi/full/10.1002/hbe2.223)
 
-???
-La investigación actual esta MUY enfocada en el desarrollo de nuevas herramientas para el análisis de los datos de esta metodología y sobre todo para mejorar mejorar la credibilidad de los hallazgos…ESTO, esta llevando a los investigadores a promover y utilizar principios de la ciencia abierta en este tipo de Metodología, como, por ejemplo:
-
--	Disponibilidad de datos y bases de datos, para que puedan ser utilizados y reutilizados de manera abierta.  
-
--	Justificacion de las tencias de analisis a priori (para e vitar  manipular los datos hasta que el resultado sea el que nos interesa)  
-
--	La creacion de nuevas herramientas de analisis de los datos, utilizando programas de software libre ,como R, etcc (COMENTAR LO DE LA APP, de pandemia)
 
 ---
 
@@ -1124,15 +762,6 @@ background-size: 47%
 <br><br><br>
 .pull-left[Se refiere a los .pink[cambios en el _comportamiento_] que ocurren dentro de cada condición]
 
-???
-
-- Cuando nos referimos al nivel de los puntos de datos, estamos hablando de dónde están los puntos de datos en relación con el eje vertical dentro de cada condición. 
-
-- Se demuestra un cambio en los datos cuando
-el nivel de los datos es diferente de la baseline en comparación con la fase de intervención. 
-
-- Las líneas discontinuas del gráfico muestran la media de los datos en ambas fases.
-
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/trend.png?raw=true)
 background-position: 90% 92%
@@ -1144,15 +773,10 @@ background-size: 47%
 
 .pull-left[.pink[Línea recta] que mejor se ajusta a los datos (`r fa("arrow-up", fill = "salmon")` `r fa("arrow-down", fill = "salmon")` `r fa("equals", fill = "salmon")`).]
 
-???
-TENDENCIA
-
-Dependiendo del objetivo del estudio, una tendencia creciente o decreciente indicará una mejora o empeoramiento del problema del paciente
-
 ---
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/variability.png?raw=true)
 background-position: 90% 92%
-background-size: 47%
+background-size: 40%
 # `r fa("eye", fill = "salmon")` Paso 2: análisis dentro de cada fase
 
 .orange[Level:] .gray[cambio en la media de los datos de cada fase.]  
