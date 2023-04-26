@@ -65,9 +65,9 @@ class: title-slide, left, bottom
 background-image: url(https://github.com/danielesnm/SCEDs/blob/main/img/indice.png?raw=true)
 background-position: 0% 50%
 background-size: contain
-# `r fa("list-ol", fill = "salmon")` **Orden de la presentación**
+# `r fa("list-ol", fill = "salmon")` **Orden de la presentación*
 
-.right[### .orange[Diseños experimentales de caso único]
+.right[### .orange[Diseños Experimentales de Caso Único]
 ### .pink[1.] Descripción y conceptos básicos
 ### .pink[2.] Clasificación
 ### .pink[3.] Evaluación y análisis de datos
